@@ -5,3 +5,12 @@ __pycache__/
 .venv/
 studio/episodes/*/renders/
 studio/episodes/*/voice/
+ideation/data/
+ideation/scratch/
+ideation/logs/
+ideation/.venv/
+studio/episodes/scramble-luck/data/raw/
+ideation/rounds/r3/pilot-S4/*.parquet
+ideation/rounds/r3/pilot-S4/slice_ids.txt.gz
+ideation/rounds/r4/pilot-Q1/*.parquet
+ideation/rounds/**/__pycache__/

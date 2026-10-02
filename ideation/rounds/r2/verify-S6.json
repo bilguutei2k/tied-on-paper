@@ -1,0 +1,130 @@
+{
+  "id": "S6",
+  "title": "Which airline wins on your route when everyone gets the same clock?",
+  "verdict": "go-if",
+  "verdict_why": "Proceed only with the named change to cancellation-inclusive, same-route/time, common-deadline comparisons; the generic route league table and padding trend are already covered. Require outcome-blind overlap covering >=40% of scheduled flights for at least four eligible mainline carriers, and freeze the benchmark, carrier set, multiplicity rule and 2025 replication before confirmatory download. Do not promise a universal national ranking.",
+  "data": [
+    {
+      "name": "BTS Reporting Carrier On-Time Performance, operating/reporting-carrier domestic flight records",
+      "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ",
+      "files_or_endpoints": [
+        "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_{YYYY}_{M}.zip (month unpadded)",
+        "Reference benchmark: all 12 months of 2019; primary estimation: 2023–2024; untouched replication: 2025. Exactly 48 selected ZIPs.",
+        "ZIP CSV member example: On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2014_1.csv",
+        "Exploration source: https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2014_1.zip; use only first 10,000 data rows, obtained through a 1 MiB HTTP Range request."
+      ],
+      "total_size": "EXACT HEAD sum for all 48 selected files: 1,431,496,300 bytes compressed (1.4315 GB decimal), all HTTP 200. Annual compressed totals: 2019 381,962,616; 2023 339,797,980; 2024 354,314,874; 2025 355,420,830 bytes. Plan approximately 28 million flight rows and 12–16 GB CSV, neither counted as exact. Column-selected Parquet should be approximately 1–3 GB. Whole 1987-present archive is unnecessary and its full size was not enumerated. HEAD manifest: scratch/s6-monthly-heads.json. Pilot source ZIP is 23,154,887 bytes with 211,782,652-byte CSV member; only 1 MiB front range and 64 KiB directory range fetched, not the full ZIP.",
+      "format": "Monthly ZIP containing CSV, one reported scheduled nonstop domestic flight per row, about 110 columns depending on vintage.",
+      "fields_confirmed": [
+        "2014 exploration CSV header AND current official table dictionary: FlightDate, Reporting_Airline, DOT_ID_Reporting_Airline, IATA_CODE_Reporting_Airline, Flight_Number_Reporting_Airline, Tail_Number, OriginAirportID, OriginAirportSeqID, DestAirportID, DestAirportSeqID, Origin, Dest, CRSDepTime, CRSArrTime.",
+        "Signed DepDelay and ArrDelay; CRSElapsedTime and ActualElapsedTime (minutes), AirTime, TaxiOut, TaxiIn, DepTimeBlk, Distance.",
+        "Cancelled, CancellationCode, Diverted, DivReachedDest and diversion fields. No need for passenger or ticket microdata.",
+        "HEAD of January-2014 ZIP returns 200 and Accept-Ranges: bytes; small front GET returns 206 and a valid deflated CSV header. First 10,000 exploration rows saved without computing outcomes, ranks or padding trends."
+      ],
+      "field_problems": [
+        "Use this reporting/operating-carrier table consistently. It does not identify the marketed brand for every codeshare; mainline comparisons are not whole-brand service comparisons.",
+        "Reporting thresholds/carrier coverage change over time; fix AA, AS, B6, DL, F9, NK, UA and WN as candidate mainline codes and verify official mappings. Regionals are excluded rather than silently assigned to brands.",
+        "Cancelled flights have blank timing outcomes; cancelled/diverted flights remain in the denominator as failures. Missing timing on otherwise completed flights requires a pre-specified audit and sensitivity bounds.",
+        "Use signed delays; clipped DepDelayMinutes/ArrDelayMinutes would corrupt the common-clock identity. Local hhmm times cross time zones and midnight; use minute-valued duration/delay fields rather than subtracting clock strings.",
+        "No complete scheduled aircraft-type field, passenger rebooking outcome, fare or final itinerary arrival. The common-clock score is service accounting, not an identified causal effect of schedule padding.",
+        "2019 route survival limits transportability; report overlap coverage and unsupported routes explicitly. A connected pairwise overlap graph does not imply a universally comparable league table."
+      ],
+      "licence": "US federal public-domain factual records compiled/published by BTS; commercial derived statistics and raw factual-record redistribution allowed. Retain BTS attribution and describe processing as independent; do not reuse agency logos or infer endorsement. Official related BTS on-time metadata designates US public domain, but its marketing-carrier summary is not the raw reporting-carrier table. Statutory basis covers federal government works; factual flight values are not creative third-party content.",
+      "licence_quote": "Basis for monetised statistics and raw-record reuse, 17 USC 105(a): “Copyright protection under this title is not available for any work of the United States Government”. Related BTS metadata licence is “http://www.usa.gov/publicdomain/label/1.0/”.",
+      "licence_url": "https://www.copyright.gov/title17/92chap1.html#105 ; https://data.bts.gov/api/views/56fa-sf82.json ; https://www.usa.gov/government-copyright",
+      "monetised_use_ok": true,
+      "redistribution_ok": true
+    }
+  ],
+  "prior_work": [
+    {
+      "citation": "Gopalakrishnan, K., Li, M. Z. and Balakrishnan, H. (2021), Network-centric benchmarking of operational performance in aviation, Transportation Research Part C, DOI 10.1016/j.trc.2021.103041.",
+      "url": "https://doi.org/10.1016/j.trc.2021.103041",
+      "finding": "Builds network-cluster baselines for cancellations and departure delays using 2014–2016 US flights and benchmarks airlines/airports. This directly precedes network adjustment and cancellation-inclusive benchmarking. DOI/authors confirmed from publisher-deposited Crossref metadata; abstract available at https://trid.trb.org/View/1844599. No claim to invent network adjustment."
+    },
+    {
+      "citation": "Zhang, A., Salant, Y. and Van Mieghem, J., Where did the time go? On the increase in airline schedule padding over 21 years (author manuscript).",
+      "url": "https://www.kellogg.northwestern.edu/faculty/salant/personal/Papers/Where_did_the_time_go_Zhang_Salant_VanMieghem.pdf",
+      "finding": "Uses structural estimation and counterfactual analysis to separate operating duration from strategic schedule buffers. A simple within-route padding trend or decomposition is already answered. The proposed contribution is a different observed-data consumer comparison, not a structural explanation of airline intent."
+    },
+    {
+      "citation": "Forbes, S., Lederman, M. and Yuan, Z. (2017), Do Airlines Pad Their Schedules? working paper.",
+      "url": "https://doi.org/10.2139/ssrn.3065986",
+      "finding": "Studies DOT scheduled times, realised times and on-time performance over 1990–2016; schedule padding is mature prior art. Do not present longer timetables as a new discovery."
+    },
+    {
+      "citation": "FlightRecord (2026), Same Route, Different Airline: How Much Does On-Time Performance Really Vary?",
+      "url": "https://www.flightrecord.app/blog/same-route-different-airline-on-time-performance",
+      "finding": "Direct popular route-by-carrier ranking precedent; discusses different carrier block-time allowances. Its published methodology explicitly excludes cancellations/diversions from punctuality and uses each airline’s scheduled arrival, leaving room for the jointly corrected comparison."
+    },
+    {
+      "citation": "DelayAtlas (2026), Same route, different airline: where the carrier you pick matters most.",
+      "url": "https://delayatlas.com/guides/same-route-different-airline",
+      "finding": "Publishes route-level carrier gaps, departure-window advice and cancellation rates beside punctuality. Says the on-time rate ignores cancellations. Already defeats the novelty of “the best national carrier need not be best on your route”; does not provide the same joint all-scheduled, common-clock estimand in the inspected article."
+    }
+  ],
+  "novelty_status": "survives only with a named change",
+  "novelty_why": "Named change: test whether pairwise reliability ordering survives BOTH a shared route/date/departure-window population and an identical elapsed-time allowance, with cancellations/diversions counted and a locked 2025 replication. Five bounded search queries and the saved myths-04/05/06 material show close route-ranking and padding predecessors. No exact combined estimand was found in that bounded search; novelty is incremental, not a claim of exhaustive priority. Padding trends, network adjustment or route-specific rankings alone are dead as novelty propositions.",
+  "estimand": "For each pre-specified carrier pair on shared directional-airport-route/date/two-hour scheduled-departure strata, the difference in probability of operating without diversion and reaching the destination gate by a common elapsed allowance B(route, month-of-year, two-hour band)+15 minutes after scheduled departure. B is the pooled median 2019 scheduled block time for that cell, frozen across carriers and all 2023–2025 years. Cancellations/diversions are failures. Average over fixed 2019 pooled scheduled-flight weights restricted to observed common support, with equal carrier weight within each pair. Compare this pair difference with timely completion relative to each flight’s own promise on the EXACT same population/weights. Report route-specific conditional probabilities, not a rank for unserved routes.",
+  "identification": "Match carriers within route, calendar date and two-hour scheduled-departure band; define eligibility from counts only, with >=500 shared-stratum flights per carrier/year for a reported pair and >=100 2019 flights per carrier in an included route/month/band. Standardise to the same frozen route/time weights. Primary estimates use direct within-stratum averages; a pre-specified hierarchical logistic model with shared stratum intercepts, carrier-by-route effects and carrier-by-year effects provides shrunken route estimates on supported cells only. Fit 2023–2024, freeze outputs, then evaluate 2025 separately. Jointly bootstrap calendar weeks, retaining all airports/routes/carriers in a week, for correlated weather and ranking uncertainty. The common-clock outcome uses signed DepDelay+ActualElapsedTime (equivalently ArrDelay+CRSElapsedTime), so it changes the assessment benchmark without pretending schedules or behaviour were experimentally changed. This is a standardised descriptive service comparison, not a causal airline-choice or timetable intervention effect.",
+  "strongest_objection": "A common deadline is a normative choice: a longer timetable may be an honest buffer reflecting that carrier’s fleet, network and reliability. Airlines also select different minute-level departure times and service offerings. Re-scoring observed flights does not reveal how either airline would behave under a shorter schedule or the passenger’s eventual arrival after cancellation.",
+  "fix": "Frame the result as two explicit useful questions—kept its published promise versus arrived within the same allowance—and show both. Preserve the complete observed service package, condition tightly on common route/date/time support and report coverage. Audit the signed-duration identity within one minute; unknown completed-flight timings are failures in primary analysis and bounded in sensitivity. Never call a rank reversal evidence of deliberate gaming. Report operating carriers and observed flight outcomes, with no extrapolation to rebooked passengers.",
+  "robustness": [
+    "Repeat with one-hour versus two-hour departure bands and nearest scheduled departures within 30 minutes; quantify lost support, and leave each top-five shared hub out in turn.",
+    "Change pooled 2019 schedule benchmark from median to 75th percentile, and common allowance from +15 to +30 minutes. Keep flights, weights, comparisons and multiplicity family fixed.",
+    "Use direct standardisation versus pre-specified hierarchical shrinkage; bound missing completed-flight timings as all success versus all failure, and require the key conclusion to retain its sign in separate 2023, 2024 and 2025 estimates."
+  ],
+  "prereg_rule": "Candidates are fixed to AA/AS/B6/DL/F9/NK/UA/WN, at most 28 pairs. Validity requires >=4 carriers in the supported pair graph and shared strata representing >=40% of their scheduled flights; completed-flight unknown timing <=0.1%, and >=99.5% of audited complete timing identities within 1 minute. Primary reversal claim passes if at least one eligible pair has an own-promise advantage >=2 percentage points that becomes a common-clock disadvantage >=2 points, with both 95% week-bootstrap max-T simultaneous intervals excluding zero across the full fixed pair/outcome family in 2023–2024, AND the same pair/direction has common-clock disadvantage >=2 points with a multiplicity-adjusted interval excluding zero in locked 2025 replication. Any selection of discovery pairs for replication is corrected over all original eligible pairs. If every paired change is bounded inside +/-2 points by simultaneous intervals, report practical stability; otherwise absence of a qualifying reversal is inconclusive, not proof that schedules do not matter. No change of years or benchmark after seeing the answer.",
+  "exploration_slice": {
+    "definition": "Exactly the first 10,000 data rows in the official January-2014 reporting-carrier CSV, preserving source order; fixed metadata/schema and pipeline exploration only, not a representative random sample. Entire January 2014 remains excluded from all reference/confirmatory years. Small range download verified header and count; no reliability, rank or padding statistic calculated.",
+    "rows": 10000,
+    "size": "EXACT 4,420,394 bytes CSV (4.4204 MB decimal) including header/newlines. Obtained from a 1,048,576-byte front ZIP range; a separate 65,536-byte end range verifies source member size. Pilot later may use only these saved 10,000 rows; do not silently treat the full January ZIP as exploration."
+  },
+  "belief": "The airline at the top of the punctuality league table is the safest choice for arriving on time.",
+  "obvious_answer": "Pick the airline with the largest national on-time-arrival percentage.",
+  "flaw": "The airline may serve different routes, cancel more flights or promise a later arrival. Same-route rankings already exist, but still often compare different clocks and omit failed services.",
+  "fairer_test": "Give both airlines the same route/date/departure-window bundle and the same arrival-time allowance, count every scheduled flight, and test whether their ordering repeats in a later year.",
+  "possible_verdicts": [
+    "The route-level winner remains better under both promise-based and common-clock scores; its reliability edge survives a demanding comparison.",
+    "At least one meaningful, replicated ordering reverses after the same-clock correction: a league-table winner can lose for a clearly defined service objective.",
+    "Intervals or limited overlap cannot distinguish a useful winner; retain ties and unsupported routes instead of inventing a national ranking."
+  ],
+  "central_visual": "For one preregistered supported route, show both carriers’ arrival-time distributions on a shared elapsed-minutes axis, with cancellation/diversion probability as separate visible mass. Slide from each carrier’s promised deadline to one common deadline; paired probability differences and simultaneous intervals appear below. The illustrative route is chosen by largest count-based overlap, not largest effect.",
+  "shorts": [
+    "A cancelled flight must stay in the booking-time denominator.",
+    "Two airlines can both claim “on time” using different arrival promises.",
+    "The best national airline can have no demonstrated advantage on a particular supported route."
+  ],
+  "companion_assumption": "Change the common arrival allowance from +15 to +30 or +60 minutes while keeping the observed flights and weights fixed; update exploratory comparisons without changing the registered headline test.",
+  "effort_days": 6,
+  "scores": {
+    "Novelty": {
+      "score": 3,
+      "why": "Joint same-clock, same-market, failure-inclusive ordering is a plausible extension; each component has strong precedents."
+    },
+    "Rigour": {
+      "score": 4,
+      "why": "Explicit accounting estimand, common support, simultaneous uncertainty and locked replication; no unsupported causal claim."
+    },
+    "Data": {
+      "score": 5,
+      "why": "Approximately 28 million free federal records; all 48 bulk endpoints and required schema verified, factual data reusable."
+    },
+    "Hook": {
+      "score": 5,
+      "why": "Which airline should I choose on this route is an immediate travel question."
+    },
+    "Verdict either way": {
+      "score": 5,
+      "why": "A stable advantage, replicated reversal or honest tie each resolves a meaningful comparison."
+    },
+    "Visual": {
+      "score": 5,
+      "why": "One arrival distribution with moving deadlines carries both the flaw and correction."
+    },
+    "Feasibility": {
+      "score": 4,
+      "why": "1.43 GB compressed and grouped DuckDB/Polars analysis fit one laptop; bootstraps work on aggregated cells."
+    }
+  }
+}
