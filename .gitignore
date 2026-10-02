@@ -16,3 +16,4 @@ ideation/rounds/r4/pilot-Q1/*.parquet
 ideation/rounds/**/__pycache__/
 studio/episodes/scramble-luck/data/derived/
 studio/episodes/scramble-luck/analysis/__pycache__/
+studio/episodes/scramble-luck/analysis/amendment/numba-cache/
