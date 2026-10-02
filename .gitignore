@@ -14,3 +14,5 @@ ideation/rounds/r3/pilot-S4/*.parquet
 ideation/rounds/r3/pilot-S4/slice_ids.txt.gz
 ideation/rounds/r4/pilot-Q1/*.parquet
 ideation/rounds/**/__pycache__/
+studio/episodes/scramble-luck/data/derived/
+studio/episodes/scramble-luck/analysis/__pycache__/
