@@ -189,7 +189,9 @@ def calibrate_audio(final, voice, total, true_peak):
             # Use available encoded-peak headroom for a small, exact gain.
             gain += delta
         else:
-            correction += 2 * delta
+            # A doubled residual can overshoot dynamic loudnorm's useful
+            # offset range and make a peak-limited track quieter on retries.
+            correction += delta
         if peak > -1:
             true_peak -= peak + 1.2
         temp = final.with_name(final.stem + ".normalizing.mp4")

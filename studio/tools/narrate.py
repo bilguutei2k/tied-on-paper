@@ -101,6 +101,15 @@ def speak(token, episode=None):
         token = token.replace("×", "times ")
         token = re.sub(r"^((?:19|20)\d{2})([,:;.?!]?)$",
                        lambda m: year(int(m[1])) + m[2], token)
+    if episode == "scramble-luck":
+        # Preserve written tokens for captions and cue lookup; expand only speech.
+        token = token.replace("%", " percent").replace("/", " ")
+        for acronym in ("CFOP", "PLL", "F2L", "OLL", "DNF", "WCA"):
+            token = re.sub(r"\b" + acronym + r"\b", " ".join(acronym), token)
+        token = re.sub(r"\bR\b", "ar", token)
+        token = re.sub(r"\bF\b", "eff", token)
+        token = re.sub(r"^((?:19|20)\d{2})([,:;.?!]?)$",
+                       lambda m: year(int(m[1])) + m[2], token)
     for pattern, repl in RULES:
         token = pattern.sub(repl, token)
     return token
