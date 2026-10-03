@@ -315,8 +315,8 @@ def sequence_plans(shots, narration, edit):
     return plans
 
 
-def assemble(episode, name, spec, edit, narration, jobs):
-    out = episode / "renders/draft"
+def assemble(episode, name, spec, edit, narration, jobs, out_dir=None):
+    out = out_dir or episode / "renders/draft"
     shots_dir = out / name
     shots_dir.mkdir(parents=True, exist_ok=True)
     fmt = spec["format"]
@@ -374,6 +374,7 @@ def main(argv=None):
     parser.add_argument("episode", type=Path)
     parser.add_argument("deliverables", nargs="*")
     parser.add_argument("--jobs", type=int, default=4)
+    parser.add_argument("--out-dir", type=Path, help="Output directory (default: episode renders/draft)")
     args = parser.parse_args(argv)
     edit = json.loads((args.episode / "EDIT.json").read_text())
     narration = json.loads((args.episode / "renders/audio/narration.json").read_text())
@@ -381,7 +382,7 @@ def main(argv=None):
     if narration["story_sha256"] != story:
         sys.exit("STORY.md changed since the narration was generated; rerun narrate.py")
     for name in args.deliverables or list(edit["deliverables"]):
-        assemble(args.episode, name, edit["deliverables"][name], edit, narration, args.jobs)
+        assemble(args.episode, name, edit["deliverables"][name], edit, narration, args.jobs, args.out_dir)
 
 
 if __name__ == "__main__":
