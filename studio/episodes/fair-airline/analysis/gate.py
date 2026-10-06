@@ -4,7 +4,7 @@
 This is the staged precondition checker, not an implemented Monte Carlo runner.
 It cannot generate synthetic outcomes. METHOD requires the support manifest,
 scenario manifest and executable generator to be committed first. Claude must
-commit support before implementation/commit of the complete scenario seal.
+commit the complete scenario/generator seal before any simulated outcomes.
 """
 import argparse
 import json
@@ -44,6 +44,7 @@ def main():
     coverage=json.loads((OUT/'coverage.json').read_text())
     assert verify_denial()
     missing=[]
+    support_committed=committed(OUT/'coverage.json',root)
     for name in ['coverage.json','scenario-manifest.json','generator.py']:
         p=OUT/name
         if not p.exists():missing.append(f'{name}: not implemented/sealed')
@@ -65,22 +66,45 @@ def main():
       'resampler_order':['independent whole weeks','circular 4 weeks','circular 8 weeks'],
       'selected_resampler':None,'production_weights':None,
       'code_hashes':{p.name:sha(p) for p in sorted(OUT.glob('*.py'))}}
+    report['support_commit_satisfied']=support_committed
+    if (OUT/'scenario-manifest.json').exists():
+        scenario=json.loads((OUT/'scenario-manifest.json').read_text())
+        report['scenario_seal']={'manifest_sha256':sha(OUT/'scenario-manifest.json'),
+          'status':scenario['status'],'templates':scenario['enumeration']['templates'],
+          'processes':scenario['enumeration']['processes'],
+          'expected_truth_representation':scenario['expected_truth']['representation'],
+          'numeric_calibration_audit_complete':False}
+        verification=json.loads((OUT/'scenario-verification.json').read_text())
+        report['deterministic_scenario_checks']={'checks_passed':len(verification['checks']),
+          'probability_probes':len(verification['deterministic_probability_probes']),
+          'max_probe_residual':max(p['calibration']['residual'] for p in verification['deterministic_probability_probes']),
+          'sha256':sha(OUT/'scenario-verification.json'),
+          'is_full_calibration_gate':False}
     dump(OUT/'gate.json',report)
     lines=['# Pre-confirmation gate status','', '**BLOCKED — no simulation gate has run.**','',
       'No confirmation outcome columns were materialized, decoded into analysis tables, summarized or plotted. No synthetic datasets or bootstrap draws were generated.', '',
-      'METHOD requires: “Commit the support manifest BEFORE synthetic outcomes or power results are inspected.” It also requires a committed scenario manifest and executable generator before the first simulated outcome. The owner prohibits this agent from writing `.git`; Claude commits. No commit barrier is waived.', '',
-      'The complete Monte Carlo runner and executable scenario manifest are not implemented in this staged handoff. `gate.py` is an honest prerequisite checker and blocked-report writer; it is not evidence of executed simulations.', '',
+      'Support commit `af8e89f` satisfies the first barrier. METHOD also requires: “Before the first simulated outcome is generated, commit a machine-readable scenario manifest and executable generator”. The owner prohibits this agent from writing `.git`; Claude commits. The second barrier is unsatisfied.', '',
+      'The executable generator, fixed Cartesian scenario enumeration, exact probability/truth recipes and schedule-only probability-cell operator are prepared. Deterministic implementation probes are separate from the full numerical calibration audit, which has not run. `gate.py` remains a prerequisite checker/report writer; the complete Monte Carlo runner is still required after the generator commit.', '',
       '| Gate | Result | Registered acceptance rule |','|---|---|---|']
-    for name,rule in RULES.items():lines.append(f"| {name} | BLOCKED / NOT RUN | {'; '.join(rule.values())} |")
+    for name,rule in RULES.items():
+        rule_text='; '.join(rule.values()).replace('|','\\|')
+        lines.append(f"| {name} | BLOCKED / NOT RUN | {rule_text} |")
     lines += ['', 'Selection: exactly 1,000 datasets/scenario, 5,000 draws/dataset; independent validation: exactly 2,000 datasets/scenario, 5,000 draws/dataset. No attempts, resampler selection, bias estimates, coverage counts, false-verdict counts or power estimates exist.', '',
       'The schedule eligibility and deterministic fixtures are separate structural checks; passing those cannot clear validity or power.', '', '## Frozen sets','',
       '| Set | Size | SHA-256 |','|---|---:|---|']
     for name,s in coverage['frozen_sets'].items():lines.append(f"| {name} | {s['size']} | `{s['sha256']}` |")
+    if 'scenario_seal' in report:
+        ss=report['scenario_seal'];v=report['deterministic_scenario_checks']
+        lines += ['', '## Scenario specification and deterministic checks', '',
+          f"{ss['templates']:,} templates × 150 stress settings × 10 missingness settings = {ss['processes']:,} fixed process IDs, including all 210 two-disjoint-edge sets and both directions of every supported pair.", '',
+          f"{v['checks_passed']} implementation checks pass. {v['probability_probes']} deterministic probability calibrations have maximum residual {v['max_probe_residual']:.3g}, against the 1e-6 constraint tolerance. These probes do not certify the required all-case calibration gate.", '',
+          'The manifest freezes calibrated probabilities and all expected G/D/R/H as exact executable mathematical recipes on the sealed numeric structure. Twelve base expectation vectors are also recorded numerically. Full numeric feasibility certification remains unrun; see DEVIATIONS.md for this literal interpretation and SCENARIOS.md for the handoff.', '',
+          f"Scenario manifest SHA-256: `{ss['manifest_sha256']}`."]
     lines += ['', '## Required handoff','',
-      'Claude must commit the support artifacts. Then implement and commit the full deterministic calibration/scenario manifest and executable generator, without generating simulated outcomes before that commit. Only then run the complete registered selection and validation banks. Confirmation outcomes remain closed regardless of any later gate result until the gate report is committed.', '',
+      'Claude must now commit the scenario/generator seal and its reviewable artifacts. Do not generate synthetic outcomes before that commit. Afterward, complete all-case numerical calibration/feasibility certification and the full registered selection/validation banks. No reduced scenario count, roster or acceptance criterion is authorized. Confirmation outcomes remain closed regardless of any later gate result until the gate report is committed.', '',
       'Source-specific raw redistribution terms remain unresolved. Publish retrieval code, URLs/hashes and aggregates; raw ZIPs, documentation snapshots and row-level derivatives remain ignored. See DEVIATIONS.md and data/docs-manifest.json.']
     (OUT/'GATE.md').write_text('\n'.join(lines)+'\n')
-    progress('gate.py precondition audit: validity, calibration, boundary false-verdict, power and independent validation BLOCKED / NOT RUN. Zero synthetic datasets/draws. Support and scenario/generator commits absent; raw outcomes remain closed. Reports explicitly distinguish structural fixtures from unexecuted statistical gates.')
+    progress('gate.py precondition audit: support commit af8e89f satisfied; scenario/generator bytes not yet committed. Validity, full calibration, boundary false-verdict, power and independent validation BLOCKED / NOT RUN. Zero synthetic datasets/draws. Deterministic implementation probes are not full gate passes. Confirmation outcomes remain closed.')
     print({'overall':report['overall'],'gate_results':{name:'NOT_RUN' for name in RULES},'outcomes_opened':False})
 
 if __name__=='__main__':main()

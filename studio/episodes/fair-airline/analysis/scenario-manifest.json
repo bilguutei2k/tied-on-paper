@@ -1,0 +1,1332 @@
+{
+  "banks": {
+    "selection": {
+      "datasets_per_scenario": 1000,
+      "draws_per_dataset": 5000
+    },
+    "validation": {
+      "datasets_per_scenario": 2000,
+      "draws_per_dataset": 5000
+    }
+  },
+  "base_probability": {
+    "carrier_order": [
+      "AA",
+      "AS",
+      "B6",
+      "DL",
+      "F9",
+      "NK",
+      "UA",
+      "WN"
+    ],
+    "day": "normalized matching date for valid keys; FlightDate otherwise",
+    "formula": "clip(baseline + season*sin(2*pi*(day_of_year-1)/365.25) + heterogeneity + increment*(carrier_index-3.5),.05,.99)",
+    "heterogeneity": "+.03 when low bit of final SHA256 byte of UTF8 OriginAirportID|DestAirportID|band is 1; -.03 otherwise",
+    "invalid_key_encoding": "Missing integer endpoint or band = -1; retain numeric invalid endpoint IDs",
+    "national_only": "Calibrated cases use one p per source-year/carrier/date. Average clipped per-record bases within that variable; this preserves the exact minimizer of per-record squared loss. Uncalibrated nominal cases retain per-record heterogeneity; cell averages are used only in linear expectations."
+  },
+  "base_truth_sha256": "94e924fa9d7db07cf225ce873b62319ac2ab478d1ab053a4047d78a07159488d",
+  "calibration": {
+    "bounds": [
+      0.05,
+      0.99
+    ],
+    "calibration_bases": "Registered stable-order .005 case includes the sorted-carrier base increment before clipping/calibration. All-zero and optional .001 near-tie targets use the no-carrier base. Reversal/boundary cases use the no-carrier base.",
+    "constraints": "All active ordered-edge A/B G,-D equal the template values. Stable templates impose every G=D=increment*(index_a-index_b) in both periods. Boundary templates impose all specified nonactive-pair R/H caps by exhaustive min-branch enumeration.",
+    "infeasibility": "Dual residual failure invokes scipy.optimize.linprog(method=highs), feasibility tolerance 1e-8. Only LP status 2 proves branch infeasibility; other numerical failure blocks execution.",
+    "numeric_calibration_gate": "NOT RUN. Numerical optimizer evaluation and all-case feasibility certification remain mandatory before any gate can pass.",
+    "objective": "sum_records (p_cell - p_base_record)^2; one probability per carrier/shared-cell or national-only carrier/date",
+    "options": {
+      "ftol": 1e-15,
+      "gtol": 1e-10,
+      "maxiter": 10000,
+      "maxls": 100
+    },
+    "probability_definition": "For every enumerated process, p is the deterministic global minimizer returned by simulation_model.Model.calibrate(process) on the sealed simulation cells, counts and operator. The full probability vector is specified by this executable mathematical definition, not an outcome-fitted coefficient.",
+    "residual_max": 1e-06,
+    "scoring": "Targets are failure-imputed primary expectations. Informative masking leaves contrasts unchanged; MCAR/status multiply Q by (1-r) before calibration.",
+    "solver": "Equality-only unclipped cases: exact SVD least-squares dual. Otherwise strictly convex bounded quadratic dual: scipy.optimize.minimize L-BFGS-B plus up to 100 deterministic projected Newton/SVD refinements. Min-disjunctions: exhaustive deterministic best-bound branching, first violated disjunction, branch order G_A,-D_A,G_B,-D_B. No branch/time limit.",
+    "tie": "Least objective; equal computed objectives choose lexicographic probability vector in sealed model-cell order. Branch pruning uses the dual Lagrangian lower bound, with conservative 1e-7 floating-point slack.",
+    "two_edge": "All 210 structural sets and all four directions; both active edges receive each enumerated boundary configuration. Infeasible two-edge scenarios are recorded, never selected by performance. An infeasible mandatory single edge blocks the full gate."
+  },
+  "code_hashes": {
+    "blind_guard.py": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af",
+    "bootstrap.py": "ca5ddafa524f1660091b31553ce62f19cadc06dbc3efe77111a4c841b9e9ddd7",
+    "common.py": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6",
+    "generator.py": "4e1140a5500e976a392c6f8ff39dd69add43de16e6d3d58f85907d6564f2dc93",
+    "rules.py": "8cc52fbebe2f83af65ada48edcd41a9ee2deaa1995ccbf42df8e351f93a246d5",
+    "scenarios.py": "2d54b4b4cc4402dd25825dd1acf84e396402a3661a75006ee9097dd5792bb114",
+    "seal_scenarios.py": "57bb9f860901e6041141bac13deaf4398ed91257006e43b7ad5b53c6a8d34e7c",
+    "simulation_model.py": "b2df0a01bcdd120b09e9a0579928d7eebf99da96d7691714b3af87a2d24b2cf7",
+    "verify_scenarios.py": "1046560076b55ef88a1f4154463d27d1101f051b3a6fe36de2f8b8dd8b7812a4"
+  },
+  "confirmation_outcomes_opened": false,
+  "coverage_sha256": "53f8ab1dd657ad8675750a813a4c4154615df2ade5816d1643525a0f52f7847b",
+  "dependencies": {
+    "environment_sha256": "6a989c5ec5af4d46a8610d64a2e7322700b35ef1eb0da341eb0493a55d2ae867",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "enumeration": {
+    "canonical_encoding": "JSON sorted keys, compact separators; template_id prepended; UTF-8, LF per template",
+    "examples": [
+      {
+        "increment": 0.0,
+        "kind": "base",
+        "name": "no_carrier_effect",
+        "template_id": 0
+      },
+      {
+        "increment": 0.005,
+        "kind": "base",
+        "name": "additive_carrier",
+        "template_id": 1
+      },
+      {
+        "increment": 0.0,
+        "kind": "stable",
+        "name": "stable_0.0",
+        "template_id": 2
+      },
+      {
+        "increment": 0.005,
+        "kind": "stable",
+        "name": "stable_0.005",
+        "template_id": 3
+      },
+      {
+        "increment": 0.001,
+        "kind": "stable",
+        "name": "stable_0.001",
+        "template_id": 4
+      }
+    ],
+    "iterator": "scenarios.processes(pairs)",
+    "missingness_settings": [
+      {
+        "kind": "none",
+        "r": 0.0
+      },
+      {
+        "kind": "informative",
+        "r": 0.0005
+      },
+      {
+        "kind": "informative",
+        "r": 0.001
+      },
+      {
+        "kind": "informative",
+        "r": 0.01
+      },
+      {
+        "kind": "mcar",
+        "r": 0.0005
+      },
+      {
+        "kind": "mcar",
+        "r": 0.001
+      },
+      {
+        "kind": "mcar",
+        "r": 0.01
+      },
+      {
+        "kind": "status",
+        "r": 0.0005
+      },
+      {
+        "kind": "status",
+        "r": 0.001
+      },
+      {
+        "kind": "status",
+        "r": 0.01
+      }
+    ],
+    "process_id": "1500*template_id + 10*stress_id + mechanism_id",
+    "processes": 93499500,
+    "stress_settings": [
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "none",
+        "sd": 0.0,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "none",
+        "sd": 0.0,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.7,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "none",
+        "sd": 0.0,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "none",
+        "sd": 0.0,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.8,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "none",
+        "sd": 0.0,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.0
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "none",
+        "sd": 0.0,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "national",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "airport",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "carrier",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.15,
+        "season": 0.05
+      },
+      {
+        "ar": 0.0,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.3,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      },
+      {
+        "ar": 0.6,
+        "baseline": 0.9,
+        "mode": "combined",
+        "sd": 0.3,
+        "season": 0.05
+      }
+    ],
+    "template_counts": {
+      "base": 2,
+      "boundary": 3864,
+      "near_H": 56,
+      "reversal": 448,
+      "stable": 3,
+      "two_edge_boundary": 57960
+    },
+    "templates": 62333,
+    "templates_canonical_sha256": "a2844f03cad196e800a116dc3beaa2ee7c72424a354b8067b0a77d29d780c41d",
+    "two_vertex_disjoint_sets": 210
+  },
+  "execution": "Commit this manifest and all code/structure seals before generator --emit or any synthetic gate. No random draw was made to prepare this seal.",
+  "expected_truth": {
+    "H": "max_ordered_pair,period min(G,-D)",
+    "R": "max_ordered_pair min_period min(G,-D)",
+    "boundary_numerics": "Residual tolerance does not excuse errors: include false-changes applicability when numerical R<=.02+1e-6 and false-survives applicability when H>=.02-1e-6.",
+    "endpoints": "primary contrast; low=primary contrast - b unknown score; high=primary contrast + a unknown score, in national and matched populations.",
+    "informative": {
+      "primary": "p-r",
+      "unknown": "r"
+    },
+    "latent": "T @ p; each G,D subtracts its registered a and b score rows.",
+    "mcar_or_status": {
+      "primary": "p*(1-r)",
+      "unknown": "r*(.7+.3*p)"
+    },
+    "none": {
+      "primary": "p",
+      "unknown": "0"
+    },
+    "pre_draw_check": "Evaluate and record the entire probability/endpoint/latent truth vector before each process emits its first outcome.",
+    "representation": "Exact executable expressions, evaluated by Model.truths, with numeric sealed T and count/base coefficients in simulation-structure.json; all 336 components returned in frozen components.txt order."
+  },
+  "freeze_utc": "2026-10-06T23:11:25.720151+00:00",
+  "method_sha256": "390b6d5c195c563a8ebb523016bae40265d90c229014f9a147d67ce3bd16b098",
+  "probit": {
+    "airport_identity": "One common numeric airport-ID series for origins and destinations; missing numeric ID uses -1. Two equal endpoints contribute twice the same shock, hence 4*sd^2 variance.",
+    "continuity": "Full physical Monday-week range; no year restart; same physical week shares shocks across source years.",
+    "epsilon": "independent N(0,1) per flight; independent Bernoulli marginal cases use the same probit with all shared variances zero",
+    "formula": "Z=sqrt(1+v)*Phi_inverse(p)+national_week+origin_week+destination_week+carrier_week+epsilon; timely iff Z>0",
+    "shock_order": "national, airport, carrier; then numeric entity ID; then physical week",
+    "stationary": "First physical week shock N(0,sd^2); later ar*prior + sd*sqrt(1-ar^2)*N(0,1)",
+    "variance": "national_sd^2 + (2 or 4 for equal endpoints)*airport_sd^2 + carrier_sd^2; inactive types contribute zero."
+  },
+  "quality_fixtures": [
+    {
+      "count": "floor(.001*n_carrier_year)",
+      "mapping": "First known-completed source IDs: both flags 0, delay missing",
+      "name": "unknown_at_cutoff",
+      "quality_pass": true
+    },
+    {
+      "count": "floor(.001*n_carrier_year)+1",
+      "mapping": "Same as at-cutoff",
+      "name": "unknown_above_cutoff",
+      "substantive_verdicts_allowed": 0
+    },
+    {
+      "count": "floor(.001*n_carrier_year)",
+      "mapping": "First valid-key source IDs become invalid matching keys; retain national rows and fixed pair roster",
+      "name": "keys_at_cutoff",
+      "quality_pass": true
+    },
+    {
+      "count": "floor(.001*n_carrier_year)+1",
+      "mapping": "Same as at-cutoff",
+      "name": "keys_above_cutoff",
+      "substantive_verdicts_allowed": 0
+    },
+    {
+      "mapping": "First record Cancelled=2",
+      "must_stop": true,
+      "name": "invalid_flag"
+    },
+    {
+      "mapping": "First completed record ArrDelay=nonfinite",
+      "must_stop": true,
+      "name": "invalid_delay"
+    }
+  ],
+  "resampler_order": [
+    "independent weeks",
+    "circular 4 weeks",
+    "circular 8 weeks"
+  ],
+  "schema_version": 1,
+  "simulation_structure_sha256": "17bf6e0543151027611732a591cd27880c31dcef3386a72f3bb05be95b032b81",
+  "status": {
+    "complete_delay": {
+      "late": 20,
+      "timely": 0
+    },
+    "failure_assignment": {
+      "cancelled": 0.25,
+      "diverted": 0.05,
+      "known_late": 0.7
+    },
+    "informative": "Mask delay of latent timely flights iff uniform < r/p.",
+    "known_failure_delay": "missing; other flag zero",
+    "mcar": "Mask delay of each completed flight iff uniform < r.",
+    "precedence": "rules.status; invalid nonmissing flags or nonfinite/non-numeric delays stop.",
+    "status": "Blank exactly one completed-flight flag iff uniform < r; second uniform for .5 flag choice.",
+    "uniforms": "Exactly 3 independent uniforms per source flight, row-major: failure category, masking, flag choice."
+  },
+  "streams": {
+    "banks": {
+      "0": "selection",
+      "1": "independent validation"
+    },
+    "flight_order": "source_year,source_month,numeric source_row",
+    "generator": "Generator(PCG64)",
+    "replicate_start": 0,
+    "resampler_change": "Same generated dataset; reset only bootstrap stream.",
+    "seed_sequence": [
+      20261006,
+      "bank",
+      "process_id",
+      "replicate_id",
+      "stream_id"
+    ],
+    "stream_ids": {
+      "0": "Gaussian shocks",
+      "1": "flight innovations",
+      "2": "status/masking uniforms",
+      "3": "bootstrap indices"
+    }
+  },
+  "support_commit": "af8e89f",
+  "synthetic_outcomes_generated": 0
+}

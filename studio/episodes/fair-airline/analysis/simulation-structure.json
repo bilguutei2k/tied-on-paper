@@ -1,0 +1,237 @@
+{
+  "base_columns": [
+    {
+      "baseline": 0.7,
+      "column": "p0",
+      "increment": 0.0,
+      "season": 0.0
+    },
+    {
+      "baseline": 0.7,
+      "column": "p1",
+      "increment": 0.005,
+      "season": 0.0
+    },
+    {
+      "baseline": 0.7,
+      "column": "p2",
+      "increment": 0.0,
+      "season": 0.05
+    },
+    {
+      "baseline": 0.7,
+      "column": "p3",
+      "increment": 0.005,
+      "season": 0.05
+    },
+    {
+      "baseline": 0.8,
+      "column": "p4",
+      "increment": 0.0,
+      "season": 0.0
+    },
+    {
+      "baseline": 0.8,
+      "column": "p5",
+      "increment": 0.005,
+      "season": 0.0
+    },
+    {
+      "baseline": 0.8,
+      "column": "p6",
+      "increment": 0.0,
+      "season": 0.05
+    },
+    {
+      "baseline": 0.8,
+      "column": "p7",
+      "increment": 0.005,
+      "season": 0.05
+    },
+    {
+      "baseline": 0.9,
+      "column": "p8",
+      "increment": 0.0,
+      "season": 0.0
+    },
+    {
+      "baseline": 0.9,
+      "column": "p9",
+      "increment": 0.005,
+      "season": 0.0
+    },
+    {
+      "baseline": 0.9,
+      "column": "p10",
+      "increment": 0.0,
+      "season": 0.05
+    },
+    {
+      "baseline": 0.9,
+      "column": "p11",
+      "increment": 0.005,
+      "season": 0.05
+    }
+  ],
+  "carriers": [
+    "AA",
+    "AS",
+    "B6",
+    "DL",
+    "F9",
+    "NK",
+    "UA",
+    "WN"
+  ],
+  "coverage_sha256": "53f8ab1dd657ad8675750a813a4c4154615df2ade5816d1643525a0f52f7847b",
+  "files": [
+    {
+      "bytes": 40084399,
+      "path": "data/derived/simulation-cells.parquet",
+      "sha256": "353f80795157d9fd90e37b1c5473380b3f7b94efc1b787eb992b814cda5fd222"
+    },
+    {
+      "bytes": 53973558,
+      "path": "data/derived/simulation-flights.parquet",
+      "sha256": "ad8a5e121515b4df336bd2ca27d68fbfc2c4ab91ade23671098ec92c626f9ca0"
+    },
+    {
+      "bytes": 15101772,
+      "path": "data/derived/simulation-operator.npz",
+      "sha256": "2df5ad068c575ffcb266d6f219e957ad686c987d1f0622da227c117da034b12b"
+    }
+  ],
+  "pairs": [
+    [
+      "AA",
+      "AS"
+    ],
+    [
+      "AA",
+      "B6"
+    ],
+    [
+      "AA",
+      "DL"
+    ],
+    [
+      "AA",
+      "F9"
+    ],
+    [
+      "AA",
+      "NK"
+    ],
+    [
+      "AA",
+      "UA"
+    ],
+    [
+      "AA",
+      "WN"
+    ],
+    [
+      "AS",
+      "B6"
+    ],
+    [
+      "AS",
+      "DL"
+    ],
+    [
+      "AS",
+      "F9"
+    ],
+    [
+      "AS",
+      "NK"
+    ],
+    [
+      "AS",
+      "UA"
+    ],
+    [
+      "AS",
+      "WN"
+    ],
+    [
+      "B6",
+      "DL"
+    ],
+    [
+      "B6",
+      "F9"
+    ],
+    [
+      "B6",
+      "NK"
+    ],
+    [
+      "B6",
+      "UA"
+    ],
+    [
+      "B6",
+      "WN"
+    ],
+    [
+      "DL",
+      "F9"
+    ],
+    [
+      "DL",
+      "NK"
+    ],
+    [
+      "DL",
+      "UA"
+    ],
+    [
+      "DL",
+      "WN"
+    ],
+    [
+      "F9",
+      "NK"
+    ],
+    [
+      "F9",
+      "UA"
+    ],
+    [
+      "F9",
+      "WN"
+    ],
+    [
+      "NK",
+      "UA"
+    ],
+    [
+      "NK",
+      "WN"
+    ],
+    [
+      "UA",
+      "WN"
+    ]
+  ],
+  "per_record_base_variance_constants": [
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9518.47787567003,
+    9423.678285788921
+  ],
+  "probability_cell_order": "source_year,carrier,model_date,model_origin,model_destination,model_band",
+  "probability_cells": 4354655,
+  "rows": "national period/carrier, then pair/period/side",
+  "source_commit": "af8e89f",
+  "source_flights": 15243703
+}

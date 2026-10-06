@@ -1,21 +1,34 @@
 {
   "blockers": [
-    "coverage.json: bytes not present in HEAD commit",
-    "scenario-manifest.json: not implemented/sealed",
-    "generator.py: not implemented/sealed"
+    "scenario-manifest.json: bytes not present in HEAD commit",
+    "generator.py: bytes not present in HEAD commit"
   ],
   "bootstrap_draws_generated": 0,
   "code_hashes": {
     "acquire.py": "aab5ccf77e4d5ed6ef7362854bd9a2ca6e4311bc7664ede35fce99ffb31a9cf2",
+    "acquire_history.py": "c7d30da852620f2af292d9e33227b6d79a46f6fd565e213313ba68af592cc3c0",
     "blind_guard.py": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af",
+    "bootstrap.py": "ca5ddafa524f1660091b31553ce62f19cadc06dbc3efe77111a4c841b9e9ddd7",
     "common.py": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6",
-    "gate.py": "eff94e9485ecbe45318aa8f452948d01eae9f61fe6f788005585a81fc9d0f790",
+    "gate.py": "29fe4a621a7036c4f235b3ab68d0ad0843cea74bcd835370a2ab38053ad2f635",
+    "generator.py": "4e1140a5500e976a392c6f8ff39dd69add43de16e6d3d58f85907d6564f2dc93",
     "rules.py": "8cc52fbebe2f83af65ada48edcd41a9ee2deaa1995ccbf42df8e351f93a246d5",
+    "scenarios.py": "2d54b4b4cc4402dd25825dd1acf84e396402a3661a75006ee9097dd5792bb114",
+    "seal_scenarios.py": "57bb9f860901e6041141bac13deaf4398ed91257006e43b7ad5b53c6a8d34e7c",
+    "simulation_model.py": "b2df0a01bcdd120b09e9a0579928d7eebf99da96d7691714b3af87a2d24b2cf7",
     "snapshot.py": "2238b17febd820f6945c2c186595d3d2fbc70ae77f32bf7a06e82c39a57856de",
+    "verify_scenarios.py": "1046560076b55ef88a1f4154463d27d1101f051b3a6fe36de2f8b8dd8b7812a4",
     "verify_structure.py": "8422199e76b87f18ae979f48e64880cc6df28b15e31e772e150f522401352c3f"
   },
   "confirmation_outcomes_opened": false,
   "coverage_sha256": "53f8ab1dd657ad8675750a813a4c4154615df2ade5816d1643525a0f52f7847b",
+  "deterministic_scenario_checks": {
+    "checks_passed": 38,
+    "is_full_calibration_gate": false,
+    "max_probe_residual": 4.746661397270202e-12,
+    "probability_probes": 6,
+    "sha256": "3a3564999f6369e869929f1bfaf1dd923031bf9901154dd22eb0d3eb474a5674"
+  },
   "frozen_sets": {
     "cells": {
       "bytes": 9667668,
@@ -133,6 +146,30 @@
     "circular 4 weeks",
     "circular 8 weeks"
   ],
+  "scenario_seal": {
+    "expected_truth_representation": "Exact executable expressions, evaluated by Model.truths, with numeric sealed T and count/base coefficients in simulation-structure.json; all 336 components returned in frozen components.txt order.",
+    "manifest_sha256": "dc6eeaf088dce2004006348aa82e570c3334a4d153d91b2a54475494a59aa336",
+    "numeric_calibration_audit_complete": false,
+    "processes": 93499500,
+    "status": {
+      "complete_delay": {
+        "late": 20,
+        "timely": 0
+      },
+      "failure_assignment": {
+        "cancelled": 0.25,
+        "diverted": 0.05,
+        "known_late": 0.7
+      },
+      "informative": "Mask delay of latent timely flights iff uniform < r/p.",
+      "known_failure_delay": "missing; other flag zero",
+      "mcar": "Mask delay of each completed flight iff uniform < r.",
+      "precedence": "rules.status; invalid nonmissing flags or nonfinite/non-numeric delays stop.",
+      "status": "Blank exactly one completed-flight flag iff uniform < r; second uniform for .5 flag choice.",
+      "uniforms": "Exactly 3 independent uniforms per source flight, row-major: failure category, masking, flag choice."
+    },
+    "templates": 62333
+  },
   "selected_resampler": null,
   "selection_bank": {
     "attempts": [],
@@ -164,6 +201,7 @@
       "supported_pairs": 28
     }
   },
+  "support_commit_satisfied": true,
   "synthetic_datasets_generated": 0,
   "validation_bank": {
     "attempts": [],
@@ -171,5 +209,5 @@
     "draws_per_dataset": 5000
   },
   "workers_requested": 10,
-  "written_utc": "2026-10-06T21:50:16.511571+00:00"
+  "written_utc": "2026-10-06T23:12:09.039359+00:00"
 }

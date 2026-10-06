@@ -1,0 +1,38 @@
+{
+  "purpose": "Registered historical 2015 motivation only",
+  "sources": [
+    {
+      "content_decoded": false,
+      "content_type": "text/html",
+      "error_type": "HTTPError",
+      "final_url": "https://www.transportation.gov/airconsumer/february-2016-air-travel-consumer-report",
+      "http_status": 403,
+      "licence": {
+        "snapshot_redistribution": false,
+        "status": "federal_work_basis_for_agency_text_only; exact_page_terms_unresolved",
+        "terms_url": "https://www.transportation.gov/website-information/website-policies"
+      },
+      "path": "data/raw/historical-atcr-landing.html",
+      "retrieved_utc": "2026-10-06T22:08:48.990212+00:00",
+      "status": "access_failed",
+      "url": "https://www.transportation.gov/airconsumer/february-2016-air-travel-consumer-report"
+    },
+    {
+      "content_decoded": false,
+      "content_type": "text/html;charset=utf-8",
+      "error_type": "HTTPError",
+      "final_url": "https://www.forbes.com/sites/michelinemaynard/2015/04/27/the-best-and-worst-airlines-for-summer-2015-vacation-travel/",
+      "http_status": 403,
+      "licence": {
+        "snapshot_redistribution": false,
+        "status": "third_party_copyright; no_redistribution_permission",
+        "terms_url": "https://www.forbes.com/terms-and-conditions/"
+      },
+      "path": "data/raw/historical-forbes-2015.html",
+      "retrieved_utc": "2026-10-06T22:08:49.217953+00:00",
+      "status": "access_failed",
+      "url": "https://www.forbes.com/sites/michelinemaynard/2015/04/27/the-best-and-worst-airlines-for-summer-2015-vacation-travel/"
+    }
+  ],
+  "written_utc": "2026-10-06T22:08:49.351457+00:00"
+}
