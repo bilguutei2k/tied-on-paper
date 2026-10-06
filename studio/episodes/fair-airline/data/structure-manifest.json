@@ -1,0 +1,382 @@
+{
+  "bulk_structural_derivatives": {
+    "pair_membership": {
+      "bytes": 19729806,
+      "path": "data/derived/pair-membership.parquet",
+      "sha256": "9b7aa693ff1a12caf75f2b4ce93fcba9b9952f94f56b75846b032f3675cd135c"
+    },
+    "structure": {
+      "bytes": 76863993,
+      "path": "data/derived/structure.parquet",
+      "sha256": "ad24674d0ae46779e6b37489bdd47db85fedddc43585735ae4f7e29ac92640c0"
+    }
+  },
+  "derivatives": [
+    {
+      "bytes": 3085378,
+      "month": 1,
+      "path": "data/derived/schedule-2023-01.parquet",
+      "rows": 538837,
+      "sha256": "9a01f09d68f45adc96750f533ed46a237ef606733b2b63191bfe489ed6b0b88e",
+      "year": 2023
+    },
+    {
+      "bytes": 2845505,
+      "month": 2,
+      "path": "data/derived/schedule-2023-02.parquet",
+      "rows": 502749,
+      "sha256": "9d819f85d913ee60ef61d5bab8e77fab742f7da9c98065b58337a2b4e5005677",
+      "year": 2023
+    },
+    {
+      "bytes": 3314013,
+      "month": 3,
+      "path": "data/derived/schedule-2023-03.parquet",
+      "rows": 580322,
+      "sha256": "f7ab098d7c1bdd6100b4419f4baaed7aedcb7beae2cec08c178bbb84e4595a78",
+      "year": 2023
+    },
+    {
+      "bytes": 3121937,
+      "month": 4,
+      "path": "data/derived/schedule-2023-04.parquet",
+      "rows": 561441,
+      "sha256": "c33da2630c11a1d3634e190154d92119d47f884762ed72e1205c4cee6df55a44",
+      "year": 2023
+    },
+    {
+      "bytes": 3338972,
+      "month": 5,
+      "path": "data/derived/schedule-2023-05.parquet",
+      "rows": 579958,
+      "sha256": "2232c4d90fd45aa3cc2bdf8d80ec71bfccd5f962f8e7b2a1d7ffb907c3847da0",
+      "year": 2023
+    },
+    {
+      "bytes": 3276982,
+      "month": 6,
+      "path": "data/derived/schedule-2023-06.parquet",
+      "rows": 577262,
+      "sha256": "cfad83d8de6991fa30ed8c31b32d911106e37f9614c7ffd8e28c86e704da5edb",
+      "year": 2023
+    },
+    {
+      "bytes": 3434988,
+      "month": 7,
+      "path": "data/derived/schedule-2023-07.parquet",
+      "rows": 601866,
+      "sha256": "74e09fc265f7071984978a6bed94b88abb6486553ca7c01e0c622fd38d5258bf",
+      "year": 2023
+    },
+    {
+      "bytes": 3359056,
+      "month": 8,
+      "path": "data/derived/schedule-2023-08.parquet",
+      "rows": 602987,
+      "sha256": "137f67bb793141f697b0a1eab9154dff30c79cc62fc72ba3551fe7bd1b7b7248",
+      "year": 2023
+    },
+    {
+      "bytes": 3255208,
+      "month": 9,
+      "path": "data/derived/schedule-2023-09.parquet",
+      "rows": 569338,
+      "sha256": "eb9ff1ae77eb1ed2b6defa7c3f1648eef1e975ada4c8fd8450a30a7a210bf106",
+      "year": 2023
+    },
+    {
+      "bytes": 3517590,
+      "month": 10,
+      "path": "data/derived/schedule-2023-10.parquet",
+      "rows": 598968,
+      "sha256": "db4bd5a5e76f1aa229086da2fbdbad43c20d32a07363caaa1520096c24f08869",
+      "year": 2023
+    },
+    {
+      "bytes": 3311419,
+      "month": 11,
+      "path": "data/derived/schedule-2023-11.parquet",
+      "rows": 563777,
+      "sha256": "13577019975f172a8c4a0536ead579dd660c986ca03703951a4ab641d8fe04bb",
+      "year": 2023
+    },
+    {
+      "bytes": 3370792,
+      "month": 12,
+      "path": "data/derived/schedule-2023-12.parquet",
+      "rows": 570394,
+      "sha256": "e45eab31b11c03ebbfb6a3e0e30b1e892eba33c4040d02447d231d0e6f30d211",
+      "year": 2023
+    },
+    {
+      "bytes": 3230771,
+      "month": 1,
+      "path": "data/derived/schedule-2024-01.parquet",
+      "rows": 547271,
+      "sha256": "0c1e57edd5a72926e22e7aa29af98cd0dd86a420d103b13a5a29aaa4d1a79fbc",
+      "year": 2024
+    },
+    {
+      "bytes": 2956065,
+      "month": 2,
+      "path": "data/derived/schedule-2024-02.parquet",
+      "rows": 519221,
+      "sha256": "c3a8d6c94a27d410d679a392c066ede2a643481d2fb92376113fd7c14de9b995",
+      "year": 2024
+    },
+    {
+      "bytes": 3471298,
+      "month": 3,
+      "path": "data/derived/schedule-2024-03.parquet",
+      "rows": 591767,
+      "sha256": "9ea8888a314dcb0e51f36774e637426a7a9bd0ed899ce41feac76f88f116176e",
+      "year": 2024
+    },
+    {
+      "bytes": 3312478,
+      "month": 4,
+      "path": "data/derived/schedule-2024-04.parquet",
+      "rows": 582185,
+      "sha256": "ec8ff7fef33b5a36b2b52d1585c3b3e88a9cb9f949bc9e70b55e273487be853d",
+      "year": 2024
+    },
+    {
+      "bytes": 3612914,
+      "month": 5,
+      "path": "data/derived/schedule-2024-05.parquet",
+      "rows": 609743,
+      "sha256": "18f8ae9a3c847c28a607b6d7cb6a6922ee76e1546652f3ba418de64a141761db",
+      "year": 2024
+    },
+    {
+      "bytes": 3655166,
+      "month": 6,
+      "path": "data/derived/schedule-2024-06.parquet",
+      "rows": 611132,
+      "sha256": "a441124bd74104bea0053079507f477d9fbf2df7c665d0ef4504ffe0a0cf1668",
+      "year": 2024
+    },
+    {
+      "bytes": 3916488,
+      "month": 7,
+      "path": "data/derived/schedule-2024-07.parquet",
+      "rows": 634613,
+      "sha256": "4237d203624c48cf5c07ff7c9076c5e16fba6af79a2a4f590bae633e59cec2e4",
+      "year": 2024
+    },
+    {
+      "bytes": 3489332,
+      "month": 8,
+      "path": "data/derived/schedule-2024-08.parquet",
+      "rows": 619025,
+      "sha256": "1e790d7f9fae5507f5cad8b20abc9e60c2f8a7e687607d1c3b55dd7d12f15638",
+      "year": 2024
+    },
+    {
+      "bytes": 3310277,
+      "month": 9,
+      "path": "data/derived/schedule-2024-09.parquet",
+      "rows": 582622,
+      "sha256": "11eeb4f198b87af00c4e93fd2fa2407b3f57d8a86c2bf4805d8fd9b938b19efd",
+      "year": 2024
+    },
+    {
+      "bytes": 3487584,
+      "month": 10,
+      "path": "data/derived/schedule-2024-10.parquet",
+      "rows": 615497,
+      "sha256": "705e331ec67f1a5caea9b925aa160b8bd6640d788d69548035f9a856dcb488b3",
+      "year": 2024
+    },
+    {
+      "bytes": 3337539,
+      "month": 11,
+      "path": "data/derived/schedule-2024-11.parquet",
+      "rows": 575404,
+      "sha256": "fd7d308d0cd7d539d6f9ad11d8ebf90495d5eef37ea14aadea0e209846e5a558",
+      "year": 2024
+    },
+    {
+      "bytes": 3464467,
+      "month": 12,
+      "path": "data/derived/schedule-2024-12.parquet",
+      "rows": 590581,
+      "sha256": "0dc1bb5eac3b17a5af937e58f957063b270d5948d0cd738e2cd2e40ff3ecafe0",
+      "year": 2024
+    },
+    {
+      "bytes": 3119613,
+      "month": 1,
+      "path": "data/derived/schedule-2025-01.parquet",
+      "rows": 539747,
+      "sha256": "aa3af93bb04b2b03fd42926ad1f360c44f3dcf5e2b6a8199ff8482000f08fa35",
+      "year": 2025
+    },
+    {
+      "bytes": 2881304,
+      "month": 2,
+      "path": "data/derived/schedule-2025-02.parquet",
+      "rows": 504884,
+      "sha256": "63828790a302e00d68fa5a9deec8d0c863a79bb14c9b3caaa3f0c97b08693ee7",
+      "year": 2025
+    },
+    {
+      "bytes": 3529050,
+      "month": 3,
+      "path": "data/derived/schedule-2025-03.parquet",
+      "rows": 600872,
+      "sha256": "dddaa2b7e283ac377b292bda68d36ff4bc60210f3c961983b68d64121447e376",
+      "year": 2025
+    },
+    {
+      "bytes": 3321987,
+      "month": 4,
+      "path": "data/derived/schedule-2025-04.parquet",
+      "rows": 583950,
+      "sha256": "18ced7692122d779c8ae876364d1163145dbdcdac5a14efe6b7d5dd9668134b4",
+      "year": 2025
+    },
+    {
+      "bytes": 3442743,
+      "month": 5,
+      "path": "data/derived/schedule-2025-05.parquet",
+      "rows": 605648,
+      "sha256": "7ae1f351ed7e9197e4494a446d4c05e9341b12ff8232b6a1dc05817d11a3be8a",
+      "year": 2025
+    },
+    {
+      "bytes": 3448000,
+      "month": 6,
+      "path": "data/derived/schedule-2025-06.parquet",
+      "rows": 611575,
+      "sha256": "cd8a9b8d5a817f78ba9303a41f341aaace61900d219f5d1608d2caf0b33259e9",
+      "year": 2025
+    },
+    {
+      "bytes": 3552853,
+      "month": 7,
+      "path": "data/derived/schedule-2025-07.parquet",
+      "rows": 631428,
+      "sha256": "6308f2e3888e786a0c69aa4ae98429abaa5ff4c328847ef0f8f6630e10273ac9",
+      "year": 2025
+    },
+    {
+      "bytes": 3528640,
+      "month": 8,
+      "path": "data/derived/schedule-2025-08.parquet",
+      "rows": 602378,
+      "sha256": "3fc84ede265e21dc9ce2934305842f7b5d537e934e9e028ac59dc2b116f2f965",
+      "year": 2025
+    },
+    {
+      "bytes": 3241155,
+      "month": 9,
+      "path": "data/derived/schedule-2025-09.parquet",
+      "rows": 562439,
+      "sha256": "860d269da39fb579c1afd32d10c0a2eda1d76e524ca6a1700712a93b0d7be74d",
+      "year": 2025
+    },
+    {
+      "bytes": 3548091,
+      "month": 10,
+      "path": "data/derived/schedule-2025-10.parquet",
+      "rows": 605844,
+      "sha256": "835c8a1885c5ea1dd11037d982145021cc0a0d42c73ebc2bfd9cb4b886c294a6",
+      "year": 2025
+    },
+    {
+      "bytes": 3343245,
+      "month": 11,
+      "path": "data/derived/schedule-2025-11.parquet",
+      "rows": 570550,
+      "sha256": "bc53b056059af39a048aa683166cbc04bf86dc1d304b38c65e1ec0f6aee11f83",
+      "year": 2025
+    },
+    {
+      "bytes": 3463367,
+      "month": 12,
+      "path": "data/derived/schedule-2025-12.parquet",
+      "rows": 582304,
+      "sha256": "b5e3fc6cb77b33e12567ffea7198ae17901b71895ec7943291c7b615b7a6682c",
+      "year": 2025
+    }
+  ],
+  "freeze_utc": "2026-10-06T21:47:19.388922+00:00",
+  "frozen_sets": {
+    "cells": {
+      "bytes": 9667668,
+      "path": "data/derived/cells.parquet",
+      "sha256": "820ea4b4ebb37e5497761cc1b0d2cad3a05a68d75f58517a97f88a53e8d127a7",
+      "size": 14494757
+    },
+    "components": {
+      "bytes": 5264,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/components.txt",
+      "sha256": "6e6d5d89e8aa8f5ff212ba03f9d7b9b42293259fc25bdbe73882ebec17b4e183",
+      "size": 336
+    },
+    "incident_carriers": {
+      "bytes": 24,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/incident-carriers.txt",
+      "sha256": "731a9156db4ba82758451558e7493564c5e49e8bf716d33b636c3940996c8190",
+      "size": 8
+    },
+    "omission_airports": {
+      "bytes": 30,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/omission-airports.txt",
+      "sha256": "b9839ef9e312c6132f409169fc9af43fb692c9146d6ed634fa9d5222e9f095b3",
+      "size": 5
+    },
+    "pair_cells": {
+      "bytes": 3256190,
+      "path": "data/derived/pair-cells.parquet",
+      "sha256": "370c2efedd25032ca6566c56738c1b376fddbf8fb6cbcba33bbb60d8aedbf7be",
+      "size": 2746293
+    },
+    "routes": {
+      "bytes": 22260,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/routes.txt",
+      "sha256": "9e822e55480ef9b035f95f4c158022b23c02e6e9bc5fa458d49e13957532cc2f",
+      "size": 1855
+    },
+    "source_rows": {
+      "bytes": 376714422,
+      "list_sha256": "435742cb0a81ed7d908555709b673019274c1c887d0f74587c4ee8e20d861747",
+      "path": "data/derived/source-ids.txt",
+      "sha256": "435742cb0a81ed7d908555709b673019274c1c887d0f74587c4ee8e20d861747",
+      "size": 20928579
+    },
+    "supported_pairs": {
+      "bytes": 168,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/supported-pairs.txt",
+      "sha256": "509ecca0cc156f1f59d9a107b1f3459bc76e8fa70ecfe4c0cbe9be689ba2b28f",
+      "size": 28
+    },
+    "weeks": {
+      "bytes": 2544,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/weeks.txt",
+      "sha256": "ac2ed213bef5c5fe19d98ee2f658f5d42e2acbf0a3883811428f33e8bd6458b1",
+      "size": 159
+    }
+  },
+  "outcome_columns_read": [],
+  "projected_columns": [
+    "Year",
+    "Month",
+    "FlightDate",
+    "Reporting_Airline",
+    "DOT_ID_Reporting_Airline",
+    "IATA_CODE_Reporting_Airline",
+    "Flight_Number_Reporting_Airline",
+    "OriginAirportID",
+    "DestAirportID",
+    "CRSDepTime"
+  ],
+  "source_order": "numeric month, one-based CSV ordinal"
+}

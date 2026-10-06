@@ -17,3 +17,11 @@ ideation/rounds/**/__pycache__/
 studio/episodes/scramble-luck/data/derived/
 studio/episodes/scramble-luck/analysis/__pycache__/
 studio/episodes/scramble-luck/analysis/amendment/numba-cache/
+studio/episodes/weigh-in/data/raw/
+studio/episodes/weigh-in/data/derived/
+studio/episodes/weigh-in/analysis/__pycache__/
+studio/episodes/fair-airline/data/raw/
+studio/episodes/fair-airline/data/derived/
+studio/episodes/fair-airline/analysis/__pycache__/
+studio/episodes/weekend-rain/data/raw/
+studio/episodes/weekend-rain/data/derived/

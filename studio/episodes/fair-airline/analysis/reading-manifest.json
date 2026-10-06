@@ -1,0 +1,142 @@
+{
+  "files": [
+    {
+      "path": "studio/episodes/fair-airline/METHOD.md",
+      "bytes": 43977,
+      "sha256": "390b6d5c195c563a8ebb523016bae40265d90c229014f9a147d67ce3bd16b098"
+    },
+    {
+      "path": "studio/episodes/fair-airline/EPISODE.md",
+      "bytes": 399,
+      "sha256": "5527fa8fca9cc70bc8d9b67e0fa4d1814b640a20c393a448e67daf74dfa68ee3"
+    },
+    {
+      "path": "ideation/rounds/r7/fair-airline-review.md",
+      "bytes": 47152,
+      "sha256": "ded1c768d9806d85fc811dbd21fa5c05fab5f63c91f12b7cdf901261008e3af6"
+    },
+    {
+      "path": "ideation/LESSONS.md",
+      "bytes": 2637,
+      "sha256": "7f3b7b8327cba28ee92b97ec5c26938877523e900b0e8b55630e6014932f0283"
+    },
+    {
+      "path": "ideation/rounds/r7/airline-redteam.md",
+      "bytes": 13546,
+      "sha256": "23f5777bea5243c354259d731050edd106517333bbf7be66daab00567bd84e24"
+    },
+    {
+      "path": "ideation/rounds/r2/verify-S6.json",
+      "bytes": 17592,
+      "sha256": "6b20718116a8f3f5752d8a6dfe31823194c3876d89c066fc149f6b93852cbd71"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/PILOT.md",
+      "bytes": 3376,
+      "sha256": "77e5c841995470a7c68d5547459778bccab642ce0549e4d55e0424c2b5a6a2bc"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/SLICE.md",
+      "bytes": 2185,
+      "sha256": "5efede8e22e2779146153b3c587d3b95623a5c7b322ed630806346cd569d7266"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/analysis.py",
+      "bytes": 56680,
+      "sha256": "2993d4dd5990eff2d1df4c7932035773d949febae725f18c0233419fd7d89797"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/audit.json",
+      "bytes": 3426,
+      "sha256": "8fbee040c9ec60cac64c8edd099b543f27a44458cbb0e3a7b1a886bb1b677e37"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/coverage.csv",
+      "bytes": 692,
+      "sha256": "f8c5351003f793cca957a84e7d26400e29d57a74a76a6da5afe205d42bb71c79"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/half-year.json",
+      "bytes": 1695,
+      "sha256": "371e3519596bb77fe778eb622d7d07b408a996d927c8e740296d0ca764b1bf74"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/monthly-descriptive.csv",
+      "bytes": 2918,
+      "sha256": "c8103dc85958382978ac3c82640a7f69cf7ecae3f29668ddb6e919f9e0bdd01b"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/pair-eligibility.json",
+      "bytes": 3727,
+      "sha256": "e4ec172f4674817c3f3e9bcf466c65d71c0342df11fb8101c8deec469292d6a2"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/pairwise.json",
+      "bytes": 42553,
+      "sha256": "359ef4f98d91e31b760d7cbdea16af63d101cc8ab8ab85585d36bf20862b6dd9"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/pilot.py",
+      "bytes": 7224,
+      "sha256": "361e7ab6d7e15b1d3dadef9c0609c756039cdd998f111c2bdf3c985eaf8e8997"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/ranking.csv",
+      "bytes": 2771,
+      "sha256": "038116e6c5c55367c85abb10a6f43b1ecf1282ff8c09edbb20370b51e5bf4b98"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/ranking.json",
+      "bytes": 6106,
+      "sha256": "a8480b9c9004c80cd08aeec66b0d29ac74559581567214766c8d2525783dcda8"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/report-inputs.json",
+      "bytes": 12398,
+      "sha256": "fb30d6ad9f390b8adf61958e4c89a1aa7c71eacb8bac8f8ac40792ebc58d4810"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/robustness.json",
+      "bytes": 12890,
+      "sha256": "9c74ee3b67721b47bdccdbd935be75c39cc00e81a5b14a65925f7a2cb969620f"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/slice-seal.json",
+      "bytes": 1333,
+      "sha256": "5950fa1d9c874756d79de3757b536f1c699f0bfada76779807d118a2fedc9d45"
+    },
+    {
+      "path": "ideation/rounds/r3/pilot-S6/source-manifest.json",
+      "bytes": 5424,
+      "sha256": "46a88e523d9ee69ce28bfe9c811cf0e7b476b4bd328260802411ac42af037805"
+    },
+    {
+      "path": "studio/episodes/scramble-luck/analysis/snapshot.py",
+      "bytes": 10924,
+      "sha256": "2371d65a645b12e7980e2b352ab5517843067d3d03bbf244f8520b59db4830ad"
+    },
+    {
+      "path": "studio/episodes/scramble-luck/analysis/gate.py",
+      "bytes": 22192,
+      "sha256": "ca3bd0721297666f56e32965abea14b6f099102add685564a369cc5481c7f744"
+    },
+    {
+      "path": "studio/episodes/scramble-luck/analysis/GATE.md",
+      "bytes": 3646,
+      "sha256": "ecddcf84b012605d21406e995a4f40b567469ee068fbaca21eac99ec6181ce3d"
+    },
+    {
+      "path": "studio/episodes/scramble-luck/analysis/PROGRESS.md",
+      "bytes": 34225,
+      "sha256": "edd9b4090656a0b875029a6398d6fd4e88d847ba0f881dbfbeb3ad68d2b8c653"
+    },
+    {
+      "path": "studio/episodes/scramble-luck/analysis/DEVIATIONS.md",
+      "bytes": 10460,
+      "sha256": "973b667339c03f6b5dfd7f81bc17de4ef422436978848bccdd405a6d51814bc7"
+    }
+  ],
+  "house_read": "head only",
+  "pilot_read": "SLICE/PILOT; saved ranking/pair eligibility/pairwise/robustness/audit/half-year; relevant ingestion, pair, bootstrap and sensitivity code. No pilot entry point executed.",
+  "registered_copy_diff": "METHOD comment prefix only, verified below."
+}

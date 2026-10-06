@@ -1,0 +1,153 @@
+{
+  "airport_metadata": {
+    "bytes": 145056,
+    "path": "data/derived/airport-metadata.parquet",
+    "sha256": "fec5662c00b3a53bfffe51f5014fc8ce73071a40600ac378ae93333bb8fd726c"
+  },
+  "carrier_identity": {
+    "AA": {
+      "dot_id": 19805,
+      "name": "American Airlines Inc."
+    },
+    "AS": {
+      "dot_id": 19930,
+      "name": "Alaska Airlines Inc."
+    },
+    "B6": {
+      "dot_id": 20409,
+      "name": "JetBlue Airways"
+    },
+    "DL": {
+      "dot_id": 19790,
+      "name": "Delta Air Lines Inc."
+    },
+    "F9": {
+      "dot_id": 20436,
+      "name": "Frontier Airlines Inc."
+    },
+    "NK": {
+      "dot_id": 20416,
+      "name": "Spirit Air Lines"
+    },
+    "UA": {
+      "dot_id": 19977,
+      "name": "United Air Lines Inc."
+    },
+    "WN": {
+      "dot_id": 19393,
+      "name": "Southwest Airlines Co."
+    }
+  },
+  "domestic_region_codes": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "PR",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TT",
+    "TX",
+    "UT",
+    "VA",
+    "VI",
+    "VT",
+    "WA",
+    "WI",
+    "WV",
+    "WY"
+  ],
+  "fixtures": {
+    "14.999": true,
+    "15": true,
+    "both_failure_flags": true,
+    "cancel_precedence": true,
+    "divert_precedence": true,
+    "hhmm": true,
+    "infinite_delay": true,
+    "invalid_delay": true,
+    "invalid_key_uses_flightdate_week": true,
+    "missing_delay": true,
+    "missing_flag": true,
+    "negative_delay": true,
+    "nonbinary": true,
+    "source_boundary_separate_cluster": true,
+    "sunday_midnight_same_cluster": true
+  },
+  "freeze_utc": "2026-10-06T21:44:39.348231+00:00",
+  "historical_atcr_notes": {
+    "definition_snapshot": "Authoritative field definitions sealed from saved BTS dictionary; METHOD supplies exact precedence and normalization.",
+    "local_byte_access": "HTTP 403; no saved PDF and no invented hash",
+    "url": "https://www.transportation.gov/sites/dot.gov/files/docs/resources/individuals/aviation-consumer-protection/155801/2016februaryatcr_0.pdf",
+    "web_read": "2026-10-06, February 2016 report, printed page 3: domestic nonstop including territories; under-15 definition."
+  },
+  "input_columns": [
+    "Year",
+    "Month",
+    "FlightDate",
+    "Reporting_Airline",
+    "DOT_ID_Reporting_Airline",
+    "IATA_CODE_Reporting_Airline",
+    "Flight_Number_Reporting_Airline",
+    "OriginAirportID",
+    "DestAirportID",
+    "CRSDepTime"
+  ],
+  "schedule_rules": "Integer local HHMM; 2400 alone next-day zero; source year retained; Monday of normalized matching date.",
+  "source_dictionary": {
+    "bytes": 149489,
+    "cache_note": "Original response obtained on this UTC date; subsequent cached hash verification time recorded separately.",
+    "licence": {
+      "attribution": "Bureau of Transportation Statistics; independent processing",
+      "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+      "raw_and_row_level_release": false,
+      "status": "unresolved_source_specific_raw_redistribution_terms",
+      "terms_url": "https://www.bts.gov/policies"
+    },
+    "path": "data/raw/dictionary.html",
+    "retrieved_date_utc": "2026-10-06",
+    "sha256": "234623af7fd732139dd9e76f7fc7f28967c9d2c1c4d625e9749fb46af426279e",
+    "status": "saved",
+    "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ",
+    "verified_utc": "2026-10-06T21:41:39.438882+00:00"
+  },
+  "status_rules": "rules.status: failure precedence; finite signed delay <15; indeterminate Y=0,U=1; invalid values stop.",
+  "territory_policy": "Includes PR, VI and BTS TT possessions; no territory excluded."
+}

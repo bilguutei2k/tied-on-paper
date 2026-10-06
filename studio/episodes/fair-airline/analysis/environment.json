@@ -1,0 +1,12 @@
+{
+  "bootstrap_draws": 5000,
+  "duckdb": "1.5.6",
+  "numpy": "2.5.3",
+  "production_seed": 20261005,
+  "pyarrow": "25.0.1",
+  "python": "3.12.13",
+  "quantile": "numpy.quantile(method='linear')",
+  "rng": "Generator(PCG64)",
+  "scipy": "1.18.1",
+  "threads": 10
+}

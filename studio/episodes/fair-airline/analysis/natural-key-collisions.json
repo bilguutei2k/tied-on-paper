@@ -1,0 +1,4 @@
+{
+  "groups": [],
+  "policy": "Investigate; retain distinct source records. No deduplication by natural key."
+}

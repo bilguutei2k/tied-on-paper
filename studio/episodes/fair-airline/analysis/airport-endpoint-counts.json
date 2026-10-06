@@ -1,0 +1,486 @@
+[
+  {
+    "airport_id": 11292,
+    "endpoint_records": 720295
+  },
+  {
+    "airport_id": 10397,
+    "endpoint_records": 700931
+  },
+  {
+    "airport_id": 13930,
+    "endpoint_records": 593458
+  },
+  {
+    "airport_id": 12892,
+    "endpoint_records": 538365
+  },
+  {
+    "airport_id": 12889,
+    "endpoint_records": 476030
+  },
+  {
+    "airport_id": 13204,
+    "endpoint_records": 459092
+  },
+  {
+    "airport_id": 14747,
+    "endpoint_records": 412823
+  },
+  {
+    "airport_id": 14107,
+    "endpoint_records": 401556
+  },
+  {
+    "airport_id": 11298,
+    "endpoint_records": 359327
+  },
+  {
+    "airport_id": 10721,
+    "endpoint_records": 305422
+  },
+  {
+    "airport_id": 14771,
+    "endpoint_records": 300750
+  },
+  {
+    "airport_id": 12953,
+    "endpoint_records": 287313
+  },
+  {
+    "airport_id": 12478,
+    "endpoint_records": 270271
+  },
+  {
+    "airport_id": 11618,
+    "endpoint_records": 233096
+  },
+  {
+    "airport_id": 13303,
+    "endpoint_records": 207642
+  },
+  {
+    "airport_id": 11697,
+    "endpoint_records": 196580
+  },
+  {
+    "airport_id": 12266,
+    "endpoint_records": 172961
+  },
+  {
+    "airport_id": 14679,
+    "endpoint_records": 160596
+  },
+  {
+    "airport_id": 14100,
+    "endpoint_records": 155216
+  },
+  {
+    "airport_id": 11433,
+    "endpoint_records": 153053
+  },
+  {
+    "airport_id": 14869,
+    "endpoint_records": 141120
+  },
+  {
+    "airport_id": 11057,
+    "endpoint_records": 136323
+  },
+  {
+    "airport_id": 15304,
+    "endpoint_records": 130063
+  },
+  {
+    "airport_id": 11278,
+    "endpoint_records": 128636
+  },
+  {
+    "airport_id": 13487,
+    "endpoint_records": 118947
+  },
+  {
+    "airport_id": 10423,
+    "endpoint_records": 115982
+  },
+  {
+    "airport_id": 10821,
+    "endpoint_records": 113892
+  },
+  {
+    "airport_id": 14057,
+    "endpoint_records": 90661
+  },
+  {
+    "airport_id": 10693,
+    "endpoint_records": 88653
+  },
+  {
+    "airport_id": 14843,
+    "endpoint_records": 75274
+  },
+  {
+    "airport_id": 14908,
+    "endpoint_records": 75044
+  },
+  {
+    "airport_id": 14492,
+    "endpoint_records": 57783
+  },
+  {
+    "airport_id": 13495,
+    "endpoint_records": 53686
+  },
+  {
+    "airport_id": 14893,
+    "endpoint_records": 52028
+  },
+  {
+    "airport_id": 15016,
+    "endpoint_records": 47381
+  },
+  {
+    "airport_id": 14831,
+    "endpoint_records": 46788
+  },
+  {
+    "airport_id": 13198,
+    "endpoint_records": 42499
+  },
+  {
+    "airport_id": 12264,
+    "endpoint_records": 39919
+  },
+  {
+    "airport_id": 14683,
+    "endpoint_records": 39445
+  },
+  {
+    "airport_id": 14027,
+    "endpoint_records": 37559
+  },
+  {
+    "airport_id": 14635,
+    "endpoint_records": 34289
+  },
+  {
+    "airport_id": 10299,
+    "endpoint_records": 32002
+  },
+  {
+    "airport_id": 12173,
+    "endpoint_records": 31223
+  },
+  {
+    "airport_id": 13232,
+    "endpoint_records": 29624
+  },
+  {
+    "airport_id": 11042,
+    "endpoint_records": 26803
+  },
+  {
+    "airport_id": 12339,
+    "endpoint_records": 26297
+  },
+  {
+    "airport_id": 13796,
+    "endpoint_records": 26236
+  },
+  {
+    "airport_id": 10800,
+    "endpoint_records": 24843
+  },
+  {
+    "airport_id": 13891,
+    "endpoint_records": 24833
+  },
+  {
+    "airport_id": 14570,
+    "endpoint_records": 19112
+  },
+  {
+    "airport_id": 14122,
+    "endpoint_records": 18409
+  },
+  {
+    "airport_id": 11066,
+    "endpoint_records": 17374
+  },
+  {
+    "airport_id": 13871,
+    "endpoint_records": 15412
+  },
+  {
+    "airport_id": 11193,
+    "endpoint_records": 15059
+  },
+  {
+    "airport_id": 10140,
+    "endpoint_records": 13465
+  },
+  {
+    "airport_id": 12451,
+    "endpoint_records": 13369
+  },
+  {
+    "airport_id": 11259,
+    "endpoint_records": 13358
+  },
+  {
+    "airport_id": 10529,
+    "endpoint_records": 12624
+  },
+  {
+    "airport_id": 13342,
+    "endpoint_records": 12389
+  },
+  {
+    "airport_id": 13830,
+    "endpoint_records": 12337
+  },
+  {
+    "airport_id": 12191,
+    "endpoint_records": 11607
+  },
+  {
+    "airport_id": 11884,
+    "endpoint_records": 7618
+  },
+  {
+    "airport_id": 10849,
+    "endpoint_records": 6975
+  },
+  {
+    "airport_id": 13244,
+    "endpoint_records": 6897
+  },
+  {
+    "airport_id": 14524,
+    "endpoint_records": 6688
+  },
+  {
+    "airport_id": 12758,
+    "endpoint_records": 6511
+  },
+  {
+    "airport_id": 10713,
+    "endpoint_records": 6294
+  },
+  {
+    "airport_id": 10792,
+    "endpoint_records": 6260
+  },
+  {
+    "airport_id": 11540,
+    "endpoint_records": 6015
+  },
+  {
+    "airport_id": 14986,
+    "endpoint_records": 5400
+  },
+  {
+    "airport_id": 14730,
+    "endpoint_records": 5397
+  },
+  {
+    "airport_id": 10994,
+    "endpoint_records": 5190
+  },
+  {
+    "airport_id": 12448,
+    "endpoint_records": 5038
+  },
+  {
+    "airport_id": 12982,
+    "endpoint_records": 4942
+  },
+  {
+    "airport_id": 11630,
+    "endpoint_records": 4772
+  },
+  {
+    "airport_id": 11423,
+    "endpoint_records": 4703
+  },
+  {
+    "airport_id": 14307,
+    "endpoint_records": 4624
+  },
+  {
+    "airport_id": 13851,
+    "endpoint_records": 4595
+  },
+  {
+    "airport_id": 11996,
+    "endpoint_records": 4570
+  },
+  {
+    "airport_id": 14262,
+    "endpoint_records": 4564
+  },
+  {
+    "airport_id": 11986,
+    "endpoint_records": 4401
+  },
+  {
+    "airport_id": 15376,
+    "endpoint_records": 4326
+  },
+  {
+    "airport_id": 12391,
+    "endpoint_records": 3405
+  },
+  {
+    "airport_id": 11109,
+    "endpoint_records": 2776
+  },
+  {
+    "airport_id": 13931,
+    "endpoint_records": 1803
+  },
+  {
+    "airport_id": 12441,
+    "endpoint_records": 1664
+  },
+  {
+    "airport_id": 13502,
+    "endpoint_records": 1612
+  },
+  {
+    "airport_id": 10732,
+    "endpoint_records": 1460
+  },
+  {
+    "airport_id": 12094,
+    "endpoint_records": 1410
+  },
+  {
+    "airport_id": 13577,
+    "endpoint_records": 1379
+  },
+  {
+    "airport_id": 10257,
+    "endpoint_records": 1376
+  },
+  {
+    "airport_id": 14689,
+    "endpoint_records": 1236
+  },
+  {
+    "airport_id": 15370,
+    "endpoint_records": 1232
+  },
+  {
+    "airport_id": 12992,
+    "endpoint_records": 1165
+  },
+  {
+    "airport_id": 15024,
+    "endpoint_records": 1152
+  },
+  {
+    "airport_id": 15096,
+    "endpoint_records": 1056
+  },
+  {
+    "airport_id": 12954,
+    "endpoint_records": 996
+  },
+  {
+    "airport_id": 11648,
+    "endpoint_records": 983
+  },
+  {
+    "airport_id": 12278,
+    "endpoint_records": 964
+  },
+  {
+    "airport_id": 11003,
+    "endpoint_records": 884
+  },
+  {
+    "airport_id": 11603,
+    "endpoint_records": 870
+  },
+  {
+    "airport_id": 13296,
+    "endpoint_records": 748
+  },
+  {
+    "airport_id": 14685,
+    "endpoint_records": 678
+  },
+  {
+    "airport_id": 11503,
+    "endpoint_records": 667
+  },
+  {
+    "airport_id": 14193,
+    "endpoint_records": 576
+  },
+  {
+    "airport_id": 13485,
+    "endpoint_records": 529
+  },
+  {
+    "airport_id": 12523,
+    "endpoint_records": 486
+  },
+  {
+    "airport_id": 12197,
+    "endpoint_records": 374
+  },
+  {
+    "airport_id": 14576,
+    "endpoint_records": 348
+  },
+  {
+    "airport_id": 11638,
+    "endpoint_records": 316
+  },
+  {
+    "airport_id": 14254,
+    "endpoint_records": 228
+  },
+  {
+    "airport_id": 13486,
+    "endpoint_records": 220
+  },
+  {
+    "airport_id": 11775,
+    "endpoint_records": 192
+  },
+  {
+    "airport_id": 15412,
+    "endpoint_records": 186
+  },
+  {
+    "airport_id": 15919,
+    "endpoint_records": 156
+  },
+  {
+    "airport_id": 14321,
+    "endpoint_records": 70
+  },
+  {
+    "airport_id": 11481,
+    "endpoint_records": 26
+  },
+  {
+    "airport_id": 14004,
+    "endpoint_records": 22
+  },
+  {
+    "airport_id": 11637,
+    "endpoint_records": 18
+  },
+  {
+    "airport_id": 10599,
+    "endpoint_records": 16
+  },
+  {
+    "airport_id": 12896,
+    "endpoint_records": 2
+  }
+]

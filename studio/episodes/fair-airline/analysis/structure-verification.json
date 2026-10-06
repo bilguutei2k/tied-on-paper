@@ -1,0 +1,21 @@
+{
+  "candidate_records": 15243703,
+  "checks": [
+    "all schedule-only derivative hashes and schemas",
+    "source-ID uniqueness",
+    "independent normalized date/week/minute formula",
+    "cell national denominator conservation",
+    "pair weights and unique record membership",
+    "nearest-match distance and disjointness",
+    "eligibility on every frozen year",
+    "original/retained sensitivity denominator consistency"
+  ],
+  "confirmation_outcomes_opened": false,
+  "hashed_artifacts": 61,
+  "national_only_week_discrepancies": 0,
+  "normalization_discrepancies": 0,
+  "pair_memberships": 5903190,
+  "passes": true,
+  "raw_access_denial": "Python audit hook tested; mode reset by workspace between calls",
+  "verified_utc": "2026-10-06T21:49:26.213481+00:00"
+}

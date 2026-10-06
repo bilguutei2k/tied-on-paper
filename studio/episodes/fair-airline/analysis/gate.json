@@ -1,0 +1,175 @@
+{
+  "blockers": [
+    "coverage.json: bytes not present in HEAD commit",
+    "scenario-manifest.json: not implemented/sealed",
+    "generator.py: not implemented/sealed"
+  ],
+  "bootstrap_draws_generated": 0,
+  "code_hashes": {
+    "acquire.py": "aab5ccf77e4d5ed6ef7362854bd9a2ca6e4311bc7664ede35fce99ffb31a9cf2",
+    "blind_guard.py": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af",
+    "common.py": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6",
+    "gate.py": "eff94e9485ecbe45318aa8f452948d01eae9f61fe6f788005585a81fc9d0f790",
+    "rules.py": "8cc52fbebe2f83af65ada48edcd41a9ee2deaa1995ccbf42df8e351f93a246d5",
+    "snapshot.py": "2238b17febd820f6945c2c186595d3d2fbc70ae77f32bf7a06e82c39a57856de",
+    "verify_structure.py": "8422199e76b87f18ae979f48e64880cc6df28b15e31e772e150f522401352c3f"
+  },
+  "confirmation_outcomes_opened": false,
+  "coverage_sha256": "53f8ab1dd657ad8675750a813a4c4154615df2ade5816d1643525a0f52f7847b",
+  "frozen_sets": {
+    "cells": {
+      "bytes": 9667668,
+      "path": "data/derived/cells.parquet",
+      "sha256": "820ea4b4ebb37e5497761cc1b0d2cad3a05a68d75f58517a97f88a53e8d127a7",
+      "size": 14494757
+    },
+    "components": {
+      "bytes": 5264,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/components.txt",
+      "sha256": "6e6d5d89e8aa8f5ff212ba03f9d7b9b42293259fc25bdbe73882ebec17b4e183",
+      "size": 336
+    },
+    "incident_carriers": {
+      "bytes": 24,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/incident-carriers.txt",
+      "sha256": "731a9156db4ba82758451558e7493564c5e49e8bf716d33b636c3940996c8190",
+      "size": 8
+    },
+    "omission_airports": {
+      "bytes": 30,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/omission-airports.txt",
+      "sha256": "b9839ef9e312c6132f409169fc9af43fb692c9146d6ed634fa9d5222e9f095b3",
+      "size": 5
+    },
+    "pair_cells": {
+      "bytes": 3256190,
+      "path": "data/derived/pair-cells.parquet",
+      "sha256": "370c2efedd25032ca6566c56738c1b376fddbf8fb6cbcba33bbb60d8aedbf7be",
+      "size": 2746293
+    },
+    "routes": {
+      "bytes": 22260,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/routes.txt",
+      "sha256": "9e822e55480ef9b035f95f4c158022b23c02e6e9bc5fa458d49e13957532cc2f",
+      "size": 1855
+    },
+    "source_rows": {
+      "bytes": 376714422,
+      "list_sha256": "435742cb0a81ed7d908555709b673019274c1c887d0f74587c4ee8e20d861747",
+      "path": "data/derived/source-ids.txt",
+      "sha256": "435742cb0a81ed7d908555709b673019274c1c887d0f74587c4ee8e20d861747",
+      "size": 20928579
+    },
+    "supported_pairs": {
+      "bytes": 168,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/supported-pairs.txt",
+      "sha256": "509ecca0cc156f1f59d9a107b1f3459bc76e8fa70ecfe4c0cbe9be689ba2b28f",
+      "size": 28
+    },
+    "weeks": {
+      "bytes": 2544,
+      "format": "UTF-8, LF-terminated canonical sorted list",
+      "path": "data/derived/weeks.txt",
+      "sha256": "ac2ed213bef5c5fe19d98ee2f658f5d42e2acbf0a3883811428f33e8bd6458b1",
+      "size": 159
+    }
+  },
+  "gates": {
+    "boundary_false_verdict": {
+      "acceptance": {
+        "errors": "Each applicable one-sided 95% exact binomial upper bound <=0.025",
+        "targets": "False changes if true R<=0.02; false survives if true H>=0.02; latent truth also judged under missingness"
+      },
+      "results": null,
+      "status": "BLOCKED_NOT_RUN"
+    },
+    "calibration": {
+      "acceptance": {
+        "constraints": "Every required single-edge probability calibration feasible; full-vector residual <=1e-6",
+        "family": "Complete frozen unordered-pair x period x contrast x scoring-assignment family",
+        "probabilities": "Least squared distance to fixed base, one carrier/cell probability, bounds [0.05,0.99]"
+      },
+      "results": null,
+      "status": "BLOCKED_NOT_RUN"
+    },
+    "independent_validation": {
+      "acceptance": {
+        "bank": "Only first fully passing resampler, fresh bank1, same acceptance rules; failure stops"
+      },
+      "results": null,
+      "status": "BLOCKED_NOT_RUN"
+    },
+    "power": {
+      "acceptance": {
+        "grid": "All registered baseline/shock/seasonality levels, with no missingness and .05% informative missingness",
+        "reversal": "Each supported pair/direction at delta=.04: designated-pair joint power lower exact 95% bound >=0.80",
+        "survival": "Whole-table survival lower exact 95% bound >=0.80 for all-zero and calibrated stable-order cases"
+      },
+      "results": null,
+      "status": "BLOCKED_NOT_RUN"
+    },
+    "validity": {
+      "acceptance": {
+        "bias": "Each |mean G,D error| + 1.96*MCSE <=0.002",
+        "coverage": "One-sided 95% exact binomial lower bound on whole-family coverage >=0.92",
+        "intervals": "At least 4750/5000 joint draws per valid dataset; >=95% datasets valid; every component SD >0",
+        "quality_blocking": "No substantive verdict from 1% missingness, invalid-data or above-cutoff fixtures"
+      },
+      "results": null,
+      "status": "BLOCKED_NOT_RUN"
+    }
+  },
+  "method_sha256": "390b6d5c195c563a8ebb523016bae40265d90c229014f9a147d67ce3bd16b098",
+  "overall": "BLOCKED_NOT_RUN",
+  "production_weights": null,
+  "raw_access_denial": "Python audit hook verified; persistent chmod and nested kernel sandbox unavailable",
+  "resampler_order": [
+    "independent whole weeks",
+    "circular 4 weeks",
+    "circular 8 weeks"
+  ],
+  "selected_resampler": null,
+  "selection_bank": {
+    "attempts": [],
+    "datasets_per_scenario": 1000,
+    "draws_per_dataset": 5000
+  },
+  "structural_checks": {
+    "fixtures": {
+      "14.999": true,
+      "15": true,
+      "both_failure_flags": true,
+      "cancel_precedence": true,
+      "divert_precedence": true,
+      "hhmm": true,
+      "infinite_delay": true,
+      "invalid_delay": true,
+      "invalid_key_uses_flightdate_week": true,
+      "missing_delay": true,
+      "missing_flag": true,
+      "negative_delay": true,
+      "nonbinary": true,
+      "source_boundary_separate_cluster": true,
+      "sunday_midnight_same_cluster": true
+    },
+    "missing_key_quality_passes": true,
+    "support": {
+      "incident_carriers": 8,
+      "passes": true,
+      "supported_pairs": 28
+    }
+  },
+  "synthetic_datasets_generated": 0,
+  "validation_bank": {
+    "attempts": [],
+    "datasets_per_scenario": 2000,
+    "draws_per_dataset": 5000
+  },
+  "workers_requested": 10,
+  "written_utc": "2026-10-06T21:50:16.511571+00:00"
+}

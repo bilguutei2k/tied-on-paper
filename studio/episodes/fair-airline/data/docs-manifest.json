@@ -1,0 +1,143 @@
+{
+  "outcome_access": false,
+  "sources": [
+    {
+      "bytes": 149489,
+      "cache_note": "Original response obtained on this UTC date; subsequent cached hash verification time recorded separately.",
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/dictionary.html",
+      "retrieved_date_utc": "2026-10-06",
+      "sha256": "234623af7fd732139dd9e76f7fc7f28967c9d2c1c4d625e9749fb46af426279e",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ",
+      "verified_utc": "2026-10-06T21:41:39.438882+00:00"
+    },
+    {
+      "bytes": 332707,
+      "cache_note": "Original response obtained on this UTC date; subsequent cached hash verification time recorded separately.",
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/airport-id.csv",
+      "retrieved_date_utc": "2026-10-06",
+      "sha256": "bea24dd3e7a516a6dac8674b86ea3da50f575b3cadec59d78cb10529c4bbb709",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_NVecbeg_VQ",
+      "verified_utc": "2026-10-06T21:41:39.439066+00:00"
+    },
+    {
+      "bytes": 66760,
+      "cache_note": "Original response obtained on this UTC date; subsequent cached hash verification time recorded separately.",
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/airline-id.csv",
+      "retrieved_date_utc": "2026-10-06",
+      "sha256": "22eef1d86f945ed04bf06cdc99aef23cb2dc3643cb7a1e4c34490cfac566837f",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_NVeYVaR_VQ",
+      "verified_utc": "2026-10-06T21:41:39.439280+00:00"
+    },
+    {
+      "bytes": 54240,
+      "cache_note": "Original response obtained on this UTC date; subsequent cached hash verification time recorded separately.",
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/unique-carrier.csv",
+      "retrieved_date_utc": "2026-10-06",
+      "sha256": "c6cf9997f562eb02e28916c839566e1d417e4d142f9a25085337522e39919c68",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_haVdhR_PNeeVRef",
+      "verified_utc": "2026-10-06T21:41:39.439464+00:00"
+    },
+    {
+      "bytes": 1421,
+      "content_type": "application/octet-stream",
+      "final_url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_fgNgR_NOe_NiVNgVba",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/state-codes.csv",
+      "retrieved_utc": "2026-10-06T21:41:39.439594+00:00",
+      "sha256": "e3952717e230fd142e48d4108a75801dd9ea6741fe93748031fc2109766a62f3",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_fgNgR_NOe_NiVNgVba"
+    },
+    {
+      "bytes": 119301,
+      "cache_note": "Original response obtained on this UTC date; subsequent cached hash verification time recorded separately.",
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/table-profile.html",
+      "retrieved_date_utc": "2026-10-06",
+      "sha256": "925fde9da5eba1267faac65859bca5b65a64f6d341a22114667d25a9248b8ebe",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/TableInfo.asp?gnoyr_VQ=FGJ",
+      "verified_utc": "2026-10-06T21:41:39.439954+00:00"
+    },
+    {
+      "content_type": "text/html",
+      "error": "HTTPError",
+      "final_url": "https://www.transportation.gov/sites/dot.gov/files/docs/resources/individuals/aviation-consumer-protection/155801/2016februaryatcr_0.pdf",
+      "http_status": 403,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/historical-atcr.pdf",
+      "retrieved_utc": "2026-10-06T21:41:39.440092+00:00",
+      "status": "access_failed",
+      "url": "https://www.transportation.gov/sites/dot.gov/files/docs/resources/individuals/aviation-consumer-protection/155801/2016februaryatcr_0.pdf"
+    },
+    {
+      "content_type": "text/html",
+      "error": "HTTPError",
+      "final_url": "https://www.bts.gov/policies",
+      "http_status": 403,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "path": "data/raw/bts-policy.html",
+      "retrieved_utc": "2026-10-06T21:41:39.440224+00:00",
+      "status": "access_failed",
+      "url": "https://www.bts.gov/policies"
+    }
+  ],
+  "stage": "docs"
+}

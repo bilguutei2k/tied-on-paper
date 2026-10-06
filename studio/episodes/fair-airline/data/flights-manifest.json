@@ -1,0 +1,1158 @@
+{
+  "outcome_access": false,
+  "sources": [
+    {
+      "bytes": 27068766,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_1.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 27066080,
+          "bytes_uncompressed": 243337180,
+          "crc32": "cc82048d",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_1.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-01.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.464340+00:00",
+      "sha256": "327924faa362d360747e9e4cf37f461c877441916321754f1789fadd61fd403a",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_1.zip"
+    },
+    {
+      "bytes": 24730977,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_2.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 24728291,
+          "bytes_uncompressed": 226716225,
+          "crc32": "0ae7cb68",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_2.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-02.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.464570+00:00",
+      "sha256": "bfa6eb7bebb53f10603110aa11bdebf00a89f51d870b331f6565181bb943ddbf",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_2.zip"
+    },
+    {
+      "bytes": 28954576,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_3.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28951890,
+          "bytes_uncompressed": 262501619,
+          "crc32": "d863ddc1",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_3.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-03.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.464719+00:00",
+      "sha256": "1a61dce7c50e5c4f074ebff69a833840f4c6be4e71d4a4707be540ace9e6d58b",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_3.zip"
+    },
+    {
+      "bytes": 27994592,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_4.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 27991906,
+          "bytes_uncompressed": 253747038,
+          "crc32": "02b436b7",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_4.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-04.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.464847+00:00",
+      "sha256": "adf3ecf6e3763a55c2acfc1fcf1c0ee0ac5a7ca079cb16cf15be5e39b921f7b4",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_4.zip"
+    },
+    {
+      "bytes": 28333534,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_5.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28330848,
+          "bytes_uncompressed": 261941056,
+          "crc32": "2cb0e56a",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_5.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-05.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.464977+00:00",
+      "sha256": "aec2e926b11e55f88dd0ac48b649492048b4eba0983f1a564e746546568185b4",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_5.zip"
+    },
+    {
+      "bytes": 29075972,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_6.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 29073286,
+          "bytes_uncompressed": 261294258,
+          "crc32": "209cc068",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_6.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-06.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.465260+00:00",
+      "sha256": "67dc6b993ba2e7c2175a874da7a8fbf12081c23c87523c0a5cd7d2f3e50450a1",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_6.zip"
+    },
+    {
+      "bytes": 30208166,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_7.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30205480,
+          "bytes_uncompressed": 272552351,
+          "crc32": "0197107b",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_7.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-07.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.465458+00:00",
+      "sha256": "b1b73635dcb2add363bb001d95c3f951e0ce4fc32130cbc76b565a531ced2146",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_7.zip"
+    },
+    {
+      "bytes": 29539237,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_8.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 29536551,
+          "bytes_uncompressed": 272521635,
+          "crc32": "77052285",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_8.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-08.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.465674+00:00",
+      "sha256": "d374aa3ec2b844d47c675d17cf71f2ade0af07b20670f9b8a2c6c1f5fe5d57bd",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_8.zip"
+    },
+    {
+      "bytes": 28047499,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_9.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28044813,
+          "bytes_uncompressed": 257034132,
+          "crc32": "2aa78f3e",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_9.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-09.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.466102+00:00",
+      "sha256": "4e7bc3f76857accd1d4e493f03fb5ba2c1f68e82496cf16fd61addf4d8464cfa",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_9.zip"
+    },
+    {
+      "bytes": 29452902,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_10.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 29450214,
+          "bytes_uncompressed": 270920278,
+          "crc32": "b6dfc325",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_10.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-10.zip",
+      "retrieved_utc": "2026-10-06T21:39:40.466834+00:00",
+      "sha256": "a92cc51c6bb1e7fcf2732e27ac36ebbc92293acf8e3c0b33126abe28698ecf51",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_10.zip"
+    },
+    {
+      "bytes": 27573257,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_11.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 27570569,
+          "bytes_uncompressed": 254852138,
+          "crc32": "48bf45ce",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_11.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-11.zip",
+      "retrieved_utc": "2026-10-06T21:40:26.721162+00:00",
+      "sha256": "9ad54595568704a1cb7d821908611c220cf36da4d9a5ccea03b4deb9053b5025",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_11.zip"
+    },
+    {
+      "bytes": 28818502,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_12.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28815814,
+          "bytes_uncompressed": 258033353,
+          "crc32": "a0a130fc",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2023_12.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2023-12.zip",
+      "retrieved_utc": "2026-10-06T21:40:29.675655+00:00",
+      "sha256": "c8391a3f06749b6ee4dec493fb7974f398b9d066a4e731c4cbb8932eddb774ce",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_12.zip"
+    },
+    {
+      "bytes": 27573265,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_1.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 27570579,
+          "bytes_uncompressed": 246830488,
+          "crc32": "e246acee",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_1.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-01.zip",
+      "retrieved_utc": "2026-10-06T21:40:33.600539+00:00",
+      "sha256": "fe089b45523f9d4ac0ccd0e176a543d274e914ee5ae5bd384dbaafc7dc06ebfd",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_1.zip"
+    },
+    {
+      "bytes": 25086854,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_2.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 25084168,
+          "bytes_uncompressed": 234405431,
+          "crc32": "3574eeea",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_2.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-02.zip",
+      "retrieved_utc": "2026-10-06T21:40:35.505219+00:00",
+      "sha256": "8463683d100504a97847497d2f2281008fd9add9639bf7436a9747032df15f9a",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_2.zip"
+    },
+    {
+      "bytes": 29313663,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_3.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 29310977,
+          "bytes_uncompressed": 267667796,
+          "crc32": "2f8cccd1",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_3.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-03.zip",
+      "retrieved_utc": "2026-10-06T21:40:35.871780+00:00",
+      "sha256": "e2c5021406f480e813a52a2ed795c251eb1169613da6a416daf88236db8c9013",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_3.zip"
+    },
+    {
+      "bytes": 28540589,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_4.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28537903,
+          "bytes_uncompressed": 263178177,
+          "crc32": "3ba8e372",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_4.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-04.zip",
+      "retrieved_utc": "2026-10-06T21:40:36.940221+00:00",
+      "sha256": "d8b1e88626a7375d351962917fe5ec132660c1636dc8b91f778627c769e0e15a",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_4.zip"
+    },
+    {
+      "bytes": 31139902,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_5.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 31137216,
+          "bytes_uncompressed": 276385363,
+          "crc32": "6d161474",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_5.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-05.zip",
+      "retrieved_utc": "2026-10-06T21:40:47.471046+00:00",
+      "sha256": "03e4ae26c2d1247de02d0b9a4d87160f8021718abf475a1421de9c45b7d68b04",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_5.zip"
+    },
+    {
+      "bytes": 31226761,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_6.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 31224075,
+          "bytes_uncompressed": 276835835,
+          "crc32": "5a3893b6",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_6.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-06.zip",
+      "retrieved_utc": "2026-10-06T21:40:49.094454+00:00",
+      "sha256": "4f329439fd6892aaf89b32908191b2a007e70f775e2551181a22e704ef28a0ab",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_6.zip"
+    },
+    {
+      "bytes": 34427174,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_7.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 34424488,
+          "bytes_uncompressed": 287485513,
+          "crc32": "d59aa066",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_7.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-07.zip",
+      "retrieved_utc": "2026-10-06T21:40:49.810380+00:00",
+      "sha256": "4d992fee134137b3fa43094d7e8cf4a8e6feaa6a422cffb4063f1ed6c7f3f731",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_7.zip"
+    },
+    {
+      "bytes": 30854511,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_8.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30851825,
+          "bytes_uncompressed": 279954110,
+          "crc32": "36051901",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_8.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-08.zip",
+      "retrieved_utc": "2026-10-06T21:40:50.361947+00:00",
+      "sha256": "58d651379af90cc44635657e95fe098567ff954046aec21d6d2cd18424a317f9",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_8.zip"
+    },
+    {
+      "bytes": 28433978,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_9.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28431292,
+          "bytes_uncompressed": 262990818,
+          "crc32": "73b447c1",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_9.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-09.zip",
+      "retrieved_utc": "2026-10-06T21:41:09.609677+00:00",
+      "sha256": "c0df7503b0050ca46099dab1edfffa33464a0a1031ad712c542af6a4ecece24c",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_9.zip"
+    },
+    {
+      "bytes": 29418453,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_10.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 29415765,
+          "bytes_uncompressed": 277978726,
+          "crc32": "6d6f1856",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_10.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-10.zip",
+      "retrieved_utc": "2026-10-06T21:41:09.845853+00:00",
+      "sha256": "a417136d6c1663736437dfeeacefa5b93b82e9db322c863c2f57b19bdd3f04fb",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_10.zip"
+    },
+    {
+      "bytes": 28149354,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_11.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28146666,
+          "bytes_uncompressed": 260287863,
+          "crc32": "416c4ff9",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_11.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-11.zip",
+      "retrieved_utc": "2026-10-06T21:41:20.104613+00:00",
+      "sha256": "26b6e89e7c1f66163a412380c743c648eb470a9017074de4efbd209f1e09860a",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_11.zip"
+    },
+    {
+      "bytes": 30150370,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_12.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30147682,
+          "bytes_uncompressed": 267887743,
+          "crc32": "766b4e18",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2024_12.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2024-12.zip",
+      "retrieved_utc": "2026-10-06T21:41:21.363660+00:00",
+      "sha256": "a324577aa76d1f0aa36239f8010b6b5270fea0ff5ac846177753b76a42c5d01c",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_12.zip"
+    },
+    {
+      "bytes": 27108664,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 27105978,
+          "bytes_uncompressed": 243177378,
+          "crc32": "33f841f7",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_1.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-01.zip",
+      "retrieved_utc": "2026-10-06T21:41:25.352043+00:00",
+      "sha256": "868387dcedaef1b8d8392e608e642219fde50d594c3cf2094aec858167629ccf",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip"
+    },
+    {
+      "bytes": 25302583,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_2.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 25299897,
+          "bytes_uncompressed": 228245475,
+          "crc32": "8ce52789",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_2.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-02.zip",
+      "retrieved_utc": "2026-10-06T21:41:32.820817+00:00",
+      "sha256": "12dc8dbdb3c8b3c20d4c00a8b188196ae202f781a8760871ae502a9c733d0ecd",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_2.zip"
+    },
+    {
+      "bytes": 30544825,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_3.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30542139,
+          "bytes_uncompressed": 271623365,
+          "crc32": "9bf325a0",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_3.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-03.zip",
+      "retrieved_utc": "2026-10-06T21:41:36.477186+00:00",
+      "sha256": "9c80fbc2112cdbf3f0613ec2001ba019b3ad75511cd69657080736e7eda9cef4",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_3.zip"
+    },
+    {
+      "bytes": 29369186,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_4.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 29366500,
+          "bytes_uncompressed": 264080573,
+          "crc32": "24081822",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_4.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-04.zip",
+      "retrieved_utc": "2026-10-06T21:41:42.767888+00:00",
+      "sha256": "f3718431e988e2afd53a1714dfca37f67355b6fc06b02eb506bffa39300d608c",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_4.zip"
+    },
+    {
+      "bytes": 30830593,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_5.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30827907,
+          "bytes_uncompressed": 274325754,
+          "crc32": "3b65833c",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_5.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-05.zip",
+      "retrieved_utc": "2026-10-06T21:41:47.202739+00:00",
+      "sha256": "17c3419d7169b313b2bc8ddd3fd57e1e2d4d959c35f2da17f6a5610d4bac7d63",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_5.zip"
+    },
+    {
+      "bytes": 31131411,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_6.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 31128725,
+          "bytes_uncompressed": 277398709,
+          "crc32": "ffc80b5e",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_6.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-06.zip",
+      "retrieved_utc": "2026-10-06T21:41:51.354488+00:00",
+      "sha256": "087b75e4e059516ca1181e58955d062f341933adb2706e5b2404ed10c9ecbdc6",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_6.zip"
+    },
+    {
+      "bytes": 32208704,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 32206018,
+          "bytes_uncompressed": 286174102,
+          "crc32": "d2b3d7f7",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_7.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-07.zip",
+      "retrieved_utc": "2026-10-06T21:42:03.693326+00:00",
+      "sha256": "74309a3a734d5104b4c212390c06eb3acacff15124b9cea49ba7d69a609a0d19",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip"
+    },
+    {
+      "bytes": 30864245,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30861559,
+          "bytes_uncompressed": 272692924,
+          "crc32": "445a8d7d",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_8.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-08.zip",
+      "retrieved_utc": "2026-10-06T21:42:09.472265+00:00",
+      "sha256": "405668b8a807266236a635efbc1e9364abfb756db1a5c895e45abc9c7b7684f1",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip"
+    },
+    {
+      "bytes": 28151630,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28148944,
+          "bytes_uncompressed": 254072675,
+          "crc32": "9fe83034",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_9.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-09.zip",
+      "retrieved_utc": "2026-10-06T21:42:19.328260+00:00",
+      "sha256": "adc722b1c14944451b20ddcdbeec69bbc092310ab8044f758b8f4b82fde8d017",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip"
+    },
+    {
+      "bytes": 30723803,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_10.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30721115,
+          "bytes_uncompressed": 274710359,
+          "crc32": "e8a05871",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_10.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-10.zip",
+      "retrieved_utc": "2026-10-06T21:42:20.701104+00:00",
+      "sha256": "05d14d3fd67fa3e04b97c4d6bc7386f4a6c1cda13d2506cf0e9f0a6c620ed111",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_10.zip"
+    },
+    {
+      "bytes": 28847755,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_11.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 28845067,
+          "bytes_uncompressed": 258071953,
+          "crc32": "e034b04c",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_11.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-11.zip",
+      "retrieved_utc": "2026-10-06T21:42:32.150656+00:00",
+      "sha256": "6d5b68eea3ebb25f3cb2843e701a6c809b5455301b3bbd7802a20d522ed770c8",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_11.zip"
+    },
+    {
+      "bytes": 30337431,
+      "content_type": "application/x-zip-compressed",
+      "final_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_12.zip",
+      "http_status": 200,
+      "licence": {
+        "attribution": "Bureau of Transportation Statistics; independent processing",
+        "basis_note": "Do not transfer the related marketing-carrier public-domain label to this product.",
+        "raw_and_row_level_release": false,
+        "status": "unresolved_source_specific_raw_redistribution_terms",
+        "terms_url": "https://www.bts.gov/policies"
+      },
+      "members": [
+        {
+          "bytes_compressed": 30334743,
+          "bytes_uncompressed": 264519889,
+          "crc32": "316fc561",
+          "name": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2025_12.csv"
+        },
+        {
+          "bytes_compressed": 2244,
+          "bytes_uncompressed": 12152,
+          "crc32": "9e76459b",
+          "name": "readme.html"
+        }
+      ],
+      "path": "data/raw/2025-12.zip",
+      "retrieved_utc": "2026-10-06T21:42:33.325535+00:00",
+      "sha256": "a2af96d186bc9997fef47382b8589198281c9a722286d88f30032af8ee7dcd0f",
+      "status": "saved",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_12.zip"
+    }
+  ],
+  "stage": "flights"
+}
