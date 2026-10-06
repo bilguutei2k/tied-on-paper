@@ -1,0 +1,35 @@
+{
+  "code_hashes": {
+    "gate.py": "421564d34f063eda74d8db5c1a16a78107700afd6727833021e3da5d5afb811f",
+    "gate_fixtures.py": "b45c7215798600883c66e8a2a3c0f8680e21689ac88a0115ad418fbef0e6a9f0",
+    "gate_runner.py": "2a62b71a9a90de8e2194eb66bbba0029e324e8eb926b4365e093f2c87e24a73d",
+    "gate_runtime.py": "776353f806ce1087b74733005ade13f5b53f86e88d49de9e64e3a3cefb2d93dc",
+    "gate_statistics.py": "293dce91e99e1fef60d0e3e5cd12c378bf59d23ce85a652ae5287478e0782be2"
+  },
+  "dispatch": "Required all-zero, baseline .70, no season, combined SD .30/AR .6, no missingness first; then remaining IDs ascending. Original process IDs/streams unchanged. Failure stops; no reduced-suite pass.",
+  "first_calibration_sha256": "f5eba0a3a41c9bf8c6a4255744685db89d29dd1ed1c320ede927bc13fc2bb82f",
+  "first_process_id": 3240,
+  "parallelism": "Ten dataset threads, numeric libraries one thread each, shared immutable schedule; chunked PCG64 innovations/status uniforms in exact original source order.",
+  "scenario_commit": "5aa59e2",
+  "scope": "All registered processes and 336 components. Complete calibration truth recorded before each process RNG. Bias failure stops all candidates. No performance-based process deletion.",
+  "selection": {
+    "bank": 0,
+    "candidates": [
+      1,
+      4,
+      8
+    ],
+    "datasets": 1000,
+    "draws": 5000,
+    "same_data": true
+  },
+  "tests_sha256": "775f92394538de65b934f706c1c89886e6c817c7043179b4ad780760fca07aa6",
+  "validation": {
+    "bank": 1,
+    "datasets": 2000,
+    "draws": 5000,
+    "selected_only": true
+  },
+  "workers": 10,
+  "written_utc": "2026-10-06T23:24:16.819988+00:00"
+}

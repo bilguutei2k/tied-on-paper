@@ -50,3 +50,7 @@ all feasible two-edge cases and all mandatory single-edge failures, use the
 same generated datasets across the fixed resampler order, and validate only
 the first fully passing resampler on the fresh bank. No confirmation outcome
 opens regardless of the result until Claude commits the completed gate report.
+
+## Continuation
+
+The scenario/generator seal was committed as `5aa59e2`. The executable full-family runner is now gate.py → gate_runner.py, with gate_runtime.py, gate_statistics.py and gate_fixtures.py. execution-plan.json freezes dispatch and code hashes; runner-verification.json records deterministic verification; calibration-first.json seals numeric probabilities/truth for the first required process. Bank execution remains stopped until the runner checkpoint completes. Earlier handoff text above is historical.

@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "registered full source denominator",
+    "probability cell counts independently reconstructed",
+    "all score denominators positive and normalized",
+    "independent week-score derivation equals full analytical truth",
+    "complete 336-component family retained",
+    "first process is required all-zero survival stress",
+    "all-zero calibration feasible at registered tolerance",
+    "full primary and latent zero truth",
+    "changes direction repeats",
+    "equality gives inconclusive",
+    "sufficiently narrow zero envelope survives",
+    "integer quality cutoff and next record",
+    "raw access denied",
+    "5000 exact registered multiplicity arrays 1",
+    "5000 exact registered multiplicity arrays 4",
+    "5000 exact registered multiplicity arrays 8",
+    "chunked PCG64 normal primitives byte-identical",
+    "chunked PCG64 uniform primitives byte-identical"
+  ],
+  "confirmation_outcomes_opened": false,
+  "maximum_independent_score_residual": 3.787192781601334e-12,
+  "synthetic_datasets_generated": 0,
+  "written_utc": "2026-10-06T23:24:16.819593+00:00"
+}
