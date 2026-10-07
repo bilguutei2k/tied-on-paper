@@ -1,0 +1,1218 @@
+{
+  "all_required_checks_pass": true,
+  "checks": [
+    {
+      "evidence": {
+        "checks": [
+          "gate A/B interval reproduction",
+          "fractional cell weights",
+          "production SQL matches scalar scoring including failure precedence and invalid-value stops",
+          "strict line equality",
+          "quality blocking",
+          "array regeneration",
+          "whole-network multiplicities"
+        ],
+        "confirmation_outcomes_opened": false,
+        "maximum_gate_interval_error": 0.0,
+        "passes": true,
+        "production_scoring_templates": 45,
+        "scoring": {
+          "14.999": true,
+          "15": true,
+          "both_failure_flags": true,
+          "cancel_precedence": true,
+          "divert_precedence": true,
+          "hhmm": true,
+          "infinite_delay": true,
+          "invalid_delay": true,
+          "invalid_key_uses_flightdate_week": true,
+          "missing_delay": true,
+          "missing_flag": true,
+          "negative_delay": true,
+          "nonbinary": true,
+          "source_boundary_separate_cluster": true,
+          "sunday_midnight_same_cluster": true
+        },
+        "synthetic_fixture": "deterministic nonconstant daily contrasts on frozen schedule"
+      },
+      "name": "production_matches_tested_gate_interval",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "confirmation_outcomes_opened": false,
+        "passes": true,
+        "sensitivities": [
+          {
+            "cells": 48526,
+            "specification": "pairs-1h.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 49132,
+            "specification": "pairs-1h.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 51012,
+            "specification": "pairs-1h.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 109727,
+            "specification": "pairs-4h.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 113364,
+            "specification": "pairs-4h.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 108538,
+            "specification": "pairs-4h.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 19717,
+            "specification": "pairs-omit-11292.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 15638,
+            "specification": "pairs-omit-11292.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 14827,
+            "specification": "pairs-omit-11292.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 80619,
+            "specification": "pairs-omit-10397.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 84531,
+            "specification": "pairs-omit-10397.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 82889,
+            "specification": "pairs-omit-10397.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 72485,
+            "specification": "pairs-omit-13930.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 79232,
+            "specification": "pairs-omit-13930.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 78893,
+            "specification": "pairs-omit-13930.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 71667,
+            "specification": "pairs-omit-12892.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 75634,
+            "specification": "pairs-omit-12892.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 74611,
+            "specification": "pairs-omit-12892.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 72187,
+            "specification": "pairs-omit-12889.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 76591,
+            "specification": "pairs-omit-12889.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 75557,
+            "specification": "pairs-omit-12889.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 81855,
+            "specification": "pairs-alternate-weights.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 85602,
+            "specification": "pairs-alternate-weights.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 83744,
+            "specification": "pairs-alternate-weights.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          },
+          {
+            "cells": 49537,
+            "specification": "nearest30.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2023
+          },
+          {
+            "cells": 51661,
+            "specification": "nearest30.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2024
+          },
+          {
+            "cells": 52968,
+            "specification": "nearest30.parquet",
+            "within_frozen_daily_span": true,
+            "year": 2025
+          }
+        ]
+      },
+      "name": "all_frozen_sensitivity_dates_fit_registered_resampling_grid",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "checks": [
+          "independent NumPy sorted-key membership joins",
+          "compensated per-flight weight summation",
+          "source-row alignment",
+          "national success/unknown denominators",
+          "finite saved draws and exact hashes"
+        ],
+        "draws": 1999,
+        "independent_per_flight_points": [
+          0.06272108728795533,
+          0.06272108728795533,
+          0.06272108728795533
+        ],
+        "matched_flight_counts": {
+          "UA": 177840,
+          "WN": 177883
+        },
+        "maximum_point_error": 1.3877787807814457e-17,
+        "n": 4350547,
+        "passes": true,
+        "period": "A"
+      },
+      "name": "A_independent_compensated_per_flight_derivation",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "byte_identical_stable_results": true,
+        "excluded_field": "written_utc only",
+        "passes": true,
+        "period": "A",
+        "raw_outcome_derivative_reused": true
+      },
+      "name": "A_stable_fresh_reproduction",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "first_open_utc": "2026-10-07T15:29:59.000659+00:00",
+        "outcomes": {
+          "path": "data/derived/confirm-outcomes-A.parquet",
+          "rows": 4350547,
+          "sha256": "fed66ef7ce46d5f583cc3c4842b219b19fbe9cdf97cc6ccb79d2e19b54c4fffa"
+        },
+        "sources": [
+          {
+            "UA_WN_rows": 169087,
+            "month": 1,
+            "rows": 538837,
+            "schedule_identical": true,
+            "sha256": "327924faa362d360747e9e4cf37f461c877441916321754f1789fadd61fd403a",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 154863,
+            "month": 2,
+            "rows": 502749,
+            "schedule_identical": true,
+            "sha256": "bfa6eb7bebb53f10603110aa11bdebf00a89f51d870b331f6565181bb943ddbf",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 179587,
+            "month": 3,
+            "rows": 580322,
+            "schedule_identical": true,
+            "sha256": "1a61dce7c50e5c4f074ebff69a833840f4c6be4e71d4a4707be540ace9e6d58b",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 173737,
+            "month": 4,
+            "rows": 561441,
+            "schedule_identical": true,
+            "sha256": "adf3ecf6e3763a55c2acfc1fcf1c0ee0ac5a7ca079cb16cf15be5e39b921f7b4",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 184861,
+            "month": 5,
+            "rows": 579958,
+            "schedule_identical": true,
+            "sha256": "aec2e926b11e55f88dd0ac48b649492048b4eba0983f1a564e746546568185b4",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 181646,
+            "month": 6,
+            "rows": 577262,
+            "schedule_identical": true,
+            "sha256": "67dc6b993ba2e7c2175a874da7a8fbf12081c23c87523c0a5cd7d2f3e50450a1",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 191471,
+            "month": 7,
+            "rows": 601866,
+            "schedule_identical": true,
+            "sha256": "b1b73635dcb2add363bb001d95c3f951e0ce4fc32130cbc76b565a531ced2146",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 192465,
+            "month": 8,
+            "rows": 602987,
+            "schedule_identical": true,
+            "sha256": "d374aa3ec2b844d47c675d17cf71f2ade0af07b20670f9b8a2c6c1f5fe5d57bd",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 180461,
+            "month": 9,
+            "rows": 569338,
+            "schedule_identical": true,
+            "sha256": "4e7bc3f76857accd1d4e493f03fb5ba2c1f68e82496cf16fd61addf4d8464cfa",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 194484,
+            "month": 10,
+            "rows": 598968,
+            "schedule_identical": true,
+            "sha256": "a92cc51c6bb1e7fcf2732e27ac36ebbc92293acf8e3c0b33126abe28698ecf51",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 180398,
+            "month": 11,
+            "rows": 563777,
+            "schedule_identical": true,
+            "sha256": "9ad54595568704a1cb7d821908611c220cf36da4d9a5ccea03b4deb9053b5025",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 187617,
+            "month": 12,
+            "rows": 570394,
+            "schedule_identical": true,
+            "sha256": "c8391a3f06749b6ee4dec493fb7974f398b9d066a4e731c4cbb8932eddb774ce",
+            "status_errors": 0,
+            "year": 2023
+          },
+          {
+            "UA_WN_rows": 174244,
+            "month": 1,
+            "rows": 547271,
+            "schedule_identical": true,
+            "sha256": "fe089b45523f9d4ac0ccd0e176a543d274e914ee5ae5bd384dbaafc7dc06ebfd",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 162041,
+            "month": 2,
+            "rows": 519221,
+            "schedule_identical": true,
+            "sha256": "8463683d100504a97847497d2f2281008fd9add9639bf7436a9747032df15f9a",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 190201,
+            "month": 3,
+            "rows": 591767,
+            "schedule_identical": true,
+            "sha256": "e2c5021406f480e813a52a2ed795c251eb1169613da6a416daf88236db8c9013",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 181623,
+            "month": 4,
+            "rows": 582185,
+            "schedule_identical": true,
+            "sha256": "d8b1e88626a7375d351962917fe5ec132660c1636dc8b91f778627c769e0e15a",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 186652,
+            "month": 5,
+            "rows": 609743,
+            "schedule_identical": true,
+            "sha256": "03e4ae26c2d1247de02d0b9a4d87160f8021718abf475a1421de9c45b7d68b04",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 186822,
+            "month": 6,
+            "rows": 611132,
+            "schedule_identical": true,
+            "sha256": "4f329439fd6892aaf89b32908191b2a007e70f775e2551181a22e704ef28a0ab",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 193105,
+            "month": 7,
+            "rows": 634613,
+            "schedule_identical": true,
+            "sha256": "4d992fee134137b3fa43094d7e8cf4a8e6feaa6a422cffb4063f1ed6c7f3f731",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 184277,
+            "month": 8,
+            "rows": 619025,
+            "schedule_identical": true,
+            "sha256": "58d651379af90cc44635657e95fe098567ff954046aec21d6d2cd18424a317f9",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 176773,
+            "month": 9,
+            "rows": 582622,
+            "schedule_identical": true,
+            "sha256": "c0df7503b0050ca46099dab1edfffa33464a0a1031ad712c542af6a4ecece24c",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 187654,
+            "month": 10,
+            "rows": 615497,
+            "schedule_identical": true,
+            "sha256": "a417136d6c1663736437dfeeacefa5b93b82e9db322c863c2f57b19bdd3f04fb",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 176172,
+            "month": 11,
+            "rows": 575404,
+            "schedule_identical": true,
+            "sha256": "26b6e89e7c1f66163a412380c743c648eb470a9017074de4efbd209f1e09860a",
+            "status_errors": 0,
+            "year": 2024
+          },
+          {
+            "UA_WN_rows": 180306,
+            "month": 12,
+            "rows": 590581,
+            "schedule_identical": true,
+            "sha256": "a324577aa76d1f0aa36239f8010b6b5270fea0ff5ac846177753b76a42c5d01c",
+            "status_errors": 0,
+            "year": 2024
+          }
+        ]
+      },
+      "name": "A_all_raw_hashes_and_schedule_columns_verified",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "n": {
+          "UA": 1492663,
+          "WN": 2857884
+        },
+        "rows": 4350547
+      },
+      "name": "A_source_id_uniqueness_and_denominators",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 732212,
+        "name": "UA-2023-national-unknown",
+        "passes": true
+      },
+      "name": "A_UA-2023-national-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 732212,
+        "name": "UA-2023-invalid-key",
+        "passes": true
+      },
+      "name": "A_UA-2023-invalid-key",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 86958,
+        "name": "UA-2023-matched-unknown",
+        "passes": true
+      },
+      "name": "A_UA-2023-matched-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1438465,
+        "name": "WN-2023-national-unknown",
+        "passes": true
+      },
+      "name": "A_WN-2023-national-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1438465,
+        "name": "WN-2023-invalid-key",
+        "passes": true
+      },
+      "name": "A_WN-2023-invalid-key",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 87124,
+        "name": "WN-2023-matched-unknown",
+        "passes": true
+      },
+      "name": "A_WN-2023-matched-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 760451,
+        "name": "UA-2024-national-unknown",
+        "passes": true
+      },
+      "name": "A_UA-2024-national-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 760451,
+        "name": "UA-2024-invalid-key",
+        "passes": true
+      },
+      "name": "A_UA-2024-invalid-key",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 90882,
+        "name": "UA-2024-matched-unknown",
+        "passes": true
+      },
+      "name": "A_UA-2024-matched-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1419419,
+        "name": "WN-2024-national-unknown",
+        "passes": true
+      },
+      "name": "A_WN-2024-national-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1419419,
+        "name": "WN-2024-invalid-key",
+        "passes": true
+      },
+      "name": "A_WN-2024-invalid-key",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 90759,
+        "name": "WN-2024-matched-unknown",
+        "passes": true
+      },
+      "name": "A_WN-2024-matched-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "evidence": {
+          "minimum_draw_denominator": 169200.5,
+          "minimum_draw_se": 0.0032102739931337996,
+          "valid_draws": 1999
+        },
+        "name": "interval-all-1999-draws-valid",
+        "passes": true
+      },
+      "name": "A_interval-all-1999-draws-valid",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 13,
+        "keys": [
+          "equal_cell_weights",
+          "equal_year_A",
+          "harmonic_weights",
+          "omit_airport_10397",
+          "omit_airport_11292",
+          "omit_airport_12889",
+          "omit_airport_12892",
+          "omit_airport_13930",
+          "reciprocal_nearest_30min",
+          "window_1h",
+          "window_4h",
+          "year_2023",
+          "year_2024"
+        ]
+      },
+      "name": "A_every_registered_sensitivity_retained",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "assignment_points": [
+          0.06272108728795532,
+          0.06272108728795532,
+          0.06272108728795532
+        ],
+        "envelope": [
+          0.04600744121000862,
+          0.07943473336590202
+        ],
+        "verdict": "UA advantage above two points"
+      },
+      "name": "A_missingness_envelope_and_strict_decision",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "checks": [
+          "independent NumPy sorted-key membership joins",
+          "compensated per-flight weight summation",
+          "source-row alignment",
+          "national success/unknown denominators",
+          "finite saved draws and exact hashes"
+        ],
+        "draws": 1999,
+        "independent_per_flight_points": [
+          0.08202680180689736,
+          0.08202680180689736,
+          0.08202680180689736
+        ],
+        "matched_flight_counts": {
+          "UA": 88717,
+          "WN": 88087
+        },
+        "maximum_point_error": 9.71445146547012e-17,
+        "n": 2187156,
+        "passes": true,
+        "period": "B"
+      },
+      "name": "B_independent_compensated_per_flight_derivation",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "byte_identical_stable_results": true,
+        "excluded_field": "written_utc only",
+        "passes": true,
+        "period": "B",
+        "raw_outcome_derivative_reused": true
+      },
+      "name": "B_stable_fresh_reproduction",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "first_open_utc": "2026-10-07T15:39:44.777454+00:00",
+        "outcomes": {
+          "path": "data/derived/confirm-outcomes-B.parquet",
+          "rows": 2187156,
+          "sha256": "e18ff50058c964518bb8362cc5c3fd6622c0653f968d0137b827fb8e6a3ef969"
+        },
+        "sources": [
+          {
+            "UA_WN_rows": 167314,
+            "month": 1,
+            "rows": 539747,
+            "schedule_identical": true,
+            "sha256": "868387dcedaef1b8d8392e608e642219fde50d594c3cf2094aec858167629ccf",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 157827,
+            "month": 2,
+            "rows": 504884,
+            "schedule_identical": true,
+            "sha256": "12dc8dbdb3c8b3c20d4c00a8b188196ae202f781a8760871ae502a9c733d0ecd",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 189426,
+            "month": 3,
+            "rows": 600872,
+            "schedule_identical": true,
+            "sha256": "9c80fbc2112cdbf3f0613ec2001ba019b3ad75511cd69657080736e7eda9cef4",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 181878,
+            "month": 4,
+            "rows": 583950,
+            "schedule_identical": true,
+            "sha256": "f3718431e988e2afd53a1714dfca37f67355b6fc06b02eb506bffa39300d608c",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 187626,
+            "month": 5,
+            "rows": 605648,
+            "schedule_identical": true,
+            "sha256": "17c3419d7169b313b2bc8ddd3fd57e1e2d4d959c35f2da17f6a5610d4bac7d63",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 188672,
+            "month": 6,
+            "rows": 611575,
+            "schedule_identical": true,
+            "sha256": "087b75e4e059516ca1181e58955d062f341933adb2706e5b2404ed10c9ecbdc6",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 195465,
+            "month": 7,
+            "rows": 631428,
+            "schedule_identical": true,
+            "sha256": "74309a3a734d5104b4c212390c06eb3acacff15124b9cea49ba7d69a609a0d19",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 183465,
+            "month": 8,
+            "rows": 602378,
+            "schedule_identical": true,
+            "sha256": "405668b8a807266236a635efbc1e9364abfb756db1a5c895e45abc9c7b7684f1",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 177911,
+            "month": 9,
+            "rows": 562439,
+            "schedule_identical": true,
+            "sha256": "adc722b1c14944451b20ddcdbeec69bbc092310ab8044f758b8f4b82fde8d017",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 193003,
+            "month": 10,
+            "rows": 605844,
+            "schedule_identical": true,
+            "sha256": "05d14d3fd67fa3e04b97c4d6bc7386f4a6c1cda13d2506cf0e9f0a6c620ed111",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 180629,
+            "month": 11,
+            "rows": 570550,
+            "schedule_identical": true,
+            "sha256": "6d5b68eea3ebb25f3cb2843e701a6c809b5455301b3bbd7802a20d522ed770c8",
+            "status_errors": 0,
+            "year": 2025
+          },
+          {
+            "UA_WN_rows": 183940,
+            "month": 12,
+            "rows": 582304,
+            "schedule_identical": true,
+            "sha256": "a2af96d186bc9997fef47382b8589198281c9a722286d88f30032af8ee7dcd0f",
+            "status_errors": 0,
+            "year": 2025
+          }
+        ]
+      },
+      "name": "B_all_raw_hashes_and_schedule_columns_verified",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "n": {
+          "UA": 795271,
+          "WN": 1391885
+        },
+        "rows": 2187156
+      },
+      "name": "B_source_id_uniqueness_and_denominators",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 795271,
+        "name": "UA-2025-national-unknown",
+        "passes": true
+      },
+      "name": "B_UA-2025-national-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 795271,
+        "name": "UA-2025-invalid-key",
+        "passes": true
+      },
+      "name": "B_UA-2025-invalid-key",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 88717,
+        "name": "UA-2025-matched-unknown",
+        "passes": true
+      },
+      "name": "B_UA-2025-matched-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1391885,
+        "name": "WN-2025-national-unknown",
+        "passes": true
+      },
+      "name": "B_WN-2025-national-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1391885,
+        "name": "WN-2025-invalid-key",
+        "passes": true
+      },
+      "name": "B_WN-2025-invalid-key",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 88087,
+        "name": "WN-2025-matched-unknown",
+        "passes": true
+      },
+      "name": "B_WN-2025-matched-unknown",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "evidence": {
+          "minimum_draw_denominator": 83112.0,
+          "minimum_draw_se": 0.0028095836867019336,
+          "valid_draws": 1999
+        },
+        "name": "interval-all-1999-draws-valid",
+        "passes": true
+      },
+      "name": "B_interval-all-1999-draws-valid",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "count": 11,
+        "keys": [
+          "equal_cell_weights",
+          "harmonic_weights",
+          "omit_airport_10397",
+          "omit_airport_11292",
+          "omit_airport_12889",
+          "omit_airport_12892",
+          "omit_airport_13930",
+          "reciprocal_nearest_30min",
+          "window_1h",
+          "window_4h",
+          "year_2025"
+        ]
+      },
+      "name": "B_every_registered_sensitivity_retained",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "assignment_points": [
+          0.08202680180689727,
+          0.08202680180689727,
+          0.08202680180689727
+        ],
+        "envelope": [
+          0.053111771341002645,
+          0.10995069523717307
+        ],
+        "verdict": "UA advantage above two points"
+      },
+      "name": "B_missingness_envelope_and_strict_decision",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "name": "DOT-2023-UA-operating-row",
+        "passes": true,
+        "published_n": 732212,
+        "published_rate_pct": 78.07,
+        "source_n": 732212,
+        "source_rate_pct": 78.07110508978275,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202024%20ATCR%20revised%203-06-2025.pdf"
+      },
+      "name": "DOT-2023-UA-operating-row",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "name": "DOT-2023-WN-operating-row",
+        "passes": true,
+        "published_n": 1438465,
+        "published_rate_pct": 77.25,
+        "source_n": 1438465,
+        "source_rate_pct": 77.25422585881478,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202024%20ATCR%20revised%203-06-2025.pdf"
+      },
+      "name": "DOT-2023-WN-operating-row",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "name": "DOT-2024-UA-operating-row",
+        "passes": true,
+        "published_n": 760451,
+        "published_rate_pct": 78.6,
+        "source_n": 760451,
+        "source_rate_pct": 78.59888408326113,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+      },
+      "name": "DOT-2024-UA-operating-row",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "name": "DOT-2024-WN-operating-row",
+        "passes": true,
+        "published_n": 1419419,
+        "published_rate_pct": 78.57,
+        "source_n": 1419419,
+        "source_rate_pct": 78.56615981609377,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+      },
+      "name": "DOT-2024-WN-operating-row",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "name": "DOT-2025-UA-operating-row",
+        "passes": true,
+        "published_n": 795271,
+        "published_rate_pct": 77.65,
+        "source_n": 795271,
+        "source_rate_pct": 77.65428388561887,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2026-03/February%20%202026%20ATCR.pdf"
+      },
+      "name": "DOT-2025-UA-operating-row",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "name": "DOT-2025-WN-operating-row",
+        "passes": true,
+        "published_n": 1391885,
+        "published_rate_pct": 77.76,
+        "source_n": 1391885,
+        "source_rate_pct": 77.75513063220022,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2026-03/February%20%202026%20ATCR.pdf"
+      },
+      "name": "DOT-2025-WN-operating-row",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "first_open_A": "2026-10-07T15:29:59.000659+00:00",
+        "metadata_repair_commit": "4f759d3",
+        "production_commit": "af6b613"
+      },
+      "name": "production_seal_precedes_first_A_outcome",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "A_commit": "c829f51",
+        "first_open_B": "2026-10-07T15:39:44.777454+00:00"
+      },
+      "name": "A_commit_precedes_first_B_outcome",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "A_bytes_match_committed": true,
+        "B_bytes_match_committed": true,
+        "B_commit": "12320b0",
+        "context_commit": "43eb4cb"
+      },
+      "name": "A_and_B_sealed_before_descriptive_context",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "A": "UA advantage above two points",
+        "B": "UA advantage above two points",
+        "decision": "replicated",
+        "replicated": true,
+        "rule": "Only the same decisive label in A and B permits replicated; B cannot rewrite A."
+      },
+      "name": "replication_is_same_decisive_registered_label",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "DEVIATIONS_entries": [
+          21,
+          22,
+          23
+        ],
+        "statistical_rule_changes_after_real_outcomes": false
+      },
+      "name": "all_implementation_decisions_disclosed",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    },
+    {
+      "evidence": {
+        "not_counted_as_passed": true,
+        "replaced_for_required_numerical_QA_by": "independent NumPy sorted-key joins and math.fsum, both periods PASS",
+        "status": "not_completed"
+      },
+      "name": "supplemental_one_thread_SQL_verification",
+      "pass_fail": "fail",
+      "passes": false,
+      "required": false
+    },
+    {
+      "evidence": {
+        "approval_commit": "41a6974",
+        "gate_report_commit": "02c9fb6",
+        "mandatory_passed": 19,
+        "validation_scenarios": 20
+      },
+      "name": "approved_Amendment2_gate_and_independent_validation",
+      "pass_fail": "pass",
+      "passes": true,
+      "required": true
+    }
+  ],
+  "implementation_decisions_flagged": [
+    21,
+    22,
+    23
+  ],
+  "public_release": {
+    "official_or_third_party_pages_saved_for_confirmation": false,
+    "raw_or_row_level_data_committed": false
+  },
+  "quality_verdicts": {
+    "A": "UA advantage above two points",
+    "B": "UA advantage above two points"
+  },
+  "source": "BTS Reporting Carrier On-Time Performance; independently processed; no agency endorsement",
+  "written_utc": "2026-10-07T15:56:11.123121+00:00"
+}
