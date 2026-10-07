@@ -402,3 +402,7 @@
 - 2026-10-07T15:42:17.248679+00:00: Period B computed: UA advantage above two points; all registered sensitivities saved; quality=True. Result and draw hashes require checkpoint before final descriptive reconciliation.
 
 - 2026-10-07T15:42:54.612494+00:00: B verification PASS: independent NumPy compensated per-flight expansion agrees to 9.72e-17; national counts and saved draw hashes exact; fresh stable B reproduction identical apart from written_utc. B verdict UA advantage above two points, D=0.08202680180689727, envelope [0.053111771341002645,0.10995069523717307]; quality passes, 11 sensitivities retained. Same decisive label as sealed A: replicated. Submitting B checkpoint before published-table descriptive context; no change to A.
+
+- 2026-10-07T15:43:31.068682+00:00: B seal checkpoint 12320b0 completed by owner helper; COMMIT_DONE consumed. A and B verdicts sealed. Opening official annual DOT tables solely for descriptive reconciliation; pages will not be saved.
+
+- 2026-10-07T15:45:59.994610+00:00: Descriptive context complete after A/B seals: unmatched all-flights and matched-cell coverage retained; official DOT Tables 1C/1D for 2023,2024,2025 checked. All six operating-carrier rows reconcile exactly in scheduled counts and two-decimal rates. Operating UA/WN ranks 8/9,6/7,5/4; marketing-network ranks 4/5,3/4,6/3. Network United includes codeshare partners and differs from registered mainline population. Official URLs cited; no pages/PDFs saved; no verdict change. Submitting descriptive-context checkpoint before final reports.

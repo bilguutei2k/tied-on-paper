@@ -1,0 +1,679 @@
+{
+  "annual_matched_coverage": {
+    "2023": {
+      "UA": {
+        "n": 86958,
+        "original_coverage": {
+          "interval": [
+            0.1187606867956275,
+            0.1187606867956275
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 732212,
+          "numerator": 86958.0,
+          "rate": 0.1187606867956275,
+          "unknown": 0
+        },
+        "original_denominator": 732212,
+        "retained_coverage": {
+          "interval": [
+            0.1187606867956275,
+            0.1187606867956275
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 732212,
+          "numerator": 86958.0,
+          "rate": 0.1187606867956275,
+          "unknown": 0
+        },
+        "retained_denominator": 732212
+      },
+      "WN": {
+        "n": 87124,
+        "original_coverage": {
+          "interval": [
+            0.0605673408807305,
+            0.0605673408807305
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1438465,
+          "numerator": 87124.0,
+          "rate": 0.0605673408807305,
+          "unknown": 0
+        },
+        "original_denominator": 1438465,
+        "retained_coverage": {
+          "interval": [
+            0.0605673408807305,
+            0.0605673408807305
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1438465,
+          "numerator": 87124.0,
+          "rate": 0.0605673408807305,
+          "unknown": 0
+        },
+        "retained_denominator": 1438465
+      }
+    },
+    "2024": {
+      "UA": {
+        "n": 90882,
+        "original_coverage": {
+          "interval": [
+            0.11951065880641883,
+            0.11951065880641883
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 760451,
+          "numerator": 90882.0,
+          "rate": 0.11951065880641883,
+          "unknown": 0
+        },
+        "original_denominator": 760451,
+        "retained_coverage": {
+          "interval": [
+            0.11951065880641883,
+            0.11951065880641883
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 760451,
+          "numerator": 90882.0,
+          "rate": 0.11951065880641883,
+          "unknown": 0
+        },
+        "retained_denominator": 760451
+      },
+      "WN": {
+        "n": 90759,
+        "original_coverage": {
+          "interval": [
+            0.06394095048748819,
+            0.06394095048748819
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1419419,
+          "numerator": 90759.0,
+          "rate": 0.06394095048748819,
+          "unknown": 0
+        },
+        "original_denominator": 1419419,
+        "retained_coverage": {
+          "interval": [
+            0.06394095048748819,
+            0.06394095048748819
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1419419,
+          "numerator": 90759.0,
+          "rate": 0.06394095048748819,
+          "unknown": 0
+        },
+        "retained_denominator": 1419419
+      }
+    },
+    "2025": {
+      "UA": {
+        "n": 88717,
+        "original_coverage": {
+          "interval": [
+            0.11155568353429209,
+            0.11155568353429209
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 88717.0,
+          "rate": 0.11155568353429209,
+          "unknown": 0
+        },
+        "original_denominator": 795271,
+        "retained_coverage": {
+          "interval": [
+            0.11155568353429209,
+            0.11155568353429209
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 88717.0,
+          "rate": 0.11155568353429209,
+          "unknown": 0
+        },
+        "retained_denominator": 795271
+      },
+      "WN": {
+        "n": 88087,
+        "original_coverage": {
+          "interval": [
+            0.06328611918369693,
+            0.06328611918369693
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 88087.0,
+          "rate": 0.06328611918369693,
+          "unknown": 0
+        },
+        "original_denominator": 1391885,
+        "retained_coverage": {
+          "interval": [
+            0.06328611918369693,
+            0.06328611918369693
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 88087.0,
+          "rate": 0.06328611918369693,
+          "unknown": 0
+        },
+        "retained_denominator": 1391885
+      }
+    }
+  },
+  "annual_unmatched_all_flights": {
+    "2023": {
+      "UA": {
+        "interval": [
+          0.7807110508978274,
+          0.7807110508978274
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 732212,
+        "numerator": 571646.0,
+        "rate": 0.7807110508978274,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.7725422585881477,
+          0.7725422585881477
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1438465,
+        "numerator": 1111275.0,
+        "rate": 0.7725422585881477,
+        "unknown": 0
+      }
+    },
+    "2024": {
+      "UA": {
+        "interval": [
+          0.7859888408326112,
+          0.7859888408326112
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 760451,
+        "numerator": 597706.0,
+        "rate": 0.7859888408326112,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.7856615981609377,
+          0.7856615981609377
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1419419,
+        "numerator": 1115183.0,
+        "rate": 0.7856615981609377,
+        "unknown": 0
+      }
+    },
+    "2025": {
+      "UA": {
+        "interval": [
+          0.7765428388561887,
+          0.7765428388561887
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 617562.0,
+        "rate": 0.7765428388561887,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.7775513063220022,
+          0.7775513063220022
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 1082262.0,
+        "rate": 0.7775513063220022,
+        "unknown": 0
+      }
+    }
+  },
+  "cannot_change_any_verdict": true,
+  "census_interval_note": "All-flights and coverage ranges are exact census/missingness ranges, not sampling confidence intervals.",
+  "descriptive_only": true,
+  "matched_cell_coverage": {
+    "A": {
+      "UA": {
+        "n": 177840,
+        "original_coverage": {
+          "interval": [
+            0.11914276698759198,
+            0.11914276698759198
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1492663,
+          "numerator": 177840.0,
+          "rate": 0.11914276698759198,
+          "unknown": 0
+        },
+        "original_denominator": 1492663,
+        "retained_coverage": {
+          "interval": [
+            0.11914276698759198,
+            0.11914276698759198
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1492663,
+          "numerator": 177840.0,
+          "rate": 0.11914276698759198,
+          "unknown": 0
+        },
+        "retained_denominator": 1492663
+      },
+      "WN": {
+        "n": 177883,
+        "original_coverage": {
+          "interval": [
+            0.062242904190652946,
+            0.062242904190652946
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 2857884,
+          "numerator": 177883.0,
+          "rate": 0.062242904190652946,
+          "unknown": 0
+        },
+        "original_denominator": 2857884,
+        "retained_coverage": {
+          "interval": [
+            0.062242904190652946,
+            0.062242904190652946
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 2857884,
+          "numerator": 177883.0,
+          "rate": 0.062242904190652946,
+          "unknown": 0
+        },
+        "retained_denominator": 2857884
+      }
+    },
+    "B": {
+      "UA": {
+        "n": 88717,
+        "original_coverage": {
+          "interval": [
+            0.11155568353429209,
+            0.11155568353429209
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 88717.0,
+          "rate": 0.11155568353429209,
+          "unknown": 0
+        },
+        "original_denominator": 795271,
+        "retained_coverage": {
+          "interval": [
+            0.11155568353429209,
+            0.11155568353429209
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 88717.0,
+          "rate": 0.11155568353429209,
+          "unknown": 0
+        },
+        "retained_denominator": 795271
+      },
+      "WN": {
+        "n": 88087,
+        "original_coverage": {
+          "interval": [
+            0.06328611918369693,
+            0.06328611918369693
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 88087.0,
+          "rate": 0.06328611918369693,
+          "unknown": 0
+        },
+        "original_denominator": 1391885,
+        "retained_coverage": {
+          "interval": [
+            0.06328611918369693,
+            0.06328611918369693
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 88087.0,
+          "rate": 0.06328611918369693,
+          "unknown": 0
+        },
+        "retained_denominator": 1391885
+      }
+    }
+  },
+  "page_storage": "No official pages/PDFs saved; official URLs and our small factual aggregates only.",
+  "published_dot_annual": {
+    "2023": {
+      "descriptive_only": true,
+      "marketing_networks": {
+        "UA": {
+          "interval": [
+            78.465,
+            78.475
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1297988,
+          "rank": 4,
+          "rank_interval": [
+            4,
+            4
+          ],
+          "rate_pct": 78.47
+        },
+        "WN": {
+          "interval": [
+            77.245,
+            77.255
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1438465,
+          "rank": 5,
+          "rank_interval": [
+            5,
+            5
+          ],
+          "rate_pct": 77.25
+        }
+      },
+      "marketing_table": "Table 1C (YTD), printed page 9",
+      "official_landing_url": "https://www.transportation.gov/resources/individuals/aviation-consumer-protection/february-2024-air-travel-consumer-report",
+      "official_pdf_url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202024%20ATCR%20revised%203-06-2025.pdf",
+      "operating_carriers": {
+        "UA": {
+          "interval": [
+            78.065,
+            78.07499999999999
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 732212,
+          "rank": 8,
+          "rank_interval": [
+            8,
+            8
+          ],
+          "rate_pct": 78.07
+        },
+        "WN": {
+          "interval": [
+            77.245,
+            77.255
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1438465,
+          "rank": 9,
+          "rank_interval": [
+            9,
+            9
+          ],
+          "rate_pct": 77.25
+        }
+      },
+      "operating_table": "Table 1D (YTD), printed page 10"
+    },
+    "2024": {
+      "descriptive_only": true,
+      "marketing_networks": {
+        "UA": {
+          "interval": [
+            79.135,
+            79.145
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1364270,
+          "rank": 3,
+          "rank_interval": [
+            3,
+            3
+          ],
+          "rate_pct": 79.14
+        },
+        "WN": {
+          "interval": [
+            78.565,
+            78.57499999999999
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1419419,
+          "rank": 4,
+          "rank_interval": [
+            4,
+            4
+          ],
+          "rate_pct": 78.57
+        }
+      },
+      "marketing_table": "Table 1C (YTD), printed page 9",
+      "official_landing_url": "https://www.transportation.gov/resources/individuals/aviation-consumer-protection/february-2025-air-travel-consumer-report",
+      "official_pdf_url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf",
+      "operating_carriers": {
+        "UA": {
+          "interval": [
+            78.595,
+            78.60499999999999
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 760451,
+          "rank": 6,
+          "rank_interval": [
+            6,
+            6
+          ],
+          "rate_pct": 78.6
+        },
+        "WN": {
+          "interval": [
+            78.565,
+            78.57499999999999
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1419419,
+          "rank": 7,
+          "rank_interval": [
+            7,
+            7
+          ],
+          "rate_pct": 78.57
+        }
+      },
+      "operating_table": "Table 1D (YTD), printed page 10"
+    },
+    "2025": {
+      "descriptive_only": true,
+      "marketing_networks": {
+        "UA": {
+          "interval": [
+            76.86500000000001,
+            76.875
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1467730,
+          "rank": 6,
+          "rank_interval": [
+            6,
+            6
+          ],
+          "rate_pct": 76.87
+        },
+        "WN": {
+          "interval": [
+            77.75500000000001,
+            77.765
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1391885,
+          "rank": 3,
+          "rank_interval": [
+            3,
+            3
+          ],
+          "rate_pct": 77.76
+        }
+      },
+      "marketing_table": "Table 1C (YTD), printed page 9",
+      "official_landing_url": "https://www.transportation.gov/resources/individuals/aviation-consumer-protection/february-2026-air-travel-consumer-report",
+      "official_pdf_url": "https://www.transportation.gov/sites/dot.gov/files/2026-03/February%20%202026%20ATCR.pdf",
+      "operating_carriers": {
+        "UA": {
+          "interval": [
+            77.64500000000001,
+            77.655
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 795271,
+          "rank": 5,
+          "rank_interval": [
+            5,
+            5
+          ],
+          "rate_pct": 77.65
+        },
+        "WN": {
+          "interval": [
+            77.75500000000001,
+            77.765
+          ],
+          "interval_type": "published two-decimal rounding range in percent; upper endpoint excluded",
+          "n": 1391885,
+          "rank": 4,
+          "rank_interval": [
+            4,
+            4
+          ],
+          "rate_pct": 77.76
+        }
+      },
+      "operating_table": "Table 1D (YTD), printed page 10"
+    }
+  },
+  "reconciliation": {
+    "checks": [
+      {
+        "name": "DOT-2023-UA-operating-row",
+        "passes": true,
+        "published_n": 732212,
+        "published_rate_pct": 78.07,
+        "source_n": 732212,
+        "source_rate_pct": 78.07110508978275,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202024%20ATCR%20revised%203-06-2025.pdf"
+      },
+      {
+        "name": "DOT-2023-WN-operating-row",
+        "passes": true,
+        "published_n": 1438465,
+        "published_rate_pct": 77.25,
+        "source_n": 1438465,
+        "source_rate_pct": 77.25422585881478,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202024%20ATCR%20revised%203-06-2025.pdf"
+      },
+      {
+        "name": "DOT-2024-UA-operating-row",
+        "passes": true,
+        "published_n": 760451,
+        "published_rate_pct": 78.6,
+        "source_n": 760451,
+        "source_rate_pct": 78.59888408326113,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+      },
+      {
+        "name": "DOT-2024-WN-operating-row",
+        "passes": true,
+        "published_n": 1419419,
+        "published_rate_pct": 78.57,
+        "source_n": 1419419,
+        "source_rate_pct": 78.56615981609377,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+      },
+      {
+        "name": "DOT-2025-UA-operating-row",
+        "passes": true,
+        "published_n": 795271,
+        "published_rate_pct": 77.65,
+        "source_n": 795271,
+        "source_rate_pct": 77.65428388561887,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2026-03/February%20%202026%20ATCR.pdf"
+      },
+      {
+        "name": "DOT-2025-WN-operating-row",
+        "passes": true,
+        "published_n": 1391885,
+        "published_rate_pct": 77.76,
+        "source_n": 1391885,
+        "source_rate_pct": 77.75513063220022,
+        "url": "https://www.transportation.gov/sites/dot.gov/files/2026-03/February%20%202026%20ATCR.pdf"
+      }
+    ],
+    "note": "UA/WN operating-carrier counts and two-decimal rates reconcile exactly. Marketing-network UA includes codeshare partners and is not our fixed operator population.",
+    "passes": true,
+    "unresolved_mismatches": []
+  },
+  "unmatched_all_flights": {
+    "A": {
+      "UA": {
+        "interval": [
+          0.783399869896956,
+          0.783399869896956
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1492663,
+        "numerator": 1169352.0,
+        "rate": 0.783399869896956,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.7790582122997295,
+          0.7790582122997295
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 2857884,
+        "numerator": 2226458.0,
+        "rate": 0.7790582122997295,
+        "unknown": 0
+      }
+    },
+    "B": {
+      "UA": {
+        "interval": [
+          0.7765428388561887,
+          0.7765428388561887
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 617562.0,
+        "rate": 0.7765428388561887,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.7775513063220022,
+          0.7775513063220022
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 1082262.0,
+        "rate": 0.7775513063220022,
+        "unknown": 0
+      }
+    }
+  },
+  "written_utc": "2026-10-07T15:45:59.993685+00:00"
+}
