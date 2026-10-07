@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "direct circular sums",
+    "integer multiplicities",
+    "analytical original and draw SEs",
+    "quantile inversion",
+    "finite-window correction",
+    "t floors",
+    "inherited manifests identical"
+  ],
+  "df": [
+    24,
+    12
+  ],
+  "draws": 1999,
+  "new_synthetic_datasets": 0,
+  "passes": true,
+  "unchanged_functions": [
+    "rng",
+    "scenarios",
+    "load_structure",
+    "prepare",
+    "shock_series",
+    "generate",
+    "indices",
+    "verdict",
+    "one",
+    "exact",
+    "summarize",
+    "fixtures"
+  ]
+}

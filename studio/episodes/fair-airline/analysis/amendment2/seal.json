@@ -1,0 +1,19 @@
+{
+  "written_utc": "2026-10-07T09:46:36.547116+00:00",
+  "files": {
+    "AMENDMENT-2.md": "d70edb15d5b3fe70030df49c7f7ed206159eadbacf0f301b49be2f2d8d99f1f6",
+    "run_gate.py": "7907ea294f2efe3cb4e54ad102392a217275509d65a814c6e81b3b745b75252b",
+    "design.json": "aaff7dd120257afca1963c13d6c79143f492599710d0114059fbea94154c3335",
+    "structure.json": "41a239b79bd71b9ea2b790c15c26ee0b4b8bd283319ea6fa1a2edf3b189793fd",
+    "truths.json": "45bd1fe5c54229972add490825a8362127cc645bf278950ae2aae439305938f8",
+    "fixtures.json": "54d1f2479a6ef65622c6ad896c35c3d23833f925f403b505e0b5cddf20175af7",
+    "check_interval.py": "f7fd6f42c37ce828927ba992cf14cff089ca3b77b379e2ce45b17fd4882d4c17",
+    "preflight.json": "e7f2f6387a1975a591c0f2d7cb5f41a99d9527d491b6a63f7f5e585bbd8cb9cf",
+    "diagnose.py": "5cd8a7354c1a9e62fbbaff6bf000d7738f66617bcaea5f5f1f5f6e9e061153f6",
+    "diagnosis.json": "693ec5c3f20e6fff94b5c838d5b1c0fc4b729201cb3a251d735750cabc1d5ad0",
+    "verify.py": "61723e0f99f3858cc20903dd7bd5f01c7c58c486ffcaa20915a601506f115f1e"
+  },
+  "prior_design_commit": "e5c9a33",
+  "prior_report_commit": "6bc20d7",
+  "new_synthetic_datasets_at_seal": 0
+}

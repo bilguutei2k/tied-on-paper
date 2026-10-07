@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "fractional-weight expansion",
+    "strict equality inconclusive",
+    "symmetric directions",
+    "quality stops verdict",
+    "day/block lengths",
+    "raw access denied"
+  ],
+  "passes": true,
+  "synthetic_datasets": 0
+}
