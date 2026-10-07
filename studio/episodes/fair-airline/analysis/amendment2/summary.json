@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "design_commit": "8a33153",
+  "selected": 28,
+  "confirmation_outcomes_opened": false,
+  "diagnostic_bank0_acceptance_evidence": false,
+  "banks": [
+    {
+      "bank": 2,
+      "completed": 20,
+      "mandatory_completed": 19,
+      "mandatory_passed": 19,
+      "unrun": [],
+      "datasets": 20000,
+      "worst_false": {
+        "count": 7,
+        "lower": 0.003289787400653805,
+        "mcse": 0.0026364749192814255,
+        "n": 1000,
+        "rate": 0.007,
+        "upper": 0.013107715416593313
+      },
+      "minimum_joint_coverage_lower": 0.9652574799006375,
+      "minimum_required_power_lower": 0.8915585241882561,
+      "local_replicated_power": {
+        "count": 277,
+        "lower": 0.25373099519417486,
+        "mcse": 0.014151713677148785,
+        "n": 1000,
+        "rate": 0.277,
+        "upper": 0.30124677197462024
+      }
+    },
+    {
+      "bank": 1,
+      "completed": 20,
+      "mandatory_completed": 19,
+      "mandatory_passed": 19,
+      "unrun": [],
+      "datasets": 40000,
+      "worst_false": {
+        "count": 15,
+        "lower": 0.004628674871412258,
+        "mcse": 0.0019292161620720473,
+        "n": 2000,
+        "rate": 0.0075,
+        "upper": 0.011525178568058531
+      },
+      "minimum_joint_coverage_lower": 0.9734826296901865,
+      "minimum_required_power_lower": 0.9130055206908477,
+      "local_replicated_power": {
+        "count": 491,
+        "lower": 0.22970383075213202,
+        "mcse": 0.009623662244696662,
+        "n": 2000,
+        "rate": 0.2455,
+        "upper": 0.2618505567635202
+      }
+    }
+  ],
+  "total_datasets": 60000,
+  "bootstrap_draws": 119940000,
+  "benchmark": {
+    "acceptance_inspected": false,
+    "measurements": [
+      {
+        "candidate": 28,
+        "datasets": 10,
+        "seconds": 0.16204333305358887,
+        "workers": 10
+      }
+    ],
+    "written_utc": "2026-10-07T09:47:00.445321+00:00"
+  },
+  "verification_passes": true
+}

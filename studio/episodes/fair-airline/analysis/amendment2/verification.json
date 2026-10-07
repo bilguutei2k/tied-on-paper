@@ -1,0 +1,357 @@
+{
+  "bootstrap_multiplicity_checks": {
+    "checks": [
+      "direct circular sums",
+      "integer multiplicities",
+      "analytical original and draw SEs",
+      "quantile inversion",
+      "finite-window correction",
+      "t floors",
+      "inherited manifests identical"
+    ],
+    "df": [
+      24,
+      12
+    ],
+    "draws": 1999,
+    "new_synthetic_datasets": 0,
+    "passes": true,
+    "unchanged_functions": [
+      "rng",
+      "scenarios",
+      "load_structure",
+      "prepare",
+      "shock_series",
+      "generate",
+      "indices",
+      "verdict",
+      "one",
+      "exact",
+      "summarize",
+      "fixtures"
+    ]
+  },
+  "confirmation_outcomes_opened": false,
+  "exact_binomial_checks": 338,
+  "maximum_bias_recalculation_error": 3.7947076036992655e-19,
+  "membership_counts": [
+    [
+      2023,
+      174082,
+      174082
+    ],
+    [
+      2024,
+      181641,
+      181641
+    ],
+    [
+      2025,
+      176804,
+      176804
+    ]
+  ],
+  "new_evaluation_datasets": 0,
+  "original_replicate_replays": [
+    [
+      2,
+      28,
+      0,
+      0
+    ],
+    [
+      2,
+      28,
+      1,
+      0
+    ],
+    [
+      2,
+      28,
+      2,
+      0
+    ],
+    [
+      2,
+      28,
+      3,
+      0
+    ],
+    [
+      2,
+      28,
+      4,
+      0
+    ],
+    [
+      2,
+      28,
+      5,
+      0
+    ],
+    [
+      2,
+      28,
+      6,
+      0
+    ],
+    [
+      2,
+      28,
+      7,
+      0
+    ],
+    [
+      2,
+      28,
+      8,
+      0
+    ],
+    [
+      2,
+      28,
+      9,
+      0
+    ],
+    [
+      2,
+      28,
+      10,
+      0
+    ],
+    [
+      2,
+      28,
+      11,
+      0
+    ],
+    [
+      2,
+      28,
+      12,
+      0
+    ],
+    [
+      2,
+      28,
+      13,
+      0
+    ],
+    [
+      2,
+      28,
+      14,
+      0
+    ],
+    [
+      2,
+      28,
+      15,
+      0
+    ],
+    [
+      2,
+      28,
+      16,
+      0
+    ],
+    [
+      2,
+      28,
+      17,
+      0
+    ],
+    [
+      2,
+      28,
+      18,
+      0
+    ],
+    [
+      2,
+      28,
+      19,
+      0
+    ],
+    [
+      1,
+      28,
+      0,
+      0
+    ],
+    [
+      1,
+      28,
+      1,
+      0
+    ],
+    [
+      1,
+      28,
+      2,
+      0
+    ],
+    [
+      1,
+      28,
+      3,
+      0
+    ],
+    [
+      1,
+      28,
+      4,
+      0
+    ],
+    [
+      1,
+      28,
+      5,
+      0
+    ],
+    [
+      1,
+      28,
+      6,
+      0
+    ],
+    [
+      1,
+      28,
+      7,
+      0
+    ],
+    [
+      1,
+      28,
+      8,
+      0
+    ],
+    [
+      1,
+      28,
+      9,
+      0
+    ],
+    [
+      1,
+      28,
+      10,
+      0
+    ],
+    [
+      1,
+      28,
+      11,
+      0
+    ],
+    [
+      1,
+      28,
+      12,
+      0
+    ],
+    [
+      1,
+      28,
+      13,
+      0
+    ],
+    [
+      1,
+      28,
+      14,
+      0
+    ],
+    [
+      1,
+      28,
+      15,
+      0
+    ],
+    [
+      1,
+      28,
+      16,
+      0
+    ],
+    [
+      1,
+      28,
+      17,
+      0
+    ],
+    [
+      1,
+      28,
+      18,
+      0
+    ],
+    [
+      1,
+      28,
+      19,
+      0
+    ]
+  ],
+  "passes": true,
+  "records_sha256": {
+    "bank1-candidate28-scenario0.jsonl": "39d1c1b7ee9f01a6431098994e76ef33563c5708838c0a97270759e9b228d6d8",
+    "bank1-candidate28-scenario1.jsonl": "dc85d376b1bed9ef54c88f32920b8dc20bc46946431471552278d5cd42231adc",
+    "bank1-candidate28-scenario10.jsonl": "b9fdfbbb67fa8110f3892ebb86e5caf3c6352b4efe76883a4211721aa782d988",
+    "bank1-candidate28-scenario11.jsonl": "b22f54b695a1331c493636f9ed3b385f8433a1e77ce165ddd0697d2696469d3e",
+    "bank1-candidate28-scenario12.jsonl": "0016976ebd071329f14bf556f03395dee94f02ea1fcfbcfb3addbbeac0452317",
+    "bank1-candidate28-scenario13.jsonl": "3284d1c40ff6ce0e2bc61c816bcd6457390372cfa8d15ac0e266bf761685d500",
+    "bank1-candidate28-scenario14.jsonl": "8ef4f23d099a89c112d34e9d8a94a60ee75340a3c5f684c20e153948457db5e5",
+    "bank1-candidate28-scenario15.jsonl": "e80b3e9badd593c81a718b3783cc3c10b8319f2d9733ee601c6339ab47e64dd6",
+    "bank1-candidate28-scenario16.jsonl": "a7771af14bae4c7530d4fd0abe5271e7edc13ce23f77c5b3bba71862f8dacb3b",
+    "bank1-candidate28-scenario17.jsonl": "a2bb8bfc12e66b6f51868498b329325b85f74c0dc70b1478df583e98a716625d",
+    "bank1-candidate28-scenario18.jsonl": "0b055710fb6628e9004342342d468d2e6665ccf8defe6a4b2d79df1550712f2e",
+    "bank1-candidate28-scenario19.jsonl": "8b882d81c1723d0dace887c1aa727bd5812ea972c51cf98ee56d7818940b3bdc",
+    "bank1-candidate28-scenario2.jsonl": "087feae29c8f4387f8464d42fba1a3a74fb6d0332b7fafba9ae1fefeb7d5758e",
+    "bank1-candidate28-scenario3.jsonl": "4a1135d1ccfd49182cead659770d28d98cd327e6e2680392ecbaa0655a4cfbf6",
+    "bank1-candidate28-scenario4.jsonl": "8c4e20e14fa839482a4e57bca4d79c34fc7f098f771e3d82548fb9ce8878258f",
+    "bank1-candidate28-scenario5.jsonl": "f99ea8befd2acc369684d29a28acbfb4b6b3d577b1330cb9c5589a066ae554cc",
+    "bank1-candidate28-scenario6.jsonl": "78f4a0498544b125d3f2cbe520038030b38cb433cc3418346b9d8c56809c5d60",
+    "bank1-candidate28-scenario7.jsonl": "09bdc6e2db1a5c538554c15603df68d7598c74aa8af5f24e22c112996109be9b",
+    "bank1-candidate28-scenario8.jsonl": "d2685da7504224edf0aa0abce7688a61c16541d87d555c2aa077dff3efe0494f",
+    "bank1-candidate28-scenario9.jsonl": "a382ce54cae0beb43a3a832fd6babbcd422cc42db63e95089c1a184bb5655596",
+    "bank2-candidate28-scenario0.jsonl": "47987d1d45519d469c34b8b7e57715c092e0dcd5bed23589a7135aa977d187da",
+    "bank2-candidate28-scenario1.jsonl": "0690fcd294f4a51fab83a8160a8927a97a8283098599f910e4cb234e11cc8e7f",
+    "bank2-candidate28-scenario10.jsonl": "23fbdff8b5e30d1d47c783a0fc2d57cb0fa7fd35510172b7b97b6a2a6452b3a5",
+    "bank2-candidate28-scenario11.jsonl": "b75e6792a38163f10b0b3c083f52c7dcb72d4fbbe38a15f3507584befe948164",
+    "bank2-candidate28-scenario12.jsonl": "6cdab0e6e5431f9c5036c3137c9dd2b434e78a4d119c73d179d67789e2c80a97",
+    "bank2-candidate28-scenario13.jsonl": "76fa0d703433209b6edad47ee55104ae9de77c2d735a2f4ec917fb8276233418",
+    "bank2-candidate28-scenario14.jsonl": "b19cb56feb9d4e213fe3d61b6d495beb6cfd62a4a74d4092afdc28f5438f2490",
+    "bank2-candidate28-scenario15.jsonl": "918b8cbc1b2c165c21e74e1867f8a29a4b24ea74d74a98b7ff121cbdbffe044c",
+    "bank2-candidate28-scenario16.jsonl": "117683217918b1d5ea55e55c70156a417360f8f7c1d81323f103dd49ea20e16c",
+    "bank2-candidate28-scenario17.jsonl": "cf20f900f12564dad1a5ba8b87e362dbe741fa9aaf8fc1138c8a1bd1ce33a861",
+    "bank2-candidate28-scenario18.jsonl": "365c606326c2bfbcc29884866cbcfac5f3418e210f5db42034cb5271c7980073",
+    "bank2-candidate28-scenario19.jsonl": "c3f67738544a7060d9c800d2efe9f6c6eda146e05db1e0d284d04dbdd3b04a20",
+    "bank2-candidate28-scenario2.jsonl": "d44d9425b73f68b1f7dfabadba0475105dfde750db1f8c1eb8e6a6c54fdee233",
+    "bank2-candidate28-scenario3.jsonl": "32b3fdf5a4c2d9ba8d11014cb6c76f8c9602d214ff9c1b7ebdded34e14915f81",
+    "bank2-candidate28-scenario4.jsonl": "d86ff03ac5bae125b5cad1ccb7bc6336ceeb9ccbf221985629128456abe59ebc",
+    "bank2-candidate28-scenario5.jsonl": "c0290ccdbf520b97debb54a7cd87f640d582aeb96e861e6be5d630a1e50e1765",
+    "bank2-candidate28-scenario6.jsonl": "da30fe592eb712017dfde96a776a25b65ecaac2c616212d495270d06a3f91ee2",
+    "bank2-candidate28-scenario7.jsonl": "012bf39e8fc09a11e919332e3aed682b14892541b528fe67ae271dba17eae894",
+    "bank2-candidate28-scenario8.jsonl": "46d5aa02bcb1fad065808a0d35a6684685f1e8348843797338fc5891254a860e",
+    "bank2-candidate28-scenario9.jsonl": "88deb0f7240c269ed400ab69c0116b3822084affe4bc687b4cd377d91b365325"
+  },
+  "status_fixtures": {
+    "14.999": true,
+    "15": true,
+    "both_failure_flags": true,
+    "cancel_precedence": true,
+    "divert_precedence": true,
+    "hhmm": true,
+    "infinite_delay": true,
+    "invalid_delay": true,
+    "invalid_key_uses_flightdate_week": true,
+    "missing_delay": true,
+    "missing_flag": true,
+    "negative_delay": true,
+    "nonbinary": true,
+    "source_boundary_separate_cluster": true,
+    "sunday_midnight_same_cluster": true
+  }
+}

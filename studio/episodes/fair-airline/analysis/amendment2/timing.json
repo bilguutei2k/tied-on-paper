@@ -1,0 +1,12 @@
+{
+  "acceptance_inspected": false,
+  "measurements": [
+    {
+      "candidate": 28,
+      "datasets": 10,
+      "seconds": 0.16204333305358887,
+      "workers": 10
+    }
+  ],
+  "written_utc": "2026-10-07T09:47:00.445321+00:00"
+}
