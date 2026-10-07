@@ -1,0 +1,7 @@
+{
+  "passes": true,
+  "byte_identical_stable_results": true,
+  "excluded_field": "written_utc only",
+  "raw_outcome_derivative_reused": true,
+  "period": "B"
+}

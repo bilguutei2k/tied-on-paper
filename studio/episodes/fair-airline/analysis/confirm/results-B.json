@@ -1,0 +1,4756 @@
+{
+  "annual": {
+    "2025": {
+      "UA": {
+        "C": {
+          "interval": [
+            0.008207265196392173,
+            0.008207265196392173
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 6527.0,
+          "rate": 0.008207265196392173,
+          "unknown": 0
+        },
+        "F": {
+          "interval": [
+            0.01118360910934763,
+            0.01118360910934763
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 8894.0,
+          "rate": 0.01118360910934763,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "U": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "V": {
+          "interval": [
+            0.002976343912955458,
+            0.002976343912955458
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 2367.0,
+          "rate": 0.002976343912955458,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": [
+            0.7765428388561887,
+            0.7765428388561887
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 795271,
+          "numerator": 617562.0,
+          "rate": 0.7765428388561887,
+          "unknown": 0
+        }
+      },
+      "WN": {
+        "C": {
+          "interval": [
+            0.008476993429773294,
+            0.008476993429773294
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 11799.0,
+          "rate": 0.008476993429773294,
+          "unknown": 0
+        },
+        "F": {
+          "interval": [
+            0.010811237997392026,
+            0.010811237997392026
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 15048.0,
+          "rate": 0.010811237997392026,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "U": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "V": {
+          "interval": [
+            0.002334244567618733,
+            0.002334244567618733
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 3249.0,
+          "rate": 0.002334244567618733,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": [
+            0.7775513063220022,
+            0.7775513063220022
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1391885,
+          "numerator": 1082262.0,
+          "rate": 0.7775513063220022,
+          "unknown": 0
+        }
+      }
+    }
+  },
+  "annual_excluded": {
+    "2025": {
+      "invalid_key": {
+        "UA": {
+          "C": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "F": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "U": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "V": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "F": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "U": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "V": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": null,
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 0,
+            "numerator": 0.0,
+            "rate": null,
+            "unknown": 0
+          }
+        }
+      },
+      "outside_all_supported_cells": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.00836713799281764,
+              0.00836713799281764
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 515708,
+            "numerator": 4315.0,
+            "rate": 0.00836713799281764,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.011279638865404455,
+              0.011279638865404455
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 515708,
+            "numerator": 5817.0,
+            "rate": 0.011279638865404455,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 515708,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 515708,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 515708,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002912500872586813,
+              0.002912500872586813
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 515708,
+            "numerator": 1502.0,
+            "rate": 0.002912500872586813,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7773701396914533,
+              0.7773701396914533
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 515708,
+            "numerator": 400896.0,
+            "rate": 0.7773701396914533,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008645782677297582,
+              0.008645782677297582
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1143332,
+            "numerator": 9885.0,
+            "rate": 0.008645782677297582,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010967068183169892,
+              0.010967068183169892
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1143332,
+            "numerator": 12539.0,
+            "rate": 0.010967068183169892,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1143332,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1143332,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1143332,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.00232128550587231,
+              0.00232128550587231
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1143332,
+            "numerator": 2654.0,
+            "rate": 0.00232128550587231,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7858566015820426,
+              0.7858566015820426
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1143332,
+            "numerator": 898495.0,
+            "rate": 0.7858566015820426,
+            "unknown": 0
+          }
+        }
+      },
+      "pair_unsupported": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.00867732685682906,
+              0.00867732685682906
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 706554,
+            "numerator": 6131.0,
+            "rate": 0.00867732685682906,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.011625438395366809,
+              0.011625438395366809
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 706554,
+            "numerator": 8214.0,
+            "rate": 0.011625438395366809,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 706554,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 706554,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 706554,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002948111538537748,
+              0.002948111538537748
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 706554,
+            "numerator": 2083.0,
+            "rate": 0.002948111538537748,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7759081400713888,
+              0.7759081400713888
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 706554,
+            "numerator": 548221.0,
+            "rate": 0.7759081400713888,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008612530468676896,
+              0.008612530468676896
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1303798,
+            "numerator": 11229.0,
+            "rate": 0.008612530468676896,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010888189734912923,
+              0.010888189734912923
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1303798,
+            "numerator": 14196.0,
+            "rate": 0.010888189734912923,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1303798,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1303798,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1303798,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0022756592662360273,
+              0.0022756592662360273
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1303798,
+            "numerator": 2967.0,
+            "rate": 0.0022756592662360273,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7828122147756017,
+              0.7828122147756017
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1303798,
+            "numerator": 1020629.0,
+            "rate": 0.7828122147756017,
+            "unknown": 0
+          }
+        }
+      }
+    }
+  },
+  "decomposition": {
+    "D": 0.08202680180689727,
+    "G": -0.0010084674658135118,
+    "R": 0.08191439680515034,
+    "descriptive_only": true,
+    "n": {
+      "UA": 88717,
+      "WN": 88087
+    },
+    "restriction": -0.08292286427096385,
+    "reweighting": -0.00011240500174693191,
+    "total": -0.08303526927271078
+  },
+  "descriptive_interval_note": "Census ranges are missingness identification ranges, not sampling confidence intervals. Sensitivity block intervals are descriptive nominal 99%, not independently gate-certified.",
+  "excluded": {
+    "invalid_key": {
+      "UA": {
+        "C": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "F": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "U": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "V": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        }
+      },
+      "WN": {
+        "C": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "F": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "U": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "V": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": null,
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 0,
+          "numerator": 0.0,
+          "rate": null,
+          "unknown": 0
+        }
+      }
+    },
+    "outside_all_supported_cells": {
+      "UA": {
+        "C": {
+          "interval": [
+            0.00836713799281764,
+            0.00836713799281764
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 515708,
+          "numerator": 4315.0,
+          "rate": 0.00836713799281764,
+          "unknown": 0
+        },
+        "F": {
+          "interval": [
+            0.011279638865404455,
+            0.011279638865404455
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 515708,
+          "numerator": 5817.0,
+          "rate": 0.011279638865404455,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 515708,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 515708,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "U": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 515708,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "V": {
+          "interval": [
+            0.002912500872586813,
+            0.002912500872586813
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 515708,
+          "numerator": 1502.0,
+          "rate": 0.002912500872586813,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": [
+            0.7773701396914533,
+            0.7773701396914533
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 515708,
+          "numerator": 400896.0,
+          "rate": 0.7773701396914533,
+          "unknown": 0
+        }
+      },
+      "WN": {
+        "C": {
+          "interval": [
+            0.008645782677297582,
+            0.008645782677297582
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1143332,
+          "numerator": 9885.0,
+          "rate": 0.008645782677297582,
+          "unknown": 0
+        },
+        "F": {
+          "interval": [
+            0.010967068183169892,
+            0.010967068183169892
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1143332,
+          "numerator": 12539.0,
+          "rate": 0.010967068183169892,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1143332,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1143332,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "U": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1143332,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "V": {
+          "interval": [
+            0.00232128550587231,
+            0.00232128550587231
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1143332,
+          "numerator": 2654.0,
+          "rate": 0.00232128550587231,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": [
+            0.7858566015820426,
+            0.7858566015820426
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1143332,
+          "numerator": 898495.0,
+          "rate": 0.7858566015820426,
+          "unknown": 0
+        }
+      }
+    },
+    "pair_unsupported": {
+      "UA": {
+        "C": {
+          "interval": [
+            0.00867732685682906,
+            0.00867732685682906
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 706554,
+          "numerator": 6131.0,
+          "rate": 0.00867732685682906,
+          "unknown": 0
+        },
+        "F": {
+          "interval": [
+            0.011625438395366809,
+            0.011625438395366809
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 706554,
+          "numerator": 8214.0,
+          "rate": 0.011625438395366809,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 706554,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 706554,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "U": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 706554,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "V": {
+          "interval": [
+            0.002948111538537748,
+            0.002948111538537748
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 706554,
+          "numerator": 2083.0,
+          "rate": 0.002948111538537748,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": [
+            0.7759081400713888,
+            0.7759081400713888
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 706554,
+          "numerator": 548221.0,
+          "rate": 0.7759081400713888,
+          "unknown": 0
+        }
+      },
+      "WN": {
+        "C": {
+          "interval": [
+            0.008612530468676896,
+            0.008612530468676896
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1303798,
+          "numerator": 11229.0,
+          "rate": 0.008612530468676896,
+          "unknown": 0
+        },
+        "F": {
+          "interval": [
+            0.010888189734912923,
+            0.010888189734912923
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1303798,
+          "numerator": 14196.0,
+          "rate": 0.010888189734912923,
+          "unknown": 0
+        },
+        "MC": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1303798,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "MV": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1303798,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "U": {
+          "interval": [
+            0.0,
+            0.0
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1303798,
+          "numerator": 0.0,
+          "rate": 0.0,
+          "unknown": 0
+        },
+        "V": {
+          "interval": [
+            0.0022756592662360273,
+            0.0022756592662360273
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1303798,
+          "numerator": 2967.0,
+          "rate": 0.0022756592662360273,
+          "unknown": 0
+        },
+        "Y": {
+          "interval": [
+            0.7828122147756017,
+            0.7828122147756017
+          ],
+          "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+          "n": 1303798,
+          "numerator": 1020629.0,
+          "rate": 0.7828122147756017,
+          "unknown": 0
+        }
+      }
+    }
+  },
+  "excluded_exposure": {
+    "invalid_key": {
+      "UA": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      }
+    },
+    "outside_all_supported_cells": {
+      "UA": {
+        "interval": [
+          0.6484682579900436,
+          0.6484682579900436
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 515708.0,
+        "rate": 0.6484682579900436,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.82142705755145,
+          0.82142705755145
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 1143332.0,
+        "rate": 0.82142705755145,
+        "unknown": 0
+      }
+    },
+    "pair_unsupported": {
+      "UA": {
+        "interval": [
+          0.8884443164657079,
+          0.8884443164657079
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 706554.0,
+        "rate": 0.8884443164657079,
+        "unknown": 0
+      },
+      "WN": {
+        "interval": [
+          0.936713880816303,
+          0.936713880816303
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 1303798.0,
+        "rate": 0.936713880816303,
+        "unknown": 0
+      }
+    }
+  },
+  "inputs": {
+    "first_open_utc": "2026-10-07T15:39:44.777454+00:00",
+    "outcomes": {
+      "path": "data/derived/confirm-outcomes-B.parquet",
+      "rows": 2187156,
+      "sha256": "e18ff50058c964518bb8362cc5c3fd6622c0653f968d0137b827fb8e6a3ef969"
+    },
+    "sources": [
+      {
+        "UA_WN_rows": 167314,
+        "month": 1,
+        "rows": 539747,
+        "schedule_identical": true,
+        "sha256": "868387dcedaef1b8d8392e608e642219fde50d594c3cf2094aec858167629ccf",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 157827,
+        "month": 2,
+        "rows": 504884,
+        "schedule_identical": true,
+        "sha256": "12dc8dbdb3c8b3c20d4c00a8b188196ae202f781a8760871ae502a9c733d0ecd",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 189426,
+        "month": 3,
+        "rows": 600872,
+        "schedule_identical": true,
+        "sha256": "9c80fbc2112cdbf3f0613ec2001ba019b3ad75511cd69657080736e7eda9cef4",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 181878,
+        "month": 4,
+        "rows": 583950,
+        "schedule_identical": true,
+        "sha256": "f3718431e988e2afd53a1714dfca37f67355b6fc06b02eb506bffa39300d608c",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 187626,
+        "month": 5,
+        "rows": 605648,
+        "schedule_identical": true,
+        "sha256": "17c3419d7169b313b2bc8ddd3fd57e1e2d4d959c35f2da17f6a5610d4bac7d63",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 188672,
+        "month": 6,
+        "rows": 611575,
+        "schedule_identical": true,
+        "sha256": "087b75e4e059516ca1181e58955d062f341933adb2706e5b2404ed10c9ecbdc6",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 195465,
+        "month": 7,
+        "rows": 631428,
+        "schedule_identical": true,
+        "sha256": "74309a3a734d5104b4c212390c06eb3acacff15124b9cea49ba7d69a609a0d19",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 183465,
+        "month": 8,
+        "rows": 602378,
+        "schedule_identical": true,
+        "sha256": "405668b8a807266236a635efbc1e9364abfb756db1a5c895e45abc9c7b7684f1",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 177911,
+        "month": 9,
+        "rows": 562439,
+        "schedule_identical": true,
+        "sha256": "adc722b1c14944451b20ddcdbeec69bbc092310ab8044f758b8f4b82fde8d017",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 193003,
+        "month": 10,
+        "rows": 605844,
+        "schedule_identical": true,
+        "sha256": "05d14d3fd67fa3e04b97c4d6bc7386f4a6c1cda13d2506cf0e9f0a6c620ed111",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 180629,
+        "month": 11,
+        "rows": 570550,
+        "schedule_identical": true,
+        "sha256": "6d5b68eea3ebb25f3cb2843e701a6c809b5455301b3bbd7802a20d522ed770c8",
+        "status_errors": 0,
+        "year": 2025
+      },
+      {
+        "UA_WN_rows": 183940,
+        "month": 12,
+        "rows": 582304,
+        "schedule_identical": true,
+        "sha256": "a2af96d186bc9997fef47382b8589198281c9a722286d88f30032af8ee7dcd0f",
+        "status_errors": 0,
+        "year": 2025
+      }
+    ]
+  },
+  "matched_coverage": {
+    "UA": {
+      "n": 88717,
+      "original_coverage": {
+        "interval": [
+          0.11155568353429209,
+          0.11155568353429209
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 88717.0,
+        "rate": 0.11155568353429209,
+        "unknown": 0
+      },
+      "original_denominator": 795271,
+      "retained_coverage": {
+        "interval": [
+          0.11155568353429209,
+          0.11155568353429209
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 88717.0,
+        "rate": 0.11155568353429209,
+        "unknown": 0
+      },
+      "retained_denominator": 795271
+    },
+    "WN": {
+      "n": 88087,
+      "original_coverage": {
+        "interval": [
+          0.06328611918369693,
+          0.06328611918369693
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 88087.0,
+        "rate": 0.06328611918369693,
+        "unknown": 0
+      },
+      "original_denominator": 1391885,
+      "retained_coverage": {
+        "interval": [
+          0.06328611918369693,
+          0.06328611918369693
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 88087.0,
+        "rate": 0.06328611918369693,
+        "unknown": 0
+      },
+      "retained_denominator": 1391885
+    }
+  },
+  "national": {
+    "UA": {
+      "C": {
+        "interval": [
+          0.008207265196392173,
+          0.008207265196392173
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 6527.0,
+        "rate": 0.008207265196392173,
+        "unknown": 0
+      },
+      "F": {
+        "interval": [
+          0.01118360910934763,
+          0.01118360910934763
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 8894.0,
+        "rate": 0.01118360910934763,
+        "unknown": 0
+      },
+      "MC": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      },
+      "MV": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      },
+      "U": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      },
+      "V": {
+        "interval": [
+          0.002976343912955458,
+          0.002976343912955458
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 2367.0,
+        "rate": 0.002976343912955458,
+        "unknown": 0
+      },
+      "Y": {
+        "interval": [
+          0.7765428388561887,
+          0.7765428388561887
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 795271,
+        "numerator": 617562.0,
+        "rate": 0.7765428388561887,
+        "unknown": 0
+      }
+    },
+    "WN": {
+      "C": {
+        "interval": [
+          0.008476993429773294,
+          0.008476993429773294
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 11799.0,
+        "rate": 0.008476993429773294,
+        "unknown": 0
+      },
+      "F": {
+        "interval": [
+          0.010811237997392026,
+          0.010811237997392026
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 15048.0,
+        "rate": 0.010811237997392026,
+        "unknown": 0
+      },
+      "MC": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      },
+      "MV": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      },
+      "U": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 0.0,
+        "rate": 0.0,
+        "unknown": 0
+      },
+      "V": {
+        "interval": [
+          0.002334244567618733,
+          0.002334244567618733
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 3249.0,
+        "rate": 0.002334244567618733,
+        "unknown": 0
+      },
+      "Y": {
+        "interval": [
+          0.7775513063220022,
+          0.7775513063220022
+        ],
+        "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+        "n": 1391885,
+        "numerator": 1082262.0,
+        "rate": 0.7775513063220022,
+        "unknown": 0
+      }
+    }
+  },
+  "national_gap": {
+    "descriptive_only": true,
+    "interval": [
+      -0.0010084674658135118,
+      -0.0010084674658135118
+    ],
+    "n": {
+      "UA": 795271,
+      "WN": 1391885
+    },
+    "point": -0.0010084674658135118
+  },
+  "no_sensitivity_can_change_verdict": true,
+  "period": "B",
+  "primary": {
+    "assignment_intervals": [
+      [
+        0.053111771341002645,
+        0.10995069523717307
+      ],
+      [
+        0.053111771341002645,
+        0.10995069523717307
+      ],
+      [
+        0.053111771341002645,
+        0.10995069523717307
+      ]
+    ],
+    "bootstrap_sha256": "739ba158efdddd009c8274f0af43e8fdb54044bfefad9f1977a81fda19de2480",
+    "cells": 83744,
+    "descriptive_only": false,
+    "df": 12,
+    "draw_file": {
+      "path": "data/derived/confirm-draws-B.npy",
+      "sha256": "fedb06b602d517a208d54003a5d99bb326034485ad58c32f6f1db23f4d23a5d4"
+    },
+    "draws": 1999,
+    "envelope": [
+      0.053111771341002645,
+      0.10995069523717307
+    ],
+    "minimum_draw_denominator": 83112.0,
+    "minimum_draw_se": 0.0028095836867019336,
+    "n": {
+      "UA": 88717,
+      "WN": 88087
+    },
+    "pivot_quantiles": [
+      [
+        -2.7504399988851556,
+        -2.7504399988851556,
+        -2.7504399988851556
+      ],
+      [
+        3.1629581135278184,
+        3.1629581135278184,
+        3.1629581135278184
+      ]
+    ],
+    "point": [
+      0.08202680180689727,
+      0.08202680180689727,
+      0.08202680180689727
+    ],
+    "se": [
+      0.009141768378855995,
+      0.009141768378855995,
+      0.009141768378855995
+    ],
+    "t_floor": 3.0545395893929013,
+    "valid": true,
+    "valid_draws": 1999,
+    "verdict": "UA advantage above two points",
+    "weeks": 53,
+    "weight": 88402.0
+  },
+  "quality": {
+    "checks": [
+      {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 795271,
+        "name": "UA-2025-national-unknown",
+        "passes": true
+      },
+      {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 795271,
+        "name": "UA-2025-invalid-key",
+        "passes": true
+      },
+      {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 88717,
+        "name": "UA-2025-matched-unknown",
+        "passes": true
+      },
+      {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1391885,
+        "name": "WN-2025-national-unknown",
+        "passes": true
+      },
+      {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 1391885,
+        "name": "WN-2025-invalid-key",
+        "passes": true
+      },
+      {
+        "count": 0,
+        "cutoff": 0.001,
+        "n": 88087,
+        "name": "WN-2025-matched-unknown",
+        "passes": true
+      },
+      {
+        "evidence": {
+          "minimum_draw_denominator": 83112.0,
+          "minimum_draw_se": 0.0028095836867019336,
+          "valid_draws": 1999
+        },
+        "name": "interval-all-1999-draws-valid",
+        "passes": true
+      }
+    ],
+    "passes": true
+  },
+  "raw_shared": {
+    "UA": {
+      "interval": [
+        0.7815976644836954,
+        0.7815976644836954
+      ],
+      "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+      "n": 88717,
+      "numerator": 69341.0,
+      "rate": 0.7815976644836954,
+      "unknown": 0
+    },
+    "WN": {
+      "interval": [
+        0.699683267678545,
+        0.699683267678545
+      ],
+      "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+      "n": 88087,
+      "numerator": 61633.0,
+      "rate": 0.699683267678545,
+      "unknown": 0
+    }
+  },
+  "replication": {
+    "A": "UA advantage above two points",
+    "B": "UA advantage above two points",
+    "decision": "replicated",
+    "replicated": true,
+    "rule": "Only the same decisive label in A and B permits replicated; B cannot rewrite A."
+  },
+  "sensitivities": {
+    "equal_cell_weights": {
+      "assignment_intervals": [
+        [
+          0.053780651731426904,
+          0.10894167014342901
+        ],
+        [
+          0.053780651731426904,
+          0.10894167014342901
+        ],
+        [
+          0.053780651731426904,
+          0.10894167014342901
+        ]
+      ],
+      "bootstrap_sha256": "970232a84d0111af63d9903da071180781146ebb0dca7d97656a0d0edf1ce841",
+      "cells": 83744,
+      "coverage": {
+        "UA": {
+          "n": 88717,
+          "original_coverage": {
+            "interval": [
+              0.11155568353429209,
+              0.11155568353429209
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 88717.0,
+            "rate": 0.11155568353429209,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.11155568353429209,
+              0.11155568353429209
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 88717.0,
+            "rate": 0.11155568353429209,
+            "unknown": 0
+          },
+          "retained_denominator": 795271
+        },
+        "WN": {
+          "n": 88087,
+          "original_coverage": {
+            "interval": [
+              0.06328611918369693,
+              0.06328611918369693
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 88087.0,
+            "rate": 0.06328611918369693,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.06328611918369693,
+              0.06328611918369693
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 88087.0,
+            "rate": 0.06328611918369693,
+            "unknown": 0
+          },
+          "retained_denominator": 1391885
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.053780651731426904,
+        0.10894167014342901
+      ],
+      "minimum_draw_denominator": 78605.0,
+      "minimum_draw_se": 0.00264682820449272,
+      "n": {
+        "UA": 88717,
+        "WN": 88087
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0010084674658135118,
+          -0.0010084674658135118
+        ],
+        "n": {
+          "UA": 795271,
+          "WN": 1391885
+        },
+        "point": -0.0010084674658135118
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008207265196392173,
+              0.008207265196392173
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 6527.0,
+            "rate": 0.008207265196392173,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.01118360910934763,
+              0.01118360910934763
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 8894.0,
+            "rate": 0.01118360910934763,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002976343912955458,
+              0.002976343912955458
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 2367.0,
+            "rate": 0.002976343912955458,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7765428388561887,
+              0.7765428388561887
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 617562.0,
+            "rate": 0.7765428388561887,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008476993429773294,
+              0.008476993429773294
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 11799.0,
+            "rate": 0.008476993429773294,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010811237997392026,
+              0.010811237997392026
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 15048.0,
+            "rate": 0.010811237997392026,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002334244567618733,
+              0.002334244567618733
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 3249.0,
+            "rate": 0.002334244567618733,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7775513063220022,
+              0.7775513063220022
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 1082262.0,
+            "rate": 0.7775513063220022,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.7895086602986394,
+          -2.7895086602986394,
+          -2.7895086602986394
+        ],
+        [
+          3.1694904342594077,
+          3.1694904342594077,
+          3.1694904342594077
+        ]
+      ],
+      "point": [
+        0.08187054196917591,
+        0.08187054196917591,
+        0.08187054196917591
+      ],
+      "se": [
+        0.008862588741118121,
+        0.008862588741118121,
+        0.008862588741118121
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 83744.0
+    },
+    "harmonic_weights": {
+      "assignment_intervals": [
+        [
+          0.05331005734667543,
+          0.10962044807855584
+        ],
+        [
+          0.05331005734667543,
+          0.10962044807855584
+        ],
+        [
+          0.05331005734667543,
+          0.10962044807855584
+        ]
+      ],
+      "bootstrap_sha256": "c39f8f1da363b78272acd700d016817bb62650bfd516d60a05837a2d29980f97",
+      "cells": 83744,
+      "coverage": {
+        "UA": {
+          "n": 88717,
+          "original_coverage": {
+            "interval": [
+              0.11155568353429209,
+              0.11155568353429209
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 88717.0,
+            "rate": 0.11155568353429209,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.11155568353429209,
+              0.11155568353429209
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 88717.0,
+            "rate": 0.11155568353429209,
+            "unknown": 0
+          },
+          "retained_denominator": 795271
+        },
+        "WN": {
+          "n": 88087,
+          "original_coverage": {
+            "interval": [
+              0.06328611918369693,
+              0.06328611918369693
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 88087.0,
+            "rate": 0.06328611918369693,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.06328611918369693,
+              0.06328611918369693
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 88087.0,
+            "rate": 0.06328611918369693,
+            "unknown": 0
+          },
+          "retained_denominator": 1391885
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.05331005734667543,
+        0.10962044807855584
+      ],
+      "minimum_draw_denominator": 81690.13333333319,
+      "minimum_draw_se": 0.0027607741388242318,
+      "n": {
+        "UA": 88717,
+        "WN": 88087
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0010084674658135118,
+          -0.0010084674658135118
+        ],
+        "n": {
+          "UA": 795271,
+          "WN": 1391885
+        },
+        "point": -0.0010084674658135118
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008207265196392173,
+              0.008207265196392173
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 6527.0,
+            "rate": 0.008207265196392173,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.01118360910934763,
+              0.01118360910934763
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 8894.0,
+            "rate": 0.01118360910934763,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002976343912955458,
+              0.002976343912955458
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 2367.0,
+            "rate": 0.002976343912955458,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7765428388561887,
+              0.7765428388561887
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 617562.0,
+            "rate": 0.7765428388561887,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008476993429773294,
+              0.008476993429773294
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 11799.0,
+            "rate": 0.008476993429773294,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010811237997392026,
+              0.010811237997392026
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 15048.0,
+            "rate": 0.010811237997392026,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002334244567618733,
+              0.002334244567618733
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 3249.0,
+            "rate": 0.002334244567618733,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7775513063220022,
+              0.7775513063220022
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 1082262.0,
+            "rate": 0.7775513063220022,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.7636716876158784,
+          -2.7636716876158784,
+          -2.7636716876158784
+        ],
+        [
+          3.1640531470743545,
+          3.1640531470743545,
+          3.1640531470743545
+        ]
+      ],
+      "point": [
+        0.08196108444535781,
+        0.08196108444535781,
+        0.08196108444535781
+      ],
+      "se": [
+        0.009055166195667284,
+        0.009055166195667284,
+        0.009055166195667284
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 86933.53333333333
+    },
+    "omit_airport_10397": {
+      "assignment_intervals": [
+        [
+          0.05291620003944135,
+          0.11012734983207599
+        ],
+        [
+          0.05291620003944135,
+          0.11012734983207599
+        ],
+        [
+          0.05291620003944135,
+          0.11012734983207599
+        ]
+      ],
+      "bootstrap_sha256": "71fbe1e7288801d814e061045de3cf3a7a580df0a0b5d1a1314787df0c088443",
+      "cells": 82889,
+      "coverage": {
+        "UA": {
+          "n": 87862,
+          "original_coverage": {
+            "interval": [
+              0.11048057831858574,
+              0.11048057831858574
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 87862.0,
+            "rate": 0.11048057831858574,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.11250627439330459,
+              0.11250627439330459
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 87862.0,
+            "rate": 0.11250627439330459,
+            "unknown": 0
+          },
+          "retained_denominator": 780952
+        },
+        "WN": {
+          "n": 87225,
+          "original_coverage": {
+            "interval": [
+              0.06266681514636625,
+              0.06266681514636625
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 87225.0,
+            "rate": 0.06266681514636625,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.06466034876928506,
+              0.06466034876928506
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 87225.0,
+            "rate": 0.06466034876928506,
+            "unknown": 0
+          },
+          "retained_denominator": 1348972
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.05291620003944135,
+        0.11012734983207599
+      ],
+      "minimum_draw_denominator": 82355.5,
+      "minimum_draw_se": 0.002860695641441265,
+      "n": {
+        "UA": 87862,
+        "WN": 87225
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0010402441079289115,
+          -0.0010402441079289115
+        ],
+        "n": {
+          "UA": 780952,
+          "WN": 1348972
+        },
+        "point": -0.0010402441079289115
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008104211270346962,
+              0.008104211270346962
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 6329.0,
+            "rate": 0.008104211270346962,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.011080066380520186,
+              0.011080066380520186
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 8653.0,
+            "rate": 0.011080066380520186,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0029758551101732246,
+              0.0029758551101732246
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 2324.0,
+            "rate": 0.0029758551101732246,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7767186715700837,
+              0.7767186715700837
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 780952,
+            "numerator": 606580.0,
+            "rate": 0.7767186715700837,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008347838205685515,
+              0.008347838205685515
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 11261.0,
+            "rate": 0.008347838205685515,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010679243157011412,
+              0.010679243157011412
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 14406.0,
+            "rate": 0.010679243157011412,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0023314049513258987,
+              0.0023314049513258987
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 3145.0,
+            "rate": 0.0023314049513258987,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7777589156780126,
+              0.7777589156780126
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1348972,
+            "numerator": 1049175.0,
+            "rate": 0.7777589156780126,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.755937293935009,
+          -2.755937293935009,
+          -2.755937293935009
+        ],
+        [
+          3.1508878332363874,
+          3.1508878332363874,
+          3.1508878332363874
+        ]
+      ],
+      "point": [
+        0.08196591789605547,
+        0.08196591789605547,
+        0.08196591789605547
+      ],
+      "se": [
+        0.009219534110414884,
+        0.009219534110414884,
+        0.009219534110414884
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 87543.5
+    },
+    "omit_airport_11292": {
+      "assignment_intervals": [
+        [
+          0.08375745413987043,
+          0.1493876497590706
+        ],
+        [
+          0.08375745413987043,
+          0.1493876497590706
+        ],
+        [
+          0.08375745413987043,
+          0.1493876497590706
+        ]
+      ],
+      "bootstrap_sha256": "5470273ab65bebf492d35e40a31d1ad2db9cf69cc3310a9f61d6bac99db4aa70",
+      "cells": 14827,
+      "coverage": {
+        "UA": {
+          "n": 16285,
+          "original_coverage": {
+            "interval": [
+              0.020477296418453583,
+              0.020477296418453583
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 16285.0,
+            "rate": 0.020477296418453583,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.02788942873339008,
+              0.02788942873339008
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 16285.0,
+            "rate": 0.02788942873339008,
+            "unknown": 0
+          },
+          "retained_denominator": 583913
+        },
+        "WN": {
+          "n": 15151,
+          "original_coverage": {
+            "interval": [
+              0.010885238363801607,
+              0.010885238363801607
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 15151.0,
+            "rate": 0.010885238363801607,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.012511137480481023,
+              0.012511137480481023
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 15151.0,
+            "rate": 0.012511137480481023,
+            "unknown": 0
+          },
+          "retained_denominator": 1211001
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.08375745413987043,
+        0.1493876497590706
+      ],
+      "minimum_draw_denominator": 13782.5,
+      "minimum_draw_se": 0.0029609451000557584,
+      "n": {
+        "UA": 16285,
+        "WN": 15151
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.008422686045464811,
+          -0.008422686045464811
+        ],
+        "n": {
+          "UA": 583913,
+          "WN": 1211001
+        },
+        "point": -0.008422686045464811
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.009338719980545047,
+              0.009338719980545047
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 5453.0,
+            "rate": 0.009338719980545047,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.011946985252940079,
+              0.011946985252940079
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 6976.0,
+            "rate": 0.011946985252940079,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0026082652723950312,
+              0.0026082652723950312
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 1523.0,
+            "rate": 0.0026082652723950312,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7785783156052357,
+              0.7785783156052357
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 583913,
+            "numerator": 454622.0,
+            "rate": 0.7785783156052357,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008736574123390484,
+              0.008736574123390484
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 10580.0,
+            "rate": 0.008736574123390484,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010943839022428552,
+              0.010943839022428552
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 13253.0,
+            "rate": 0.010943839022428552,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0022072648990380684,
+              0.0022072648990380684
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 2673.0,
+            "rate": 0.0022072648990380684,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7870010016507005,
+              0.7870010016507005
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1211001,
+            "numerator": 953059.0,
+            "rate": 0.7870010016507005,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -3.600129278487583,
+          -3.600129278487583,
+          -3.600129278487583
+        ],
+        [
+          2.8043232283231396,
+          2.8043232283231396,
+          2.8043232283231396
+        ]
+      ],
+      "point": [
+        0.11388217330449166,
+        0.11388217330449166,
+        0.11388217330449166
+      ],
+      "se": [
+        0.009862278187269658,
+        0.009862278187269658,
+        0.009862278187269658
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 15718.0
+    },
+    "omit_airport_12889": {
+      "assignment_intervals": [
+        [
+          0.0499181808241093,
+          0.1066692020660908
+        ],
+        [
+          0.0499181808241093,
+          0.1066692020660908
+        ],
+        [
+          0.0499181808241093,
+          0.1066692020660908
+        ]
+      ],
+      "bootstrap_sha256": "ed3cc638a280541dcdd26a4162d42b0bfcf4421147b5f250b419663bd1d2e7e0",
+      "cells": 75557,
+      "coverage": {
+        "UA": {
+          "n": 79835,
+          "original_coverage": {
+            "interval": [
+              0.10038716362095437,
+              0.10038716362095437
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 79835.0,
+            "rate": 0.10038716362095437,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.10438362863041514,
+              0.10438362863041514
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 79835.0,
+            "rate": 0.10438362863041514,
+            "unknown": 0
+          },
+          "retained_denominator": 764823
+        },
+        "WN": {
+          "n": 78879,
+          "original_coverage": {
+            "interval": [
+              0.05667063011671223,
+              0.05667063011671223
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 78879.0,
+            "rate": 0.05667063011671223,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.06474630585137382,
+              0.06474630585137382
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 78879.0,
+            "rate": 0.06474630585137382,
+            "unknown": 0
+          },
+          "retained_denominator": 1218278
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.0499181808241093,
+        0.1066692020660908
+      ],
+      "minimum_draw_denominator": 74073.5,
+      "minimum_draw_se": 0.0031484060206523464,
+      "n": {
+        "UA": 79835,
+        "WN": 78879
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0018019708943354251,
+          -0.0018019708943354251
+        ],
+        "n": {
+          "UA": 764823,
+          "WN": 1218278
+        },
+        "point": -0.0018019708943354251
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008328724423820936,
+              0.008328724423820936
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 6370.0,
+            "rate": 0.008328724423820936,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.01133464867034595,
+              0.01133464867034595
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 8669.0,
+            "rate": 0.01133464867034595,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.003005924246525013,
+              0.003005924246525013
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 2299.0,
+            "rate": 0.003005924246525013,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7755206106510918,
+              0.7755206106510918
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 764823,
+            "numerator": 593136.0,
+            "rate": 0.7755206106510918,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008812438540300326,
+              0.008812438540300326
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 10736.0,
+            "rate": 0.008812438540300326,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.011187922625213622,
+              0.011187922625213622
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 13630.0,
+            "rate": 0.011187922625213622,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0023754840849132958,
+              0.0023754840849132958
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 2894.0,
+            "rate": 0.0023754840849132958,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7773225815454272,
+              0.7773225815454272
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1218278,
+            "numerator": 946995.0,
+            "rate": 0.7773225815454272,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.7400021172469544,
+          -2.7400021172469544,
+          -2.7400021172469544
+        ],
+        [
+          3.3194804077580193,
+          3.3194804077580193,
+          3.3194804077580193
+        ]
+      ],
+      "point": [
+        0.07947314036568921,
+        0.07947314036568921,
+        0.07947314036568921
+      ],
+      "se": [
+        0.008903489676428416,
+        0.008903489676428416,
+        0.008903489676428416
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 79357.0
+    },
+    "omit_airport_12892": {
+      "assignment_intervals": [
+        [
+          0.05137126974670994,
+          0.1075549012869656
+        ],
+        [
+          0.05137126974670994,
+          0.1075549012869656
+        ],
+        [
+          0.05137126974670994,
+          0.1075549012869656
+        ]
+      ],
+      "bootstrap_sha256": "dbadefb2c35c923e0c8346ff6ff77bc107416502d0f7643a166bdb26e83d4b3f",
+      "cells": 74611,
+      "coverage": {
+        "UA": {
+          "n": 78268,
+          "original_coverage": {
+            "interval": [
+              0.09841676610865982,
+              0.09841676610865982
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 78268.0,
+            "rate": 0.09841676610865982,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.10588289407110989,
+              0.10588289407110989
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 78268.0,
+            "rate": 0.10588289407110989,
+            "unknown": 0
+          },
+          "retained_denominator": 739194
+        },
+        "WN": {
+          "n": 78625,
+          "original_coverage": {
+            "interval": [
+              0.056488143776245885,
+              0.056488143776245885
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 78625.0,
+            "rate": 0.056488143776245885,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.05857042716744103,
+              0.05857042716744103
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 78625.0,
+            "rate": 0.05857042716744103,
+            "unknown": 0
+          },
+          "retained_denominator": 1342401
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.05137126974670994,
+        0.1075549012869656
+      ],
+      "minimum_draw_denominator": 73552.5,
+      "minimum_draw_se": 0.0028119699325144616,
+      "n": {
+        "UA": 78268,
+        "WN": 78625
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.004529752570984424,
+          -0.004529752570984424
+        ],
+        "n": {
+          "UA": 739194,
+          "WN": 1342401
+        },
+        "point": -0.004529752570984424
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008421334588754778,
+              0.008421334588754778
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 6225.0,
+            "rate": 0.008421334588754778,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.011478718712543662,
+              0.011478718712543662
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 8485.0,
+            "rate": 0.011478718712543662,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0030573841237888835,
+              0.0030573841237888835
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 2260.0,
+            "rate": 0.0030573841237888835,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7725793228841144,
+              0.7725793228841144
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 739194,
+            "numerator": 571086.0,
+            "rate": 0.7725793228841144,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.00858387322417072,
+              0.00858387322417072
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 11523.0,
+            "rate": 0.00858387322417072,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010958722468174562,
+              0.010958722468174562
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 14711.0,
+            "rate": 0.010958722468174562,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002374849244003841,
+              0.002374849244003841
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 3188.0,
+            "rate": 0.002374849244003841,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7771090754550988,
+              0.7771090754550988
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1342401,
+            "numerator": 1043192.0,
+            "rate": 0.7771090754550988,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.7019513640218333,
+          -2.7019513640218333,
+          -2.7019513640218333
+        ],
+        [
+          3.2242542255447786,
+          3.2242542255447786,
+          3.2242542255447786
+        ]
+      ],
+      "point": [
+        0.08022240210419415,
+        0.08022240210419415,
+        0.08022240210419415
+      ],
+      "se": [
+        0.008948156795114208,
+        0.008948156795114208,
+        0.008948156795114208
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 78446.5
+    },
+    "omit_airport_13930": {
+      "assignment_intervals": [
+        [
+          0.054709411576772594,
+          0.11145736106742682
+        ],
+        [
+          0.054709411576772594,
+          0.11145736106742682
+        ],
+        [
+          0.054709411576772594,
+          0.11145736106742682
+        ]
+      ],
+      "bootstrap_sha256": "e95c2ea9c66f178963c7174008b791f4e9b62dc67565add6c7b6b4bc4427ab6e",
+      "cells": 78893,
+      "coverage": {
+        "UA": {
+          "n": 83466,
+          "original_coverage": {
+            "interval": [
+              0.10495290284695406,
+              0.10495290284695406
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 83466.0,
+            "rate": 0.10495290284695406,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.13815694732503614,
+              0.13815694732503614
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 83466.0,
+            "rate": 0.13815694732503614,
+            "unknown": 0
+          },
+          "retained_denominator": 604139
+        },
+        "WN": {
+          "n": 83236,
+          "original_coverage": {
+            "interval": [
+              0.05980091746085345,
+              0.05980091746085345
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 83236.0,
+            "rate": 0.05980091746085345,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.06019428849954693,
+              0.06019428849954693
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 83236.0,
+            "rate": 0.06019428849954693,
+            "unknown": 0
+          },
+          "retained_denominator": 1382789
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.054709411576772594,
+        0.11145736106742682
+      ],
+      "minimum_draw_denominator": 78763.0,
+      "minimum_draw_se": 0.002870448717068148,
+      "n": {
+        "UA": 83466,
+        "WN": 83236
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          0.005173492999910767,
+          0.005173492999910767
+        ],
+        "n": {
+          "UA": 604139,
+          "WN": 1382789
+        },
+        "point": 0.005173492999910767
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008089198015688442,
+              0.008089198015688442
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 4887.0,
+            "rate": 0.008089198015688442,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.011220927634203386,
+              0.011220927634203386
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 6779.0,
+            "rate": 0.011220927634203386,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.0031317296185149443,
+              0.0031317296185149443
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 1892.0,
+            "rate": 0.0031317296185149443,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7829870278197567,
+              0.7829870278197567
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 604139,
+            "numerator": 473033.0,
+            "rate": 0.7829870278197567,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008478516968243166,
+              0.008478516968243166
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 11724.0,
+            "rate": 0.008478516968243166,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010810036816896866,
+              0.010810036816896866
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 14948.0,
+            "rate": 0.010810036816896866,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002331519848653699,
+              0.002331519848653699
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 3224.0,
+            "rate": 0.002331519848653699,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7778135348198459,
+              0.7778135348198459
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1382789,
+            "numerator": 1075552.0,
+            "rate": 0.7778135348198459,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.942688206479081,
+          -2.942688206479081,
+          -2.942688206479081
+        ],
+        [
+          2.9860245701503683,
+          2.9860245701503683,
+          2.9860245701503683
+        ]
+      ],
+      "point": [
+        0.0830833863220997,
+        0.0830833863220997,
+        0.0830833863220997
+      ],
+      "se": [
+        0.009289116711355678,
+        0.009289116711355678,
+        0.009289116711355678
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 83351.0
+    },
+    "reciprocal_nearest_30min": {
+      "assignment_intervals": [
+        [
+          0.06245111841481139,
+          0.1190309434255976
+        ],
+        [
+          0.06245111841481139,
+          0.1190309434255976
+        ],
+        [
+          0.06245111841481139,
+          0.1190309434255976
+        ]
+      ],
+      "bootstrap_sha256": "3bec9786308eacee01caee80e01e497973a9cf2ab24f92b19ad43ad3d67fbcdf",
+      "cells": 52968,
+      "coverage": {
+        "UA": {
+          "n": 52968,
+          "original_coverage": {
+            "interval": [
+              0.06660371118775864,
+              0.06660371118775864
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 52968.0,
+            "rate": 0.06660371118775864,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.06660371118775864,
+              0.06660371118775864
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 52968.0,
+            "rate": 0.06660371118775864,
+            "unknown": 0
+          },
+          "retained_denominator": 795271
+        },
+        "WN": {
+          "n": 52968,
+          "original_coverage": {
+            "interval": [
+              0.038054868038666985,
+              0.038054868038666985
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 52968.0,
+            "rate": 0.038054868038666985,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.038054868038666985,
+              0.038054868038666985
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 52968.0,
+            "rate": 0.038054868038666985,
+            "unknown": 0
+          },
+          "retained_denominator": 1391885
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.06245111841481139,
+        0.1190309434255976
+      ],
+      "minimum_draw_denominator": 49144.0,
+      "minimum_draw_se": 0.002883502183973943,
+      "n": {
+        "UA": 52968,
+        "WN": 52968
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0010084674658135118,
+          -0.0010084674658135118
+        ],
+        "n": {
+          "UA": 795271,
+          "WN": 1391885
+        },
+        "point": -0.0010084674658135118
+      },
+      "pivot_quantiles": [
+        [
+          -2.7972987812940016,
+          -2.7972987812940016,
+          -2.7972987812940016
+        ],
+        [
+          3.0981828899442214,
+          3.0981828899442214,
+          3.0981828899442214
+        ]
+      ],
+      "point": [
+        0.09094170064944872,
+        0.09094170064944872,
+        0.09094170064944872
+      ],
+      "se": [
+        0.009195900709125104,
+        0.009195900709125104,
+        0.009195900709125104
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 52968.0
+    },
+    "window_1h": {
+      "assignment_intervals": [
+        [
+          0.060134876832393463,
+          0.114513564210099
+        ],
+        [
+          0.060134876832393463,
+          0.114513564210099
+        ],
+        [
+          0.060134876832393463,
+          0.114513564210099
+        ]
+      ],
+      "bootstrap_sha256": "dd93f7677a50f7018bc3e3143fe78f58db56e5b417ea5b702e55e527bad1acab",
+      "cells": 51012,
+      "coverage": {
+        "UA": {
+          "n": 51116,
+          "original_coverage": {
+            "interval": [
+              0.06427494527022865,
+              0.06427494527022865
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 51116.0,
+            "rate": 0.06427494527022865,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.06427494527022865,
+              0.06427494527022865
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 51116.0,
+            "rate": 0.06427494527022865,
+            "unknown": 0
+          },
+          "retained_denominator": 795271
+        },
+        "WN": {
+          "n": 51014,
+          "original_coverage": {
+            "interval": [
+              0.03665101642736289,
+              0.03665101642736289
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 51014.0,
+            "rate": 0.03665101642736289,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.03665101642736289,
+              0.03665101642736289
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 51014.0,
+            "rate": 0.03665101642736289,
+            "unknown": 0
+          },
+          "retained_denominator": 1391885
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.060134876832393463,
+        0.114513564210099
+      ],
+      "minimum_draw_denominator": 46326.5,
+      "minimum_draw_se": 0.0028510903893116373,
+      "n": {
+        "UA": 51116,
+        "WN": 51014
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0010084674658135118,
+          -0.0010084674658135118
+        ],
+        "n": {
+          "UA": 795271,
+          "WN": 1391885
+        },
+        "point": -0.0010084674658135118
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008207265196392173,
+              0.008207265196392173
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 6527.0,
+            "rate": 0.008207265196392173,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.01118360910934763,
+              0.01118360910934763
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 8894.0,
+            "rate": 0.01118360910934763,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002976343912955458,
+              0.002976343912955458
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 2367.0,
+            "rate": 0.002976343912955458,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7765428388561887,
+              0.7765428388561887
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 617562.0,
+            "rate": 0.7765428388561887,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008476993429773294,
+              0.008476993429773294
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 11799.0,
+            "rate": 0.008476993429773294,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010811237997392026,
+              0.010811237997392026
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 15048.0,
+            "rate": 0.010811237997392026,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002334244567618733,
+              0.002334244567618733
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 3249.0,
+            "rate": 0.002334244567618733,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7775513063220022,
+              0.7775513063220022
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 1082262.0,
+            "rate": 0.7775513063220022,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.7715244973037527,
+          -2.7715244973037527,
+          -2.7715244973037527
+        ],
+        [
+          3.2841259064739172,
+          3.2841259064739172,
+          3.2841259064739172
+        ]
+      ],
+      "point": [
+        0.08830901791833937,
+        0.08830901791833937,
+        0.08830901791833937
+      ],
+      "se": [
+        0.00857888579436218,
+        0.00857888579436218,
+        0.00857888579436218
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 51065.0
+    },
+    "window_4h": {
+      "assignment_intervals": [
+        [
+          0.05026142840962562,
+          0.10720154157686737
+        ],
+        [
+          0.05026142840962562,
+          0.10720154157686737
+        ],
+        [
+          0.05026142840962562,
+          0.10720154157686737
+        ]
+      ],
+      "bootstrap_sha256": "256d167844d400e956d3a751e957a3d4446c6b0880db7d5543c7831dbb854cce",
+      "cells": 108538,
+      "coverage": {
+        "UA": {
+          "n": 140408,
+          "original_coverage": {
+            "interval": [
+              0.17655365277999574,
+              0.17655365277999574
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 140408.0,
+            "rate": 0.17655365277999574,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.17655365277999574,
+              0.17655365277999574
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 140408.0,
+            "rate": 0.17655365277999574,
+            "unknown": 0
+          },
+          "retained_denominator": 795271
+        },
+        "WN": {
+          "n": 132894,
+          "original_coverage": {
+            "interval": [
+              0.09547771547218341,
+              0.09547771547218341
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 132894.0,
+            "rate": 0.09547771547218341,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.09547771547218341,
+              0.09547771547218341
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 132894.0,
+            "rate": 0.09547771547218341,
+            "unknown": 0
+          },
+          "retained_denominator": 1391885
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.05026142840962562,
+        0.10720154157686737
+      ],
+      "minimum_draw_denominator": 130024.5,
+      "minimum_draw_se": 0.0036458719406342304,
+      "n": {
+        "UA": 140408,
+        "WN": 132894
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0010084674658135118,
+          -0.0010084674658135118
+        ],
+        "n": {
+          "UA": 795271,
+          "WN": 1391885
+        },
+        "point": -0.0010084674658135118
+      },
+      "national_rates": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.008207265196392173,
+              0.008207265196392173
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 6527.0,
+            "rate": 0.008207265196392173,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.01118360910934763,
+              0.01118360910934763
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 8894.0,
+            "rate": 0.01118360910934763,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002976343912955458,
+              0.002976343912955458
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 2367.0,
+            "rate": 0.002976343912955458,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7765428388561887,
+              0.7765428388561887
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 617562.0,
+            "rate": 0.7765428388561887,
+            "unknown": 0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.008476993429773294,
+              0.008476993429773294
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 11799.0,
+            "rate": 0.008476993429773294,
+            "unknown": 0
+          },
+          "F": {
+            "interval": [
+              0.010811237997392026,
+              0.010811237997392026
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 15048.0,
+            "rate": 0.010811237997392026,
+            "unknown": 0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 0.0,
+            "rate": 0.0,
+            "unknown": 0
+          },
+          "V": {
+            "interval": [
+              0.002334244567618733,
+              0.002334244567618733
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 3249.0,
+            "rate": 0.002334244567618733,
+            "unknown": 0
+          },
+          "Y": {
+            "interval": [
+              0.7775513063220022,
+              0.7775513063220022
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 1082262.0,
+            "rate": 0.7775513063220022,
+            "unknown": 0
+          }
+        }
+      },
+      "pivot_quantiles": [
+        [
+          -2.887182536798071,
+          -2.887182536798071,
+          -2.887182536798071
+        ],
+        [
+          3.071304424436896,
+          3.071304424436896,
+          3.071304424436896
+        ]
+      ],
+      "point": [
+        0.07880940010196295,
+        0.07880940010196295,
+        0.07880940010196295
+      ],
+      "se": [
+        0.009295064164006281,
+        0.009295064164006281,
+        0.009295064164006281
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 136651.0
+    },
+    "year_2025": {
+      "assignment_intervals": [
+        [
+          0.053111771341002645,
+          0.10995069523717307
+        ],
+        [
+          0.053111771341002645,
+          0.10995069523717307
+        ],
+        [
+          0.053111771341002645,
+          0.10995069523717307
+        ]
+      ],
+      "bootstrap_sha256": "739ba158efdddd009c8274f0af43e8fdb54044bfefad9f1977a81fda19de2480",
+      "cells": 83744,
+      "coverage": {
+        "UA": {
+          "n": 88717,
+          "original_coverage": {
+            "interval": [
+              0.11155568353429209,
+              0.11155568353429209
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 88717.0,
+            "rate": 0.11155568353429209,
+            "unknown": 0
+          },
+          "original_denominator": 795271,
+          "retained_coverage": {
+            "interval": [
+              0.11155568353429209,
+              0.11155568353429209
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 795271,
+            "numerator": 88717.0,
+            "rate": 0.11155568353429209,
+            "unknown": 0
+          },
+          "retained_denominator": 795271
+        },
+        "WN": {
+          "n": 88087,
+          "original_coverage": {
+            "interval": [
+              0.06328611918369693,
+              0.06328611918369693
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 88087.0,
+            "rate": 0.06328611918369693,
+            "unknown": 0
+          },
+          "original_denominator": 1391885,
+          "retained_coverage": {
+            "interval": [
+              0.06328611918369693,
+              0.06328611918369693
+            ],
+            "interval_type": "exact historical census; unknown outcomes all fail/all succeed",
+            "n": 1391885,
+            "numerator": 88087.0,
+            "rate": 0.06328611918369693,
+            "unknown": 0
+          },
+          "retained_denominator": 1391885
+        }
+      },
+      "descriptive_only": true,
+      "df": 12,
+      "draws": 1999,
+      "envelope": [
+        0.053111771341002645,
+        0.10995069523717307
+      ],
+      "minimum_draw_denominator": 83112.0,
+      "minimum_draw_se": 0.0028095836867019336,
+      "n": {
+        "UA": 88717,
+        "WN": 88087
+      },
+      "national_gap": {
+        "descriptive_only": true,
+        "interval": [
+          -0.0010084674658135118,
+          -0.0010084674658135118
+        ],
+        "n": {
+          "UA": 795271,
+          "WN": 1391885
+        },
+        "point": -0.0010084674658135118
+      },
+      "pivot_quantiles": [
+        [
+          -2.7504399988851556,
+          -2.7504399988851556,
+          -2.7504399988851556
+        ],
+        [
+          3.1629581135278184,
+          3.1629581135278184,
+          3.1629581135278184
+        ]
+      ],
+      "point": [
+        0.08202680180689727,
+        0.08202680180689727,
+        0.08202680180689727
+      ],
+      "se": [
+        0.009141768378855995,
+        0.009141768378855995,
+        0.009141768378855995
+      ],
+      "t_floor": 3.0545395893929013,
+      "valid": true,
+      "valid_draws": 1999,
+      "weeks": 53,
+      "weight": 88402.0,
+      "weighted_shared": {
+        "UA": {
+          "C": {
+            "interval": [
+              0.004467282037359637,
+              0.004467282037359637
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88717,
+            "rate": 0.004467282037359637,
+            "weight": 88402.0
+          },
+          "F": {
+            "interval": [
+              0.007631803202039169,
+              0.007631803202039169
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88717,
+            "rate": 0.007631803202039169,
+            "weight": 88402.0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88717,
+            "rate": 0.0,
+            "weight": 88402.0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88717,
+            "rate": 0.0,
+            "weight": 88402.0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88717,
+            "rate": 0.0,
+            "weight": 88402.0
+          },
+          "V": {
+            "interval": [
+              0.003164521164679532,
+              0.003164521164679532
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88717,
+            "rate": 0.003164521164679532,
+            "weight": 88402.0
+          },
+          "Y": {
+            "interval": [
+              0.7812860568765413,
+              0.7812860568765413
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88717,
+            "rate": 0.7812860568765413,
+            "weight": 88402.0
+          }
+        },
+        "WN": {
+          "C": {
+            "interval": [
+              0.006354494242211715,
+              0.006354494242211715
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88087,
+            "rate": 0.006354494242211715,
+            "weight": 88402.0
+          },
+          "F": {
+            "interval": [
+              0.009550123300377819,
+              0.009550123300377819
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88087,
+            "rate": 0.009550123300377819,
+            "weight": 88402.0
+          },
+          "MC": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88087,
+            "rate": 0.0,
+            "weight": 88402.0
+          },
+          "MV": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88087,
+            "rate": 0.0,
+            "weight": 88402.0
+          },
+          "U": {
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88087,
+            "rate": 0.0,
+            "weight": 88402.0
+          },
+          "V": {
+            "interval": [
+              0.003195629058166105,
+              0.003195629058166105
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88087,
+            "rate": 0.003195629058166105,
+            "weight": 88402.0
+          },
+          "Y": {
+            "interval": [
+              0.699259255069644,
+              0.699259255069644
+            ],
+            "interval_type": "weighted census unknown-assignment range",
+            "n": 88087,
+            "rate": 0.699259255069644,
+            "weight": 88402.0
+          }
+        }
+      }
+    }
+  },
+  "weighted_shared": {
+    "UA": {
+      "C": {
+        "interval": [
+          0.004467282037359637,
+          0.004467282037359637
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88717,
+        "rate": 0.004467282037359637,
+        "weight": 88402.0
+      },
+      "F": {
+        "interval": [
+          0.007631803202039169,
+          0.007631803202039169
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88717,
+        "rate": 0.007631803202039169,
+        "weight": 88402.0
+      },
+      "MC": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88717,
+        "rate": 0.0,
+        "weight": 88402.0
+      },
+      "MV": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88717,
+        "rate": 0.0,
+        "weight": 88402.0
+      },
+      "U": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88717,
+        "rate": 0.0,
+        "weight": 88402.0
+      },
+      "V": {
+        "interval": [
+          0.003164521164679532,
+          0.003164521164679532
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88717,
+        "rate": 0.003164521164679532,
+        "weight": 88402.0
+      },
+      "Y": {
+        "interval": [
+          0.7812860568765413,
+          0.7812860568765413
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88717,
+        "rate": 0.7812860568765413,
+        "weight": 88402.0
+      }
+    },
+    "WN": {
+      "C": {
+        "interval": [
+          0.006354494242211715,
+          0.006354494242211715
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88087,
+        "rate": 0.006354494242211715,
+        "weight": 88402.0
+      },
+      "F": {
+        "interval": [
+          0.009550123300377819,
+          0.009550123300377819
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88087,
+        "rate": 0.009550123300377819,
+        "weight": 88402.0
+      },
+      "MC": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88087,
+        "rate": 0.0,
+        "weight": 88402.0
+      },
+      "MV": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88087,
+        "rate": 0.0,
+        "weight": 88402.0
+      },
+      "U": {
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88087,
+        "rate": 0.0,
+        "weight": 88402.0
+      },
+      "V": {
+        "interval": [
+          0.003195629058166105,
+          0.003195629058166105
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88087,
+        "rate": 0.003195629058166105,
+        "weight": 88402.0
+      },
+      "Y": {
+        "interval": [
+          0.699259255069644,
+          0.699259255069644
+        ],
+        "interval_type": "weighted census unknown-assignment range",
+        "n": 88087,
+        "rate": 0.699259255069644,
+        "weight": 88402.0
+      }
+    }
+  },
+  "written_utc": "2026-10-07T15:42:17.243740+00:00",
+  "years": [
+    2025
+  ]
+}

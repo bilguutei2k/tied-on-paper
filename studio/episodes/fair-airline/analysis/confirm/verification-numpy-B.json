@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "independent NumPy sorted-key membership joins",
+    "compensated per-flight weight summation",
+    "source-row alignment",
+    "national success/unknown denominators",
+    "finite saved draws and exact hashes"
+  ],
+  "draws": 1999,
+  "independent_per_flight_points": [
+    0.08202680180689736,
+    0.08202680180689736,
+    0.08202680180689736
+  ],
+  "matched_flight_counts": {
+    "UA": 88717,
+    "WN": 88087
+  },
+  "maximum_point_error": 9.71445146547012e-17,
+  "n": 2187156,
+  "passes": true,
+  "period": "B"
+}

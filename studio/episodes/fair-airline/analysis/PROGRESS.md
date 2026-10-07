@@ -392,3 +392,13 @@
 - 2026-10-07T15:32:32.233245+00:00: Period A computed: UA advantage above two points; all registered sensitivities saved; quality=True. Result and draw hashes require checkpoint before opening B.
 
 - 2026-10-07T15:39:25.418682+00:00: A verification PASS: independent NumPy per-flight expansion agrees to 1.39e-17, national counts/unknowns and draw hashes exact; fresh stable results reproduce byte-identically apart from written_utc. A verdict UA advantage above two points, D=0.06272108728795532, envelope [0.04600744121000862,0.07943473336590202]; all quality cutoffs pass, 13 descriptive sensitivities retained. Submitting A seal; 2025 still unopened. Supplemental slow SQL check not counted as passed.
+
+- 2026-10-07T15:39:42.711085+00:00: Period A seal checkpoint c829f51 completed by owner helper; COMMIT_DONE consumed. A immutable before any 2025 outcome; now proceeding to B.
+
+- 2026-10-07T15:39:44.777526+00:00: Period B outcomes FIRST OPEN at 2026-10-07T15:39:44.777454+00:00; production code/arrays committed and A sealed.
+
+- 2026-10-07T15:39:57.179455+00:00: Period B computed: UA advantage above two points; all registered sensitivities saved; quality=True. Result and draw hashes require checkpoint before final descriptive reconciliation.
+
+- 2026-10-07T15:42:17.248679+00:00: Period B computed: UA advantage above two points; all registered sensitivities saved; quality=True. Result and draw hashes require checkpoint before final descriptive reconciliation.
+
+- 2026-10-07T15:42:54.612494+00:00: B verification PASS: independent NumPy compensated per-flight expansion agrees to 9.72e-17; national counts and saved draw hashes exact; fresh stable B reproduction identical apart from written_utc. B verdict UA advantage above two points, D=0.08202680180689727, envelope [0.053111771341002645,0.10995069523717307]; quality passes, 11 sensitivities retained. Same decisive label as sealed A: replicated. Submitting B checkpoint before published-table descriptive context; no change to A.
