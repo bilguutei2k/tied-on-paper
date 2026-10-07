@@ -374,3 +374,5 @@
 - 2026-10-07T10:04:28+00:00: Final Amendment 2 report checkpoint 02c9fb6 committed by the helper (gate PASS). The Astra run hit the Codex usage limit before recording it; Claude recorded the hash and consumed COMMIT_DONE.json. Confirmation outcomes remain unopened; owner approval pending.
 
 - 2026-10-07T15:16:15+00:00: Owner approved Amendment 2 (analysis/amendment2/OWNER_APPROVAL.md). Confirmation outcomes still unopened; next is the production-code and resampling-array seal.
+
+- 2026-10-07T15:29:44.073716+00:00: Production outcome-free seal ready: registered estimator/scoring/envelope/quality/decisions and all sensitivities implemented; seed 20261005, amended year-first draw order, 1999 starts/draws saved with hashes and regeneration script. Synthetic fixture reproduces gate A/B intervals exactly (maximum error 0); 45 production scoring templates and invalid-value stops pass; every frozen sensitivity lies on the registered day grid. Flagged interpretations in DEVIATIONS entry 21. Confirmation outcomes remain unopened. Submitting production checkpoint before A.

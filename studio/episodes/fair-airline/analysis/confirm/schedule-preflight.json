@@ -1,0 +1,168 @@
+{
+  "confirmation_outcomes_opened": false,
+  "passes": true,
+  "sensitivities": [
+    {
+      "cells": 48526,
+      "specification": "pairs-1h.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 49132,
+      "specification": "pairs-1h.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 51012,
+      "specification": "pairs-1h.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 109727,
+      "specification": "pairs-4h.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 113364,
+      "specification": "pairs-4h.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 108538,
+      "specification": "pairs-4h.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 19717,
+      "specification": "pairs-omit-11292.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 15638,
+      "specification": "pairs-omit-11292.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 14827,
+      "specification": "pairs-omit-11292.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 80619,
+      "specification": "pairs-omit-10397.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 84531,
+      "specification": "pairs-omit-10397.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 82889,
+      "specification": "pairs-omit-10397.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 72485,
+      "specification": "pairs-omit-13930.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 79232,
+      "specification": "pairs-omit-13930.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 78893,
+      "specification": "pairs-omit-13930.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 71667,
+      "specification": "pairs-omit-12892.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 75634,
+      "specification": "pairs-omit-12892.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 74611,
+      "specification": "pairs-omit-12892.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 72187,
+      "specification": "pairs-omit-12889.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 76591,
+      "specification": "pairs-omit-12889.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 75557,
+      "specification": "pairs-omit-12889.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 81855,
+      "specification": "pairs-alternate-weights.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 85602,
+      "specification": "pairs-alternate-weights.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 83744,
+      "specification": "pairs-alternate-weights.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    },
+    {
+      "cells": 49537,
+      "specification": "nearest30.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2023
+    },
+    {
+      "cells": 51661,
+      "specification": "nearest30.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2024
+    },
+    {
+      "cells": 52968,
+      "specification": "nearest30.parquet",
+      "within_frozen_daily_span": true,
+      "year": 2025
+    }
+  ]
+}

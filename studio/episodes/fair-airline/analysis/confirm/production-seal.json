@@ -1,0 +1,31 @@
+{
+  "confirmation_outcomes_opened": false,
+  "draws": 1999,
+  "files": {
+    "METHOD.md": "390b6d5c195c563a8ebb523016bae40265d90c229014f9a147d67ce3bd16b098",
+    "analysis/amendment/AMENDMENT-1.md": "a29f74f97011100b2028651cd3ecee61ba893bac2d6338cd04fb5ea623b8971a",
+    "analysis/amendment2/AMENDMENT-2.md": "d70edb15d5b3fe70030df49c7f7ed206159eadbacf0f301b49be2f2d8d99f1f6",
+    "analysis/blind_guard.py": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af",
+    "analysis/common.py": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6",
+    "analysis/confirm/README.md": "8785c92ad656d482f7945141dad8c6775045bfbba77d26ea0c43678d16fe32c4",
+    "analysis/confirm/analyze.py": "0557a1889490c454c7df5ffc83dcf958a7a1a9f29cc5bc7cbac15df9df495693",
+    "analysis/confirm/fixture.json": "ef141d7144b6c538411baa6802fe0bb71c5a049d096703dfb440ac2095a329c1",
+    "analysis/confirm/fixture.py": "7b3160678fd3f3cf70aa0b2afa01702d9617092e28777b8fc7befe06e8c745a3",
+    "analysis/confirm/intervals.py": "aabea914de6a46fc449a6d1ba29371b3ae7af457d17d782c754c294fb8f5533d",
+    "analysis/confirm/prepare.py": "4d9e2830ec610656c0351cc37cd54eed4f5c4aee09d860ecc03726cc4a68844c",
+    "analysis/confirm/resampling.json": "c3db40c8913a92dc0b3d661540219ab43bc0a9175695c83f6625c6014006f8de",
+    "analysis/confirm/schedule-preflight.json": "31ed4fb1454d4ec9fbacf310940c0fed7988e885a5875972953877b6001705e6",
+    "analysis/confirm/verify_period.py": "10f088abd906c24f8c88e0ccbc7ecc915f93ef0fc6245c090fd6dfe1183ba431",
+    "analysis/coverage.json": "53f8ab1dd657ad8675750a813a4c4154615df2ade5816d1643525a0f52f7847b",
+    "analysis/field-map.json": "3fa2e7f06399f624aca3ee4bf7e6e0790c8faf74d9318895c51f0ccda11d1f27",
+    "analysis/rules.py": "8cc52fbebe2f83af65ada48edcd41a9ee2deaa1995ccbf42df8e351f93a246d5",
+    "analysis/snapshot.py": "2238b17febd820f6945c2c186595d3d2fbc70ae77f32bf7a06e82c39a57856de",
+    "data/flights-manifest.json": "919dd12d739751cf66d5fb34075c6b43e7fa05f801fde506d0c3479f46577a86",
+    "data/sensitivity-manifest.json": "6d854d522c58ed2ed5cea73b963f176fb34a4bd429f37425774fd7625066c9f1",
+    "data/structure-manifest.json": "2750344d020ed34b5ad518711f0a2744f34f716be9d4d38d7223052253f65b88"
+  },
+  "flagged_implementation_decision": "DEVIATIONS.md entry 21",
+  "interval": "Amendment 2 studentized 28-day whole-network blocks",
+  "production_seed": 20261005,
+  "written_utc": "2026-10-07T15:29:44.068648+00:00"
+}

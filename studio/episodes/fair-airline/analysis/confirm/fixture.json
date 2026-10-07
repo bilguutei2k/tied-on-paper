@@ -1,0 +1,33 @@
+{
+  "checks": [
+    "gate A/B interval reproduction",
+    "fractional cell weights",
+    "production SQL matches scalar scoring including failure precedence and invalid-value stops",
+    "strict line equality",
+    "quality blocking",
+    "array regeneration",
+    "whole-network multiplicities"
+  ],
+  "confirmation_outcomes_opened": false,
+  "maximum_gate_interval_error": 0.0,
+  "passes": true,
+  "production_scoring_templates": 45,
+  "scoring": {
+    "14.999": true,
+    "15": true,
+    "both_failure_flags": true,
+    "cancel_precedence": true,
+    "divert_precedence": true,
+    "hhmm": true,
+    "infinite_delay": true,
+    "invalid_delay": true,
+    "invalid_key_uses_flightdate_week": true,
+    "missing_delay": true,
+    "missing_flag": true,
+    "negative_delay": true,
+    "nonbinary": true,
+    "source_boundary_separate_cluster": true,
+    "sunday_midnight_same_cluster": true
+  },
+  "synthetic_fixture": "deterministic nonconstant daily contrasts on frozen schedule"
+}

@@ -1,0 +1,115 @@
+{
+  "arrays": [
+    {
+      "array_sha256": "fbf9b2e13fbad040aceb82ccc16b9975ab02ea6011e0c5c20e8f8788f152cc80",
+      "bytes": 224016,
+      "dtype": "int64",
+      "path": "data/derived/confirm-starts-2023.npy",
+      "sha256": "87392dc836f472c42bd1f241999e5457287de875dd9bc0a8e586b1d223a5c6d2",
+      "shape": [
+        1999,
+        14
+      ],
+      "year": 2023
+    },
+    {
+      "array_sha256": "c04a279e241c93191fa6198ed7d3298b9befede934dbba6370a4e9c2a683dd4e",
+      "bytes": 224016,
+      "dtype": "int64",
+      "path": "data/derived/confirm-starts-2024.npy",
+      "sha256": "50d355fdc0332c618cf1682b83462d2c1588e649aa005d6f5d101e2c10b373c5",
+      "shape": [
+        1999,
+        14
+      ],
+      "year": 2024
+    },
+    {
+      "array_sha256": "5aa88b533cb131406400d4348a467b7bfb81a707f6b1e1cd171ae8f705a33968",
+      "bytes": 224016,
+      "dtype": "int64",
+      "path": "data/derived/confirm-starts-2025.npy",
+      "sha256": "062e1c20319abc2c18b63cf38afd3868dda1be405f0a60e0244b50c2c597de5e",
+      "shape": [
+        1999,
+        14
+      ],
+      "year": 2025
+    }
+  ],
+  "confirmation_outcomes_opened": false,
+  "draws": 1999,
+  "environment": {
+    "duckdb": "1.5.6",
+    "numpy": "2.5.3",
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "scipy": "1.18.1"
+  },
+  "groups": [
+    {
+      "days": 365,
+      "q": 13,
+      "start": "2023-01-01",
+      "tail": 1,
+      "year": 2023
+    },
+    {
+      "days": 366,
+      "q": 13,
+      "start": "2024-01-01",
+      "tail": 2,
+      "year": 2024
+    },
+    {
+      "days": 365,
+      "q": 13,
+      "start": "2025-01-01",
+      "tail": 1,
+      "year": 2025
+    }
+  ],
+  "length": 28,
+  "order": "source year 2023,2024,2025; row-major draw/start",
+  "raw_denial": true,
+  "regenerate": "ideation/.venv/bin/python studio/episodes/fair-airline/analysis/confirm/prepare.py",
+  "rng": "Generator(PCG64)",
+  "schedule_cells_sha256": "4b63decf5c7c04d3a3a0f54b15bf8ac4b6cd5b38604f60c148de741e7b083683",
+  "schedule_input": {
+    "bytes": 76863993,
+    "path": "data/derived/structure.parquet",
+    "sha256": "ad24674d0ae46779e6b37489bdd47db85fedddc43585735ae4f7e29ac92640c0"
+  },
+  "seed": 20261005,
+  "support": [
+    {
+      "UA": 86958,
+      "WN": 87124,
+      "calendar_days": 365,
+      "cells": 81855,
+      "largest_day_share": 0.003394951804322101,
+      "routes": 198,
+      "weight": 87041.0,
+      "year": 2023
+    },
+    {
+      "UA": 90882,
+      "WN": 90759,
+      "calendar_days": 366,
+      "cells": 85602,
+      "largest_day_share": 0.003253670702099196,
+      "routes": 206,
+      "weight": 90820.5,
+      "year": 2024
+    },
+    {
+      "UA": 88717,
+      "WN": 88087,
+      "calendar_days": 365,
+      "cells": 83744,
+      "largest_day_share": 0.0033539965159159295,
+      "routes": 215,
+      "weight": 88402.0,
+      "year": 2025
+    }
+  ]
+}
