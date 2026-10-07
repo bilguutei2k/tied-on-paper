@@ -291,3 +291,56 @@
 - 2026-10-06T23:24:16.822250+00:00: Runner prepared without synthetic outcomes: complete streaming generator, real weekly denominators, 336-component scorer, exact 5000-draw intervals and two-bank Monte Carlo criteria. Process 3240 calibrated/sealed. Dispatch prioritizes this mandatory high-dependence stable bias/power check, then all remaining original IDs. Helper commit required before execution.
 
 - 2026-10-06T23:25:02.774525+00:00: Runner deterministic checks complete: 18 pass; independent weekly truth agrees with sealed operator; PCG64 chunk primitives and all three exact 5000-draw bootstrap algorithms agree byte-for-byte. These are unassigned primitive RNG fixtures, not simulated flight outcomes/bank fits/production weights. Runner, first numeric calibration and execution schedule submitted for mandatory helper checkpoint before bank generation.
+- 2026-10-07T04:25:26+00:00: Checkpoint commit ab52aa9 (full-family gate runner sealed) confirmed by Claude after the usage-limit cut; COMMIT_DONE.json consumed.
+
+- 2026-10-07T05:13:05.433207+00:00: Continuation: reread registered METHOD in full, review, episode, lessons, pilot SLICE/PILOT and house heads. Confirmed helper scenario 5aa59e2 and runner ab52aa9 commits; no executable changes. Starting committed gate.py --run with 10 workers and unchanged full family; confirmation outcomes remain closed. Initial state displays exceeded owner cap; subsequent displays bounded.
+
+- 2026-10-07T05:14:10.046239+00:00: Bank 0, process 3240: 50/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:15:08.775256+00:00: Bank 0, process 3240: 100/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:16:07.212696+00:00: Bank 0, process 3240: 150/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:17:05.961205+00:00: Bank 0, process 3240: 200/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:18:04.307689+00:00: Bank 0, process 3240: 250/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:19:03.349407+00:00: Bank 0, process 3240: 300/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:20:00.714806+00:00: Bank 0, process 3240: 350/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:20:59.250663+00:00: Bank 0, process 3240: 400/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:21:58.536528+00:00: Bank 0, process 3240: 450/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:22:56.925086+00:00: Bank 0, process 3240: 500/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:23:53.816153+00:00: Bank 0, process 3240: 550/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:24:52.931351+00:00: Bank 0, process 3240: 600/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:25:51.319130+00:00: Bank 0, process 3240: 650/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:26:45.225930+00:00: Bank 0, process 3240: 700/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:27:43.178977+00:00: Bank 0, process 3240: 750/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:28:40.681969+00:00: Bank 0, process 3240: 800/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:29:37.744925+00:00: Bank 0, process 3240: 850/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:30:35.660679+00:00: Bank 0, process 3240: 900/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:31:31.878237+00:00: Bank 0, process 3240: 950/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:32:31.162365+00:00: Bank 0, process 3240: 1000/1000 datasets complete; exactly 5000 draws per candidate/dataset; no interim acceptance decision.
+
+- 2026-10-07T05:32:31.233722+00:00: Gate report FAIL: Required bias criterion fails in bank 0, process 3240; METHOD bars resampler fallback after bias failure. 1000 synthetic datasets; 15000000 bootstrap draws. Confirmation outcomes closed; report commit required.
+
+- 2026-10-07T05:34:12.362082+00:00: Prepared verify_gate.py after the failed complete scenario: independent summation/variance, binomial-tail inversion and replay of the exact original replicate. No acceptance rule, generator, scenario or bank is changed; no fresh evaluation dataset will be generated.
+
+- 2026-10-07T05:34:21.477526+00:00: Failed gate independently verified: all 1000 replicate IDs and 336 components; math.fsum bias/MCSE and 15 exact binomial-tail checks agree. Original bank0/process3240/replicate0 replay is byte-identical across all three resamplers, with no fresh dataset or bank. Confirmation outcomes remain closed.
+
+- 2026-10-07T05:35:07.040404+00:00: GATE.md and DEVIATIONS.md updated to distinguish historical seals, the completed failing scenario, successful independent reproduction, and unrun full calibration/boundary/validation gates. Registered verdict is Inconclusive due to gate failure; confirmation outcomes, contemporary annual tables and production weights remain unopened/ungenerated. Preparing gate-report checkpoint with episode-only aggregate/code paths, excluding raw/derived files.
+
+- 2026-10-07T05:35:33.013511+00:00: Gate-report checkpoint submitted: sealed 1000-dataset scenario fails validity and all-zero survival power; independent verifier passes. Helper request contains only this episode's reports, progress, deviations and verification code/aggregate. Stop pending commit; no confirmation outcomes opened.

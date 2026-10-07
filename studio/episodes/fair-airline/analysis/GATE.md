@@ -1,24 +1,24 @@
-# Pre-confirmation gate status
+# Pre-confirmation gate report
 
-**BLOCKED — no simulation gate has run.**
+**FAIL — Required bias criterion fails in bank 0, process 3240; METHOD bars resampler fallback after bias failure**
 
-No confirmation outcome columns were materialized, decoded into analysis tables, summarized or plotted. No synthetic datasets or bootstrap draws were generated.
+Confirmation outcomes remain closed. Synthetic results use the unchanged real schedule.
 
-Support commit `af8e89f` satisfies the first barrier. METHOD also requires: “Before the first simulated outcome is generated, commit a machine-readable scenario manifest and executable generator”. The owner prohibits this agent from writing `.git`; Claude commits. The second barrier is unsatisfied.
-
-The executable generator, fixed Cartesian scenario enumeration, exact probability/truth recipes and schedule-only probability-cell operator are prepared. Deterministic implementation probes are separate from the full numerical calibration audit, which has not run. `gate.py` remains a prerequisite checker/report writer; the complete Monte Carlo runner is still required after the generator commit.
-
-| Gate | Result | Registered acceptance rule |
+| Gate | Result | Registered acceptance |
 |---|---|---|
-| validity | BLOCKED / NOT RUN | Each \|mean G,D error\| + 1.96*MCSE <=0.002; One-sided 95% exact binomial lower bound on whole-family coverage >=0.92; At least 4750/5000 joint draws per valid dataset; >=95% datasets valid; every component SD >0; No substantive verdict from 1% missingness, invalid-data or above-cutoff fixtures |
-| calibration | BLOCKED / NOT RUN | Every required single-edge probability calibration feasible; full-vector residual <=1e-6; Complete frozen unordered-pair x period x contrast x scoring-assignment family; Least squared distance to fixed base, one carrier/cell probability, bounds [0.05,0.99] |
-| boundary_false_verdict | BLOCKED / NOT RUN | Each applicable one-sided 95% exact binomial upper bound <=0.025; False changes if true R<=0.02; false survives if true H>=0.02; latent truth also judged under missingness |
-| power | BLOCKED / NOT RUN | Each supported pair/direction at delta=.04: designated-pair joint power lower exact 95% bound >=0.80; Whole-table survival lower exact 95% bound >=0.80 for all-zero and calibrated stable-order cases; All registered baseline/shock/seasonality levels, with no missingness and .05% informative missingness |
-| independent_validation | BLOCKED / NOT RUN | Only first fully passing resampler, fresh bank1, same acceptance rules; failure stops |
+| calibration | NOT_COMPLETED | Every mandatory calibration feasible; residual <=1e-6; global count-weighted least-squares solution and complete truth |
+| validity | FAIL | Every \|mean error\|+1.96 MCSE <=.002; exact coverage lower bound >=.92; >=95% valid datasets, each >=4750/5000 joint draws and every SD>0; blocking fixtures emit no verdict |
+| boundary_false_verdict | NOT_COMPLETED | Every applicable exact one-sided 95% upper false-verdict bound <=.025, including latent truths |
+| power | FAIL | Every mandatory designated reversal and all-zero/stable survival exact one-sided 95% lower power bound >=.80 |
+| independent_validation | NOT_RUN | First fully passing resampler only, 2000 fresh bank1 datasets/process and 5000 draws; same rules; failure stops |
 
-Selection: exactly 1,000 datasets/scenario, 5,000 draws/dataset; independent validation: exactly 2,000 datasets/scenario, 5,000 draws/dataset. No attempts, resampler selection, bias estimates, coverage counts, false-verdict counts or power estimates exist.
+## Completed attempts
 
-The schedule eligibility and deterministic fixtures are separate structural checks; passing those cannot clear validity or power.
+Bank 0, process 3240: 1000 datasets, 5000 draws/candidate/dataset. Maximum bias acceptance bound 0.00483256201 versus .002; 276/336 components fail. All mean errors, MCSEs, exact intervals and bounds are recorded in gate.json.
+
+- Resampler 1: coverage 20/1000 (lower 0.013293); valid datasets 1000; survival 0/1000 (lower 0.000000); tests {'valid_dataset_fraction': True, 'coverage': False, 'latent_envelope_coverage': False, 'false_changes': True, 'false_survives': True, 'power': False}.
+- Resampler 4: coverage 237/1000 (lower 0.214976); valid datasets 1000; survival 0/1000 (lower 0.000000); tests {'valid_dataset_fraction': True, 'coverage': False, 'latent_envelope_coverage': False, 'false_changes': True, 'false_survives': True, 'power': False}.
+- Resampler 8: coverage 223/1000 (lower 0.201473); valid datasets 1000; survival 0/1000 (lower 0.000000); tests {'valid_dataset_fraction': True, 'coverage': False, 'latent_envelope_coverage': False, 'false_changes': True, 'false_survives': True, 'power': False}.
 
 ## Frozen sets
 
@@ -34,18 +34,12 @@ The schedule eligibility and deterministic fixtures are separate structural chec
 | supported_pairs | 28 | `509ecca0cc156f1f59d9a107b1f3459bc76e8fa70ecfe4c0cbe9be689ba2b28f` |
 | weeks | 159 | `ac2ed213bef5c5fe19d98ee2f658f5d42e2acbf0a3883811428f33e8bd6458b1` |
 
-## Scenario specification and deterministic checks
+Unattempted processes/banks are unrun after failure, never inferred to pass. No pair, threshold, scenario, family or bank count was reduced. Dispatch and streaming decisions were sealed before synthetic outcomes; see DEVIATIONS.md.
 
-62,333 templates × 150 stress settings × 10 missingness settings = 93,499,500 fixed process IDs, including all 210 two-disjoint-edge sets and both directions of every supported pair.
+## Independent verification and required stop
 
-38 implementation checks pass. 6 deterministic probability calibrations have maximum residual 4.75e-12, against the 1e-6 constraint tolerance. These probes do not certify the required all-case calibration gate.
+`verify_gate.py` independently reproduces all bias/MCSE calculations with compensated sums and all 15 exact interval checks by binomial-tail inversion. The original replicate 0 replays byte-identically for all three resamplers; this creates no new evaluation dataset or bank. See `gate-verification.json`. The worst component's mean error is -0.0023143442053923753 and MCSE is 0.001284805001653249; 0.004832562008632743 is the acceptance bound, not the point bias estimate.
 
-The manifest freezes calibrated probabilities and all expected G/D/R/H as exact executable mathematical recipes on the sealed numeric structure. Twelve base expectation vectors are also recorded numerically. Full numeric feasibility certification remains unrun; see DEVIATIONS.md for this literal interpretation and SCENARIOS.md for the handoff.
+The first calibration residual is 3.414932086379388e-12. All 1,000 datasets have valid intervals with all 5,000 draws under every candidate. Those checks do not overcome the failed bias, coverage or power criteria, or certify unrun scenarios.
 
-Scenario manifest SHA-256: `dc6eeaf088dce2004006348aa82e570c3334a4d153d91b2a54475494a59aa336`.
-
-## Required handoff
-
-Claude must now commit the scenario/generator seal and its reviewable artifacts. Do not generate synthetic outcomes before that commit. Afterward, complete all-case numerical calibration/feasibility certification and the full registered selection/validation banks. No reduced scenario count, roster or acceptance criterion is authorized. Confirmation outcomes remain closed regardless of any later gate result until the gate report is committed.
-
-Source-specific raw redistribution terms remain unresolved. Publish retrieval code, URLs/hashes and aggregates; raw ZIPs, documentation snapshots and row-level derivatives remain ignored. See DEVIATIONS.md and data/docs-manifest.json.
+**Inconclusive:** the failed pre-confirmation gate cannot settle material stability. Confirmation flight outcomes and annual ranking tables remain unopened; no confirmatory findings or production weights were generated. Checkpoint this gate report through the owner helper, with the resulting hash recorded in PROGRESS.md. METHOD requires a reviewed amendment and new gate before confirmation can proceed.

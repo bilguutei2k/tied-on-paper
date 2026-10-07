@@ -1,0 +1,17 @@
+{
+  "audit": "math.fsum bias/variance; binomial-tail inversion bounds; exact original stream replay",
+  "byte_identical_replay": true,
+  "checkpoint_sha256": "37c62dfdadba38cda472ddffa0d74cb3bc3ac7157ee7f6b5e73cb1e9dc70d42f",
+  "components": 336,
+  "confirmation_outcomes_opened": false,
+  "datasets": 1000,
+  "failing_components": 276,
+  "gate_sha256": "9e5afe62baf5708d19c8c1aec685c79e82223bf74459bb421c6c07372beef85b",
+  "independent_exact_binomial_checks": 15,
+  "maximum_bias_bound": 0.004832562008632741,
+  "new_unique_bank_datasets_generated": 0,
+  "original_replicate_replayed": 0,
+  "passes": true,
+  "verifier_sha256": "4fad0662749c7eb421fd938b5b1467990955324d94d82cc21e78e5e0633c7189",
+  "written_utc": "2026-10-07T05:34:21.471495+00:00"
+}
