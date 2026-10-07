@@ -1,0 +1,226 @@
+{
+  "first_open_utc": "2026-10-07T15:29:59.000659+00:00",
+  "outcomes": {
+    "path": "data/derived/confirm-outcomes-A.parquet",
+    "rows": 4350547,
+    "sha256": "fed66ef7ce46d5f583cc3c4842b219b19fbe9cdf97cc6ccb79d2e19b54c4fffa"
+  },
+  "sources": [
+    {
+      "UA_WN_rows": 169087,
+      "month": 1,
+      "rows": 538837,
+      "schedule_identical": true,
+      "sha256": "327924faa362d360747e9e4cf37f461c877441916321754f1789fadd61fd403a",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 154863,
+      "month": 2,
+      "rows": 502749,
+      "schedule_identical": true,
+      "sha256": "bfa6eb7bebb53f10603110aa11bdebf00a89f51d870b331f6565181bb943ddbf",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 179587,
+      "month": 3,
+      "rows": 580322,
+      "schedule_identical": true,
+      "sha256": "1a61dce7c50e5c4f074ebff69a833840f4c6be4e71d4a4707be540ace9e6d58b",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 173737,
+      "month": 4,
+      "rows": 561441,
+      "schedule_identical": true,
+      "sha256": "adf3ecf6e3763a55c2acfc1fcf1c0ee0ac5a7ca079cb16cf15be5e39b921f7b4",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 184861,
+      "month": 5,
+      "rows": 579958,
+      "schedule_identical": true,
+      "sha256": "aec2e926b11e55f88dd0ac48b649492048b4eba0983f1a564e746546568185b4",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 181646,
+      "month": 6,
+      "rows": 577262,
+      "schedule_identical": true,
+      "sha256": "67dc6b993ba2e7c2175a874da7a8fbf12081c23c87523c0a5cd7d2f3e50450a1",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 191471,
+      "month": 7,
+      "rows": 601866,
+      "schedule_identical": true,
+      "sha256": "b1b73635dcb2add363bb001d95c3f951e0ce4fc32130cbc76b565a531ced2146",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 192465,
+      "month": 8,
+      "rows": 602987,
+      "schedule_identical": true,
+      "sha256": "d374aa3ec2b844d47c675d17cf71f2ade0af07b20670f9b8a2c6c1f5fe5d57bd",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 180461,
+      "month": 9,
+      "rows": 569338,
+      "schedule_identical": true,
+      "sha256": "4e7bc3f76857accd1d4e493f03fb5ba2c1f68e82496cf16fd61addf4d8464cfa",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 194484,
+      "month": 10,
+      "rows": 598968,
+      "schedule_identical": true,
+      "sha256": "a92cc51c6bb1e7fcf2732e27ac36ebbc92293acf8e3c0b33126abe28698ecf51",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 180398,
+      "month": 11,
+      "rows": 563777,
+      "schedule_identical": true,
+      "sha256": "9ad54595568704a1cb7d821908611c220cf36da4d9a5ccea03b4deb9053b5025",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 187617,
+      "month": 12,
+      "rows": 570394,
+      "schedule_identical": true,
+      "sha256": "c8391a3f06749b6ee4dec493fb7974f398b9d066a4e731c4cbb8932eddb774ce",
+      "status_errors": 0,
+      "year": 2023
+    },
+    {
+      "UA_WN_rows": 174244,
+      "month": 1,
+      "rows": 547271,
+      "schedule_identical": true,
+      "sha256": "fe089b45523f9d4ac0ccd0e176a543d274e914ee5ae5bd384dbaafc7dc06ebfd",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 162041,
+      "month": 2,
+      "rows": 519221,
+      "schedule_identical": true,
+      "sha256": "8463683d100504a97847497d2f2281008fd9add9639bf7436a9747032df15f9a",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 190201,
+      "month": 3,
+      "rows": 591767,
+      "schedule_identical": true,
+      "sha256": "e2c5021406f480e813a52a2ed795c251eb1169613da6a416daf88236db8c9013",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 181623,
+      "month": 4,
+      "rows": 582185,
+      "schedule_identical": true,
+      "sha256": "d8b1e88626a7375d351962917fe5ec132660c1636dc8b91f778627c769e0e15a",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 186652,
+      "month": 5,
+      "rows": 609743,
+      "schedule_identical": true,
+      "sha256": "03e4ae26c2d1247de02d0b9a4d87160f8021718abf475a1421de9c45b7d68b04",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 186822,
+      "month": 6,
+      "rows": 611132,
+      "schedule_identical": true,
+      "sha256": "4f329439fd6892aaf89b32908191b2a007e70f775e2551181a22e704ef28a0ab",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 193105,
+      "month": 7,
+      "rows": 634613,
+      "schedule_identical": true,
+      "sha256": "4d992fee134137b3fa43094d7e8cf4a8e6feaa6a422cffb4063f1ed6c7f3f731",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 184277,
+      "month": 8,
+      "rows": 619025,
+      "schedule_identical": true,
+      "sha256": "58d651379af90cc44635657e95fe098567ff954046aec21d6d2cd18424a317f9",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 176773,
+      "month": 9,
+      "rows": 582622,
+      "schedule_identical": true,
+      "sha256": "c0df7503b0050ca46099dab1edfffa33464a0a1031ad712c542af6a4ecece24c",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 187654,
+      "month": 10,
+      "rows": 615497,
+      "schedule_identical": true,
+      "sha256": "a417136d6c1663736437dfeeacefa5b93b82e9db322c863c2f57b19bdd3f04fb",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 176172,
+      "month": 11,
+      "rows": 575404,
+      "schedule_identical": true,
+      "sha256": "26b6e89e7c1f66163a412380c743c648eb470a9017074de4efbd209f1e09860a",
+      "status_errors": 0,
+      "year": 2024
+    },
+    {
+      "UA_WN_rows": 180306,
+      "month": 12,
+      "rows": 590581,
+      "schedule_identical": true,
+      "sha256": "a324577aa76d1f0aa36239f8010b6b5270fea0ff5ac846177753b76a42c5d01c",
+      "status_errors": 0,
+      "year": 2024
+    }
+  ]
+}

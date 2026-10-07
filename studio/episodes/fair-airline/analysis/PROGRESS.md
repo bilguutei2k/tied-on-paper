@@ -382,3 +382,13 @@
 - 2026-10-07T15:29:59.000726+00:00: Period A outcomes FIRST OPEN at 2026-10-07T15:29:59.000659+00:00; production code/arrays committed.
 
 - 2026-10-07T15:31:21.289551+00:00: A ingest stopped before estimates on undefined metadata variable after validated scoring; unsealed partial derivative discarded. Technical reporting repair and original first-open preservation tested by unchanged fixture (exact gate interval agreement). Submitting repair checkpoint; no estimator, scoring, RNG or threshold change, B unopened.
+
+- 2026-10-07T15:31:38.742360+00:00: Technical metadata repair checkpoint 4f759d3 completed; receipt consumed. Original A first-open time retained; no estimates yet, B closed. Resume A with unchanged scoring/estimator/starts.
+
+- 2026-10-07T15:31:40.958609+00:00: Period A outcome ingestion resumed; original first open 2026-10-07T15:29:59.000659+00:00.
+
+- 2026-10-07T15:32:04.578747+00:00: Period A computed: UA advantage above two points; all registered sensitivities saved; quality=True. Result and draw hashes require checkpoint before opening B.
+
+- 2026-10-07T15:32:32.233245+00:00: Period A computed: UA advantage above two points; all registered sensitivities saved; quality=True. Result and draw hashes require checkpoint before opening B.
+
+- 2026-10-07T15:39:25.418682+00:00: A verification PASS: independent NumPy per-flight expansion agrees to 1.39e-17, national counts/unknowns and draw hashes exact; fresh stable results reproduce byte-identically apart from written_utc. A verdict UA advantage above two points, D=0.06272108728795532, envelope [0.04600744121000862,0.07943473336590202]; all quality cutoffs pass, 13 descriptive sensitivities retained. Submitting A seal; 2025 still unopened. Supplemental slow SQL check not counted as passed.
