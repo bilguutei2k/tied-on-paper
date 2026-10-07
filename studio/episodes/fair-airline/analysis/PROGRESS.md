@@ -376,3 +376,9 @@
 - 2026-10-07T15:16:15+00:00: Owner approved Amendment 2 (analysis/amendment2/OWNER_APPROVAL.md). Confirmation outcomes still unopened; next is the production-code and resampling-array seal.
 
 - 2026-10-07T15:29:44.073716+00:00: Production outcome-free seal ready: registered estimator/scoring/envelope/quality/decisions and all sensitivities implemented; seed 20261005, amended year-first draw order, 1999 starts/draws saved with hashes and regeneration script. Synthetic fixture reproduces gate A/B intervals exactly (maximum error 0); 45 production scoring templates and invalid-value stops pass; every frozen sensitivity lies on the registered day grid. Flagged interpretations in DEVIATIONS entry 21. Confirmation outcomes remain unopened. Submitting production checkpoint before A.
+
+- 2026-10-07T15:29:56.776326+00:00: Production checkpoint af6b613 completed by owner helper; COMMIT_DONE consumed. Code/array seal precedes any confirmation outcome. Proceeding to A only.
+
+- 2026-10-07T15:29:59.000726+00:00: Period A outcomes FIRST OPEN at 2026-10-07T15:29:59.000659+00:00; production code/arrays committed.
+
+- 2026-10-07T15:31:21.289551+00:00: A ingest stopped before estimates on undefined metadata variable after validated scoring; unsealed partial derivative discarded. Technical reporting repair and original first-open preservation tested by unchanged fixture (exact gate interval agreement). Submitting repair checkpoint; no estimator, scoring, RNG or threshold change, B unopened.

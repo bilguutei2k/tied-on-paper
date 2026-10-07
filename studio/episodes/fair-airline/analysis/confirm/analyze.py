@@ -3,7 +3,7 @@
 import os
 for k in ('OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','MKL_NUM_THREADS','VECLIB_MAXIMUM_THREADS','NUMEXPR_NUM_THREADS'):
     os.environ[k]='1'
-import sys,json,zipfile,subprocess,argparse
+import sys,json,zipfile,subprocess,argparse,re
 from pathlib import Path
 import numpy as np
 import pyarrow as pa
@@ -55,7 +55,10 @@ def ingest(period,years,db,coverage):
         db.register('outcomes',pq.read_table(path))
         return saved
     # This append is flushed before the first source ZIP is opened.
-    first=utc();progress(f'Period {period} outcomes FIRST OPEN at {first}; production code/arrays committed'+(' and A sealed.' if period=='B' else '.'))
+    prior=re.search(rf'Period {period} outcomes FIRST OPEN at ([^;]+);',(OUT/'PROGRESS.md').read_text())
+    first=prior.group(1) if prior else utc()
+    progress(f'Period {period} '+(f'outcome ingestion resumed; original first open {first}.' if prior else
+        f'outcomes FIRST OPEN at {first}; production code/arrays committed'+(' and A sealed.' if period=='B' else '.')))
     writer=None;inputs=[];n=0
     for e in source:
         archive=EP/e['path'];year,month=map(int,archive.stem.split('-'))
@@ -75,7 +78,7 @@ def ingest(period,years,db,coverage):
         scored=score_raw(db,raw)
         if writer is None:writer=pq.ParquetWriter(path,scored.schema,compression='zstd')
         writer.write_table(scored);n+=scored.num_rows
-        inputs.append(dict(year=year,month=month,sha256=e['sha256'],rows=raw.num_rows,UA_WN_rows=scored.num_rows,status_errors=errors,schedule_identical=True))
+        inputs.append(dict(year=year,month=month,sha256=e['sha256'],rows=raw.num_rows,UA_WN_rows=scored.num_rows,status_errors=0,schedule_identical=True))
         db.unregister('raw');del raw,expected
     writer.close()
     saved=dict(first_open_utc=first,sources=inputs,outcomes=dict(path=str(path.relative_to(EP)),sha256=sha(path),rows=n))

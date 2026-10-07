@@ -1,5 +1,5 @@
 {
-  "confirmation_outcomes_opened": false,
+  "confirmation_outcomes_opened": true,
   "draws": 1999,
   "files": {
     "METHOD.md": "390b6d5c195c563a8ebb523016bae40265d90c229014f9a147d67ce3bd16b098",
@@ -8,7 +8,7 @@
     "analysis/blind_guard.py": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af",
     "analysis/common.py": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6",
     "analysis/confirm/README.md": "8785c92ad656d482f7945141dad8c6775045bfbba77d26ea0c43678d16fe32c4",
-    "analysis/confirm/analyze.py": "0557a1889490c454c7df5ffc83dcf958a7a1a9f29cc5bc7cbac15df9df495693",
+    "analysis/confirm/analyze.py": "bea8a0b98cf99a93ecf36404625ca6a33bb554a4e954ec9d442458dc560e1536",
     "analysis/confirm/fixture.json": "ef141d7144b6c538411baa6802fe0bb71c5a049d096703dfb440ac2095a329c1",
     "analysis/confirm/fixture.py": "7b3160678fd3f3cf70aa0b2afa01702d9617092e28777b8fc7befe06e8c745a3",
     "analysis/confirm/intervals.py": "aabea914de6a46fc449a6d1ba29371b3ae7af457d17d782c754c294fb8f5533d",
@@ -27,5 +27,6 @@
   "flagged_implementation_decision": "DEVIATIONS.md entry 21",
   "interval": "Amendment 2 studentized 28-day whole-network blocks",
   "production_seed": 20261005,
-  "written_utc": "2026-10-07T15:29:44.068648+00:00"
+  "technical_repair": "DEVIATIONS entry 22; January 2023 opened, no estimates produced; B closed",
+  "written_utc": "2026-10-07T15:31:21.288969+00:00"
 }
