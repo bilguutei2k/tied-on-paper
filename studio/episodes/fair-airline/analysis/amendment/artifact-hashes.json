@@ -1,0 +1,202 @@
+{
+  "confirmation_outcomes_opened": false,
+  "design_checkpoint": "e5c9a33",
+  "files": {
+    "analysis/amendment/AMENDMENT-1.md": {
+      "bytes": 17192,
+      "sha256": "a29f74f97011100b2028651cd3ecee61ba893bac2d6338cd04fb5ea623b8971a"
+    },
+    "analysis/amendment/GATE.md": {
+      "bytes": 5429,
+      "sha256": "d4f2e4582473e1e3d032937c4c10efbfea233aebdd82e61a1067ddb5a71b6575"
+    },
+    "analysis/amendment/bank0-candidate1-scenario0.jsonl": {
+      "bytes": 302102,
+      "sha256": "cf97ffc4e1b32841b7a01039678c5609254c445ae50aedd786ce1daf398d51ba"
+    },
+    "analysis/amendment/bank0-candidate1-scenario1.jsonl": {
+      "bytes": 319445,
+      "sha256": "001dcb32b98b8f349a47d83adbd120d9805282ed51b09c1005a88ba2ff36a9a7"
+    },
+    "analysis/amendment/bank0-candidate1-scenario2.jsonl": {
+      "bytes": 298230,
+      "sha256": "addc0dc0509608e53574a5e38f178f232aad46ce43c5f48abf3f9f332b72b5d7"
+    },
+    "analysis/amendment/bank0-candidate1-scenario3.jsonl": {
+      "bytes": 302293,
+      "sha256": "07a3519b3cd836fe8614611fa78f7d43b38002ca957251966eefddc68024c413"
+    },
+    "analysis/amendment/bank0-candidate1-scenario4.jsonl": {
+      "bytes": 319718,
+      "sha256": "80aed7f0e35d6fb866d99c41a60faffd97c9e9d30c46ebb3fe7db191c03f794f"
+    },
+    "analysis/amendment/bank0-candidate1-scenario5.jsonl": {
+      "bytes": 298259,
+      "sha256": "fefc58cc31fc597ffb10182d1ca5a185f29469cecf42e993db6c34c282706743"
+    },
+    "analysis/amendment/bank0-candidate1-scenario6.jsonl": {
+      "bytes": 302410,
+      "sha256": "ce9a4ca5fb736e31a1bf12f7f333b1a971eab4d71ab4493587492d9fd9dc908e"
+    },
+    "analysis/amendment/bank0-candidate1-scenario7.jsonl": {
+      "bytes": 317939,
+      "sha256": "14b32a87d36869dd2492645688bc6ef5f53cb2081e5fc1df35aec928d8a48837"
+    },
+    "analysis/amendment/bank0-candidate1-scenario8.jsonl": {
+      "bytes": 298222,
+      "sha256": "ea3d33554f9196f97ac8464752097cfa5efdb5ca18a0cedbfc3fe96f6ae060ae"
+    },
+    "analysis/amendment/bank0-candidate1-scenario9.jsonl": {
+      "bytes": 302533,
+      "sha256": "859ac7293d11ca486e3171a8fa5135b45f022bbfe2ac290f5270317bb669476c"
+    },
+    "analysis/amendment/bank0-candidate28-scenario0.jsonl": {
+      "bytes": 302172,
+      "sha256": "f6600bf119da9fb8229a1a79efa891a3ef0f9a8f1ec8618446c7eba04fc6a9fd"
+    },
+    "analysis/amendment/bank0-candidate28-scenario1.jsonl": {
+      "bytes": 319628,
+      "sha256": "62c9553fc02bbf3ea1d46075001096f7bf7fe9bf33177e3519e89ef1c8555126"
+    },
+    "analysis/amendment/bank0-candidate28-scenario2.jsonl": {
+      "bytes": 298238,
+      "sha256": "826aec96e51be37d0474f45b196ad66529e9c63771e0fc172475ac2f432b9348"
+    },
+    "analysis/amendment/bank0-candidate28-scenario3.jsonl": {
+      "bytes": 302256,
+      "sha256": "59f5806174a843d0a4bb7bdba2b5bed1f85ccb7aa24e587c5fed914c55e75180"
+    },
+    "analysis/amendment/bank0-candidate28-scenario4.jsonl": {
+      "bytes": 319776,
+      "sha256": "75426a4573214fb47b9692f1f5e0cc900b7b6e508d3eceeef63de1a14dac92fc"
+    },
+    "analysis/amendment/bank0-candidate28-scenario5.jsonl": {
+      "bytes": 298240,
+      "sha256": "2e5e0cfbfb8af3894ea3ec44bb307b895bc09d356148aa89cff03c2ead45c110"
+    },
+    "analysis/amendment/bank0-candidate28-scenario6.jsonl": {
+      "bytes": 302444,
+      "sha256": "cdd512cd124094cb5054e210a16f8876c2f9596df62a8120d9a7052710b04772"
+    },
+    "analysis/amendment/bank0-candidate28-scenario7.jsonl": {
+      "bytes": 318062,
+      "sha256": "4d2ddd3ea1e8c0e73ee84010dae6379847ce65c332c19f3dbe36d487c774797c"
+    },
+    "analysis/amendment/bank0-candidate28-scenario8.jsonl": {
+      "bytes": 298080,
+      "sha256": "4b84ec0daa6a856984a5a78afa0159fa9cd35afb152bcaa8952ef9a53a14da2f"
+    },
+    "analysis/amendment/bank0-candidate28-scenario9.jsonl": {
+      "bytes": 302356,
+      "sha256": "be57126e064de0133f61aabc4a1a4c70e948932d9e4ed7c457884da739fa2571"
+    },
+    "analysis/amendment/bank0-candidate7-scenario0.jsonl": {
+      "bytes": 302095,
+      "sha256": "6d33ac0ec854ccfb840631da5987ddf58d0967ee073d1cbd0022b817afe18aa6"
+    },
+    "analysis/amendment/bank0-candidate7-scenario1.jsonl": {
+      "bytes": 319549,
+      "sha256": "62013974f5dc7c178936bd2b86f72c3f7319d9665244ba4a563bbf107fd921a4"
+    },
+    "analysis/amendment/bank0-candidate7-scenario2.jsonl": {
+      "bytes": 298263,
+      "sha256": "23f91d67bf05e2a6f93fa42c0fb1dc80d5c5a5b043c4b9716ab63e867c27d30f"
+    },
+    "analysis/amendment/bank0-candidate7-scenario3.jsonl": {
+      "bytes": 302287,
+      "sha256": "2bbd7953fc48c543352afbc2132f955273baae7b6bac47855d6b67839dbef8c7"
+    },
+    "analysis/amendment/bank0-candidate7-scenario4.jsonl": {
+      "bytes": 319677,
+      "sha256": "4d5478babb1af9b15b2a06f40dad995ad0c028d3ae336a61d8bb63ff2db4031a"
+    },
+    "analysis/amendment/bank0-candidate7-scenario5.jsonl": {
+      "bytes": 298263,
+      "sha256": "d5c10126662e58e7688c0de056307382b867231be16dd48e9b87a2336f271973"
+    },
+    "analysis/amendment/bank0-candidate7-scenario6.jsonl": {
+      "bytes": 302362,
+      "sha256": "48490f06b033f43f8831f3aac875a593d7b3ae0f4898de4d2a3ff96848d24ae4"
+    },
+    "analysis/amendment/bank0-candidate7-scenario7.jsonl": {
+      "bytes": 317912,
+      "sha256": "9ed83b72e278749c4a244ccc97b9ff67e4f7c8f63ebbcea0d8b25efdb58d222a"
+    },
+    "analysis/amendment/bank0-candidate7-scenario8.jsonl": {
+      "bytes": 298098,
+      "sha256": "9645db9819c4c84efa088d99acef9e782cbba3b80c6259bdc680adc5cda5ebaa"
+    },
+    "analysis/amendment/bank0-candidate7-scenario9.jsonl": {
+      "bytes": 302389,
+      "sha256": "662ea1a1844e6ca2027b77c2d0e02116cef928ecac274842ce6a2d07c0fb48a1"
+    },
+    "analysis/amendment/design.json": {
+      "bytes": 1178,
+      "sha256": "64b0a519ff8126727408bf069ff8a377ebc191d764d76ddf45bfa265601516d8"
+    },
+    "analysis/amendment/fixtures.json": {
+      "bytes": 244,
+      "sha256": "54d1f2479a6ef65622c6ad896c35c3d23833f925f403b505e0b5cddf20175af7"
+    },
+    "analysis/amendment/report.py": {
+      "bytes": 6895,
+      "sha256": "71c7323697364e4c6df6825b2f5df9bfb165eafe4103d6916cc6045570b824cd"
+    },
+    "analysis/amendment/results.json": {
+      "bytes": 101581,
+      "sha256": "aafbbe42bd3932cb745f27b07a47ab429b1cfe4a8e465a6634c7c988c1a8679a"
+    },
+    "analysis/amendment/resume_partial.py": {
+      "bytes": 2452,
+      "sha256": "74376f7d121f7abc74055cf356875f2693325d87ca2e18e01e1d18f525115c5f"
+    },
+    "analysis/amendment/run_gate.py": {
+      "bytes": 16824,
+      "sha256": "0466049a8e40d1ca964140243e43a06ff7070818a3b8f686de5b98724caaae14"
+    },
+    "analysis/amendment/seal.json": {
+      "bytes": 554,
+      "sha256": "7b8cac965fabc06f83df8151f733e257be98e0b631eaa8d3c0e78da09b217fd9"
+    },
+    "analysis/amendment/structure.json": {
+      "bytes": 2540,
+      "sha256": "41a239b79bd71b9ea2b790c15c26ee0b4b8bd283319ea6fa1a2edf3b189793fd"
+    },
+    "analysis/amendment/summary.json": {
+      "bytes": 557,
+      "sha256": "c07729e7130b55cacabd15eaba27d47ed4462e7044d145f4fb86d214343f703f"
+    },
+    "analysis/amendment/timing.json": {
+      "bytes": 458,
+      "sha256": "db11023f48d49e9b11812debd424740c40f857191d4214b5ec545dbf81a73853"
+    },
+    "analysis/amendment/truths.json": {
+      "bytes": 11506,
+      "sha256": "45bd1fe5c54229972add490825a8362127cc645bf278950ae2aae439305938f8"
+    },
+    "analysis/amendment/verification.json": {
+      "bytes": 5667,
+      "sha256": "5729b773c056b2921246f16d6bfcd9480fdd82a13808a98e72bddb8fe82cd868"
+    },
+    "analysis/amendment/verify.py": {
+      "bytes": 9408,
+      "sha256": "942993edef0206c0317c767637435dd941181a26dcb890c041ac0b6828ca502c"
+    },
+    "analysis/blind_guard.py": {
+      "bytes": 1352,
+      "sha256": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af"
+    },
+    "analysis/common.py": {
+      "bytes": 1166,
+      "sha256": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6"
+    },
+    "analysis/rules.py": {
+      "bytes": 3011,
+      "sha256": "8cc52fbebe2f83af65ada48edcd41a9ee2deaa1995ccbf42df8e351f93a246d5"
+    },
+    "analysis/simulation_model.py": {
+      "bytes": 18270,
+      "sha256": "b2df0a01bcdd120b09e9a0579928d7eebf99da96d7691714b3af87a2d24b2cf7"
+    }
+  }
+}

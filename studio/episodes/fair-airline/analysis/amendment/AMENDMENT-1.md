@@ -1,13 +1,13 @@
 The amended question is whether United beats Southwest by more than two points on comparable flights.
-Southwest led the published 2015 table; this tests whether using that ordering misses a material United advantage.
-We keep the frozen carriers, routes, dates, two-hour cells and 2015 exploration year.
-We replace the 28-pair verdict with one comparison in 2023–2024, checked again in 2025.
-We will test whole-network day and week-block uncertainty using simulated outcomes before requesting adoption.
-Confirmation outcomes remain unopened; the owner must approve this amendment before they can be opened.
+Southwest led the published 2015 table; this tests whether that ordering misses a material United advantage.
+The same carriers, frozen routes, cells and 2015 exploration year are retained, with no secondary pairs.
+The primary comparison is 2023–2024, with 2025 as a separate replication; cancellations and diversions fail.
+The amended gate FAILED: all three day/block methods exceeded the allowed boundary-error upper bound.
+Confirmation outcomes remain unopened; a further reviewed amendment and passing gate are required.
 
 # Amendment 1 — focused United–Southwest comparison
 
-Status: draft for owner adoption, after failed gate `153fd1b`, before any
+Status: evaluated draft, amendment gate **FAIL**, after failed gate `153fd1b`, before any
 confirmation flight outcome is decoded. The owner authorized drafting and
 validation, not outcome access. Written 2026-10-07 UTC (2026-10-06 Pacific).
 The registered METHOD remains unchanged. This amendment is post-pilot and
@@ -198,9 +198,51 @@ bounds. A gate pass never grants outcome access.
 
 ## Results and remaining approval barrier
 
-Pending execution. Replace this paragraph with measured results without altering
-the sealed algorithm or criteria. Independent arithmetic/status checks, timing,
-all attempts and hashes are retained in this directory. After the report checkpoint,
-record the helper hash in PROGRESS.md and stop for owner adoption. Before any later
-outcome access, owner approval and the accepted amendment, production analysis code
-and production resampling arrays must be committed; seal A before opening B.
+**FAIL — no candidate clears selection.** The pre-simulation design/code checkpoint
+was `e5c9a33`. All three candidates completed selection scenarios 0–9 with exactly
+1,000 datasets per scenario and 1,999 bootstrap draws. Each failed required scenario
+9: the calibrated two-point boundary in both periods with network-wide and airport
+shocks, unequal carrier loadings, and AR(1)=.6. The fixed fallback order was exhausted.
+
+| Whole-network resampling | Joint coverage (exact lower) | Worst directional error (exact upper) | Boundary result |
+|---|---:|---:|---|
+| 1 day | 82.7% (80.612%) | 5.6% (6.947%) | Coverage and error fail |
+| 7 days | 95.2% (93.935%) | 2.3% (3.243%) | Error bound fails |
+| 28 days | 95.7% (94.490%) | 2.0% (2.893%) | Error bound fails |
+
+Bounds are one-sided 95% exact binomial bounds. The worst directional error is a
+false challenge in 2025 at the true decision line. For 28 days its count is 20/1,000:
+the observed 2.0% is below 2.5%, but its upper bound is not. This fails the sealed
+certification rule; it is not proof that the population error rate exceeds 2.5%.
+No extra replicates, threshold relaxation, new candidate or scenario deletion follows.
+
+Across all completed attempts, the largest absolute mean-bias-plus-1.96-MCSE bound
+is 0.0281 percentage points, below the allowed 0.2; every dataset has valid intervals.
+The completed no-serial-shock power alternatives at zero/four points achieved
+100% per-period and repeated-decision power (exact lower 99.701%). **The full power
+gate is NOT COMPLETED:** serial-shock power, informative missingness, mixed-period
+and local three-point scenarios 10–19 are unrun. Independent bank 1 is NOT RUN.
+Those omissions are the registered early stop, never evidence of a pass.
+
+There are 10,000 distinct simulated datasets reused across three candidates,
+30,000 dataset-candidate evaluations and 59,970,000 joint bootstrap draws.
+Ten-worker timing batches, run before evaluation, took 0.2433/0.2460/0.2133 seconds
+for 1/7/28 days respectively; individual complete selection scenarios took about
+18.5–26.4 seconds. The usage-limit continuation preserved all complete scenarios and
+the first 700 records of candidate 28/scenario 2 byte-for-byte, completing only its
+remaining 300 with the sealed functions. That scenario's runtime covers only the
+resumed portion. No generator, interval, seed, sample size or acceptance rule changed.
+
+`verify.py` independently confirms all 258 exact-binomial interval checks by tail inversion,
+bias arithmetic with compensated sums, event counts, acceptance decisions, strict
+boundary/status fixtures, frozen membership counts, bootstrap multiplicity algorithms,
+and early-stop order. All 30 original-replicate-zero replays agree exactly. Replays
+are verification, not new evaluation datasets. See `GATE.md`, `results.json`,
+`verification.json`, `summary.json`, `timing.json` and `artifact-hashes.json`.
+
+The original registered gate remains failed; this narrowed amendment also does
+not clear confirmation. Commit this investigation through the helper, record its
+hash in PROGRESS.md, and stop. A further outcome-blind redesign needs owner review,
+a new seal and a passing gate. Before any later outcome access, owner approval and
+the accepted amendment, production analysis code and production resampling arrays
+must be committed; seal A before opening B. No observed confirmation verdict exists.

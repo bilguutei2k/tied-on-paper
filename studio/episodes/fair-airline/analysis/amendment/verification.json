@@ -1,0 +1,260 @@
+{
+  "bootstrap_multiplicity_checks": [
+    1,
+    7,
+    28
+  ],
+  "confirmation_outcomes_opened": false,
+  "exact_binomial_checks": 258,
+  "maximum_bias_recalculation_error": 2.168404344971009e-19,
+  "membership_counts": [
+    [
+      2023,
+      174082,
+      174082
+    ],
+    [
+      2024,
+      181641,
+      181641
+    ],
+    [
+      2025,
+      176804,
+      176804
+    ]
+  ],
+  "new_evaluation_datasets": 0,
+  "original_replicate_replays": [
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      0
+    ],
+    [
+      0,
+      1,
+      5,
+      0
+    ],
+    [
+      0,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      9,
+      0
+    ],
+    [
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      7,
+      2,
+      0
+    ],
+    [
+      0,
+      7,
+      3,
+      0
+    ],
+    [
+      0,
+      7,
+      4,
+      0
+    ],
+    [
+      0,
+      7,
+      5,
+      0
+    ],
+    [
+      0,
+      7,
+      6,
+      0
+    ],
+    [
+      0,
+      7,
+      7,
+      0
+    ],
+    [
+      0,
+      7,
+      8,
+      0
+    ],
+    [
+      0,
+      7,
+      9,
+      0
+    ],
+    [
+      0,
+      28,
+      0,
+      0
+    ],
+    [
+      0,
+      28,
+      1,
+      0
+    ],
+    [
+      0,
+      28,
+      2,
+      0
+    ],
+    [
+      0,
+      28,
+      3,
+      0
+    ],
+    [
+      0,
+      28,
+      4,
+      0
+    ],
+    [
+      0,
+      28,
+      5,
+      0
+    ],
+    [
+      0,
+      28,
+      6,
+      0
+    ],
+    [
+      0,
+      28,
+      7,
+      0
+    ],
+    [
+      0,
+      28,
+      8,
+      0
+    ],
+    [
+      0,
+      28,
+      9,
+      0
+    ]
+  ],
+  "passes": true,
+  "records_sha256": {
+    "bank0-candidate1-scenario0.jsonl": "cf97ffc4e1b32841b7a01039678c5609254c445ae50aedd786ce1daf398d51ba",
+    "bank0-candidate1-scenario1.jsonl": "001dcb32b98b8f349a47d83adbd120d9805282ed51b09c1005a88ba2ff36a9a7",
+    "bank0-candidate1-scenario2.jsonl": "addc0dc0509608e53574a5e38f178f232aad46ce43c5f48abf3f9f332b72b5d7",
+    "bank0-candidate1-scenario3.jsonl": "07a3519b3cd836fe8614611fa78f7d43b38002ca957251966eefddc68024c413",
+    "bank0-candidate1-scenario4.jsonl": "80aed7f0e35d6fb866d99c41a60faffd97c9e9d30c46ebb3fe7db191c03f794f",
+    "bank0-candidate1-scenario5.jsonl": "fefc58cc31fc597ffb10182d1ca5a185f29469cecf42e993db6c34c282706743",
+    "bank0-candidate1-scenario6.jsonl": "ce9a4ca5fb736e31a1bf12f7f333b1a971eab4d71ab4493587492d9fd9dc908e",
+    "bank0-candidate1-scenario7.jsonl": "14b32a87d36869dd2492645688bc6ef5f53cb2081e5fc1df35aec928d8a48837",
+    "bank0-candidate1-scenario8.jsonl": "ea3d33554f9196f97ac8464752097cfa5efdb5ca18a0cedbfc3fe96f6ae060ae",
+    "bank0-candidate1-scenario9.jsonl": "859ac7293d11ca486e3171a8fa5135b45f022bbfe2ac290f5270317bb669476c",
+    "bank0-candidate28-scenario0.jsonl": "f6600bf119da9fb8229a1a79efa891a3ef0f9a8f1ec8618446c7eba04fc6a9fd",
+    "bank0-candidate28-scenario1.jsonl": "62c9553fc02bbf3ea1d46075001096f7bf7fe9bf33177e3519e89ef1c8555126",
+    "bank0-candidate28-scenario2.jsonl": "826aec96e51be37d0474f45b196ad66529e9c63771e0fc172475ac2f432b9348",
+    "bank0-candidate28-scenario3.jsonl": "59f5806174a843d0a4bb7bdba2b5bed1f85ccb7aa24e587c5fed914c55e75180",
+    "bank0-candidate28-scenario4.jsonl": "75426a4573214fb47b9692f1f5e0cc900b7b6e508d3eceeef63de1a14dac92fc",
+    "bank0-candidate28-scenario5.jsonl": "2e5e0cfbfb8af3894ea3ec44bb307b895bc09d356148aa89cff03c2ead45c110",
+    "bank0-candidate28-scenario6.jsonl": "cdd512cd124094cb5054e210a16f8876c2f9596df62a8120d9a7052710b04772",
+    "bank0-candidate28-scenario7.jsonl": "4d2ddd3ea1e8c0e73ee84010dae6379847ce65c332c19f3dbe36d487c774797c",
+    "bank0-candidate28-scenario8.jsonl": "4b84ec0daa6a856984a5a78afa0159fa9cd35afb152bcaa8952ef9a53a14da2f",
+    "bank0-candidate28-scenario9.jsonl": "be57126e064de0133f61aabc4a1a4c70e948932d9e4ed7c457884da739fa2571",
+    "bank0-candidate7-scenario0.jsonl": "6d33ac0ec854ccfb840631da5987ddf58d0967ee073d1cbd0022b817afe18aa6",
+    "bank0-candidate7-scenario1.jsonl": "62013974f5dc7c178936bd2b86f72c3f7319d9665244ba4a563bbf107fd921a4",
+    "bank0-candidate7-scenario2.jsonl": "23f91d67bf05e2a6f93fa42c0fb1dc80d5c5a5b043c4b9716ab63e867c27d30f",
+    "bank0-candidate7-scenario3.jsonl": "2bbd7953fc48c543352afbc2132f955273baae7b6bac47855d6b67839dbef8c7",
+    "bank0-candidate7-scenario4.jsonl": "4d5478babb1af9b15b2a06f40dad995ad0c028d3ae336a61d8bb63ff2db4031a",
+    "bank0-candidate7-scenario5.jsonl": "d5c10126662e58e7688c0de056307382b867231be16dd48e9b87a2336f271973",
+    "bank0-candidate7-scenario6.jsonl": "48490f06b033f43f8831f3aac875a593d7b3ae0f4898de4d2a3ff96848d24ae4",
+    "bank0-candidate7-scenario7.jsonl": "9ed83b72e278749c4a244ccc97b9ff67e4f7c8f63ebbcea0d8b25efdb58d222a",
+    "bank0-candidate7-scenario8.jsonl": "9645db9819c4c84efa088d99acef9e782cbba3b80c6259bdc680adc5cda5ebaa",
+    "bank0-candidate7-scenario9.jsonl": "662ea1a1844e6ca2027b77c2d0e02116cef928ecac274842ce6a2d07c0fb48a1"
+  },
+  "status_fixtures": {
+    "14.999": true,
+    "15": true,
+    "both_failure_flags": true,
+    "cancel_precedence": true,
+    "divert_precedence": true,
+    "hhmm": true,
+    "infinite_delay": true,
+    "invalid_delay": true,
+    "invalid_key_uses_flightdate_week": true,
+    "missing_delay": true,
+    "missing_flag": true,
+    "negative_delay": true,
+    "nonbinary": true,
+    "source_boundary_separate_cluster": true,
+    "sunday_midnight_same_cluster": true
+  }
+}

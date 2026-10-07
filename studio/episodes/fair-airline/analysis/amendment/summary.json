@@ -1,0 +1,27 @@
+{
+  "status": "FAIL",
+  "selected": null,
+  "banks": [],
+  "candidate_stops": [
+    {
+      "candidate": 1,
+      "completed_scenarios": 10,
+      "failure_scenario": 9
+    },
+    {
+      "candidate": 7,
+      "completed_scenarios": 10,
+      "failure_scenario": 9
+    },
+    {
+      "candidate": 28,
+      "completed_scenarios": 10,
+      "failure_scenario": 9
+    }
+  ],
+  "dataset_candidate_evaluations": 30000,
+  "unique_synthetic_datasets": 10000,
+  "bootstrap_draws": 59970000,
+  "verification_passes": true,
+  "confirmation_outcomes_opened": false
+}
