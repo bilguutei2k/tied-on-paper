@@ -1,0 +1,11 @@
+{
+  "written_utc": "2026-10-07T05:59:16.381573+00:00",
+  "files": {
+    "design.json": "64b0a519ff8126727408bf069ff8a377ebc191d764d76ddf45bfa265601516d8",
+    "run_gate.py": "0466049a8e40d1ca964140243e43a06ff7070818a3b8f686de5b98724caaae14",
+    "structure.json": "41a239b79bd71b9ea2b790c15c26ee0b4b8bd283319ea6fa1a2edf3b189793fd",
+    "truths.json": "45bd1fe5c54229972add490825a8362127cc645bf278950ae2aae439305938f8",
+    "fixtures.json": "54d1f2479a6ef65622c6ad896c35c3d23833f925f403b505e0b5cddf20175af7"
+  },
+  "confirmation_outcomes_opened": false
+}

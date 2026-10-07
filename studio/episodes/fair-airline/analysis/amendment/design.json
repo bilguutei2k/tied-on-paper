@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "seed": 20261007,
+  "primary_pair": ["UA", "WN"],
+  "secondary_pairs": [],
+  "line": 0.02,
+  "power_effects": [0.0, 0.04],
+  "reported_local_power_effect": 0.03,
+  "candidates": [1, 7, 28],
+  "draws": 1999,
+  "interval_critical": 2.5758293035489004,
+  "selection_datasets": 1000,
+  "validation_datasets": 2000,
+  "bias_bound": 0.002,
+  "coverage_lower": 0.92,
+  "false_upper": 0.025,
+  "power_lower": 0.80,
+  "workers": 10,
+  "profiles": [
+    {"name": "independent", "sd": 0.0, "ar": 0.0, "differential": false, "missing": 0.0},
+    {"name": "shared_daily", "sd": 0.3, "ar": 0.0, "differential": false, "missing": 0.0},
+    {"name": "differential_daily", "sd": 0.3, "ar": 0.0, "differential": true, "missing": 0.0},
+    {"name": "serial_daily", "sd": 0.3, "ar": 0.6, "differential": true, "missing": 0.0},
+    {"name": "serial_missing", "sd": 0.3, "ar": 0.6, "differential": true, "missing": 0.0005}
+  ],
+  "effects": [[0.02, 0.02], [0.0, 0.0], [0.04, 0.04]],
+  "additional_serial_effects": [[0.02, 0.04], [0.04, 0.02], [0.0, 0.04], [0.04, 0.0], [0.03, 0.03]],
+  "benchmark_bank": 90,
+  "benchmark_datasets": 10,
+  "benchmark_acceptance_inspected": false
+}
