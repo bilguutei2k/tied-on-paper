@@ -1,0 +1,24 @@
+# Confirmatory methods disposition — 2026-10-07
+
+**Reviewer: Astra. Verdict: APPROVE WITH CHANGES.** No blocking methods or integrity defect found. Publication/film approval requires R1–R3 below; the reviewer has recorded the requested changes and has not edited FINDINGS or production code.
+
+Full review: [astra-methods-1.md](reviews/astra-methods-1.md). Independent raw audit and clearly labeled **post-hoc, not registered** checks: [review_checks/README.md](review_checks/README.md).
+
+| ID | Date | Issue | Disposition | Evidence / required action |
+|---|---|---|---|---|
+| M1 | 2026-10-07 | Production seal before A; A sealed before B | PASS, documentary limits stated | `af6b613` 15:29:45 UTC precedes logged A first open 15:29:59; `c829f51` 15:39:26 precedes B 15:39:44. Historical seal hashes and original A/B bytes verified in `review_checks/integrity.json`. |
+| M2 | 2026-10-07 | Deviation 21: seed/order/interface | ACCEPT disclosed pre-access interpretation | Saved arrays regenerate exactly from PCG64(20261005), year-first 1999×14 starts. Amendments' bank streams interpreted as synthetic. No post-outcome seed choice. |
+| M3 | 2026-10-07 | Deviation 22: post-January metadata repair | ACCEPT technical fix | Diff changes undefined audit variable to asserted zero and preserves first-open time. January outcomes were exposed; no scientific rule/membership/scoring change. Fresh raw rescore agrees. |
+| M4 | 2026-10-07 | Deviation 23: unfinished SQL verifier | NOT BLOCKING; retain incomplete status | Required independent numerical derivation exists in NumPy. This review additionally independently rescores raw records and reconstructs all draws/intervals. Never count SQL as passed. |
+| M5 | 2026-10-07 | Cells, operator identity, scoring, denominators, joins, dates | PASS | 36 archive hashes; 6,537,703 UA/WN records; zero duplicate natural keys, unknown outcomes, invalid keys or 2400 source boundaries. Cell counts and raw outcomes agree exactly. Tiny source elapsed-identity discrepancies disclosed; no effect on common-clock aggregate rates. |
+| M6 | 2026-10-07 | Interval/decision/replication fidelity | PASS | Independently reproduced A 6.2721 [4.6007,7.9435], B 8.2027 [5.3112,10.9951] points. Strict two-point line and same-label replication followed. |
+| D1 | 2026-10-07 | Padding / common deadline | DESCRIPTIVE, NOT REGISTERED | UA scheduled blocks +4.52/+4.45 minutes; common-clock gaps 2.59/4.33 points. Deadline sensitivity 3.69/3.87 points; actual UA blocks also longer, so no causal/intentional-padding claim. |
+| D2 | 2026-10-07 | Departure punctuality | DESCRIPTIVE, NOT REGISTERED | WN−UA 15+ late-departure gaps 10.13/13.09 points; UA−WN cancellation-inclusive timely-departure gaps 9.91/13.28. Same frozen weights and scheduled denominators. |
+| D3 | 2026-10-07 | Failure decomposition | DESCRIPTIVE, NOT REGISTERED | Cancellation contributions −0.220/+0.189 points; diversion +0.032/+0.003; completed late arrivals +6.459/+8.011. |
+| D4 | 2026-10-07 | Concentration and heterogeneity | DESCRIPTIVE, NOT REGISTERED | Denver touches 79.31%/82.22% of weight. Removing ten largest contributing routes leaves 5.30/7.27-point gaps. Before 10:00 gaps −0.41/+1.38 versus 16:00 onward +11.71/+12.90. All monthly aggregates positive but vary widely. |
+| D5 | 2026-10-07 | Growth from 2015 pilot | DESCRIPTIVE, NOT REGISTERED | Pilot 2.9531 point reproduced. Scheduled-duration difference stays near 4.5 minutes; departure gap grows from 3.65 to 9.91/13.28. Late-arrival contribution drives growth; common-route composition offsets rather than produces it. No unique causal mechanism identified. |
+| R1 | 2026-10-07 | Prominent timetable/departure disclosure | **OPEN — REQUIRED BEFORE FILM/PUBLICATION** | Add common-clock reduction and departure contrast, label post-hoc; also disclose longer actual UA blocks. No “percent caused by padding” or inherited common-clock materiality verdict. |
+| R2 | 2026-10-07 | Spoken population/scope | **OPEN — REQUIRED BEFORE FILM/PUBLICATION** | Use operator-only headline in full review; disclose United Express/codeshare exclusion, small overlap coverage, Denver concentration, and early/late-day heterogeneity. Retain national near-equality and no two-period reversal. |
+| R3 | 2026-10-07 | National and reproduction labels | **OPEN — REQUIRED BEFORE FILM/PUBLICATION** | Replace national “unmatched” labels with “unadjusted all-flights.” Say original stable reproductions reused derivatives; link new raw/interval audit. Retain repair/seed/SQL disclosures. |
+
+The registered statistical results need no recalculation. R1–R3 are reporting changes, not permission to change the registered estimand or elevate exploratory checks to confirmation. No film using a general airline-quality or intentional-padding claim is approved by this disposition.

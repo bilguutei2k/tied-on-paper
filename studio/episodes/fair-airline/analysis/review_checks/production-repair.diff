@@ -1,0 +1,62 @@
+diff --git a/studio/episodes/fair-airline/analysis/confirm/analyze.py b/studio/episodes/fair-airline/analysis/confirm/analyze.py
+index e949dc4..c63c212 100644
+--- a/studio/episodes/fair-airline/analysis/confirm/analyze.py
++++ b/studio/episodes/fair-airline/analysis/confirm/analyze.py
+@@ -3,7 +3,7 @@
+ import os
+ for k in ('OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','MKL_NUM_THREADS','VECLIB_MAXIMUM_THREADS','NUMEXPR_NUM_THREADS'):
+     os.environ[k]='1'
+-import sys,json,zipfile,subprocess,argparse
++import sys,json,zipfile,subprocess,argparse,re
+ from pathlib import Path
+ import numpy as np
+ import pyarrow as pa
+@@ -55,7 +55,10 @@ def ingest(period,years,db,coverage):
+         db.register('outcomes',pq.read_table(path))
+         return saved
+     # This append is flushed before the first source ZIP is opened.
+-    first=utc();progress(f'Period {period} outcomes FIRST OPEN at {first}; production code/arrays committed'+(' and A sealed.' if period=='B' else '.'))
++    prior=re.search(rf'Period {period} outcomes FIRST OPEN at ([^;]+);',(OUT/'PROGRESS.md').read_text())
++    first=prior.group(1) if prior else utc()
++    progress(f'Period {period} '+(f'outcome ingestion resumed; original first open {first}.' if prior else
++        f'outcomes FIRST OPEN at {first}; production code/arrays committed'+(' and A sealed.' if period=='B' else '.')))
+     writer=None;inputs=[];n=0
+     for e in source:
+         archive=EP/e['path'];year,month=map(int,archive.stem.split('-'))
+@@ -75,7 +78,7 @@ def ingest(period,years,db,coverage):
+         scored=score_raw(db,raw)
+         if writer is None:writer=pq.ParquetWriter(path,scored.schema,compression='zstd')
+         writer.write_table(scored);n+=scored.num_rows
+-        inputs.append(dict(year=year,month=month,sha256=e['sha256'],rows=raw.num_rows,UA_WN_rows=scored.num_rows,status_errors=errors,schedule_identical=True))
++        inputs.append(dict(year=year,month=month,sha256=e['sha256'],rows=raw.num_rows,UA_WN_rows=scored.num_rows,status_errors=0,schedule_identical=True))
+         db.unregister('raw');del raw,expected
+     writer.close()
+     saved=dict(first_open_utc=first,sources=inputs,outcomes=dict(path=str(path.relative_to(EP)),sha256=sha(path),rows=n))
+diff --git a/studio/episodes/fair-airline/analysis/confirm/production-seal.json b/studio/episodes/fair-airline/analysis/confirm/production-seal.json
+index ca11358..195b484 100644
+--- a/studio/episodes/fair-airline/analysis/confirm/production-seal.json
++++ b/studio/episodes/fair-airline/analysis/confirm/production-seal.json
+@@ -1,5 +1,5 @@
+ {
+-  "confirmation_outcomes_opened": false,
++  "confirmation_outcomes_opened": true,
+   "draws": 1999,
+   "files": {
+     "METHOD.md": "390b6d5c195c563a8ebb523016bae40265d90c229014f9a147d67ce3bd16b098",
+@@ -8,7 +8,7 @@
+     "analysis/blind_guard.py": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af",
+     "analysis/common.py": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6",
+     "analysis/confirm/README.md": "8785c92ad656d482f7945141dad8c6775045bfbba77d26ea0c43678d16fe32c4",
+-    "analysis/confirm/analyze.py": "0557a1889490c454c7df5ffc83dcf958a7a1a9f29cc5bc7cbac15df9df495693",
++    "analysis/confirm/analyze.py": "bea8a0b98cf99a93ecf36404625ca6a33bb554a4e954ec9d442458dc560e1536",
+     "analysis/confirm/fixture.json": "ef141d7144b6c538411baa6802fe0bb71c5a049d096703dfb440ac2095a329c1",
+     "analysis/confirm/fixture.py": "7b3160678fd3f3cf70aa0b2afa01702d9617092e28777b8fc7befe06e8c745a3",
+     "analysis/confirm/intervals.py": "aabea914de6a46fc449a6d1ba29371b3ae7af457d17d782c754c294fb8f5533d",
+@@ -27,5 +27,6 @@
+   "flagged_implementation_decision": "DEVIATIONS.md entry 21",
+   "interval": "Amendment 2 studentized 28-day whole-network blocks",
+   "production_seed": 20261005,
+-  "written_utc": "2026-10-07T15:29:44.068648+00:00"
++  "technical_repair": "DEVIATIONS entry 22; January 2023 opened, no estimates produced; B closed",
++  "written_utc": "2026-10-07T15:31:21.288969+00:00"
+ }

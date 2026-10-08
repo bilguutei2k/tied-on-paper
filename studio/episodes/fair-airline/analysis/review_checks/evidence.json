@@ -1,0 +1,218 @@
+{
+  "checked_utc": "2026-10-08T04:10:41.635981+00:00",
+  "post_hoc_not_registered": true,
+  "hash_checks": [
+    {
+      "path": "data/derived/structure.parquet",
+      "sha256": "ad24674d0ae46779e6b37489bdd47db85fedddc43585735ae4f7e29ac92640c0",
+      "passes": true
+    },
+    {
+      "path": "data/derived/pair-cells.parquet",
+      "sha256": "370c2efedd25032ca6566c56738c1b376fddbf8fb6cbcba33bbb60d8aedbf7be",
+      "passes": true
+    },
+    {
+      "path": "data/derived/confirm-outcomes-A.parquet",
+      "sha256": "fed66ef7ce46d5f583cc3c4842b219b19fbe9cdf97cc6ccb79d2e19b54c4fffa",
+      "passes": true
+    },
+    {
+      "path": "data/derived/confirm-draws-A.npy",
+      "sha256": "2c099c29af382019714af30a3680c7e6d0279d55c7006bdb803b0be7b2f8f34a",
+      "passes": true
+    },
+    {
+      "path": "data/derived/confirm-outcomes-B.parquet",
+      "sha256": "e18ff50058c964518bb8362cc5c3fd6622c0653f968d0137b827fb8e6a3ef969",
+      "passes": true
+    },
+    {
+      "path": "data/derived/confirm-draws-B.npy",
+      "sha256": "fedb06b602d517a208d54003a5d99bb326034485ad58c32f6f1db23f4d23a5d4",
+      "passes": true
+    },
+    {
+      "path": "METHOD.md",
+      "sha256": "390b6d5c195c563a8ebb523016bae40265d90c229014f9a147d67ce3bd16b098",
+      "passes": true
+    },
+    {
+      "path": "analysis/amendment/AMENDMENT-1.md",
+      "sha256": "a29f74f97011100b2028651cd3ecee61ba893bac2d6338cd04fb5ea623b8971a",
+      "passes": true
+    },
+    {
+      "path": "analysis/amendment2/AMENDMENT-2.md",
+      "sha256": "d70edb15d5b3fe70030df49c7f7ed206159eadbacf0f301b49be2f2d8d99f1f6",
+      "passes": true
+    },
+    {
+      "path": "analysis/blind_guard.py",
+      "sha256": "8e4673500ccf0fcf60006d9a39b8869a38af32c53c1690dd081e19980ee377af",
+      "passes": true
+    },
+    {
+      "path": "analysis/common.py",
+      "sha256": "7e218f1a532d16c5c6e7ed6d3100f788ccb6892f3486057be3cf43ab80fa0fe6",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/README.md",
+      "sha256": "8785c92ad656d482f7945141dad8c6775045bfbba77d26ea0c43678d16fe32c4",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/analyze.py",
+      "sha256": "bea8a0b98cf99a93ecf36404625ca6a33bb554a4e954ec9d442458dc560e1536",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/fixture.json",
+      "sha256": "ef141d7144b6c538411baa6802fe0bb71c5a049d096703dfb440ac2095a329c1",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/fixture.py",
+      "sha256": "7b3160678fd3f3cf70aa0b2afa01702d9617092e28777b8fc7befe06e8c745a3",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/intervals.py",
+      "sha256": "aabea914de6a46fc449a6d1ba29371b3ae7af457d17d782c754c294fb8f5533d",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/prepare.py",
+      "sha256": "4d9e2830ec610656c0351cc37cd54eed4f5c4aee09d860ecc03726cc4a68844c",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/resampling.json",
+      "sha256": "c3db40c8913a92dc0b3d661540219ab43bc0a9175695c83f6625c6014006f8de",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/schedule-preflight.json",
+      "sha256": "31ed4fb1454d4ec9fbacf310940c0fed7988e885a5875972953877b6001705e6",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/verify_period.py",
+      "sha256": "10f088abd906c24f8c88e0ccbc7ecc915f93ef0fc6245c090fd6dfe1183ba431",
+      "passes": true
+    },
+    {
+      "path": "analysis/coverage.json",
+      "sha256": "53f8ab1dd657ad8675750a813a4c4154615df2ade5816d1643525a0f52f7847b",
+      "passes": true
+    },
+    {
+      "path": "analysis/field-map.json",
+      "sha256": "3fa2e7f06399f624aca3ee4bf7e6e0790c8faf74d9318895c51f0ccda11d1f27",
+      "passes": true
+    },
+    {
+      "path": "analysis/rules.py",
+      "sha256": "8cc52fbebe2f83af65ada48edcd41a9ee2deaa1995ccbf42df8e351f93a246d5",
+      "passes": true
+    },
+    {
+      "path": "analysis/snapshot.py",
+      "sha256": "2238b17febd820f6945c2c186595d3d2fbc70ae77f32bf7a06e82c39a57856de",
+      "passes": true
+    },
+    {
+      "path": "data/flights-manifest.json",
+      "sha256": "919dd12d739751cf66d5fb34075c6b43e7fa05f801fde506d0c3479f46577a86",
+      "passes": true
+    },
+    {
+      "path": "data/sensitivity-manifest.json",
+      "sha256": "6d854d522c58ed2ed5cea73b963f176fb34a4bd429f37425774fd7625066c9f1",
+      "passes": true
+    },
+    {
+      "path": "data/structure-manifest.json",
+      "sha256": "2750344d020ed34b5ad518711f0a2744f34f716be9d4d38d7223052253f65b88",
+      "passes": true
+    },
+    {
+      "path": "analysis/FINDINGS.md",
+      "sha256": "18ae19abcddefd0c87a80be118c4d9bee7568ada539654392221291cf0775269",
+      "passes": true
+    },
+    {
+      "path": "analysis/confirm/assemble.py",
+      "sha256": "652107152feb440a553239d0834fa1db90339c23fb5f3494d3cd5aad70785f59",
+      "passes": true
+    },
+    {
+      "path": "analysis/qa.json",
+      "sha256": "ea7871961c6370054a1bd56331343e052ef23a48c8cd5e6dceb17cef0a89fddb",
+      "passes": true
+    },
+    {
+      "path": "analysis/results.json",
+      "sha256": "5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de",
+      "passes": true
+    }
+  ],
+  "independent_raw_annual_counts": [
+    {
+      "year": 2023,
+      "carrier": "UA",
+      "n": 732212,
+      "Y": 571646,
+      "U": 0,
+      "C": 10270,
+      "V": 1910
+    },
+    {
+      "year": 2023,
+      "carrier": "WN",
+      "n": 1438465,
+      "Y": 1111275,
+      "U": 0,
+      "C": 14325,
+      "V": 2902
+    },
+    {
+      "year": 2024,
+      "carrier": "UA",
+      "n": 760451,
+      "Y": 597706,
+      "U": 0,
+      "C": 12478,
+      "V": 2155
+    },
+    {
+      "year": 2024,
+      "carrier": "WN",
+      "n": 1419419,
+      "Y": 1115183,
+      "U": 0,
+      "C": 11772,
+      "V": 3050
+    },
+    {
+      "year": 2025,
+      "carrier": "UA",
+      "n": 795271,
+      "Y": 617562,
+      "U": 0,
+      "C": 6527,
+      "V": 2367
+    },
+    {
+      "year": 2025,
+      "carrier": "WN",
+      "n": 1391885,
+      "Y": 1082262,
+      "U": 0,
+      "C": 11799,
+      "V": 3249
+    }
+  ],
+  "all_pass": true
+}

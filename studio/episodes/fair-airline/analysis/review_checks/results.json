@@ -1,0 +1,750 @@
+{
+  "A": {
+    "C": {
+      "UA": 0.011982638176333833,
+      "UA_minus_WN": 0.0021955285432766515,
+      "WN": 0.009787109633057182
+    },
+    "U": {
+      "UA": 0.0,
+      "UA_minus_WN": 0.0,
+      "WN": 0.0
+    },
+    "V_only": {
+      "UA": 0.002149144137432778,
+      "UA_minus_WN": -0.0003246908409071103,
+      "WN": 0.002473834978339888
+    },
+    "Y": {
+      "UA": 0.7975484670188133,
+      "UA_minus_WN": 0.06272108728795533,
+      "WN": 0.734827379730858
+    },
+    "cells": 167457,
+    "common_UA": {
+      "UA": 0.797618746421607,
+      "UA_minus_WN": 0.023828934311247774,
+      "WN": 0.7737898121103592
+    },
+    "common_WN": {
+      "UA": 0.7618048312872656,
+      "UA_minus_WN": 0.02672444570635013,
+      "WN": 0.7350803855809155
+    },
+    "common_mid": {
+      "UA": 0.7849426848043748,
+      "UA_minus_WN": 0.025873596403193755,
+      "WN": 0.759069088401181
+    },
+    "complete": {
+      "UA": 0.9858682176862333,
+      "UA_minus_WN": -0.001870837702369621,
+      "WN": 0.987739055388603
+    },
+    "complete_elapsed_missing": 0,
+    "completed_cell_means": {
+      "actual": {
+        "UA": 143.437575926677,
+        "UA_minus_WN": 4.790812955979533,
+        "WN": 138.64676297069747
+      },
+      "cells": 163577,
+      "completed_rows_UA": 175329,
+      "completed_rows_WN": 175695,
+      "dep_delay": {
+        "UA": 10.03018322119916,
+        "UA_minus_WN": -4.349333187592466,
+        "WN": 14.379516408791625
+      },
+      "sched_completed": {
+        "UA": 149.24190011572975,
+        "UA_minus_WN": 4.523014592304321,
+        "WN": 144.71888552342543
+      },
+      "schedule": {
+        "UA": 149.2418526540658,
+        "UA_minus_WN": 4.522967130640382,
+        "WN": 144.71888552342543
+      },
+      "slack": {
+        "UA": 5.8043241890527515,
+        "UA_minus_WN": -0.26779836367523835,
+        "WN": 6.07212255272799
+      },
+      "weight_share": 0.9773025640737315
+    },
+    "concentration": {
+      "airports": 80,
+      "removals": [
+        {
+          "contribution_points": 0.22658079460703973,
+          "n": 1,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 6.221149942673543,
+          "weight_share": 0.02822983051419222
+        },
+        {
+          "contribution_points": 1.0290778686412367,
+          "n": 5,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 5.727440882536894,
+          "weight_share": 0.08457704449810667
+        },
+        {
+          "contribution_points": 1.906492786053568,
+          "n": 10,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 5.303102739398575,
+          "weight_share": 0.17678080978739075
+        },
+        {
+          "contribution_points": 3.222966559186033,
+          "n": 20,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 4.49744993158353,
+          "weight_share": 0.3220286571292832
+        },
+        {
+          "contribution_points": 0.11694492624879471,
+          "n": 1,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 6.344138051596465,
+          "weight_share": 0.029787222080101653
+        },
+        {
+          "contribution_points": 0.7714335779993609,
+          "n": 5,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 6.368152241597399,
+          "weight_share": 0.1362211608470636
+        },
+        {
+          "contribution_points": 1.2716823670852506,
+          "n": 10,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 6.532786353414155,
+          "weight_share": 0.2345645347644094
+        },
+        {
+          "contribution_points": 2.579956876558446,
+          "n": 20,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 5.874753239937258,
+          "weight_share": 0.37152222375275146
+        }
+      ],
+      "routes": 221
+    },
+    "decomposition_advantage_points": {
+      "C": -0.21955285432766514,
+      "U": -0.0,
+      "V_only": 0.03246908409071103,
+      "late_arrival": 6.459192499032487
+    },
+    "dep_known": {
+      "UA": 0.9880173618236662,
+      "UA_minus_WN": -0.002195528543276648,
+      "WN": 0.9902128903669428
+    },
+    "dep_late": {
+      "UA": 0.17898383480029872,
+      "UA_minus_WN": -0.10132556324256048,
+      "WN": 0.2803093980428592
+    },
+    "dep_timely": {
+      "UA": 0.8090335270233674,
+      "UA_minus_WN": 0.09913003469928372,
+      "WN": 0.7099034923240837
+    },
+    "dep_unknown_non_cancel": {
+      "UA": 0.0,
+      "UA_minus_WN": 0.0,
+      "WN": 0.0
+    },
+    "departures_conditional_known": {
+      "UA": 0.18115454415692991,
+      "WN": 0.2830799323759409
+    },
+    "equalized_mid": {
+      "UA": 0.7849426848043748,
+      "UA_minus_WN": 0.025873596403193755,
+      "WN": 0.759069088401181
+    },
+    "flights": {
+      "UA": 177840,
+      "WN": 177883
+    },
+    "interval_checks": {
+      "Y": {
+        "df": 24,
+        "interval": [
+          0.04600744121000862,
+          0.07943473336590202
+        ],
+        "maximum_saved_draw_error": 2.7755575615628914e-17,
+        "minimum_den": 169200.5,
+        "minimum_draw_se": 0.003210273993133799,
+        "pivot_quantiles": [
+          -2.5713698503562665,
+          2.714206993891105
+        ],
+        "point": 0.06272108728795532,
+        "registered_interval_reproduced": true,
+        "se": 0.005975690946985458,
+        "t_floor": 2.796939504774456
+      },
+      "common_mid": {
+        "df": 24,
+        "interval": [
+          0.010824120338738627,
+          0.040923072467649105
+        ],
+        "minimum_den": 169200.5,
+        "minimum_draw_se": 0.0027121102779979096,
+        "pivot_quantiles": [
+          -2.332411581072411,
+          2.7675618055146582
+        ],
+        "point": 0.025873596403193866,
+        "se": 0.0053806941618742025,
+        "t_floor": 2.796939504774456
+      },
+      "dep_late": {
+        "df": 24,
+        "interval": [
+          -0.11708806732649855,
+          -0.08556305915862232
+        ],
+        "minimum_den": 169200.5,
+        "minimum_draw_se": 0.002696682780425282,
+        "pivot_quantiles": [
+          -2.6448408706238147,
+          2.660362596231917
+        ],
+        "point": -0.10132556324256044,
+        "se": 0.005635625674788842,
+        "t_floor": 2.796939504774456
+      },
+      "dep_timely": {
+        "df": 24,
+        "interval": [
+          0.08251092652179462,
+          0.11574914287677296
+        ],
+        "minimum_den": 169200.5,
+        "minimum_draw_se": 0.0032575159314009164,
+        "pivot_quantiles": [
+          -2.591287933685872,
+          2.6550579711533002
+        ],
+        "point": 0.09913003469928379,
+        "se": 0.00594189046603256,
+        "t_floor": 2.796939504774456
+      }
+    },
+    "late_arrival": {
+      "UA": 0.18831975066742004,
+      "UA_minus_WN": -0.06459192499032487,
+      "WN": 0.2529116756577449
+    },
+    "missing": {
+      "actual_minutes": 4699,
+      "arr_delay": 4699,
+      "dep_delay": 3779,
+      "scheduled_minutes": 0
+    },
+    "own_minus_common_mid_points": 3.684749088476158,
+    "schedule": {
+      "UA": 149.31387296669973,
+      "UA_minus_WN": 4.519543296328891,
+      "WN": 144.79432967037084
+    },
+    "versus_2015": {
+      "common_routes": 101,
+      "current_gap_common_routes": 0.0737926678325891,
+      "current_rates_pilot_route_weights": 0.09155445342743268,
+      "current_weight_share": 0.7699502140710609,
+      "pilot_gap_common_routes": 0.030597650449820945,
+      "pilot_weight_share": 0.9248167370100365,
+      "route_composition_change_points": -1.5706911978012712,
+      "within_route_change_points": 5.890192936078088
+    },
+    "versus_2015_route_band_month": {
+      "common_strata": 2211,
+      "composition_change_points": -0.9267290858051647,
+      "current_gap_points": 7.911744738628649,
+      "current_weight_share": 0.37957905448902657,
+      "pilot_gap_points": 3.195153844803679,
+      "pilot_weight_share": 0.7670187200872393,
+      "within_stratum_change_points": 5.643319979630135
+    },
+    "weight": 177861.5
+  },
+  "B": {
+    "C": {
+      "UA": 0.0044672820373596375,
+      "UA_minus_WN": -0.0018872122048520772,
+      "WN": 0.006354494242211715
+    },
+    "U": {
+      "UA": 0.0,
+      "UA_minus_WN": 0.0,
+      "WN": 0.0
+    },
+    "V_only": {
+      "UA": 0.003164521164679532,
+      "UA_minus_WN": -3.110789348657276e-05,
+      "WN": 0.003195629058166105
+    },
+    "Y": {
+      "UA": 0.7812860568765413,
+      "UA_minus_WN": 0.08202680180689736,
+      "WN": 0.6992592550696439
+    },
+    "cells": 83744,
+    "common_UA": {
+      "UA": 0.7813906925182689,
+      "UA_minus_WN": 0.044408874610680105,
+      "WN": 0.7369818179075888
+    },
+    "common_WN": {
+      "UA": 0.7426905876940944,
+      "UA_minus_WN": 0.04320792138941043,
+      "WN": 0.6994826663046839
+    },
+    "common_mid": {
+      "UA": 0.7661167168163616,
+      "UA_minus_WN": 0.04331161436769915,
+      "WN": 0.7228051024486625
+    },
+    "complete": {
+      "UA": 0.992368196797961,
+      "UA_minus_WN": 0.0019183200983388105,
+      "WN": 0.9904498766996221
+    },
+    "complete_elapsed_missing": 0,
+    "completed_cell_means": {
+      "actual": {
+        "UA": 147.35144958726698,
+        "UA_minus_WN": 6.230041990683645,
+        "WN": 141.12140759658334
+      },
+      "cells": 82502,
+      "completed_rows_UA": 88037,
+      "completed_rows_WN": 87235,
+      "dep_delay": {
+        "UA": 10.120468306120692,
+        "UA_minus_WN": -7.8935024438769155,
+        "WN": 18.013970749997608
+      },
+      "sched_completed": {
+        "UA": 151.23644772207714,
+        "UA_minus_WN": 4.454277980238572,
+        "WN": 146.78216974183857
+      },
+      "schedule": {
+        "UA": 151.2365280687155,
+        "UA_minus_WN": 4.454343979262916,
+        "WN": 146.78218408945258
+      },
+      "slack": {
+        "UA": 3.884998134810181,
+        "UA_minus_WN": -1.7757640104450632,
+        "WN": 5.660762145255244
+      },
+      "weight_share": 0.9855263455577928
+    },
+    "concentration": {
+      "airports": 80,
+      "removals": [
+        {
+          "contribution_points": 0.34218682835229974,
+          "n": 1,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 8.005660587487567,
+          "weight_share": 0.018133073912354924
+        },
+        {
+          "contribution_points": 1.4011749357103533,
+          "n": 5,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 7.713145229741661,
+          "weight_share": 0.1181930273070745
+        },
+        {
+          "contribution_points": 2.4250959631380886,
+          "n": 10,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 7.268186475409837,
+          "weight_share": 0.20508585778602295
+        },
+        {
+          "contribution_points": 4.097569436588915,
+          "n": 20,
+          "rank_by": "contribution_points",
+          "remaining_gap_points": 6.3450156920682925,
+          "weight_share": 0.35301803126626097
+        },
+        {
+          "contribution_points": 0.2541420631509091,
+          "n": 1,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 8.19804421421474,
+          "weight_share": 0.030434831791135947
+        },
+        {
+          "contribution_points": 1.1700338604707283,
+          "n": 5,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 8.108037612321818,
+          "weight_share": 0.13263274586547816
+        },
+        {
+          "contribution_points": 2.1298537740473438,
+          "n": 10,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 7.864378474587444,
+          "weight_share": 0.22780593199248886
+        },
+        {
+          "contribution_points": 3.7418082547152025,
+          "n": 20,
+          "rank_by": "weight_share",
+          "remaining_gap_points": 7.116047422271145,
+          "weight_share": 0.3731250424198548
+        }
+      ],
+      "routes": 215
+    },
+    "decomposition_advantage_points": {
+      "C": 0.18872122048520773,
+      "U": -0.0,
+      "V_only": 0.003110789348657276,
+      "late_arrival": 8.010848170855866
+    },
+    "dep_known": {
+      "UA": 0.9955327179626404,
+      "UA_minus_WN": 0.0018872122048521067,
+      "WN": 0.9936455057577883
+    },
+    "dep_late": {
+      "UA": 0.18420586261245972,
+      "UA_minus_WN": -0.1309265250409116,
+      "WN": 0.3151323876533713
+    },
+    "dep_timely": {
+      "UA": 0.8113268553501805,
+      "UA_minus_WN": 0.1328137372457635,
+      "WN": 0.678513118104417
+    },
+    "dep_unknown_non_cancel": {
+      "UA": 0.0,
+      "UA_minus_WN": 0.0,
+      "WN": 0.0
+    },
+    "departures_conditional_known": {
+      "UA": 0.18503245477400015,
+      "WN": 0.3171477008926242
+    },
+    "equalized_mid": {
+      "UA": 0.7661167168163616,
+      "UA_minus_WN": 0.04331161436769915,
+      "WN": 0.7228051024486625
+    },
+    "flights": {
+      "UA": 88717,
+      "WN": 88087
+    },
+    "interval_checks": {
+      "Y": {
+        "df": 12,
+        "interval": [
+          0.05311177134100269,
+          0.10995069523717309
+        ],
+        "maximum_saved_draw_error": 6.938893903907228e-17,
+        "minimum_den": 83112.0,
+        "minimum_draw_se": 0.002809583686701936,
+        "pivot_quantiles": [
+          -2.7504399988851556,
+          3.1629581135278135
+        ],
+        "point": 0.08202680180689728,
+        "registered_interval_reproduced": true,
+        "se": 0.009141768378855998,
+        "t_floor": 3.0545395893929013
+      },
+      "common_mid": {
+        "df": 12,
+        "interval": [
+          0.019669641314401003,
+          0.06820548757956563
+        ],
+        "minimum_den": 83112.0,
+        "minimum_draw_se": 0.002602306186364102,
+        "pivot_quantiles": [
+          -3.2162849135963425,
+          2.8962524822985163
+        ],
+        "point": 0.04331161436769907,
+        "se": 0.007739946516128468,
+        "t_floor": 3.0545395893929013
+      },
+      "dep_late": {
+        "df": 12,
+        "interval": [
+          -0.16307289940031583,
+          -0.09637945151160845
+        ],
+        "minimum_den": 83112.0,
+        "minimum_draw_se": 0.0034063273363484823,
+        "pivot_quantiles": [
+          -3.2826533596953893,
+          2.6754707653516094
+        ],
+        "point": -0.1309265250409116,
+        "se": 0.0105241308611729,
+        "t_floor": 3.0545395893929013
+      },
+      "dep_timely": {
+        "df": 12,
+        "interval": [
+          0.09954897926748807,
+          0.16504346138269987
+        ],
+        "minimum_den": 83112.0,
+        "minimum_draw_se": 0.003591526985645113,
+        "pivot_quantiles": [
+          -2.7153139218287463,
+          3.152633877488574
+        ],
+        "point": 0.13281373724576367,
+        "se": 0.01055141804311724,
+        "t_floor": 3.0545395893929013
+      }
+    },
+    "late_arrival": {
+      "UA": 0.21108213992141955,
+      "UA_minus_WN": -0.08010848170855867,
+      "WN": 0.2911906216299782
+    },
+    "missing": {
+      "actual_minutes": 1532,
+      "arr_delay": 1532,
+      "dep_delay": 915,
+      "scheduled_minutes": 0
+    },
+    "own_minus_common_mid_points": 3.8715187439198218,
+    "schedule": {
+      "UA": 151.33124721914285,
+      "UA_minus_WN": 4.453636041416843,
+      "WN": 146.877611177726
+    },
+    "versus_2015": {
+      "common_routes": 101,
+      "current_gap_common_routes": 0.08843228360006884,
+      "current_rates_pilot_route_weights": 0.10030377717614952,
+      "current_weight_share": 0.8216725865930635,
+      "pilot_gap_common_routes": 0.030597650449820945,
+      "pilot_weight_share": 0.9248167370100365,
+      "route_composition_change_points": -1.3186478278814746,
+      "within_route_change_points": 7.102111142906263
+    },
+    "versus_2015_route_band_month": {
+      "common_strata": 1959,
+      "composition_change_points": -1.0679009563869184,
+      "current_gap_points": 9.410690991675818,
+      "current_weight_share": 0.401789552272573,
+      "pilot_gap_points": 3.059108527131783,
+      "pilot_weight_share": 0.6946828490074517,
+      "within_stratum_change_points": 7.419483420930951
+    },
+    "weight": 88402.0
+  },
+  "created_utc": "2026-10-08T03:14:02.458736+00:00",
+  "method": "Same frozen pair cells and w=(n_UA+n_WN)/2. No rematching. All extra contrasts descriptive; no multiplicity-certified decisions. Elapsed means condition on cells with completed flights in both carriers. Common clocks use equal-carrier mean scheduled block time per cell plus 15, relative to each scheduled departure; cancellations/diversions fail.",
+  "pilot_2015": {
+    "C": {
+      "UA": 0.008511884327227933,
+      "UA_minus_WN": -0.01011732870211434,
+      "WN": 0.018629213029342274
+    },
+    "U": {
+      "UA": 0.0,
+      "UA_minus_WN": 0.0,
+      "WN": 0.0
+    },
+    "V_only": {
+      "UA": 0.001995866906305324,
+      "UA_minus_WN": -0.0004577367609739022,
+      "WN": 0.002453603667279226
+    },
+    "Y": {
+      "UA": 0.7955347105824699,
+      "UA_minus_WN": 0.029530752505772084,
+      "WN": 0.7660039580766979
+    },
+    "cells": 45509,
+    "common_UA": {
+      "UA": 0.7956945818776631,
+      "UA_minus_WN": -0.0031351602415234936,
+      "WN": 0.7988297421191866
+    },
+    "common_WN": {
+      "UA": 0.7533320543629718,
+      "UA_minus_WN": -0.012929380641773847,
+      "WN": 0.7662614350047456
+    },
+    "common_mid": {
+      "UA": 0.7810369083920651,
+      "UA_minus_WN": -0.0056661752727907855,
+      "WN": 0.7867030836648559
+    },
+    "complete": {
+      "UA": 0.9894922487664667,
+      "UA_minus_WN": 0.010575065463088174,
+      "WN": 0.9789171833033785
+    },
+    "complete_elapsed_missing": 0,
+    "completed_cell_means": {
+      "actual": {
+        "UA": 134.79945558235093,
+        "UA_minus_WN": 4.119363052050886,
+        "WN": 130.68009253030004
+      },
+      "cells": 44412,
+      "completed_rows_UA": 49688,
+      "completed_rows_WN": 47807,
+      "dep_delay": {
+        "UA": 11.571899010181092,
+        "UA_minus_WN": -0.8963777941080089,
+        "WN": 12.4682768042891
+      },
+      "sched_completed": {
+        "UA": 141.8209424842419,
+        "UA_minus_WN": 4.487165819679774,
+        "WN": 137.33377666456212
+      },
+      "schedule": {
+        "UA": 141.82085795805432,
+        "UA_minus_WN": 4.485916902132487,
+        "WN": 137.33494105592183
+      },
+      "slack": {
+        "UA": 7.021486901890971,
+        "UA_minus_WN": 0.3678027676288851,
+        "WN": 6.653684134262086
+      },
+      "weight_share": 0.9755548375371069
+    },
+    "decomposition_advantage_points": {
+      "C": 1.011732870211434,
+      "U": -0.0,
+      "V_only": 0.04577367609739022,
+      "late_arrival": 1.8955687042683966
+    },
+    "dep_known": {
+      "UA": 0.9914881156727721,
+      "UA_minus_WN": 0.010117328702114348,
+      "WN": 0.9813707869706577
+    },
+    "dep_late": {
+      "UA": 0.2097242136015132,
+      "UA_minus_WN": -0.02636193514947127,
+      "WN": 0.23608614875098446
+    },
+    "dep_timely": {
+      "UA": 0.7817639020712589,
+      "UA_minus_WN": 0.03647926385158562,
+      "WN": 0.7452846382196733
+    },
+    "dep_unknown_non_cancel": {
+      "UA": 0.0,
+      "UA_minus_WN": 0.0,
+      "WN": 0.0
+    },
+    "departures_conditional_known": {
+      "UA": 0.2115246872719249,
+      "WN": 0.24056773635961437
+    },
+    "equalized_mid": {
+      "UA": 0.7810369083920651,
+      "UA_minus_WN": -0.0056661752727907855,
+      "WN": 0.7867030836648559
+    },
+    "flights": {
+      "UA": 50221,
+      "WN": 48817
+    },
+    "input_hashes": [
+      {
+        "path": "ideation/data/S6/2015-01.parquet",
+        "sha256": "7da415a5306d5ae1da7e82978d3309fa8dfab549dc28d6efa981fd2b11383374"
+      },
+      {
+        "path": "ideation/data/S6/2015-02.parquet",
+        "sha256": "366ec298f0a31297c5df18ac9241db81b4a9188fb7f888e88fe8a4f6b5a741d2"
+      },
+      {
+        "path": "ideation/data/S6/2015-03.parquet",
+        "sha256": "36f00cf8bfb8a22b1065d044018d6e249e6d798de08bbadd9e2e9b17fdd46b16"
+      },
+      {
+        "path": "ideation/data/S6/2015-04.parquet",
+        "sha256": "d9a24c375bece56a3af654358970381422ca5728530f2a280e5098161faf7762"
+      },
+      {
+        "path": "ideation/data/S6/2015-05.parquet",
+        "sha256": "28e95796f93c7571f36b5889bea1aa34ea533e1407b7628179280c160521c677"
+      },
+      {
+        "path": "ideation/data/S6/2015-06.parquet",
+        "sha256": "133ba77f004e65171768c52a441c16545872c1ddefcffc1eaa91b73281c4ae00"
+      },
+      {
+        "path": "ideation/data/S6/2015-07.parquet",
+        "sha256": "995b60fb427362f0f7dad6b92a00835329ae467fa94028d49dd7453bedc63ef9"
+      },
+      {
+        "path": "ideation/data/S6/2015-08.parquet",
+        "sha256": "6a91026d5f5a736132ca44f54b9b9be1a59ebec85cb48e63bee9655a80e93dd9"
+      },
+      {
+        "path": "ideation/data/S6/2015-09.parquet",
+        "sha256": "a272834b0ecc30ea90d6381c92e7ec678d5d6888c9567c43ef64a3b3d3906d3c"
+      },
+      {
+        "path": "ideation/data/S6/2015-10.parquet",
+        "sha256": "4e3c5dcfd3d60a3e8339b68a813d925f5327ac8f9b506ebd2da4247035149dc1"
+      },
+      {
+        "path": "ideation/data/S6/2015-11.parquet",
+        "sha256": "415b04e841141e1c8ef75303578fa0a2fc77a3b334c444893b4952bd6ab34bc8"
+      },
+      {
+        "path": "ideation/data/S6/2015-12.parquet",
+        "sha256": "e910547acc8be6399cc16849f4c1163c5609d5845ff2b3ae256a687831322b3a"
+      }
+    ],
+    "late_arrival": {
+      "UA": 0.1939575381839967,
+      "UA_minus_WN": -0.018955687042683966,
+      "WN": 0.21291322522668066
+    },
+    "missing": {
+      "actual_minutes": 1543,
+      "arr_delay": 1543,
+      "dep_delay": 1294,
+      "scheduled_minutes": 0
+    },
+    "own_minus_common_mid_points": 3.519692777856287,
+    "saved_pilot_own_gap_reproduced": true,
+    "schedule": {
+      "UA": 141.62236717219653,
+      "UA_minus_WN": 4.511460247581738,
+      "WN": 137.1109069246148
+    },
+    "weight": 49519.0
+  },
+  "post_hoc_not_registered": true
+}

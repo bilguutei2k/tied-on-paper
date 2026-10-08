@@ -1,0 +1,83 @@
+{
+  "4f759d3": {
+    "commit": "4f759d36129215dbb2333037922b260829ba5847 2026-10-07T08:31:25-07:00 2026-10-07T08:31:25-07:00",
+    "files_verified": [
+      "METHOD.md",
+      "analysis/amendment/AMENDMENT-1.md",
+      "analysis/amendment2/AMENDMENT-2.md",
+      "analysis/blind_guard.py",
+      "analysis/common.py",
+      "analysis/confirm/README.md",
+      "analysis/confirm/analyze.py",
+      "analysis/confirm/fixture.json",
+      "analysis/confirm/fixture.py",
+      "analysis/confirm/intervals.py",
+      "analysis/confirm/prepare.py",
+      "analysis/confirm/resampling.json",
+      "analysis/confirm/schedule-preflight.json",
+      "analysis/confirm/verify_period.py",
+      "analysis/coverage.json",
+      "analysis/field-map.json",
+      "analysis/rules.py",
+      "analysis/snapshot.py",
+      "data/flights-manifest.json",
+      "data/sensitivity-manifest.json",
+      "data/structure-manifest.json"
+    ],
+    "outcomes_opened": true
+  },
+  "A": {
+    "current_results_identical_to_first_seal": true,
+    "first_open_utc": "2026-10-07T15:29:59.000659+00:00",
+    "seal_commit": "c829f51f951a4747840e3ba5e30cbc4f1bc701b0 2026-10-07T08:39:26-07:00 2026-10-07T08:39:26-07:00"
+  },
+  "B": {
+    "current_results_identical_to_first_seal": true,
+    "first_open_utc": "2026-10-07T15:39:44.777454+00:00",
+    "seal_commit": "12320b0bdd05248df5bc5c3d7441d3b4ee7d1d06 2026-10-07T08:42:57-07:00 2026-10-07T08:42:57-07:00"
+  },
+  "af6b613": {
+    "commit": "af6b613cadbd2155ebdca1dba8169786f1c71c97 2026-10-07T08:29:45-07:00 2026-10-07T08:29:45-07:00",
+    "files_verified": [
+      "METHOD.md",
+      "analysis/amendment/AMENDMENT-1.md",
+      "analysis/amendment2/AMENDMENT-2.md",
+      "analysis/blind_guard.py",
+      "analysis/common.py",
+      "analysis/confirm/README.md",
+      "analysis/confirm/analyze.py",
+      "analysis/confirm/fixture.json",
+      "analysis/confirm/fixture.py",
+      "analysis/confirm/intervals.py",
+      "analysis/confirm/prepare.py",
+      "analysis/confirm/resampling.json",
+      "analysis/confirm/schedule-preflight.json",
+      "analysis/confirm/verify_period.py",
+      "analysis/coverage.json",
+      "analysis/field-map.json",
+      "analysis/rules.py",
+      "analysis/snapshot.py",
+      "data/flights-manifest.json",
+      "data/sensitivity-manifest.json",
+      "data/structure-manifest.json"
+    ],
+    "outcomes_opened": false
+  },
+  "arrays": [
+    {
+      "byte_hash_pass": true,
+      "regeneration_exact": true,
+      "year": 2023
+    },
+    {
+      "byte_hash_pass": true,
+      "regeneration_exact": true,
+      "year": 2024
+    },
+    {
+      "byte_hash_pass": true,
+      "regeneration_exact": true,
+      "year": 2025
+    }
+  ]
+}

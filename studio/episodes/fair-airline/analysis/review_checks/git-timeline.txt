@@ -1,0 +1,7 @@
+c0f892e6891f865dbff4f59a8341c81e8cdb0fa2 2026-10-07T08:56:18-07:00 2026-10-07T08:56:18-07:00 Publish sealed fair-airline findings and QA aggregates
+43eb4cb3ddc7560a351b239fb36b97591dc98060 2026-10-07T08:46:07-07:00 2026-10-07T08:46:07-07:00 Seal fair-airline descriptive ranking context
+12320b0bdd05248df5bc5c3d7441d3b4ee7d1d06 2026-10-07T08:42:57-07:00 2026-10-07T08:42:57-07:00 Seal fair-airline 2025 replication
+c829f51f951a4747840e3ba5e30cbc4f1bc701b0 2026-10-07T08:39:26-07:00 2026-10-07T08:39:26-07:00 Seal fair-airline period A before 2025 outcomes
+4f759d36129215dbb2333037922b260829ba5847 2026-10-07T08:31:25-07:00 2026-10-07T08:31:25-07:00 Repair fair-airline ingestion audit metadata
+af6b613cadbd2155ebdca1dba8169786f1c71c97 2026-10-07T08:29:45-07:00 2026-10-07T08:29:45-07:00 Seal fair-airline production analysis before outcomes
+41a6974da9fb5d6f676b436719b518df1846c66e 2026-10-07T08:16:15-07:00 2026-10-07T08:16:15-07:00 Fair-airline: owner approves Amendment 2 before any confirmation outcome
