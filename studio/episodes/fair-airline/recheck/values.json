@@ -1,0 +1,267 @@
+{
+  "2023_adjusted_gap": {
+    "definition": "Weighted timely-arrival gap UA minus WN, primary scoring.",
+    "n": 81855,
+    "value": 0.07510445269087747
+  },
+  "2023_adjusted_gap_high": {
+    "definition": "Unknowns assigned for UA in shared cells.",
+    "n": 81855,
+    "value": 0.07510445269087747
+  },
+  "2023_adjusted_gap_low": {
+    "definition": "Unknowns assigned against UA in shared cells.",
+    "n": 81855,
+    "value": 0.07510445269087747
+  },
+  "2023_cell_weight_sum": {
+    "definition": "Sum of cell weights (n_UA+n_WN)/2.",
+    "n": 81855,
+    "value": 87041.0
+  },
+  "2023_comparable_cells": {
+    "definition": "Shared UA/WN directional route-date-two-hour cells.",
+    "n": 81855,
+    "value": 81855
+  },
+  "2023_ua_matched_flights": {
+    "definition": "UA scheduled flights in shared two-hour cells.",
+    "n": 86958,
+    "value": 86958
+  },
+  "2023_wn_matched_flights": {
+    "definition": "WN scheduled flights in shared two-hour cells.",
+    "n": 87124,
+    "value": 87124
+  },
+  "2024_adjusted_gap": {
+    "definition": "Weighted timely-arrival gap UA minus WN, primary scoring.",
+    "n": 85602,
+    "value": 0.05085305630336763
+  },
+  "2024_adjusted_gap_high": {
+    "definition": "Unknowns assigned for UA in shared cells.",
+    "n": 85602,
+    "value": 0.05085305630336763
+  },
+  "2024_adjusted_gap_low": {
+    "definition": "Unknowns assigned against UA in shared cells.",
+    "n": 85602,
+    "value": 0.05085305630336763
+  },
+  "2024_cell_weight_sum": {
+    "definition": "Sum of cell weights (n_UA+n_WN)/2.",
+    "n": 85602,
+    "value": 90820.5
+  },
+  "2024_comparable_cells": {
+    "definition": "Shared UA/WN directional route-date-two-hour cells.",
+    "n": 85602,
+    "value": 85602
+  },
+  "2024_ua_matched_flights": {
+    "definition": "UA scheduled flights in shared two-hour cells.",
+    "n": 90882,
+    "value": 90882
+  },
+  "2024_wn_matched_flights": {
+    "definition": "WN scheduled flights in shared two-hour cells.",
+    "n": 90759,
+    "value": 90759
+  },
+  "A_adjusted_gap": {
+    "definition": "Weighted timely-arrival gap UA minus WN, primary scoring.",
+    "n": 167457,
+    "value": 0.06272108728795532
+  },
+  "A_adjusted_gap_high": {
+    "definition": "Unknowns assigned for UA in shared cells.",
+    "n": 167457,
+    "value": 0.06272108728795532
+  },
+  "A_adjusted_gap_low": {
+    "definition": "Unknowns assigned against UA in shared cells.",
+    "n": 167457,
+    "value": 0.06272108728795532
+  },
+  "A_cell_weight_sum": {
+    "definition": "Sum of cell weights (n_UA+n_WN)/2.",
+    "n": 167457,
+    "value": 177861.5
+  },
+  "A_comparable_cells": {
+    "definition": "Shared UA/WN directional route-date-two-hour cells.",
+    "n": 167457,
+    "value": 167457
+  },
+  "A_four_hour_gap": {
+    "definition": "Primary adjusted UA-minus-WN gap using 4-hour cells.",
+    "n": 223091,
+    "value": 0.06058631105133061
+  },
+  "A_interval_envelope_lower": {
+    "definition": "Amendment 2 A envelope across primary/lower/upper assignments.",
+    "n": 1999,
+    "value": 0.04600744121000862
+  },
+  "A_interval_envelope_upper": {
+    "definition": "Amendment 2 A envelope across primary/lower/upper assignments.",
+    "n": 1999,
+    "value": 0.07943473336590202
+  },
+  "A_interval_num_high_lower": {
+    "definition": "Amendment 2 A num_high lower.",
+    "n": 1999,
+    "value": 0.04600744121000862
+  },
+  "A_interval_num_high_q_minus": {
+    "definition": "Amendment 2 A num_high q_minus.",
+    "n": 1999,
+    "value": -2.796939504774456
+  },
+  "A_interval_num_high_q_plus": {
+    "definition": "Amendment 2 A num_high q_plus.",
+    "n": 1999,
+    "value": 2.796939504774456
+  },
+  "A_interval_num_high_se": {
+    "definition": "Amendment 2 A num_high se.",
+    "n": 1999,
+    "value": 0.005975690946985458
+  },
+  "A_interval_num_high_upper": {
+    "definition": "Amendment 2 A num_high upper.",
+    "n": 1999,
+    "value": 0.07943473336590202
+  },
+  "A_interval_num_low_lower": {
+    "definition": "Amendment 2 A num_low lower.",
+    "n": 1999,
+    "value": 0.04600744121000862
+  },
+  "A_interval_num_low_q_minus": {
+    "definition": "Amendment 2 A num_low q_minus.",
+    "n": 1999,
+    "value": -2.796939504774456
+  },
+  "A_interval_num_low_q_plus": {
+    "definition": "Amendment 2 A num_low q_plus.",
+    "n": 1999,
+    "value": 2.796939504774456
+  },
+  "A_interval_num_low_se": {
+    "definition": "Amendment 2 A num_low se.",
+    "n": 1999,
+    "value": 0.005975690946985458
+  },
+  "A_interval_num_low_upper": {
+    "definition": "Amendment 2 A num_low upper.",
+    "n": 1999,
+    "value": 0.07943473336590202
+  },
+  "A_interval_num_lower": {
+    "definition": "Amendment 2 A num lower.",
+    "n": 1999,
+    "value": 0.04600744121000862
+  },
+  "A_interval_num_q_minus": {
+    "definition": "Amendment 2 A num q_minus.",
+    "n": 1999,
+    "value": -2.796939504774456
+  },
+  "A_interval_num_q_plus": {
+    "definition": "Amendment 2 A num q_plus.",
+    "n": 1999,
+    "value": 2.796939504774456
+  },
+  "A_interval_num_se": {
+    "definition": "Amendment 2 A num se.",
+    "n": 1999,
+    "value": 0.005975690946985458
+  },
+  "A_interval_num_upper": {
+    "definition": "Amendment 2 A num upper.",
+    "n": 1999,
+    "value": 0.07943473336590202
+  },
+  "A_one_hour_gap": {
+    "definition": "Primary adjusted UA-minus-WN gap using 1-hour cells.",
+    "n": 97658,
+    "value": 0.06614084189951852
+  },
+  "A_ua_all_flights_rate": {
+    "definition": "Unadjusted all-scheduled primary timely-arrival rate.",
+    "n": 1492663,
+    "value": 0.783399869896956
+  },
+  "A_ua_matched_flights": {
+    "definition": "UA scheduled flights in shared two-hour cells.",
+    "n": 177840,
+    "value": 177840
+  },
+  "A_wn_all_flights_rate": {
+    "definition": "Unadjusted all-scheduled primary timely-arrival rate.",
+    "n": 2857884,
+    "value": 0.7790582122997295
+  },
+  "A_wn_matched_flights": {
+    "definition": "WN scheduled flights in shared two-hour cells.",
+    "n": 177883,
+    "value": 177883
+  },
+  "B_adjusted_gap": {
+    "definition": "Weighted timely-arrival gap UA minus WN, primary scoring.",
+    "n": 83744,
+    "value": 0.08202680180689728
+  },
+  "B_adjusted_gap_high": {
+    "definition": "Unknowns assigned for UA in shared cells.",
+    "n": 83744,
+    "value": 0.08202680180689728
+  },
+  "B_adjusted_gap_low": {
+    "definition": "Unknowns assigned against UA in shared cells.",
+    "n": 83744,
+    "value": 0.08202680180689728
+  },
+  "B_cell_weight_sum": {
+    "definition": "Sum of cell weights (n_UA+n_WN)/2.",
+    "n": 83744,
+    "value": 88402.0
+  },
+  "B_comparable_cells": {
+    "definition": "Shared UA/WN directional route-date-two-hour cells.",
+    "n": 83744,
+    "value": 83744
+  },
+  "B_four_hour_gap": {
+    "definition": "Primary adjusted UA-minus-WN gap using 4-hour cells.",
+    "n": 108538,
+    "value": 0.07880940010196291
+  },
+  "B_one_hour_gap": {
+    "definition": "Primary adjusted UA-minus-WN gap using 1-hour cells.",
+    "n": 51012,
+    "value": 0.08830901791833937
+  },
+  "B_ua_all_flights_rate": {
+    "definition": "Unadjusted all-scheduled primary timely-arrival rate.",
+    "n": 795271,
+    "value": 0.7765428388561887
+  },
+  "B_ua_matched_flights": {
+    "definition": "UA scheduled flights in shared two-hour cells.",
+    "n": 88717,
+    "value": 88717
+  },
+  "B_wn_all_flights_rate": {
+    "definition": "Unadjusted all-scheduled primary timely-arrival rate.",
+    "n": 1391885,
+    "value": 0.7775513063220022
+  },
+  "B_wn_matched_flights": {
+    "definition": "WN scheduled flights in shared two-hour cells.",
+    "n": 88087,
+    "value": 88087
+  }
+}
