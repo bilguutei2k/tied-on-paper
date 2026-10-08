@@ -1,0 +1,23 @@
+.fa-state { position:absolute; inset:0; }
+.fa-state > * { position:absolute; }
+.fa-state .label { line-height:1.25; letter-spacing:0; }
+.fa-state .caption { line-height:1.2; }
+.fa-state .source { letter-spacing:0; }
+.fa-state a { color:inherit; text-decoration:none; }
+.fa-value { font-variant-numeric:tabular-nums; }
+.fa-state .ft-measure-content { inset:26px; gap:16px; }
+.fa-state .ft-measure-name { font-size:52px; min-height:58px; line-height:1; }
+.fa-state .ft-measure-value { font-size:68px; margin-top:4px; }
+.fa-state .ft-measure-index,.fa-state .ft-measure-unit,.fa-state .ft-measure-leader { font-size:26px; }
+.fa-state .ft-measure-stamp { font-size:38px; }
+.fa-portrait .ft-measure-name { font-size:46px; width:760px; }
+.fa-portrait .ft-measure-value { position:static; font-size:48px; }
+.fa-portrait .ft-measure-unit { position:static; font-size:32px; }
+.fa-portrait .ft-measure-index { display:none; }
+.fa-portrait .ft-measure-content { inset:22px; gap:10px; }
+.fa-portrait .ft-measure-stamp { display:none; }
+.fa-portrait .grain { background-position:var(--grain-shift,0px) var(--grain-shift,0px); }
+.night .fa-state .source,.night .fa-state .tick { color:var(--paper-2); }
+.fa-grid-cell { box-sizing:border-box; border:2px solid currentColor; }
+
+.fa-period { white-space:nowrap; }

@@ -1,0 +1,3952 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "episode.js": "7e7c57f9b58201d280ff0f4386db89ff1552098d0d625df7ff5f2c5a56378c02",
+    "episode.css": "7931793f14e9c3ed7fbd920cbf284ea26eec7e130c543080c392b1baf62dbc39",
+    "data.js": "e4aae6163a8dbf52fe52a9e0d947a08c2f514338c437d4541c8cce421e63c8d7",
+    "CUES.json": "a6504aefe6e4ff12d8172e5eb091ee322da4e3a6a4ada867cab06b159072f156",
+    "../STORY.md": "ca0d20acda2744f7a166421bf38d60c83846665b284e8e2bf2ef8e03c107aca7",
+    "../../../render/system.js": "0e2020063c9400c69824d69594095f271c7b41d1bd1e8eca8062f582d994ec4d",
+    "../../../render/system.css": "53658d7c1a4e404091f240da615c7626191c9bba348d5e117adaf55fa7f38c5b"
+  },
+  "errors": [],
+  "checks": [
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "question",
+      "issues": [],
+      "labels": [],
+      "box_count": 12
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "annual-a",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2024.operating_carriers.UA.rank",
+          "claims": "FA-C046",
+          "text": "6",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2024.operating_carriers.UA.rate_pct",
+          "claims": "FA-C046",
+          "text": "78.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2024.operating_carriers.WN.rank",
+          "claims": "FA-C047",
+          "text": "7",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2024.operating_carriers.WN.rate_pct",
+          "claims": "FA-C047",
+          "text": "78.57",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 22
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "annual-b",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2025.operating_carriers.UA.rank",
+          "claims": "FA-C050",
+          "text": "5",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2025.operating_carriers.UA.rate_pct",
+          "claims": "FA-C050",
+          "text": "77.65",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2025.operating_carriers.WN.rank",
+          "claims": "FA-C051",
+          "text": "4",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "descriptive_context.published_dot_annual.2025.operating_carriers.WN.rate_pct",
+          "claims": "FA-C051",
+          "text": "77.76",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 22
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "population",
+      "issues": [],
+      "labels": [],
+      "box_count": 19
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "success",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.late_failure_minutes",
+          "claims": "FA-C005",
+          "text": "15",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 16
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "boundary",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.late_failure_minutes",
+          "claims": "FA-C005",
+          "text": "15",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.late_failure_minutes",
+          "claims": "FA-C005",
+          "text": "15",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 21
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "failures",
+      "issues": [],
+      "labels": [],
+      "box_count": 17
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "unknown",
+      "issues": [],
+      "labels": [],
+      "box_count": 17
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "national",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.unmatched_all_flights_on_time_pct.UA.estimate",
+          "claims": "FA-C007",
+          "text": "78.34",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.unmatched_all_flights_on_time_pct.WN.estimate",
+          "claims": "FA-C007",
+          "text": "77.91",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.unmatched_all_flights_on_time_pct.UA.estimate",
+          "claims": "FA-C026",
+          "text": "77.65",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.unmatched_all_flights_on_time_pct.WN.estimate",
+          "claims": "FA-C026",
+          "text": "77.76",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 29
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "networks",
+      "issues": [],
+      "labels": [],
+      "box_count": 15
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "common",
+      "issues": [],
+      "labels": [],
+      "box_count": 15
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "cell",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.departure_window_hours",
+          "claims": "FA-C005",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 20
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "example",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.departure_window_hours",
+          "claims": "FA-C005",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 16
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "reverse",
+      "issues": [],
+      "labels": [],
+      "box_count": 16
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "scheduled",
+      "issues": [],
+      "labels": [],
+      "box_count": 15
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "weight",
+      "issues": [],
+      "labels": [],
+      "box_count": 19
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "periods",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 19
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "line",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.per_scheduled_flights",
+          "claims": "FA-C004",
+          "text": "50",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 21
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "frozen",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.per_scheduled_flights",
+          "claims": "FA-C004",
+          "text": "50",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 21
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "failed",
+      "issues": [],
+      "labels": [],
+      "box_count": 17
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "redesign",
+      "issues": [],
+      "labels": [],
+      "box_count": 17
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "blocks",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.block_days",
+          "claims": "FA-C005",
+          "text": "28",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 16
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "fresh",
+      "issues": [],
+      "labels": [],
+      "box_count": 24
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "history",
+      "issues": [],
+      "labels": [],
+      "box_count": 19
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "rates",
+      "issues": [],
+      "labels": [
+        {
+          "key": "primary_2023_2024.weighted_matched_secondary_rates_pct.UA.on_time.estimate",
+          "claims": "FA-C009",
+          "text": "79.75",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.weighted_matched_secondary_rates_pct.WN.on_time.estimate",
+          "claims": "FA-C011",
+          "text": "73.48",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 20
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "gap",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 20
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "envelope",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 26
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "verdict",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 27
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "scope",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 28
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "seal",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 28
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "b-gap",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 31
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "b-envelope",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C002",
+          "text": "+5.31",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C002",
+          "text": "+11.00",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 37
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "replicated",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C002",
+          "text": "+5.31",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C002",
+          "text": "+11.00",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 38
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "limit",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C002",
+          "text": "+5.31",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C002",
+          "text": "+11.00",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 39
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "windows",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.window_1h",
+          "claims": "FA-C021",
+          "text": "1",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.sensitivities.window_1h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C021",
+          "text": "+6.6",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.sensitivities.window_1h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C039",
+          "text": "+8.8",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.window_4h",
+          "claims": "FA-C022",
+          "text": "4",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.sensitivities.window_4h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C022",
+          "text": "+6.1",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.sensitivities.window_4h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C040",
+          "text": "+7.9",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 28
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "nearest",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.window_30min",
+          "claims": "FA-C020",
+          "text": "30",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.sensitivities.reciprocal_nearest_30min.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C020",
+          "text": "+6.7",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.sensitivities.reciprocal_nearest_30min.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C038",
+          "text": "+9.1",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 23
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "limit",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.window_1h",
+          "claims": "FA-C021",
+          "text": "1",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.sensitivities.window_1h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C021",
+          "text": "+6.6",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.sensitivities.window_1h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C039",
+          "text": "+8.8",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.window_4h",
+          "claims": "FA-C022",
+          "text": "4",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.sensitivities.window_4h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C022",
+          "text": "+6.1",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.sensitivities.window_4h.gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C040",
+          "text": "+7.9",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 29
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "schedule",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.schedule.UA_minus_WN",
+          "claims": "FA-C054",
+          "text": "+4.5",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.schedule.UA_minus_WN",
+          "claims": "FA-C062",
+          "text": "+4.5",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 20
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "actual",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.schedule.UA_minus_WN",
+          "claims": "FA-C054",
+          "text": "+4.5",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.completed_cell_means.actual.UA_minus_WN",
+          "claims": "FA-C054",
+          "text": "+4.8",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.schedule.UA_minus_WN",
+          "claims": "FA-C062",
+          "text": "+4.5",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.completed_cell_means.actual.UA_minus_WN",
+          "claims": "FA-C062",
+          "text": "+6.2",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "A.completed_cell_means.weight_share",
+          "claims": "FA-C054",
+          "text": "97.73",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.completed_cell_means.weight_share",
+          "claims": "FA-C062",
+          "text": "98.55",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 35
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "shared",
+      "issues": [],
+      "labels": [],
+      "box_count": 21
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "shrink",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.common_mid.UA_minus_WN",
+          "claims": "FA-C055",
+          "text": "+2.6",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.common_mid.UA_minus_WN",
+          "claims": "FA-C063",
+          "text": "+4.3",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 31
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "limit",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.common_mid.UA_minus_WN",
+          "claims": "FA-C055",
+          "text": "+2.6",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.common_mid.UA_minus_WN",
+          "claims": "FA-C063",
+          "text": "+4.3",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 30
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "late",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.dep_late.UA_minus_WN",
+          "claims": "FA-C056",
+          "text": "10.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.dep_late.UA_minus_WN",
+          "claims": "FA-C064",
+          "text": "13.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.late_failure_minutes",
+          "claims": "FA-C005",
+          "text": "15",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 22
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "denominator",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.dep_late.UA_minus_WN",
+          "claims": "FA-C056",
+          "text": "10.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.dep_late.UA_minus_WN",
+          "claims": "FA-C064",
+          "text": "13.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        }
+      ],
+      "box_count": 21
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "timely",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.dep_timely.UA_minus_WN",
+          "claims": "FA-C056",
+          "text": "9.9",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.dep_timely.UA_minus_WN",
+          "claims": "FA-C064",
+          "text": "13.3",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 20
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "limit",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.dep_late.UA_minus_WN",
+          "claims": "FA-C056",
+          "text": "10.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.dep_late.UA_minus_WN",
+          "claims": "FA-C064",
+          "text": "13.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        }
+      ],
+      "box_count": 21
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "overlap",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.UA.estimate",
+          "claims": "FA-C006",
+          "text": "11.91",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.WN.estimate",
+          "claims": "FA-C006",
+          "text": "6.22",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.matched_cell_coverage_pct.UA.estimate",
+          "claims": "FA-C025",
+          "text": "11.16",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.matched_cell_coverage_pct.WN.estimate",
+          "claims": "FA-C025",
+          "text": "6.33",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 29
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "denver",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.denver.weight_share",
+          "claims": "FA-C058",
+          "text": "79.3",
+          "source": "analysis/claims_check.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.B.denver.weight_share",
+          "claims": "FA-C066",
+          "text": "82.2",
+          "source": "analysis/claims_check.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 20
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "early",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.before_10",
+          "claims": "FA-C060",
+          "text": "10",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.before_10.gap_pp",
+          "claims": "FA-C060",
+          "text": "−0.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.before_10.gap_pp",
+          "claims": "FA-C068",
+          "text": "+1.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 23
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "late",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.before_10",
+          "claims": "FA-C060",
+          "text": "10",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.before_10.gap_pp",
+          "claims": "FA-C060",
+          "text": "−0.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.before_10.gap_pp",
+          "claims": "FA-C068",
+          "text": "+1.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.from_16",
+          "claims": "FA-C060",
+          "text": "16",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.from_16.gap_pp",
+          "claims": "FA-C060",
+          "text": "+11.7",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.from_16.gap_pp",
+          "claims": "FA-C068",
+          "text": "+12.9",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 29
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "conclusion",
+      "issues": [],
+      "labels": [],
+      "box_count": 23
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "evidence",
+      "issues": [],
+      "labels": [],
+      "box_count": 30
+    },
+    {
+      "page": "short-a.html",
+      "state": "tie",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.unmatched_all_flights_on_time_pct.UA.estimate",
+          "claims": "FA-C007",
+          "text": "78.34",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.unmatched_all_flights_on_time_pct.WN.estimate",
+          "claims": "FA-C007",
+          "text": "77.91",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 26
+    },
+    {
+      "page": "short-a.html",
+      "state": "match",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.departure_window_hours",
+          "claims": "FA-C005",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 22
+    },
+    {
+      "page": "short-a.html",
+      "state": "result",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "0",
+          "source": "analysis/claims_check.json",
+          "scale": "0",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C001",
+          "text": "+4.60",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C001",
+          "text": "+7.94",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[0]",
+          "claims": "FA-C002",
+          "text": "+5.31",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.interval[1]",
+          "claims": "FA-C002",
+          "text": "+11.00",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.design.nominal_interval_pct",
+          "claims": "FA-C005",
+          "text": "99",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 40
+    },
+    {
+      "page": "short-a.html",
+      "state": "caveat",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.UA.estimate",
+          "claims": "FA-C006",
+          "text": "11.91",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.WN.estimate",
+          "claims": "FA-C006",
+          "text": "6.22",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.matched_cell_coverage_pct.UA.estimate",
+          "claims": "FA-C025",
+          "text": "11.16",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.matched_cell_coverage_pct.WN.estimate",
+          "claims": "FA-C025",
+          "text": "6.33",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.common_mid.UA_minus_WN",
+          "claims": "FA-C055",
+          "text": "2.6",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.common_mid.UA_minus_WN",
+          "claims": "FA-C063",
+          "text": "4.3",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 41
+    },
+    {
+      "page": "short-b.html",
+      "state": "duration",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.schedule.UA_minus_WN",
+          "claims": "FA-C054",
+          "text": "+4.5",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.completed_cell_means.actual.UA_minus_WN",
+          "claims": "FA-C054",
+          "text": "+4.8",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.schedule.UA_minus_WN",
+          "claims": "FA-C062",
+          "text": "+4.5",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.completed_cell_means.actual.UA_minus_WN",
+          "claims": "FA-C062",
+          "text": "+6.2",
+          "source": "analysis/review_checks/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "A.completed_cell_means.weight_share",
+          "claims": "FA-C054",
+          "text": "97.73",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.completed_cell_means.weight_share",
+          "claims": "FA-C062",
+          "text": "98.55",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 42
+    },
+    {
+      "page": "short-b.html",
+      "state": "allowance",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.common_mid.UA_minus_WN",
+          "claims": "FA-C055",
+          "text": "+2.6",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.common_mid.UA_minus_WN",
+          "claims": "FA-C063",
+          "text": "+4.3",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 38
+    },
+    {
+      "page": "short-b.html",
+      "state": "departure",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.dep_late.UA_minus_WN",
+          "claims": "FA-C056",
+          "text": "10.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.dep_late.UA_minus_WN",
+          "claims": "FA-C064",
+          "text": "13.1",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "true",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.design.late_failure_minutes",
+          "claims": "FA-C005",
+          "text": "15",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 28
+    },
+    {
+      "page": "short-b.html",
+      "state": "limit",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C001",
+          "text": "+6.3",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "A.common_mid.UA_minus_WN",
+          "claims": "FA-C055",
+          "text": "+2.6",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "replication_2025.adjusted_gap_ua_minus_wn_pp.estimate",
+          "claims": "FA-C002",
+          "text": "+8.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "B.common_mid.UA_minus_WN",
+          "claims": "FA-C063",
+          "text": "+4.3",
+          "source": "analysis/review_checks/results.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 36
+    },
+    {
+      "page": "short-c.html",
+      "state": "early",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.before_10",
+          "claims": "FA-C060",
+          "text": "10",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.before_10.gap_pp",
+          "claims": "FA-C060",
+          "text": "−0.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.before_10.gap_pp",
+          "claims": "FA-C068",
+          "text": "+1.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 29
+    },
+    {
+      "page": "short-c.html",
+      "state": "late",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.before_10",
+          "claims": "FA-C060",
+          "text": "10",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.before_10.gap_pp",
+          "claims": "FA-C060",
+          "text": "−0.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.before_10.gap_pp",
+          "claims": "FA-C068",
+          "text": "+1.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.from_16",
+          "claims": "FA-C060",
+          "text": "16",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.from_16.gap_pp",
+          "claims": "FA-C060",
+          "text": "+11.7",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.from_16.gap_pp",
+          "claims": "FA-C068",
+          "text": "+12.9",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 35
+    },
+    {
+      "page": "short-c.html",
+      "state": "denver",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.denver.weight_share",
+          "claims": "FA-C058",
+          "text": "79.3",
+          "source": "analysis/claims_check.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.B.denver.weight_share",
+          "claims": "FA-C066",
+          "text": "82.2",
+          "source": "analysis/claims_check.json",
+          "scale": "100",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "box_count": 27
+    },
+    {
+      "page": "short-c.html",
+      "state": "limit",
+      "issues": [],
+      "labels": [
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.before_10",
+          "claims": "FA-C060",
+          "text": "10",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.before_10.gap_pp",
+          "claims": "FA-C060",
+          "text": "−0.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.before_10.gap_pp",
+          "claims": "FA-C068",
+          "text": "+1.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.from_16",
+          "claims": "FA-C060",
+          "text": "16",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.from_16.gap_pp",
+          "claims": "FA-C060",
+          "text": "+11.7",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.from_16.gap_pp",
+          "claims": "FA-C068",
+          "text": "+12.9",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        }
+      ],
+      "box_count": 35
+    }
+  ],
+  "issue_count": 0
+}

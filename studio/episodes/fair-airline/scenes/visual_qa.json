@@ -1,0 +1,660 @@
+{
+  "status": "PASS",
+  "reviewer": "Sol",
+  "date": "2026-10-08",
+  "review": "Native PNGs inspected at delivery resolution; changed captures reinspected after final corrections.",
+  "open_visual_issues": [],
+  "browser_states": 64,
+  "numeric_labels_checked": 344,
+  "source_sha256": {
+    "episode.js": "7e7c57f9b58201d280ff0f4386db89ff1552098d0d625df7ff5f2c5a56378c02",
+    "episode.css": "7931793f14e9c3ed7fbd920cbf284ea26eec7e130c543080c392b1baf62dbc39",
+    "data.js": "e4aae6163a8dbf52fe52a9e0d947a08c2f514338c437d4541c8cce421e63c8d7",
+    "CUES.json": "a6504aefe6e4ff12d8172e5eb091ee322da4e3a6a4ada867cab06b159072f156",
+    "../STORY.md": "ca0d20acda2744f7a166421bf38d60c83846665b284e8e2bf2ef8e03c107aca7",
+    "../../../render/system.js": "0e2020063c9400c69824d69594095f271c7b41d1bd1e8eca8062f582d994ec4d",
+    "../../../render/system.css": "53658d7c1a4e404091f240da615c7626191c9bba348d5e117adaf55fa7f38c5b"
+  },
+  "stills": [
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "question",
+      "path": "renders/stills/s01-tied-on-paper-question.png",
+      "sha256": "5f64c7af67808ad7329bc1f1c7fc91c034885a7a1556827d28eda835b0285404",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "annual-a",
+      "path": "renders/stills/s01-tied-on-paper-annual-a.png",
+      "sha256": "9268b12b8b81019a22c23e1b57b18338d23ede8574f13ebd32540a93ddbd9285",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "annual-b",
+      "path": "renders/stills/s01-tied-on-paper-annual-b.png",
+      "sha256": "575787b16c96ce860e73f7ecf1ca12915bd0ba095ba176a5fd7f14dc4c275968",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "population",
+      "path": "renders/stills/s01-tied-on-paper-population.png",
+      "sha256": "b1ce39f0d8ef76e3285e86ab8ab61657f40225cf774f7a36b96a45bfec94c1d0",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "success",
+      "path": "renders/stills/s02-fifteen-minutes-success.png",
+      "sha256": "388b5add1d283ea6c38ee5b66bd0d43d0aa55bcba4036ee1e3e0d05733dfa8b6",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "boundary",
+      "path": "renders/stills/s02-fifteen-minutes-boundary.png",
+      "sha256": "b30ee1fc3867fca23c9910b9ba57becfc3c647b2218738d3ca7ae1b601d6a6fd",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "failures",
+      "path": "renders/stills/s02-fifteen-minutes-failures.png",
+      "sha256": "715e762693bbee35770d8d9b14ad55ed9e6732c75622008aa2f3d000cd12ec3d",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "unknown",
+      "path": "renders/stills/s02-fifteen-minutes-unknown.png",
+      "sha256": "6948a5f9f18a7e533563dd2eb37192bb6b066ac9110583af3995a0cdd25b208c",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "national",
+      "path": "renders/stills/s03-the-mixed-basket-national.png",
+      "sha256": "969fbd9ea06261c470eb15a88851eaea0117af0916084eb04fc0b6812c47f60a",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "networks",
+      "path": "renders/stills/s03-the-mixed-basket-networks.png",
+      "sha256": "c9849ab9d5feb6ef8cccc7b4cdbb82cc551ae194036203c685ce9d375199a67c",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "common",
+      "path": "renders/stills/s03-the-mixed-basket-common.png",
+      "sha256": "408b26a2cac12c06e1722a1e272df04c9bb63e6f83bef5b4c757089d1e4efc44",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "cell",
+      "path": "renders/stills/s04-same-trip-same-window-cell.png",
+      "sha256": "3e8bc1cde77f24422fd3fada304ea4fd2023370043bf82ebf22868ec5dc1ba7d",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "example",
+      "path": "renders/stills/s04-same-trip-same-window-example.png",
+      "sha256": "1ce3878161486f070ee7a43cf9ee66efea67d4412311b201e53ddd3b3a23d01a",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "reverse",
+      "path": "renders/stills/s04-same-trip-same-window-reverse.png",
+      "sha256": "4f530aeea91e54ee976c3b7991d6a6b9778b735ba32cf5cae7ca2ae695fa4922",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "scheduled",
+      "path": "renders/stills/s04-same-trip-same-window-scheduled.png",
+      "sha256": "e5a39ae1aa72ab6c4247f9d7abb9d1eab3691b3cd5f38fc9955e02198e531f04",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "weight",
+      "path": "renders/stills/s05-same-basket-same-line-weight.png",
+      "sha256": "ef241b669faf48e5b757700d9db375439689d51856d91bb9abb476d2a411f808",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "periods",
+      "path": "renders/stills/s05-same-basket-same-line-periods.png",
+      "sha256": "bd7da95ca7c8b30dc7d3a4f9df5fedec9f4ff87a42f328e6352c74542d1d3c92",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "line",
+      "path": "renders/stills/s05-same-basket-same-line-line.png",
+      "sha256": "c6fcad9512eae7605bdaedba34b2d3627dac44aa528dede93b4d8f22ed9401a0",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "frozen",
+      "path": "renders/stills/s05-same-basket-same-line-frozen.png",
+      "sha256": "200e29563a4693f1e77fe2cbb29aa00201bad6e7ee70f9e44532765b3ee85156",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "failed",
+      "path": "renders/stills/s06-two-failed-checks-failed.png",
+      "sha256": "4bdcfc5630ab916e429a5e8978cd4ea1f883247734e03da1e5b30b5132a4c09b",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "redesign",
+      "path": "renders/stills/s06-two-failed-checks-redesign.png",
+      "sha256": "99ce36bc0ab7357d2a8c8a669bb8514db58354a6d7887de03a6dc5f37fa4014f",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "blocks",
+      "path": "renders/stills/s06-two-failed-checks-blocks.png",
+      "sha256": "864a213c3bfdad2c574fe5adccf3190a4fc429e143762d81d2dfc350c52e269e",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "fresh",
+      "path": "renders/stills/s06-two-failed-checks-fresh.png",
+      "sha256": "6a29954b96ea73b1695d8309d582610883e5bfbbd5ab6bb5a3a271adbbbc82bd",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "history",
+      "path": "renders/stills/s06-two-failed-checks-history.png",
+      "sha256": "56e10e28fad922aad1320588ddeb64f0696c59a0f12f007d4dfc8f3eacaa2fc3",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "rates",
+      "path": "renders/stills/s07-the-first-result-rates.png",
+      "sha256": "43c1854c970e22aeb19857f3286cdecfc8209601126771f5a5aa265425df2186",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "gap",
+      "path": "renders/stills/s07-the-first-result-gap.png",
+      "sha256": "310dddd1b7bffdb346ce00f247b2da9cc6c364c2475db65f412c343953663988",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "envelope",
+      "path": "renders/stills/s07-the-first-result-envelope.png",
+      "sha256": "9c0728da9d5780d848e2e190abdf7965a367298f4caca51a8c105fcb884c76df",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "verdict",
+      "path": "renders/stills/s07-the-first-result-verdict.png",
+      "sha256": "b37ab79376b642d8ba9b8e76ad3c3e533b9f2b341b30b36f01a2df32ef3e4d3f",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "scope",
+      "path": "renders/stills/s07-the-first-result-scope.png",
+      "sha256": "47d5bc7ac3c6b59cea2a59714c205be6a0d15d5320095770487630a09ec72cf0",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "seal",
+      "path": "renders/stills/s08-the-replication-seal.png",
+      "sha256": "7253e4bf597968dd2422fc749f9d3e471ff6acee52508fae8b944ad3863b31bd",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "b-gap",
+      "path": "renders/stills/s08-the-replication-b-gap.png",
+      "sha256": "1a05fa4ba6979bb8ad095e57fce7c88c9a64364a76191c445d9876b6bf5c6c39",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "b-envelope",
+      "path": "renders/stills/s08-the-replication-b-envelope.png",
+      "sha256": "4f8ab4d922bb4bb86f59aad79961cba8f1488d3a5f86ec1553765e9a8bf6f33c",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "replicated",
+      "path": "renders/stills/s08-the-replication-replicated.png",
+      "sha256": "1567b86fdaf1e42e600428f26fe8edf83fb9371e8035fd1ea936d47936b8b8a7",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "limit",
+      "path": "renders/stills/s08-the-replication-limit.png",
+      "sha256": "4656cf26d6b330ee2b7166f40d2c5f8e4d4589bb207eb595c18ddca75ed5354e",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "windows",
+      "path": "renders/stills/s09-the-nearby-tests-windows.png",
+      "sha256": "76a628a0b942080d161b10184f436336febe4e123f9df97bdce21b10a8c19860",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "nearest",
+      "path": "renders/stills/s09-the-nearby-tests-nearest.png",
+      "sha256": "7fc71f21793743d7deec02702336798b20cd77f7f1dcfafcad797a0e14a7201e",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "limit",
+      "path": "renders/stills/s09-the-nearby-tests-limit.png",
+      "sha256": "81399f5286115d1bb08a6fd692ab0b35ee55d37c09d75d65fbff11d0c783bbee",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "schedule",
+      "path": "renders/stills/s10-whose-deadline-schedule.png",
+      "sha256": "35cf284ed5b3f0cf5f6f9abffe65eb8e4d353ad8ed369a60edb4098ee75432df",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "actual",
+      "path": "renders/stills/s10-whose-deadline-actual.png",
+      "sha256": "df865f970c6793b57d3972af576bca3b19d41802e14d60d7d4f1799acf5875a6",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "shared",
+      "path": "renders/stills/s10-whose-deadline-shared.png",
+      "sha256": "cd46c972440eb65f276c9f09a4d6495d82a2a7f0491e9ec74a5e1bb9b6b1b339",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "shrink",
+      "path": "renders/stills/s10-whose-deadline-shrink.png",
+      "sha256": "e7f72275fc16a86f887d1219e43d6c0938326ad999176513a305b9b23148663d",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "limit",
+      "path": "renders/stills/s10-whose-deadline-limit.png",
+      "sha256": "61dd93ff1823b538c4515e1c74ce89532220235c9b3f27e0f17a600dd5fe8e9a",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "late",
+      "path": "renders/stills/s11-leaving-late-late.png",
+      "sha256": "a00e70e2ef8944c0f9903af931e6c565795e25161c1a36bea38679c7bf669f50",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "denominator",
+      "path": "renders/stills/s11-leaving-late-denominator.png",
+      "sha256": "43295fc6a1ea9bdb2a2ae33c798a794828408bdac8f92c4fef313468f815170d",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "timely",
+      "path": "renders/stills/s11-leaving-late-timely.png",
+      "sha256": "a0e4c38fc24ef5bc5f615064cbe10033675eb5e5af821f35f24544e688400e87",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "limit",
+      "path": "renders/stills/s11-leaving-late-limit.png",
+      "sha256": "018c87728a092a0b82e57a0c86431b8c9d99c9e4ced6f28a79824f9cfbf6734e",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "overlap",
+      "path": "renders/stills/s12-the-boundary-of-the-answer-overlap.png",
+      "sha256": "ed4242cb2e814aaadfb9d76a6bc952468fdf17d1003310fd613d15d3d11a839b",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "denver",
+      "path": "renders/stills/s12-the-boundary-of-the-answer-denver.png",
+      "sha256": "5fdf0af78eed417a2e0979baf8af958734ee3d5c6463b3c0441871e6c09807ae",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "early",
+      "path": "renders/stills/s12-the-boundary-of-the-answer-early.png",
+      "sha256": "07838627821b77f506dfebcfb537ada4f43d0f11d52f047fb6737df1625f8ce0",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "late",
+      "path": "renders/stills/s12-the-boundary-of-the-answer-late.png",
+      "sha256": "7f0b03c77e4aacc94a6145f2c919796bf904370382735812a2981de331bf6f10",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "conclusion",
+      "path": "renders/stills/s12-the-boundary-of-the-answer-conclusion.png",
+      "sha256": "7c0ef460ee2b81fe2b9e13eb858228d188a566fc030e023f663d7755666bd898",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "evidence",
+      "path": "renders/stills/s12-the-boundary-of-the-answer-evidence.png",
+      "sha256": "e58128a825544b897370718c588f9571748e3537d12fb88c45488c7fe297afb9",
+      "width": 1920,
+      "height": 1080,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "tie",
+      "path": "renders/stills/short-a-tie.png",
+      "sha256": "f96192a77052a01fecb5e7261c3ab18c9c84b2d4052a436523b1c4c7e2f5e585",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "match",
+      "path": "renders/stills/short-a-match.png",
+      "sha256": "a4e4f71a7f8c2f302a9148f19e41f48cb5f6f26acbcb1a0035a1cb369ea10b1c",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "result",
+      "path": "renders/stills/short-a-result.png",
+      "sha256": "0d1434f757c392d1bef21f98ddf2c83cbc034ac332a9269aa029d7164a27868b",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "caveat",
+      "path": "renders/stills/short-a-caveat.png",
+      "sha256": "2d85ad8fe649e2152bcac95996c12d8840574a297b3c541c30b1918af14ec7b7",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "duration",
+      "path": "renders/stills/short-b-duration.png",
+      "sha256": "f32669575f90a1cc7044c24f913f20bd6bced5ccec6ced16d3163f2982a72096",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "allowance",
+      "path": "renders/stills/short-b-allowance.png",
+      "sha256": "5810a65ce82d7f124a35aee7f523ca1d65b8509b68904ca437ca976f604c268f",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "departure",
+      "path": "renders/stills/short-b-departure.png",
+      "sha256": "9ca9d3ad7197582e4e5ce4fc67a9d51761ee7b91a8e3a82de3cfed215b972f64",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "limit",
+      "path": "renders/stills/short-b-limit.png",
+      "sha256": "59ad1db608de859f1f678c22a8368f3f7561b16757b8900318893277d2747ba3",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "early",
+      "path": "renders/stills/short-c-early.png",
+      "sha256": "3c61cdda3664510660efdda6420073238262c5674dd4f3e3d6235c958e46b6c8",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "late",
+      "path": "renders/stills/short-c-late.png",
+      "sha256": "64d5a1c1e44c83320830dfd37facb312e850b077e922248bc65ec24af3126d2d",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "denver",
+      "path": "renders/stills/short-c-denver.png",
+      "sha256": "a8422e00b664c8fd138b74e9d3e491441bf244e363392da7a1da88d81ae9ec01",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "limit",
+      "path": "renders/stills/short-c-limit.png",
+      "sha256": "29255c95517de1bd991c732ae7830f11fa3d75f64b300f163f4083b8aff21b39",
+      "width": 1080,
+      "height": 1920,
+      "inspection": "PASS",
+      "issues": []
+    }
+  ]
+}

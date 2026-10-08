@@ -1,0 +1,672 @@
+{
+  "status": "PRE-LOCK DRAFT · CLAIMS PROPOSED",
+  "clock": "Designed animation clocks. Exact narration substrings; retime after script/voice lock. Each state has a settled hold; no synthesized voice.",
+  "scenes": {
+    "s01-tied-on-paper.html": {
+      "format": "landscape",
+      "duration": 28,
+      "states": [
+        {
+          "id": "question",
+          "component": "hook",
+          "phase": "question",
+          "at": 0,
+          "still": 3.5,
+          "cue": "I look at an airline punctuality table",
+          "path": "renders/stills/s01-tied-on-paper-question.png"
+        },
+        {
+          "id": "annual-a",
+          "component": "national",
+          "phase": "annual-a",
+          "at": 7,
+          "still": 10.5,
+          "cue": "In 2024, their on-time rates",
+          "path": "renders/stills/s01-tied-on-paper-annual-a.png"
+        },
+        {
+          "id": "annual-b",
+          "component": "national",
+          "phase": "annual-b",
+          "at": 14,
+          "still": 17.5,
+          "cue": "In 2025, both are still about",
+          "path": "renders/stills/s01-tied-on-paper-annual-b.png"
+        },
+        {
+          "id": "population",
+          "component": "hook",
+          "phase": "population",
+          "at": 21,
+          "still": 24.5,
+          "cue": "United Express and other codeshare operators are excluded",
+          "path": "renders/stills/s01-tied-on-paper-population.png"
+        }
+      ]
+    },
+    "s02-fifteen-minutes.html": {
+      "format": "landscape",
+      "duration": 28,
+      "states": [
+        {
+          "id": "success",
+          "component": "definition",
+          "phase": "success",
+          "at": 0,
+          "still": 3.5,
+          "cue": "a flight succeeds if it completes",
+          "path": "renders/stills/s02-fifteen-minutes-success.png"
+        },
+        {
+          "id": "boundary",
+          "component": "definition",
+          "phase": "boundary",
+          "at": 7,
+          "still": 10.5,
+          "cue": "Exactly fifteen minutes late fails",
+          "path": "renders/stills/s02-fifteen-minutes-boundary.png"
+        },
+        {
+          "id": "failures",
+          "component": "definition",
+          "phase": "failures",
+          "at": 14,
+          "still": 17.5,
+          "cue": "A cancellation is a failure",
+          "path": "renders/stills/s02-fifteen-minutes-failures.png"
+        },
+        {
+          "id": "unknown",
+          "component": "definition",
+          "phase": "unknown",
+          "at": 21,
+          "still": 24.5,
+          "cue": "If the outcome cannot be determined",
+          "path": "renders/stills/s02-fifteen-minutes-unknown.png"
+        }
+      ]
+    },
+    "s03-the-mixed-basket.html": {
+      "format": "landscape",
+      "duration": 21,
+      "states": [
+        {
+          "id": "national",
+          "component": "national",
+          "phase": "pooled",
+          "at": 0,
+          "still": 3.5,
+          "cue": "Across all reported flights in 2023–2024",
+          "path": "renders/stills/s03-the-mixed-basket-national.png"
+        },
+        {
+          "id": "networks",
+          "component": "basket",
+          "phase": "networks",
+          "at": 7,
+          "still": 10.5,
+          "cue": "different network",
+          "path": "renders/stills/s03-the-mixed-basket-networks.png"
+        },
+        {
+          "id": "common",
+          "component": "basket",
+          "phase": "common",
+          "at": 14,
+          "still": 17.5,
+          "cue": "opportunities both operators actually served",
+          "path": "renders/stills/s03-the-mixed-basket-common.png"
+        }
+      ]
+    },
+    "s04-same-trip-same-window.html": {
+      "format": "landscape",
+      "duration": 28,
+      "states": [
+        {
+          "id": "cell",
+          "component": "cell",
+          "phase": "definition",
+          "at": 0,
+          "still": 3.5,
+          "cue": "My unit is a comparable cell",
+          "path": "renders/stills/s04-same-trip-same-window-cell.png"
+        },
+        {
+          "id": "example",
+          "component": "cell",
+          "phase": "example",
+          "at": 7,
+          "still": 10.5,
+          "cue": "imagine Denver to Los Angeles",
+          "path": "renders/stills/s04-same-trip-same-window-example.png"
+        },
+        {
+          "id": "reverse",
+          "component": "cell",
+          "phase": "reverse",
+          "at": 14,
+          "still": 17.5,
+          "cue": "Los Angeles to Denver is a different cell",
+          "path": "renders/stills/s04-same-trip-same-window-reverse.png"
+        },
+        {
+          "id": "scheduled",
+          "component": "cell",
+          "phase": "scheduled",
+          "at": 21,
+          "still": 24.5,
+          "cue": "I match scheduled departures",
+          "path": "renders/stills/s04-same-trip-same-window-scheduled.png"
+        }
+      ]
+    },
+    "s05-same-basket-same-line.html": {
+      "format": "landscape",
+      "duration": 28,
+      "states": [
+        {
+          "id": "weight",
+          "component": "basket",
+          "phase": "weights",
+          "at": 0,
+          "still": 3.5,
+          "cue": "give both operators the same cell weight",
+          "path": "renders/stills/s05-same-basket-same-line-weight.png"
+        },
+        {
+          "id": "periods",
+          "component": "basket",
+          "phase": "periods",
+          "at": 7,
+          "still": 10.5,
+          "cue": "I keep 2025 separate as replication",
+          "path": "renders/stills/s05-same-basket-same-line-periods.png"
+        },
+        {
+          "id": "line",
+          "component": "line",
+          "phase": "rule",
+          "at": 14,
+          "still": 17.5,
+          "cue": "The decision line is two percentage points",
+          "path": "renders/stills/s05-same-basket-same-line-line.png"
+        },
+        {
+          "id": "frozen",
+          "component": "line",
+          "phase": "frozen",
+          "at": 21,
+          "still": 24.5,
+          "cue": "I don't get to move the line after seeing the answer",
+          "path": "renders/stills/s05-same-basket-same-line-frozen.png"
+        }
+      ]
+    },
+    "s06-two-failed-checks.html": {
+      "format": "landscape",
+      "duration": 35,
+      "states": [
+        {
+          "id": "failed",
+          "component": "gates",
+          "phase": "failed",
+          "at": 0,
+          "still": 3.5,
+          "cue": "Two earlier simulation checks failed",
+          "path": "renders/stills/s06-two-failed-checks-failed.png"
+        },
+        {
+          "id": "redesign",
+          "component": "gates",
+          "phase": "redesign",
+          "at": 7,
+          "still": 10.5,
+          "cue": "The interval was redesigned after those failures",
+          "path": "renders/stills/s06-two-failed-checks-redesign.png"
+        },
+        {
+          "id": "blocks",
+          "component": "gates",
+          "phase": "blocks",
+          "at": 14,
+          "still": 17.5,
+          "cue": "whole stretches of calendar days together",
+          "path": "renders/stills/s06-two-failed-checks-blocks.png"
+        },
+        {
+          "id": "fresh",
+          "component": "gates",
+          "phase": "fresh",
+          "at": 21,
+          "still": 24.5,
+          "cue": "Fresh simulation runs and a separate validation bank",
+          "path": "renders/stills/s06-two-failed-checks-fresh.png"
+        },
+        {
+          "id": "history",
+          "component": "gates",
+          "phase": "history",
+          "at": 28,
+          "still": 31.5,
+          "cue": "that history belongs beside its result",
+          "path": "renders/stills/s06-two-failed-checks-history.png"
+        }
+      ]
+    },
+    "s07-the-first-result.html": {
+      "format": "landscape",
+      "duration": 35,
+      "states": [
+        {
+          "id": "rates",
+          "component": "primary",
+          "phase": "rates",
+          "at": 0,
+          "still": 3.5,
+          "cue": "United's common-weighted timely-completion rate",
+          "path": "renders/stills/s07-the-first-result-rates.png"
+        },
+        {
+          "id": "gap",
+          "component": "primary",
+          "phase": "gap",
+          "at": 7,
+          "still": 10.5,
+          "cue": "The gap is 6.3 percentage points",
+          "path": "renders/stills/s07-the-first-result-gap.png"
+        },
+        {
+          "id": "envelope",
+          "component": "primary",
+          "phase": "envelope",
+          "at": 14,
+          "still": 17.5,
+          "cue": "The nominal 99% uncertainty envelope",
+          "path": "renders/stills/s07-the-first-result-envelope.png"
+        },
+        {
+          "id": "verdict",
+          "component": "primary",
+          "phase": "verdict",
+          "at": 21,
+          "still": 24.5,
+          "cue": "The permitted verdict is",
+          "path": "renders/stills/s07-the-first-result-verdict.png"
+        },
+        {
+          "id": "scope",
+          "component": "primary",
+          "phase": "scope",
+          "at": 28,
+          "still": 31.5,
+          "cue": "variability under repeated outcomes and calendar disruptions",
+          "path": "renders/stills/s07-the-first-result-scope.png"
+        }
+      ]
+    },
+    "s08-the-replication.html": {
+      "format": "landscape",
+      "duration": 35,
+      "states": [
+        {
+          "id": "seal",
+          "component": "replicate",
+          "phase": "seal",
+          "at": 0,
+          "still": 3.5,
+          "cue": "I sealed that first result",
+          "path": "renders/stills/s08-the-replication-seal.png"
+        },
+        {
+          "id": "b-gap",
+          "component": "replicate",
+          "phase": "gap",
+          "at": 7,
+          "still": 10.5,
+          "cue": "In 2025, the United advantage",
+          "path": "renders/stills/s08-the-replication-b-gap.png"
+        },
+        {
+          "id": "b-envelope",
+          "component": "replicate",
+          "phase": "envelope",
+          "at": 14,
+          "still": 17.5,
+          "cue": "Again, the whole interval is above two points",
+          "path": "renders/stills/s08-the-replication-b-envelope.png"
+        },
+        {
+          "id": "replicated",
+          "component": "replicate",
+          "phase": "verdict",
+          "at": 21,
+          "still": 24.5,
+          "cue": "The same decisive label repeats",
+          "path": "renders/stills/s08-the-replication-replicated.png"
+        },
+        {
+          "id": "limit",
+          "component": "replicate",
+          "phase": "limit",
+          "at": 28,
+          "still": 31.5,
+          "cue": "it isn't a repeated reversal of the national ranking",
+          "path": "renders/stills/s08-the-replication-limit.png"
+        }
+      ]
+    },
+    "s09-the-nearby-tests.html": {
+      "format": "landscape",
+      "duration": 21,
+      "states": [
+        {
+          "id": "windows",
+          "component": "sensitivity",
+          "phase": "windows",
+          "at": 0,
+          "still": 3.5,
+          "cue": "With one-hour or four-hour windows",
+          "path": "renders/stills/s09-the-nearby-tests-windows.png"
+        },
+        {
+          "id": "nearest",
+          "component": "sensitivity",
+          "phase": "nearest",
+          "at": 7,
+          "still": 10.5,
+          "cue": "Matching reciprocal nearest departures",
+          "path": "renders/stills/s09-the-nearby-tests-nearest.png"
+        },
+        {
+          "id": "limit",
+          "component": "sensitivity",
+          "phase": "limit",
+          "at": 14,
+          "still": 17.5,
+          "cue": "Those are descriptive sensitivity checks",
+          "path": "renders/stills/s09-the-nearby-tests-limit.png"
+        }
+      ]
+    },
+    "s10-whose-deadline.html": {
+      "format": "landscape",
+      "duration": 35,
+      "states": [
+        {
+          "id": "schedule",
+          "component": "duration",
+          "phase": "schedule",
+          "at": 0,
+          "still": 3.5,
+          "cue": "United schedules about 4.5 minutes longer",
+          "path": "renders/stills/s10-whose-deadline-schedule.png"
+        },
+        {
+          "id": "actual",
+          "component": "duration",
+          "phase": "actual",
+          "at": 7,
+          "still": 10.5,
+          "cue": "its actual gate-to-gate duration is longer too",
+          "path": "renders/stills/s10-whose-deadline-actual.png"
+        },
+        {
+          "id": "shared",
+          "component": "allowance",
+          "phase": "definition",
+          "at": 14,
+          "still": 17.5,
+          "cue": "shared elapsed-time allowance from their own scheduled departure",
+          "path": "renders/stills/s10-whose-deadline-shared.png"
+        },
+        {
+          "id": "shrink",
+          "component": "allowance",
+          "phase": "shrink",
+          "at": 21,
+          "still": 24.5,
+          "cue": "The United gaps shrink to 2.6 and 4.3 points",
+          "path": "renders/stills/s10-whose-deadline-shrink.png"
+        },
+        {
+          "id": "limit",
+          "component": "allowance",
+          "phase": "limit",
+          "at": 28,
+          "still": 31.5,
+          "cue": "These exploratory results do not inherit the registered verdict",
+          "path": "renders/stills/s10-whose-deadline-limit.png"
+        }
+      ]
+    },
+    "s11-leaving-late.html": {
+      "format": "landscape",
+      "duration": 28,
+      "states": [
+        {
+          "id": "late",
+          "component": "departure",
+          "phase": "late",
+          "at": 0,
+          "still": 3.5,
+          "cue": "Southwest has noncancelled departures fifteen minutes or more late",
+          "path": "renders/stills/s11-leaving-late-late.png"
+        },
+        {
+          "id": "denominator",
+          "component": "departure",
+          "phase": "denominator",
+          "at": 7,
+          "still": 10.5,
+          "cue": "The denominator is all scheduled flights",
+          "path": "renders/stills/s11-leaving-late-denominator.png"
+        },
+        {
+          "id": "timely",
+          "component": "departure",
+          "phase": "timely",
+          "at": 14,
+          "still": 17.5,
+          "cue": "Including cancellations as failures",
+          "path": "renders/stills/s11-leaving-late-timely.png"
+        },
+        {
+          "id": "limit",
+          "component": "departure",
+          "phase": "limit",
+          "at": 21,
+          "still": 24.5,
+          "cue": "I haven't isolated a cause",
+          "path": "renders/stills/s11-leaving-late-limit.png"
+        }
+      ]
+    },
+    "s12-the-boundary-of-the-answer.html": {
+      "format": "landscape",
+      "duration": 42,
+      "states": [
+        {
+          "id": "overlap",
+          "component": "boundary",
+          "phase": "coverage",
+          "at": 0,
+          "still": 3.5,
+          "cue": "Finally, this is a small overlap",
+          "path": "renders/stills/s12-the-boundary-of-the-answer-overlap.png"
+        },
+        {
+          "id": "denver",
+          "component": "boundary",
+          "phase": "denver",
+          "at": 7,
+          "still": 10.5,
+          "cue": "about eighty percent of the comparison weight touches Denver",
+          "path": "renders/stills/s12-the-boundary-of-the-answer-denver.png"
+        },
+        {
+          "id": "early",
+          "component": "time",
+          "phase": "early",
+          "at": 14,
+          "still": 17.5,
+          "cue": "Before ten in the morning",
+          "path": "renders/stills/s12-the-boundary-of-the-answer-early.png"
+        },
+        {
+          "id": "late",
+          "component": "time",
+          "phase": "late",
+          "at": 21,
+          "still": 24.5,
+          "cue": "From four in the afternoon onward",
+          "path": "renders/stills/s12-the-boundary-of-the-answer-late.png"
+        },
+        {
+          "id": "conclusion",
+          "component": "conclusion",
+          "phase": "full",
+          "at": 28,
+          "still": 31.5,
+          "cue": "United kept its own timetable more often",
+          "path": "renders/stills/s12-the-boundary-of-the-answer-conclusion.png"
+        },
+        {
+          "id": "evidence",
+          "component": "conclusion",
+          "phase": "evidence",
+          "at": 35,
+          "still": 38.5,
+          "cue": "whose deadline they had to meet",
+          "path": "renders/stills/s12-the-boundary-of-the-answer-evidence.png"
+        }
+      ]
+    },
+    "short-a.html": {
+      "format": "vertical",
+      "duration": 28,
+      "states": [
+        {
+          "id": "tie",
+          "component": "national",
+          "phase": "short",
+          "at": 0,
+          "still": 3.5,
+          "cue": "look almost tied in national punctuality tables",
+          "path": "renders/stills/short-a-tie.png"
+        },
+        {
+          "id": "match",
+          "component": "cell",
+          "phase": "short",
+          "at": 7,
+          "still": 10.5,
+          "cue": "I matched the same directional route",
+          "path": "renders/stills/short-a-match.png"
+        },
+        {
+          "id": "result",
+          "component": "replicate",
+          "phase": "short",
+          "at": 14,
+          "still": 17.5,
+          "cue": "Both whole nominal 99% uncertainty envelopes",
+          "path": "renders/stills/short-a-result.png"
+        },
+        {
+          "id": "caveat",
+          "component": "boundary",
+          "phase": "short",
+          "at": 21,
+          "still": 24.5,
+          "cue": "This is a small, Denver-heavy overlap",
+          "path": "renders/stills/short-a-caveat.png"
+        }
+      ]
+    },
+    "short-b.html": {
+      "format": "vertical",
+      "duration": 28,
+      "states": [
+        {
+          "id": "duration",
+          "component": "duration",
+          "phase": "short",
+          "at": 0,
+          "still": 3.5,
+          "cue": "It also actually takes longer",
+          "path": "renders/stills/short-b-duration.png"
+        },
+        {
+          "id": "allowance",
+          "component": "allowance",
+          "phase": "short",
+          "at": 7,
+          "still": 10.5,
+          "cue": "United's arrival advantages shrink",
+          "path": "renders/stills/short-b-allowance.png"
+        },
+        {
+          "id": "departure",
+          "component": "departure",
+          "phase": "short",
+          "at": 14,
+          "still": 17.5,
+          "cue": "Southwest also leaves fifteen-plus minutes late",
+          "path": "renders/stills/short-b-departure.png"
+        },
+        {
+          "id": "limit",
+          "component": "allowance",
+          "phase": "limit",
+          "at": 21,
+          "still": 24.5,
+          "cue": "They show why the deadline matters",
+          "path": "renders/stills/short-b-limit.png"
+        }
+      ]
+    },
+    "short-c.html": {
+      "format": "vertical",
+      "duration": 28,
+      "states": [
+        {
+          "id": "early",
+          "component": "time",
+          "phase": "early",
+          "at": 0,
+          "still": 3.5,
+          "cue": "Before ten in the morning, United's gaps are near zero",
+          "path": "renders/stills/short-c-early.png"
+        },
+        {
+          "id": "late",
+          "component": "time",
+          "phase": "late",
+          "at": 7,
+          "still": 10.5,
+          "cue": "From four in the afternoon onward, they're",
+          "path": "renders/stills/short-c-late.png"
+        },
+        {
+          "id": "denver",
+          "component": "boundary",
+          "phase": "denver",
+          "at": 14,
+          "still": 17.5,
+          "cue": "About eighty percent of the weight touches Denver",
+          "path": "renders/stills/short-c-denver.png"
+        },
+        {
+          "id": "limit",
+          "component": "time",
+          "phase": "limit",
+          "at": 21,
+          "still": 24.5,
+          "cue": "It tells me to ask what an average has hidden",
+          "path": "renders/stills/short-c-limit.png"
+        }
+      ]
+    }
+  }
+}
