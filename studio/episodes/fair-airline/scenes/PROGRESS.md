@@ -155,3 +155,5 @@
 - Render pass completed for `short-c.html`: 4 cue PNGs.
 
 - Final delivery QA: all 64 cue PNGs inspected at native 1920×1080 / 1080×1920; 17 changed captures reinspected, plus the corrected replication badge. Zero clipping, overlap, source-rule collisions or safe-edge issues remain. Browser audit: 64 states, zero geometry flags/runtime errors; 344 numeric labels match computed sources. Check suite passes reproducible bindings, source hashes, exact narration cues and pure arbitrary seeking for all 64 animated states. Pre-lock clocks await recorded narration. Renders remain uncommitted.
+
+- Commit helper completed source/QA checkpoint `9d903f2`; all 29 committed scene files match delivery bytes. Renders excluded. This receipt entry was added after the checkpoint per helper protocol.
