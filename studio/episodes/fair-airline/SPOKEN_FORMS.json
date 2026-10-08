@@ -1,0 +1,327 @@
+{
+  "status": "pre-lock draft",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "scenes": {
+    "S01": [
+      {
+        "index": 0,
+        "written": "I look at an airline punctuality table because I would quite like my flight to arrive when it says it will. Apparently, this is a statistical ambition.",
+        "spoken": "I look at an airline punctuality table because I would quite like my flight to arrive when it says it will. Apparently, this is a statistical ambition."
+      },
+      {
+        "index": 1,
+        "written": "In the published operating rankings, United and Southwest sit side by side. In 2024, their on-time rates are 78.60% and 78.57%. In 2025, both are still about seventy-eight percent, with Southwest just ahead.",
+        "spoken": "In the published operating rankings, United and Southwest sit side by side. In twenty twenty-four, their on-time rates are seventy-eight point six zero percent and seventy-eight point five seven percent. In twenty twenty-five, both are still about seventy-eight percent, with Southwest just ahead."
+      },
+      {
+        "index": 2,
+        "written": "My obvious answer is: equally punctual. But I want to know whether that apparent tie survives comparing similar trips. I'm testing United-operated and Southwest-operated flights. United Express and other codeshare operators are excluded.",
+        "spoken": "My obvious answer is: equally punctual. But I want to know whether that apparent tie survives comparing similar trips. I'm testing United-operated and Southwest-operated flights. United Express and other codeshare operators are excluded."
+      }
+    ],
+    "S02": [
+      {
+        "index": 0,
+        "written": "First, “on time” needs a definition. Here, a flight succeeds if it completes without cancellation or diversion and arrives less than fifteen minutes after its own published arrival time. Exactly fifteen minutes late fails.",
+        "spoken": "First, “on time” needs a definition. Here, a flight succeeds if it completes without cancellation or diversion and arrives less than fifteen minutes after its own published arrival time. Exactly fifteen minutes late fails."
+      },
+      {
+        "index": 1,
+        "written": "A cancellation is a failure, not a flight that conveniently vanishes from the denominator. Diversions fail too. If the outcome cannot be determined, the primary score counts it as a failure and the interval allows for that uncertainty.",
+        "spoken": "A cancellation is a failure, not a flight that conveniently vanishes from the denominator. Diversions fail too. If the outcome cannot be determined, the primary score counts it as a failure and the interval allows for that uncertainty."
+      },
+      {
+        "index": 2,
+        "written": "The published national tables already retain failed scheduled services. My objection isn't that they forgot cancellations. It's that their averages describe different collections of flights.",
+        "spoken": "The published national tables already retain failed scheduled services. My objection isn't that they forgot cancellations. It's that their averages describe different collections of flights."
+      }
+    ],
+    "S03": [
+      {
+        "index": 0,
+        "written": "Across all reported flights in 2023–2024, United is at 78.34% and Southwest at 77.91%. In 2025, they're at 77.65% and 77.76%. These are unadjusted all-flights rates.",
+        "spoken": "Across all reported flights in twenty twenty-three to twenty twenty-four, United is at seventy-eight point three four percent and Southwest at seventy-seven point nine one percent. In twenty twenty-five, they're at seventy-seven point six five percent and seventy-seven point seven six percent. These are unadjusted all-flights rates."
+      },
+      {
+        "index": 1,
+        "written": "I can count those flights perfectly and still be making an awkward comparison. One airline's average mixes its routes, airports and departure times; the other's mixes a different network.",
+        "spoken": "I can count those flights perfectly and still be making an awkward comparison. One airline's average mixes its routes, airports and departure times; the other's mixes a different network."
+      },
+      {
+        "index": 2,
+        "written": "Imagine comparing runners on different courses, then debating the stopwatch's accuracy. The stopwatch may be fine. I need a more comparable course.",
+        "spoken": "Imagine comparing runners on different courses, then debating the stopwatch's accuracy. The stopwatch may be fine. I need a more comparable course."
+      },
+      {
+        "index": 3,
+        "written": "So I restrict the question to opportunities both operators actually served. That changes the population I'm describing.",
+        "spoken": "So I restrict the question to opportunities both operators actually served. That changes the population I'm describing."
+      }
+    ],
+    "S04": [
+      {
+        "index": 0,
+        "written": "My unit is a comparable cell: the same directional airport route, the same scheduled departure day, and the same two-hour departure window. Both airlines must have scheduled service in it.",
+        "spoken": "My unit is a comparable cell: the same directional airport route, the same scheduled departure day, and the same two-hour departure window. Both airlines must have scheduled service in it."
+      },
+      {
+        "index": 1,
+        "written": "For a concrete example, imagine Denver to Los Angeles on the same day, with both departures scheduled between ten in the morning and noon. This is a teaching example, not a pair of observed flight records.",
+        "spoken": "For a concrete example, imagine Denver to Los Angeles on the same day, with both departures scheduled between ten in the morning and noon. This is a teaching example, not a pair of observed flight records."
+      },
+      {
+        "index": 2,
+        "written": "Los Angeles to Denver is a different cell. Another date is different. A departure outside that window is different. I match scheduled departures, so a delay cannot move a flight into a friendlier comparison.",
+        "spoken": "Los Angeles to Denver is a different cell. Another date is different. A departure outside that window is different. I match scheduled departures, so a delay cannot move a flight into a friendlier comparison."
+      },
+      {
+        "index": 3,
+        "written": "The window makes circumstances more alike. It doesn't make them identical.",
+        "spoken": "The window makes circumstances more alike. It doesn't make them identical."
+      }
+    ],
+    "S05": [
+      {
+        "index": 0,
+        "written": "Inside each cell, I calculate each operator's success rate. Then I give both operators the same cell weight, based on their combined scheduled-flight count. A busy shared cell matters more than a quiet one, equally for both sides.",
+        "spoken": "Inside each cell, I calculate each operator's success rate. Then I give both operators the same cell weight, based on their combined scheduled-flight count. A busy shared cell matters more than a quiet one, equally for both sides."
+      },
+      {
+        "index": 1,
+        "written": "The first period pools 2023–2024. I keep 2025 separate as replication, using that year's own comparable basket.",
+        "spoken": "The first period pools twenty twenty-three to twenty twenty-four. I keep twenty twenty-five separate as replication, using that year's own comparable basket."
+      },
+      {
+        "index": 2,
+        "written": "The decision line is two percentage points: one extra timely completion per fifty scheduled flights. United's whole uncertainty interval must sit above it.",
+        "spoken": "The decision line is two percentage points: one extra timely completion per fifty scheduled flights. United's whole uncertainty interval must sit above it."
+      },
+      {
+        "index": 3,
+        "written": "This single-pair rule was fixed after an exploratory pilot and a failed simulation gate, before confirmation outcomes. I don't get to move the line after seeing the answer.",
+        "spoken": "This single-pair rule was fixed after an exploratory pilot and a failed simulation gate, before confirmation outcomes. I don't get to move the line after seeing the answer."
+      }
+    ],
+    "S06": [
+      {
+        "index": 0,
+        "written": "Before opening any 2023–2025 flight outcomes, I tested the uncertainty procedure on simulated outcomes with known answers. Two earlier simulation checks failed. The interval was redesigned after those failures, while the real outcomes stayed closed.",
+        "spoken": "Before opening any twenty twenty-three to twenty twenty-five flight outcomes, I tested the uncertainty procedure on simulated outcomes with known answers. Two earlier simulation checks failed. The interval was redesigned after those failures, while the real outcomes stayed closed."
+      },
+      {
+        "index": 1,
+        "written": "The revised method keeps whole stretches of calendar days together across the network, because disruption can travel across airports and persist over time.",
+        "spoken": "The revised method keeps whole stretches of calendar days together across the network, because disruption can travel across airports and persist over time."
+      },
+      {
+        "index": 2,
+        "written": "Fresh simulation runs and a separate validation bank then passed the specified checks. That is evidence under those simulated conditions, not a guarantee for every possible disruption.",
+        "spoken": "Fresh simulation runs and a separate validation bank then passed the specified checks. That is evidence under those simulated conditions, not a guarantee for every possible disruption."
+      },
+      {
+        "index": 3,
+        "written": "I want the failed checks in the film. A redesigned test has a history, and that history belongs beside its result.",
+        "spoken": "I want the failed checks in the film. A redesigned test has a history, and that history belongs beside its result."
+      }
+    ],
+    "S07": [
+      {
+        "index": 0,
+        "written": "In the comparable 2023–2024 basket, United's common-weighted timely-completion rate is 79.75%; Southwest's is 73.48%.",
+        "spoken": "In the comparable twenty twenty-three to twenty twenty-four basket, United's common-weighted timely-completion rate is seventy-nine point seven five percent; Southwest's is seventy-three point four eight percent."
+      },
+      {
+        "index": 1,
+        "written": "The gap is 6.3 percentage points for United. The nominal 99% uncertainty envelope runs from 4.60 to 7.94 points. The entire envelope clears the two-point line.",
+        "spoken": "The gap is six point three percentage points for United. The nominal ninety-nine percent uncertainty envelope runs from four point six zero to seven point nine four points. The entire envelope clears the two-point line."
+      },
+      {
+        "index": 2,
+        "written": "The permitted verdict is: United advantage above two points.",
+        "spoken": "The permitted verdict is: United advantage above two points."
+      },
+      {
+        "index": 3,
+        "written": "Those bars describe variability under repeated outcomes and calendar disruptions on the fixed schedules. They aren't uncertainty about how many historical flights I counted, or a promise about my next ticket.",
+        "spoken": "Those bars describe variability under repeated outcomes and calendar disruptions on the fixed schedules. They aren't uncertainty about how many historical flights I counted, or a promise about my next ticket."
+      }
+    ],
+    "S08": [
+      {
+        "index": 0,
+        "written": "I sealed that first result before opening the 2025 outcomes. The second period gets its own test; it cannot rewrite the first.",
+        "spoken": "I sealed that first result before opening the twenty twenty-five outcomes. The second period gets its own test; it cannot rewrite the first."
+      },
+      {
+        "index": 1,
+        "written": "In 2025, the United advantage is 8.2 points. Its nominal 99% envelope runs from 5.31 to 11.00. Again, the whole interval is above two points.",
+        "spoken": "In twenty twenty-five, the United advantage is eight point two points. Its nominal ninety-nine percent envelope runs from five point three one to eleven point zero zero. Again, the whole interval is above two points."
+      },
+      {
+        "index": 2,
+        "written": "The same decisive label repeats: replicated.",
+        "spoken": "The same decisive label repeats: replicated."
+      },
+      {
+        "index": 3,
+        "written": "That doesn't mean the two periods had identical routes or schedules. And it isn't a repeated reversal of the national ranking: United already led nationally in 2023 and 2024. The important finding is a larger difference within these comparable baskets than the national near-tie suggests.",
+        "spoken": "That doesn't mean the two periods had identical routes or schedules. And it isn't a repeated reversal of the national ranking: United already led nationally in twenty twenty-three and twenty twenty-four. The important finding is a larger difference within these comparable baskets than the national near-tie suggests."
+      }
+    ],
+    "S09": [
+      {
+        "index": 0,
+        "written": "I also checked nearby choices specified before the outcomes. With one-hour or four-hour windows, the estimated United gaps stay in the same direction in both periods.",
+        "spoken": "I also checked nearby choices specified before the outcomes. With one-hour or four-hour windows, the estimated United gaps stay in the same direction in both periods."
+      },
+      {
+        "index": 1,
+        "written": "Matching reciprocal nearest departures within thirty minutes gives gaps of 6.7 and 9.1 points.",
+        "spoken": "Matching reciprocal nearest departures within thirty minutes gives gaps of six point seven and nine point one points."
+      },
+      {
+        "index": 2,
+        "written": "Those are descriptive sensitivity checks. They cannot replace the registered result, and consistency doesn't make this a result about every flight.",
+        "spoken": "Those are descriptive sensitivity checks. They cannot replace the registered result, and consistency doesn't make this a result about every flight."
+      },
+      {
+        "index": 3,
+        "written": "Now I need to ask a different question: what does arriving on time actually reward? Both airlines are being judged against the timetable they publish themselves. That deserves a closer look.",
+        "spoken": "Now I need to ask a different question: what does arriving on time actually reward? Both airlines are being judged against the timetable they publish themselves. That deserves a closer look."
+      }
+    ],
+    "S10": [
+      {
+        "index": 0,
+        "written": "These next checks are exploratory: post-hoc, not registered. United schedules about 4.5 minutes longer on the shared basket in both periods. But its actual gate-to-gate duration is longer too: about 4.8 minutes in 2023–2024 and 6.2 in 2025, among cells with completed observations for both operators. Longer schedules don't establish deliberate padding.",
+        "spoken": "These next checks are exploratory: post-hoc, not registered. United schedules about four point five minutes longer on the shared basket in both periods. But its actual gate-to-gate duration is longer too: about four point eight minutes in twenty twenty-three to twenty twenty-four and six point two in twenty twenty-five, among cells with completed observations for both operators. Longer schedules don't establish deliberate padding."
+      },
+      {
+        "index": 1,
+        "written": "I then give both airlines a shared elapsed-time allowance from their own scheduled departure, using the midpoint of their cell-average scheduled durations and the same fifteen-minute cutoff. This isn't one wall-clock arrival deadline.",
+        "spoken": "I then give both airlines a shared elapsed-time allowance from their own scheduled departure, using the midpoint of their cell-average scheduled durations and the same fifteen-minute cutoff. This isn't one wall-clock arrival deadline."
+      },
+      {
+        "index": 2,
+        "written": "The United gaps shrink to 2.6 and 4.3 points. That shows deadline sensitivity; it doesn't tell me how much padding caused. These exploratory results do not inherit the registered verdict.",
+        "spoken": "The United gaps shrink to two point six and four point three points. That shows deadline sensitivity; it doesn't tell me how much padding caused. These exploratory results do not inherit the registered verdict."
+      }
+    ],
+    "S11": [
+      {
+        "index": 0,
+        "written": "I can also look at leaving, before an arrival deadline enters the story. This departure check is exploratory too.",
+        "spoken": "I can also look at leaving, before an arrival deadline enters the story. This departure check is exploratory too."
+      },
+      {
+        "index": 1,
+        "written": "Southwest has noncancelled departures fifteen minutes or more late about 10.1 points more often in 2023–2024 and 13.1 points more often in 2025. The denominator is all scheduled flights; a cancellation isn't counted as an observed late departure.",
+        "spoken": "Southwest has noncancelled departures fifteen minutes or more late about ten point one points more often in twenty twenty-three to twenty twenty-four and thirteen point one points more often in twenty twenty-five. The denominator is all scheduled flights; a cancellation isn't counted as an observed late departure."
+      },
+      {
+        "index": 2,
+        "written": "Including cancellations as failures in a timely-departure score gives United advantages of 9.9 and 13.3 points.",
+        "spoken": "Including cancellations as failures in a timely-departure score gives United advantages of nine point nine and thirteen point three points."
+      },
+      {
+        "index": 3,
+        "written": "Arrival padding cannot mechanically explain departure delays. But scheduled departure choices and operating circumstances still travel with the airline. I haven't isolated a cause, or the effect of choosing United for a ticket.",
+        "spoken": "Arrival padding cannot mechanically explain departure delays. But scheduled departure choices and operating circumstances still travel with the airline. I haven't isolated a cause, or the effect of choosing United for a ticket."
+      }
+    ],
+    "S12": [
+      {
+        "index": 0,
+        "written": "Finally, this is a small overlap: about eleven to twelve percent of United-operated schedules and six percent of Southwest's. United Express is excluded.",
+        "spoken": "Finally, this is a small overlap: about eleven to twelve percent of United-operated schedules and six percent of Southwest's. United Express is excluded."
+      },
+      {
+        "index": 1,
+        "written": "An exploratory concentration check finds about eighty percent of the comparison weight touches Denver.",
+        "spoken": "An exploratory concentration check finds about eighty percent of the comparison weight touches Denver."
+      },
+      {
+        "index": 2,
+        "written": "Another exploratory, post-hoc check splits scheduled departures by local time. Before ten in the morning, the gaps are near zero: minus 0.4 and plus 1.4 points. From four in the afternoon onward, they're 11.7 and 12.9. The overall average conceals a very different day.",
+        "spoken": "Another exploratory, post-hoc check splits scheduled departures by local time. Before ten in the morning, the gaps are near zero: minus zero point four and plus one point four points. From four in the afternoon onward, they're eleven point seven and twelve point nine. The overall average conceals a very different day."
+      },
+      {
+        "index": 3,
+        "written": "I can say United kept its own timetable more often on these comparable operating services, with a result that replicated. I can't turn that into faster travel, a causal explanation, rebooking outcomes, a recommendation or a best-airline ranking.",
+        "spoken": "I can say United kept its own timetable more often on these comparable operating services, with a result that replicated. I can't turn that into faster travel, a causal explanation, rebooking outcomes, a recommendation or a best-airline ranking."
+      },
+      {
+        "index": 4,
+        "written": "Next time I see a national tie, I want to ask which flights went into it, and whose deadline they had to meet.",
+        "spoken": "Next time I see a national tie, I want to ask which flights went into it, and whose deadline they had to meet."
+      }
+    ],
+    "Short A": [
+      {
+        "index": 0,
+        "written": "United and Southwest look almost tied in national punctuality tables. I wanted to compare similar flights instead.",
+        "spoken": "United and Southwest look almost tied in national punctuality tables. I wanted to compare similar flights instead."
+      },
+      {
+        "index": 1,
+        "written": "I matched the same directional route, scheduled day and two-hour departure window. This covers United-operated and Southwest-operated domestic nonstop services, excluding United Express.",
+        "spoken": "I matched the same directional route, scheduled day and two-hour departure window. This covers United-operated and Southwest-operated domestic nonstop services, excluding United Express."
+      },
+      {
+        "index": 2,
+        "written": "Against each airline's own arrival timetable, United leads by 6.3 points in 2023–2024 and 8.2 in 2025. Both whole nominal 99% uncertainty envelopes clear the two-point line: replicated. Cancellations count as failures.",
+        "spoken": "Against each airline's own arrival timetable, United leads by six point three points in twenty twenty-three to twenty twenty-four and eight point two in twenty twenty-five. Both whole nominal ninety-nine percent uncertainty envelopes clear the two-point line: replicated. Cancellations count as failures."
+      },
+      {
+        "index": 3,
+        "written": "This is a small, Denver-heavy overlap, not a best-airline ranking. A shared-deadline check shrinks the gaps. I found a comparable-service difference, not advice about which ticket to buy.",
+        "spoken": "This is a small, Denver-heavy overlap, not a best-airline ranking. A shared-deadline check shrinks the gaps. I found a comparable-service difference, not advice about which ticket to buy."
+      }
+    ],
+    "Short B": [
+      {
+        "index": 0,
+        "written": "“On time” depends on whose timetable I use. In an exploratory check of comparable United-operated and Southwest-operated flights, United schedules about 4.5 minutes longer. It also actually takes longer: 4.8 minutes in 2023–2024 and 6.2 in 2025, on cells with completed flights from both operators. United Express is excluded.",
+        "spoken": "“On time” depends on whose timetable I use. In an exploratory check of comparable United-operated and Southwest-operated flights, United schedules about four point five minutes longer. It also actually takes longer: four point eight minutes in twenty twenty-three to twenty twenty-four and six point two in twenty twenty-five, on cells with completed flights from both operators. United Express is excluded."
+      },
+      {
+        "index": 1,
+        "written": "With a shared elapsed-time allowance from each scheduled departure, United's arrival advantages shrink to 2.6 and 4.3 points. Cancellations still fail.",
+        "spoken": "With a shared elapsed-time allowance from each scheduled departure, United's arrival advantages shrink to two point six and four point three points. Cancellations still fail."
+      },
+      {
+        "index": 2,
+        "written": "Southwest also leaves fifteen-plus minutes late more often; arrival padding can't mechanically explain departures.",
+        "spoken": "Southwest also leaves fifteen-plus minutes late more often; arrival padding can't mechanically explain departures."
+      },
+      {
+        "index": 3,
+        "written": "These are post-hoc checks, not registered verdicts. They show why the deadline matters without identifying deliberate padding or telling me which airline to book.",
+        "spoken": "These are post-hoc checks, not registered verdicts. They show why the deadline matters without identifying deliberate padding or telling me which airline to book."
+      }
+    ],
+    "Short C": [
+      {
+        "index": 0,
+        "written": "An average can hide a clock. I made an exploratory, post-hoc time-of-day check on comparable United-operated and Southwest-operated domestic nonstop flights. United Express is excluded; cancellations fail, and each operator is judged against its own timetable.",
+        "spoken": "An average can hide a clock. I made an exploratory, post-hoc time-of-day check on comparable United-operated and Southwest-operated domestic nonstop flights. United Express is excluded; cancellations fail, and each operator is judged against its own timetable."
+      },
+      {
+        "index": 1,
+        "written": "Before ten in the morning, United's gaps are near zero: minus 0.4 points in 2023–2024, plus 1.4 in 2025. From four in the afternoon onward, they're 11.7 and 12.9 points.",
+        "spoken": "Before ten in the morning, United's gaps are near zero: minus zero point four points in twenty twenty-three to twenty twenty-four, plus one point four in twenty twenty-five. From four in the afternoon onward, they're eleven point seven and twelve point nine points."
+      },
+      {
+        "index": 2,
+        "written": "That's local scheduled departure time, within the same route, day and window comparisons. About eighty percent of the weight touches Denver.",
+        "spoken": "That's local scheduled departure time, within the same route, day and window comparisons. About eighty percent of the weight touches Denver."
+      },
+      {
+        "index": 3,
+        "written": "This pattern isn't a registered verdict, a causal explanation or a morning-flight recommendation. It tells me to ask what an average has hidden.",
+        "spoken": "This pattern isn't a registered verdict, a causal explanation or a morning-flight recommendation. It tells me to ask what an average has hidden."
+      }
+    ]
+  }
+}
