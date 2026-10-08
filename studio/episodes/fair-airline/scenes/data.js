@@ -458,64 +458,84 @@ window.SCENE_DATA = {
    "FA-C062"
   ],
   "derived_metrics.A.bands.10.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C084"
   ],
   "derived_metrics.A.bands.10.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C084"
   ],
   "derived_metrics.A.bands.11.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C085"
   ],
   "derived_metrics.A.bands.11.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C085"
   ],
   "derived_metrics.A.bands.2.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C076"
   ],
   "derived_metrics.A.bands.2.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C076"
   ],
   "derived_metrics.A.bands.3.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C077"
   ],
   "derived_metrics.A.bands.3.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C077"
   ],
   "derived_metrics.A.bands.4.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C078"
   ],
   "derived_metrics.A.bands.4.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C078"
   ],
   "derived_metrics.A.bands.5.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C079"
   ],
   "derived_metrics.A.bands.5.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C079"
   ],
   "derived_metrics.A.bands.6.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C080"
   ],
   "derived_metrics.A.bands.6.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C080"
   ],
   "derived_metrics.A.bands.7.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C081"
   ],
   "derived_metrics.A.bands.7.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C081"
   ],
   "derived_metrics.A.bands.8.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C082"
   ],
   "derived_metrics.A.bands.8.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C082"
   ],
   "derived_metrics.A.bands.9.gap_pp": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C083"
   ],
   "derived_metrics.A.bands.9.weight_pct": [
-   "FA-C060"
+   "FA-C060",
+   "FA-C083"
   ],
   "derived_metrics.A.denver.contribution_points": [
    "FA-C058"
@@ -623,64 +643,84 @@ window.SCENE_DATA = {
    "FA-C060"
   ],
   "derived_metrics.B.bands.10.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C094"
   ],
   "derived_metrics.B.bands.10.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C094"
   ],
   "derived_metrics.B.bands.11.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C095"
   ],
   "derived_metrics.B.bands.11.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C095"
   ],
   "derived_metrics.B.bands.2.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C086"
   ],
   "derived_metrics.B.bands.2.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C086"
   ],
   "derived_metrics.B.bands.3.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C087"
   ],
   "derived_metrics.B.bands.3.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C087"
   ],
   "derived_metrics.B.bands.4.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C088"
   ],
   "derived_metrics.B.bands.4.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C088"
   ],
   "derived_metrics.B.bands.5.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C089"
   ],
   "derived_metrics.B.bands.5.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C089"
   ],
   "derived_metrics.B.bands.6.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C090"
   ],
   "derived_metrics.B.bands.6.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C090"
   ],
   "derived_metrics.B.bands.7.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C091"
   ],
   "derived_metrics.B.bands.7.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C091"
   ],
   "derived_metrics.B.bands.8.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C092"
   ],
   "derived_metrics.B.bands.8.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C092"
   ],
   "derived_metrics.B.bands.9.gap_pp": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C093"
   ],
   "derived_metrics.B.bands.9.weight_pct": [
-   "FA-C068"
+   "FA-C068",
+   "FA-C093"
   ],
   "derived_metrics.B.denver.contribution_points": [
    "FA-C066"
@@ -2105,9 +2145,89 @@ window.SCENE_DATA = {
   "FA-C075": {
    "exploratory": false,
    "status": "proposed"
+  },
+  "FA-C076": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C077": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C078": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C079": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C080": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C081": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C082": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C083": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C084": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C085": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C086": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C087": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C088": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C089": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C090": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C091": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C092": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C093": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C094": {
+   "exploratory": true,
+   "status": "proposed"
+  },
+  "FA-C095": {
+   "exploratory": true,
+   "status": "proposed"
   }
  },
- "claims_sha256": "1c8c4a7de39a470de6a92cb84feef26e84d9fbb3087d513e8707b8ee46a0f707",
+ "claims_sha256": "64ae35817d333a3c90d6d8f60e43910ca72d3ca5dece581a5355561a6f24d74b",
  "inputs": {
   "A.common_UA.UA_minus_WN": {
    "file": "analysis/review_checks/results.json",
@@ -4525,7 +4645,7 @@ window.SCENE_DATA = {
  "locked": false,
  "results_sha256": "5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de",
  "source_sha256": {
-  "analysis/claims_check.json": "a3c57e3ebc6f114cd16ab93d6115eba73b6b1d405a256f1fe66a489a01b3c44b",
+  "analysis/claims_check.json": "00dc333e379f286f42ae4cea324d7037ef490e0cd1bbdedb2ea5ff8b615cca20",
   "analysis/results.json": "5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de",
   "analysis/review_checks/results.json": "0a430fc236035ca94043a76cbb9e49e076f5947ed0bfd763b8cc2ab71736a959"
  },
@@ -4689,17 +4809,17 @@ window.SCENE_DATA = {
   "derived_metrics.A.bands.11.weight_pct": 0.1394343351427937,
   "derived_metrics.A.bands.2.gap_pp": -1.5960003845784059,
   "derived_metrics.A.bands.2.weight_pct": 2.9239042738310426,
-  "derived_metrics.A.bands.3.gap_pp": -0.809065000072335,
+  "derived_metrics.A.bands.3.gap_pp": -0.8090650000723347,
   "derived_metrics.A.bands.3.weight_pct": 12.954461758165763,
   "derived_metrics.A.bands.4.gap_pp": 0.1666285801340646,
   "derived_metrics.A.bands.4.weight_pct": 14.762047998020932,
   "derived_metrics.A.bands.5.gap_pp": 5.391492246419795,
   "derived_metrics.A.bands.5.weight_pct": 13.2698757179041,
-  "derived_metrics.A.bands.6.gap_pp": 6.910107830918144,
+  "derived_metrics.A.bands.6.gap_pp": 6.910107830918143,
   "derived_metrics.A.bands.6.weight_pct": 15.11203942393379,
-  "derived_metrics.A.bands.7.gap_pp": 9.866087940299806,
+  "derived_metrics.A.bands.7.gap_pp": 9.866087940299805,
   "derived_metrics.A.bands.7.weight_pct": 8.61400584162396,
-  "derived_metrics.A.bands.8.gap_pp": 10.835750915750916,
+  "derived_metrics.A.bands.8.gap_pp": 10.835750915750914,
   "derived_metrics.A.bands.8.weight_pct": 15.988564135577402,
   "derived_metrics.A.bands.9.gap_pp": 12.977719737753851,
   "derived_metrics.A.bands.9.weight_pct": 10.548095006507873,
@@ -4742,7 +4862,7 @@ window.SCENE_DATA = {
   "derived_metrics.B.bands.10.weight_pct": 5.7894617768828756,
   "derived_metrics.B.bands.11.gap_pp": 13.043478260869565,
   "derived_metrics.B.bands.11.weight_pct": 0.36424515282459674,
-  "derived_metrics.B.bands.2.gap_pp": 0.253210345451257,
+  "derived_metrics.B.bands.2.gap_pp": 0.25321034545125704,
   "derived_metrics.B.bands.2.weight_pct": 3.127191692495645,
   "derived_metrics.B.bands.3.gap_pp": 1.5368476265407816,
   "derived_metrics.B.bands.3.weight_pct": 10.783127078572884,
@@ -4750,13 +4870,13 @@ window.SCENE_DATA = {
   "derived_metrics.B.bands.4.weight_pct": 14.836768398905003,
   "derived_metrics.B.bands.5.gap_pp": 6.323892149357829,
   "derived_metrics.B.bands.5.weight_pct": 13.299472862604919,
-  "derived_metrics.B.bands.6.gap_pp": 9.775214987331662,
+  "derived_metrics.B.bands.6.gap_pp": 9.77521498733166,
   "derived_metrics.B.bands.6.weight_pct": 15.105427479016312,
-  "derived_metrics.B.bands.7.gap_pp": 12.46545598105014,
+  "derived_metrics.B.bands.7.gap_pp": 12.465455981050138,
   "derived_metrics.B.bands.7.weight_pct": 8.595959367435126,
-  "derived_metrics.B.bands.8.gap_pp": 11.612772349967655,
+  "derived_metrics.B.bands.8.gap_pp": 11.612772349967651,
   "derived_metrics.B.bands.8.weight_pct": 17.193615529060427,
-  "derived_metrics.B.bands.9.gap_pp": 14.897130013831259,
+  "derived_metrics.B.bands.9.gap_pp": 14.897130013831257,
   "derived_metrics.B.bands.9.weight_pct": 10.904730662202212,
   "derived_metrics.B.denver.contribution_points": 6.177839113745541,
   "derived_metrics.B.denver.gap_without_airport_points": 11.388217330449168,

@@ -1,56 +1,45 @@
 # Visual QA — proposed, pre-lock draft
 
-PASS · Sol · 2026-10-08. Open visual issues: none.
+PASS · Sol · 2026-10-08 visual polish after Claude review. No open visual defect.
 
-All 64 settled cue states were rendered with the unchanged studio renderer
-and personally opened as native-resolution PNGs: 52 at 1920×1080 and 12 at
-1080×1920. All initial captures were inspected; the 17 changed captures were
-reinspected after corrections, followed by the final replication badge.
-The other final captures have unchanged image hashes. `visual_qa.json`
-records the inspected final PNG hashes, dimensions and state IDs. Renders
-and their provenance sidecars remain in the episode's uncommitted renders/.
+Re-rendered the 25 cue stills for S03, S04, S12 and Shorts A/B/C with the
+unchanged house renderer. Reviewed all 25 in film/portrait sheets and inspected
+changed compositions as native PNGs. Twenty-one image hashes changed; the
+other 43 episode captures retain the previous inspected hashes. The current
+64-state inventory and source hashes are in visual_qa.json. Renders stay local.
 
-| Pages | Cues | Delivery review |
-| --- | ---: | --- |
-| S01 / S02 / S03 | 4 / 4 / 3 | National tie, scoring and mixed basket clear |
-| S04 / S05 / S06 | 4 / 4 / 5 | Comparable-cell, materiality and failed gates clear |
-| S07 / S08 / S09 | 5 / 5 / 3 | A/B envelopes, sealed A and sensitivity clear |
-| S10 / S11 / S12 | 5 / 4 / 6 | Minutes, departure, scope/time and ending clear |
-| Short A / B / C | 4 / 4 / 4 | Independent stacked portrait compositions clear |
+- S03 uses equal-length 100% bars split into inside comparable cells and
+  outside: United 11.9%, Southwest 6.2% in 2023–2024, bound to FA-C006.
+- S04 and Short A show a local day axis, two-hour guides, operator departure
+  ticks, and a highlighted 10:00–12:00 cell. The reverse-direction row stays
+  outside the highlight and is labelled DIFFERENT CELL. DEN → LAX and
+  15 January 2025 identify the teaching example; ticks are explicitly
+  SCHEMATIC, with no observed flight pair or outcome asserted (FA-C005).
+- S12 and Short C plot every observed two-hour band for both periods on one
+  −2 to +16-point domain. Solid zero and dashed +2 references stay fixed.
+  The 22:00–24:00 points/segments fade: A 0.14%, B 0.36% of comparison weight.
+  The no-support-before-04:00 note and exploratory/post-hoc/not-registered
+  label remain visible. Period symbols and labels identify both series.
+- Spoken summaries stay visible as annotations: −0.4 / +1.4 before 10:00,
+  +11.7 / +12.9 from 16:00. Existing narrated word gates remain intact; each period label/unit is
+  gated with its value, preventing bare separators or units during holds.
+- Portrait headlines grew from 88 to 108px; bar/range values grew to 54/64px.
+  Charts occupy the middle third and scope strips begin at y=1390. Important
+  content remains within x=72–920, y=180–1632, above the bottom 15% UI area.
+  The shared house files and landscape 96px edges remain unchanged.
 
-Checked clipping, safe edges, actual font shapes, text/shape overlap,
-contrast, numeral/unit attribution, source and scope legibility. Landscapes
-retain 96px edges. Portrait information stays inside x=72–920, y=220–1500.
-No logos, airline brand colours, radius or shadows. Paper/Night, Plex Mono,
-Ink rules and local grain follow the system; mint marks only registered
-decisive conclusions. Exploratory panels carry the visible
-EXPLORATORY · POST-HOC · NOT REGISTERED label.
+Corrected S12's axis-caption/annotation collision found by PNG inspection.
+The browser audit now distinguishes actual element owners, so equal-top
+labels cannot hide overlaps. It independently checks all 100 plotted band
+points across five states against claim-bound values, coordinates and fading.
+Exploratory labels are static above chart layers throughout state changes.
 
-Corrections verified in final captures:
+Validation: 95 proposed claims, 633/633 independent numeric checks; fresh raw
+archive scoring and normalized band sums pass. Scene checks: 64 animated
+states, reproducible bindings, exact narration cues, arbitrary seek purity,
+375 visible numeric labels. Chromium: 64 settled states and 64 narrated
+onsets, zero geometry flags, zero runtime errors, all band points passing.
 
-- Separated bar labels and value lanes; tightened landscape row spacing.
-- Separated SEALED from A's period name; retained A's envelope during B's reveal.
-- Limited chart rules to diagram lanes, clear of endpoint/envelope captions.
-- Added a claim-bound zero reference; kept A/B on the same unrounded domain.
-- Restored Night stamp contrast and Night conclusion/evidence cards.
-- Kept portrait period ranges together and added contrast/unit attribution.
-- Moved the replication badge above the source rule with visible clearance.
-
-`browser_qa.json`: 64 states, zero safe-edge/overlap/card/font/clearance
-flags and zero runtime errors. It records episode/shared source hashes to
-reject stale audits. `check_scenes.mjs`: all 64 states animate, exact STORY
-cue substrings, arbitrary seek purity, regenerated data equality, source
-hashes and 344 visible numeric labels pass. PNG/sidecar/page/data hashes and
-delivery dimensions also pass.
-
-Numbers come only from claim-bound computed result keys; the ledger supplies
-IDs and proposed status. README documents the primary/review results and
-the independent verifier's computed design, Denver and grouped-time values.
-No claims were locked or analysis rerun. Scope labels distinguish operating
-services, own timetable, small overlap, excluded Express and exploratory
-denominator/subset limits.
-
-Timing remains a designed pre-lock clock. Recorded-narration cue alignment
-and final editorial timing follow script lock; they are not visual defects.
-Chromium launched successfully in the sandbox; no external render handoff
-or RENDER_TODO is required for these stills or the browser audit.
+Narration audio, STORY wording, edit clocks and claim statuses are unchanged.
+No re-narration or Metal handoff is required. Editorial lock remains open;
+schematic ticks and missing exploratory intervals are disclosed evidence limits.

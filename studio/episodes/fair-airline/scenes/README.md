@@ -38,20 +38,30 @@ grammar rule; no changes to shared house files):
 - **Departure-gap bars.** Observed late departures have all scheduled flights
   as denominator; cancellations excluded from numerator. Timely-departure
   score separately includes cancellations as failures; diversions eligible.
+- **Coverage splits and schedule timeline.** S03 shows the claimed fraction
+  inside comparable cells against the remainder on equal 100% bars. S04
+  names DEN → LAX, 15 January 2025; all ticks are SCHEMATIC and outcome-free.
+  The highlighted forward cell excludes the separate reverse-direction row.
 - **Denver weight bar and time-of-day bands.** Comparison-weight share,
-  not route count or passenger share. Early/late gaps use local scheduled
-  departure time and retain period names. Exploratory panels visibly carry
+  not route count or passenger share. All observed two-hour bands use local
+  scheduled
+  departure time and retain period names. Solid zero/dashed +2 references,
+  faded under-1% bands and early/late spoken annotations stay visible. New
+  per-band claims FA-C076–095 are independently rescored. Exploratory panels
+  carry
   EXPLORATORY · POST-HOC · NOT REGISTERED and never mint.
 
 Paper/Night, Big Shoulders, Plex Mono labels, Source Serif captions, Ink
 rules, local grain, no radius/shadows/logos. Portraits stack within x=72–920,
-y=220–1500; landscapes within 96px edges. Source/scope stays visible.
+y=180–1632 (bottom 15% reserved for platform UI); landscapes within 96px edges.
+Source/scope stays visible.
 
 Narrated assembly uses the house `__narratedAssembly` flag only to keep
 headings settled across word-cued state switches and place verdict chips on
 their state cue. Chart animation retains the original clock. Short A uses
 the neutral “A separate test” heading; its envelope labels and replication
-chip have independent spoken-word gates. Short C separates its period columns.
+chip have independent spoken-word gates. Short C separates period series and spoken-summary annotations.
+Value gates include their attached period labels and units.
 The browser audit also checks heading/source/badge visibility at all 64
 narrated state onsets; the existing still-clock audit remains intact.
 

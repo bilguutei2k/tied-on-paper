@@ -4345,6 +4345,566 @@
       "verification_evidence": [
         "analysis/claims_check.json"
       ]
+    },
+    {
+      "id": "FA-C076",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 04:00 to 06:00 have a United-minus-Southwest own-timetable timely-completion gap of -1.60 percentage points, with 2.92% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.2.gap_pp",
+          "stated": -1.6,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.2.weight_pct",
+          "stated": 2.92,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C077",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 06:00 to 08:00 have a United-minus-Southwest own-timetable timely-completion gap of -0.81 percentage points, with 12.95% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.3.gap_pp",
+          "stated": -0.81,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.3.weight_pct",
+          "stated": 12.95,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C078",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 08:00 to 10:00 have a United-minus-Southwest own-timetable timely-completion gap of +0.17 percentage points, with 14.76% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.4.gap_pp",
+          "stated": 0.17,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.4.weight_pct",
+          "stated": 14.76,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C079",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 10:00 to 12:00 have a United-minus-Southwest own-timetable timely-completion gap of +5.39 percentage points, with 13.27% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.5.gap_pp",
+          "stated": 5.39,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.5.weight_pct",
+          "stated": 13.27,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C080",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 12:00 to 14:00 have a United-minus-Southwest own-timetable timely-completion gap of +6.91 percentage points, with 15.11% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.6.gap_pp",
+          "stated": 6.91,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.6.weight_pct",
+          "stated": 15.11,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C081",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 14:00 to 16:00 have a United-minus-Southwest own-timetable timely-completion gap of +9.87 percentage points, with 8.61% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.7.gap_pp",
+          "stated": 9.87,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.7.weight_pct",
+          "stated": 8.61,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C082",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 16:00 to 18:00 have a United-minus-Southwest own-timetable timely-completion gap of +10.84 percentage points, with 15.99% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.8.gap_pp",
+          "stated": 10.84,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.8.weight_pct",
+          "stated": 15.99,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C083",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 18:00 to 20:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.98 percentage points, with 10.55% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.9.gap_pp",
+          "stated": 12.98,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.9.weight_pct",
+          "stated": 10.55,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C084",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 20:00 to 22:00 have a United-minus-Southwest own-timetable timely-completion gap of +11.76 percentage points, with 5.69% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.10.gap_pp",
+          "stated": 11.76,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.10.weight_pct",
+          "stated": 5.69,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C085",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2023\u20132024, local scheduled departures from 22:00 to 24:00 have a United-minus-Southwest own-timetable timely-completion gap of +13.71 percentage points, with 0.14% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.A.bands.11.gap_pp",
+          "stated": 13.71,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.A.bands.11.weight_pct",
+          "stated": 0.14,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C086",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 04:00 to 06:00 have a United-minus-Southwest own-timetable timely-completion gap of +0.25 percentage points, with 3.13% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.2.gap_pp",
+          "stated": 0.25,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.2.weight_pct",
+          "stated": 3.13,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C087",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 06:00 to 08:00 have a United-minus-Southwest own-timetable timely-completion gap of +1.54 percentage points, with 10.78% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.3.gap_pp",
+          "stated": 1.54,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.3.weight_pct",
+          "stated": 10.78,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C088",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 08:00 to 10:00 have a United-minus-Southwest own-timetable timely-completion gap of +1.50 percentage points, with 14.84% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.4.gap_pp",
+          "stated": 1.5,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.4.weight_pct",
+          "stated": 14.84,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C089",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 10:00 to 12:00 have a United-minus-Southwest own-timetable timely-completion gap of +6.32 percentage points, with 13.30% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.5.gap_pp",
+          "stated": 6.32,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.5.weight_pct",
+          "stated": 13.3,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C090",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 12:00 to 14:00 have a United-minus-Southwest own-timetable timely-completion gap of +9.78 percentage points, with 15.11% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.6.gap_pp",
+          "stated": 9.78,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.6.weight_pct",
+          "stated": 15.11,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C091",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 14:00 to 16:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.47 percentage points, with 8.60% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.7.gap_pp",
+          "stated": 12.47,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.7.weight_pct",
+          "stated": 8.6,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C092",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 16:00 to 18:00 have a United-minus-Southwest own-timetable timely-completion gap of +11.61 percentage points, with 17.19% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.8.gap_pp",
+          "stated": 11.61,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.8.weight_pct",
+          "stated": 17.19,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C093",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 18:00 to 20:00 have a United-minus-Southwest own-timetable timely-completion gap of +14.90 percentage points, with 10.90% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.9.gap_pp",
+          "stated": 14.9,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.9.weight_pct",
+          "stated": 10.9,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C094",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 20:00 to 22:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.93 percentage points, with 5.79% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.10.gap_pp",
+          "stated": 12.93,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.10.weight_pct",
+          "stated": 5.79,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
+    },
+    {
+      "id": "FA-C095",
+      "status": "proposed",
+      "exploratory": true,
+      "text": "In 2025, local scheduled departures from 22:00 to 24:00 have a United-minus-Southwest own-timetable timely-completion gap of +13.04 percentage points, with 0.36% of that period\u2019s comparison weight.",
+      "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
+      "result_file": "analysis/claims_check.json",
+      "values": [
+        {
+          "key": "derived_metrics.B.bands.11.gap_pp",
+          "stated": 13.04,
+          "digits": 2
+        },
+        {
+          "key": "derived_metrics.B.bands.11.weight_pct",
+          "stated": 0.36,
+          "digits": 2
+        }
+      ],
+      "limitations": [
+        "Exploratory, post-hoc, not registered; no band interval computed and no inherited registered verdict.",
+        "Fixed comparable operating cells; local scheduled time. No causal delay-propagation explanation or morning-flight recommendation.",
+        "Bands under 1% of comparison weight are sparse and must be faded and labelled."
+      ],
+      "verification_evidence": [
+        "analysis/claims_check.json"
+      ]
     }
   ]
 }

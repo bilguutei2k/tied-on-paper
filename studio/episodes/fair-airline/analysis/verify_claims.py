@@ -251,8 +251,18 @@ def post_summary(period,c,f):
             for key,val in [('n',number),('weight_share',c.loc[removed,'weight'].sum()/c.weight.sum()),('contribution_points',100*(c.loc[removed,'weight']*c.loc[removed,'gap_Y']).sum()/c.weight.sum()),('remaining_gap_points',100*avg(c[~removed],'gap_Y'))]:put(POST,p+'.'+key,val)
     for label,selection in [('before_10',c.band<5),('from_16',c.band>=8)]:
         sub=c[selection];put('analysis/claims_check.json',period+'.time.'+label+'.gap_pp',100*avg(sub,'gap_Y'));put('analysis/claims_check.json',period+'.time.'+label+'.weight_pct',100*sub.weight.sum()/c.weight.sum())
+    # All plotted two-hour bands: independent raw-cell weighted sums, with
+    # explicit local-clock bounds and normalized weight checks. No review CSV
+    # or reported band values enter this recomputation.
+    band_weight=0.0
+    total_weight=math.fsum(c.weight.tolist())
     for band,sub in c.groupby('band'):
-        for k,v in [('gap_pp',100*avg(sub,'gap_Y')),('weight_pct',100*sub.weight.sum()/c.weight.sum())]:put('analysis/claims_check.json',period+f'.bands.{band}.'+k,v)
+        assert 0 <= int(band) < 12
+        weight=math.fsum(sub.weight.tolist());band_weight+=weight
+        numerator=math.fsum((sub.weight*(sub.UA_Y-sub.WN_Y)).tolist())
+        for k,v in [('gap_pp',100*numerator/weight),('weight_pct',100*weight/total_weight)]:
+            put('analysis/claims_check.json',period+f'.bands.{band}.'+k,v)
+    assert math.isclose(band_weight,total_weight,rel_tol=1e-12)
     month_values=[]
     for month,sub in c.groupby(c.matching_date.dt.month):
         value=100*avg(sub,'gap_Y');month_values.append((int(month),value))

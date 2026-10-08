@@ -3471,7 +3471,7 @@
       "digits": 2,
       "key": "derived_metrics.A.bands.3.gap_pp",
       "passed": true,
-      "recomputed": -0.809065000072335,
+      "recomputed": -0.8090650000723347,
       "result_file": "analysis/claims_check.json",
       "stated": -0.81
     },
@@ -3525,7 +3525,7 @@
       "digits": 2,
       "key": "derived_metrics.A.bands.6.gap_pp",
       "passed": true,
-      "recomputed": 6.910107830918144,
+      "recomputed": 6.910107830918143,
       "result_file": "analysis/claims_check.json",
       "stated": 6.91
     },
@@ -3543,7 +3543,7 @@
       "digits": 2,
       "key": "derived_metrics.A.bands.7.gap_pp",
       "passed": true,
-      "recomputed": 9.866087940299806,
+      "recomputed": 9.866087940299805,
       "result_file": "analysis/claims_check.json",
       "stated": 9.87
     },
@@ -3561,7 +3561,7 @@
       "digits": 2,
       "key": "derived_metrics.A.bands.8.gap_pp",
       "passed": true,
-      "recomputed": 10.835750915750916,
+      "recomputed": 10.835750915750914,
       "result_file": "analysis/claims_check.json",
       "stated": 10.84
     },
@@ -4632,7 +4632,7 @@
       "digits": 2,
       "key": "derived_metrics.B.bands.2.gap_pp",
       "passed": true,
-      "recomputed": 0.253210345451257,
+      "recomputed": 0.25321034545125704,
       "result_file": "analysis/claims_check.json",
       "stated": 0.25
     },
@@ -4704,7 +4704,7 @@
       "digits": 2,
       "key": "derived_metrics.B.bands.6.gap_pp",
       "passed": true,
-      "recomputed": 9.775214987331662,
+      "recomputed": 9.77521498733166,
       "result_file": "analysis/claims_check.json",
       "stated": 9.78
     },
@@ -4722,7 +4722,7 @@
       "digits": 2,
       "key": "derived_metrics.B.bands.7.gap_pp",
       "passed": true,
-      "recomputed": 12.46545598105014,
+      "recomputed": 12.465455981050138,
       "result_file": "analysis/claims_check.json",
       "stated": 12.47
     },
@@ -4740,7 +4740,7 @@
       "digits": 2,
       "key": "derived_metrics.B.bands.8.gap_pp",
       "passed": true,
-      "recomputed": 11.612772349967655,
+      "recomputed": 11.612772349967651,
       "result_file": "analysis/claims_check.json",
       "stated": 11.61
     },
@@ -4758,7 +4758,7 @@
       "digits": 2,
       "key": "derived_metrics.B.bands.9.gap_pp",
       "passed": true,
-      "recomputed": 14.897130013831259,
+      "recomputed": 14.897130013831257,
       "result_file": "analysis/claims_check.json",
       "stated": 14.9
     },
@@ -5337,11 +5337,371 @@
       "recomputed": 1.1525178568058532,
       "result_file": "analysis/results.json",
       "stated": 1.15
+    },
+    {
+      "claim": "FA-C076",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.2.gap_pp",
+      "passed": true,
+      "recomputed": -1.5960003845784059,
+      "result_file": "analysis/claims_check.json",
+      "stated": -1.6
+    },
+    {
+      "claim": "FA-C076",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.2.weight_pct",
+      "passed": true,
+      "recomputed": 2.9239042738310426,
+      "result_file": "analysis/claims_check.json",
+      "stated": 2.92
+    },
+    {
+      "claim": "FA-C077",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.3.gap_pp",
+      "passed": true,
+      "recomputed": -0.8090650000723347,
+      "result_file": "analysis/claims_check.json",
+      "stated": -0.81
+    },
+    {
+      "claim": "FA-C077",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.3.weight_pct",
+      "passed": true,
+      "recomputed": 12.954461758165763,
+      "result_file": "analysis/claims_check.json",
+      "stated": 12.95
+    },
+    {
+      "claim": "FA-C078",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.4.gap_pp",
+      "passed": true,
+      "recomputed": 0.1666285801340646,
+      "result_file": "analysis/claims_check.json",
+      "stated": 0.17
+    },
+    {
+      "claim": "FA-C078",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.4.weight_pct",
+      "passed": true,
+      "recomputed": 14.762047998020932,
+      "result_file": "analysis/claims_check.json",
+      "stated": 14.76
+    },
+    {
+      "claim": "FA-C079",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.5.gap_pp",
+      "passed": true,
+      "recomputed": 5.391492246419795,
+      "result_file": "analysis/claims_check.json",
+      "stated": 5.39
+    },
+    {
+      "claim": "FA-C079",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.5.weight_pct",
+      "passed": true,
+      "recomputed": 13.2698757179041,
+      "result_file": "analysis/claims_check.json",
+      "stated": 13.27
+    },
+    {
+      "claim": "FA-C080",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.6.gap_pp",
+      "passed": true,
+      "recomputed": 6.910107830918143,
+      "result_file": "analysis/claims_check.json",
+      "stated": 6.91
+    },
+    {
+      "claim": "FA-C080",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.6.weight_pct",
+      "passed": true,
+      "recomputed": 15.11203942393379,
+      "result_file": "analysis/claims_check.json",
+      "stated": 15.11
+    },
+    {
+      "claim": "FA-C081",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.7.gap_pp",
+      "passed": true,
+      "recomputed": 9.866087940299805,
+      "result_file": "analysis/claims_check.json",
+      "stated": 9.87
+    },
+    {
+      "claim": "FA-C081",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.7.weight_pct",
+      "passed": true,
+      "recomputed": 8.61400584162396,
+      "result_file": "analysis/claims_check.json",
+      "stated": 8.61
+    },
+    {
+      "claim": "FA-C082",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.8.gap_pp",
+      "passed": true,
+      "recomputed": 10.835750915750914,
+      "result_file": "analysis/claims_check.json",
+      "stated": 10.84
+    },
+    {
+      "claim": "FA-C082",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.8.weight_pct",
+      "passed": true,
+      "recomputed": 15.988564135577402,
+      "result_file": "analysis/claims_check.json",
+      "stated": 15.99
+    },
+    {
+      "claim": "FA-C083",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.9.gap_pp",
+      "passed": true,
+      "recomputed": 12.977719737753851,
+      "result_file": "analysis/claims_check.json",
+      "stated": 12.98
+    },
+    {
+      "claim": "FA-C083",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.9.weight_pct",
+      "passed": true,
+      "recomputed": 10.548095006507873,
+      "result_file": "analysis/claims_check.json",
+      "stated": 10.55
+    },
+    {
+      "claim": "FA-C084",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.10.gap_pp",
+      "passed": true,
+      "recomputed": 11.761071569790431,
+      "result_file": "analysis/claims_check.json",
+      "stated": 11.76
+    },
+    {
+      "claim": "FA-C084",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.10.weight_pct",
+      "passed": true,
+      "recomputed": 5.687571509292343,
+      "result_file": "analysis/claims_check.json",
+      "stated": 5.69
+    },
+    {
+      "claim": "FA-C085",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.11.gap_pp",
+      "passed": true,
+      "recomputed": 13.709677419354838,
+      "result_file": "analysis/claims_check.json",
+      "stated": 13.71
+    },
+    {
+      "claim": "FA-C085",
+      "digits": 2,
+      "key": "derived_metrics.A.bands.11.weight_pct",
+      "passed": true,
+      "recomputed": 0.1394343351427937,
+      "result_file": "analysis/claims_check.json",
+      "stated": 0.14
+    },
+    {
+      "claim": "FA-C086",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.2.gap_pp",
+      "passed": true,
+      "recomputed": 0.25321034545125704,
+      "result_file": "analysis/claims_check.json",
+      "stated": 0.25
+    },
+    {
+      "claim": "FA-C086",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.2.weight_pct",
+      "passed": true,
+      "recomputed": 3.127191692495645,
+      "result_file": "analysis/claims_check.json",
+      "stated": 3.13
+    },
+    {
+      "claim": "FA-C087",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.3.gap_pp",
+      "passed": true,
+      "recomputed": 1.5368476265407816,
+      "result_file": "analysis/claims_check.json",
+      "stated": 1.54
+    },
+    {
+      "claim": "FA-C087",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.3.weight_pct",
+      "passed": true,
+      "recomputed": 10.783127078572884,
+      "result_file": "analysis/claims_check.json",
+      "stated": 10.78
+    },
+    {
+      "claim": "FA-C088",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.4.gap_pp",
+      "passed": true,
+      "recomputed": 1.5007115990647557,
+      "result_file": "analysis/claims_check.json",
+      "stated": 1.5
+    },
+    {
+      "claim": "FA-C088",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.4.weight_pct",
+      "passed": true,
+      "recomputed": 14.836768398905003,
+      "result_file": "analysis/claims_check.json",
+      "stated": 14.84
+    },
+    {
+      "claim": "FA-C089",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.5.gap_pp",
+      "passed": true,
+      "recomputed": 6.323892149357829,
+      "result_file": "analysis/claims_check.json",
+      "stated": 6.32
+    },
+    {
+      "claim": "FA-C089",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.5.weight_pct",
+      "passed": true,
+      "recomputed": 13.299472862604919,
+      "result_file": "analysis/claims_check.json",
+      "stated": 13.3
+    },
+    {
+      "claim": "FA-C090",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.6.gap_pp",
+      "passed": true,
+      "recomputed": 9.77521498733166,
+      "result_file": "analysis/claims_check.json",
+      "stated": 9.78
+    },
+    {
+      "claim": "FA-C090",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.6.weight_pct",
+      "passed": true,
+      "recomputed": 15.105427479016312,
+      "result_file": "analysis/claims_check.json",
+      "stated": 15.11
+    },
+    {
+      "claim": "FA-C091",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.7.gap_pp",
+      "passed": true,
+      "recomputed": 12.465455981050138,
+      "result_file": "analysis/claims_check.json",
+      "stated": 12.47
+    },
+    {
+      "claim": "FA-C091",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.7.weight_pct",
+      "passed": true,
+      "recomputed": 8.595959367435126,
+      "result_file": "analysis/claims_check.json",
+      "stated": 8.6
+    },
+    {
+      "claim": "FA-C092",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.8.gap_pp",
+      "passed": true,
+      "recomputed": 11.612772349967651,
+      "result_file": "analysis/claims_check.json",
+      "stated": 11.61
+    },
+    {
+      "claim": "FA-C092",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.8.weight_pct",
+      "passed": true,
+      "recomputed": 17.193615529060427,
+      "result_file": "analysis/claims_check.json",
+      "stated": 17.19
+    },
+    {
+      "claim": "FA-C093",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.9.gap_pp",
+      "passed": true,
+      "recomputed": 14.897130013831257,
+      "result_file": "analysis/claims_check.json",
+      "stated": 14.9
+    },
+    {
+      "claim": "FA-C093",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.9.weight_pct",
+      "passed": true,
+      "recomputed": 10.904730662202212,
+      "result_file": "analysis/claims_check.json",
+      "stated": 10.9
+    },
+    {
+      "claim": "FA-C094",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.10.gap_pp",
+      "passed": true,
+      "recomputed": 12.929855412270419,
+      "result_file": "analysis/claims_check.json",
+      "stated": 12.93
+    },
+    {
+      "claim": "FA-C094",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.10.weight_pct",
+      "passed": true,
+      "recomputed": 5.7894617768828756,
+      "result_file": "analysis/claims_check.json",
+      "stated": 5.79
+    },
+    {
+      "claim": "FA-C095",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.11.gap_pp",
+      "passed": true,
+      "recomputed": 13.043478260869565,
+      "result_file": "analysis/claims_check.json",
+      "stated": 13.04
+    },
+    {
+      "claim": "FA-C095",
+      "digits": 2,
+      "key": "derived_metrics.B.bands.11.weight_pct",
+      "passed": true,
+      "recomputed": 0.36424515282459674,
+      "result_file": "analysis/claims_check.json",
+      "stated": 0.36
     }
   ],
-  "checks_passed": 593,
-  "checks_total": 593,
-  "claim_count": 75,
+  "checks_passed": 633,
+  "checks_total": 633,
+  "claim_count": 95,
   "derived_metrics": {
     "A": {
       "bands": {
@@ -5358,7 +5718,7 @@
           "weight_pct": 2.9239042738310426
         },
         "3": {
-          "gap_pp": -0.809065000072335,
+          "gap_pp": -0.8090650000723347,
           "weight_pct": 12.954461758165763
         },
         "4": {
@@ -5370,15 +5730,15 @@
           "weight_pct": 13.2698757179041
         },
         "6": {
-          "gap_pp": 6.910107830918144,
+          "gap_pp": 6.910107830918143,
           "weight_pct": 15.11203942393379
         },
         "7": {
-          "gap_pp": 9.866087940299806,
+          "gap_pp": 9.866087940299805,
           "weight_pct": 8.61400584162396
         },
         "8": {
-          "gap_pp": 10.835750915750916,
+          "gap_pp": 10.835750915750914,
           "weight_pct": 15.988564135577402
         },
         "9": {
@@ -5467,7 +5827,7 @@
           "weight_pct": 0.36424515282459674
         },
         "2": {
-          "gap_pp": 0.253210345451257,
+          "gap_pp": 0.25321034545125704,
           "weight_pct": 3.127191692495645
         },
         "3": {
@@ -5483,19 +5843,19 @@
           "weight_pct": 13.299472862604919
         },
         "6": {
-          "gap_pp": 9.775214987331662,
+          "gap_pp": 9.77521498733166,
           "weight_pct": 15.105427479016312
         },
         "7": {
-          "gap_pp": 12.46545598105014,
+          "gap_pp": 12.465455981050138,
           "weight_pct": 8.595959367435126
         },
         "8": {
-          "gap_pp": 11.612772349967655,
+          "gap_pp": 11.612772349967651,
           "weight_pct": 17.193615529060427
         },
         "9": {
-          "gap_pp": 14.897130013831259,
+          "gap_pp": 14.897130013831257,
           "weight_pct": 10.904730662202212
         }
       },
@@ -5765,7 +6125,7 @@
       "sha256": "8b882d81c1723d0dace887c1aa727bd5812ea972c51cf98ee56d7818940b3bdc"
     }
   ],
-  "ledger_sha256": "1c8c4a7de39a470de6a92cb84feef26e84d9fbb3087d513e8707b8ee46a0f707",
+  "ledger_sha256": "64ae35817d333a3c90d6d8f60e43910ca72d3ca5dece581a5355561a6f24d74b",
   "method": "Independent derived-cell estimates and studentized intervals; fresh raw post-hoc scoring; operating DOT ranks/rates rebuilt from raw records and marketing ranks re-ranked from complete official numeric source-table extracts in CONTEXT.md (published rates are source facts; Python access returned 403). No results.json or review output is read. Saved starts are inputs, not a fresh bootstrap. Proposed statuses remain unchanged.",
   "raw_archives": [
     {
@@ -8212,17 +8572,17 @@
     "analysis/claims_check.json::derived_metrics.A.bands.11.weight_pct": 0.1394343351427937,
     "analysis/claims_check.json::derived_metrics.A.bands.2.gap_pp": -1.5960003845784059,
     "analysis/claims_check.json::derived_metrics.A.bands.2.weight_pct": 2.9239042738310426,
-    "analysis/claims_check.json::derived_metrics.A.bands.3.gap_pp": -0.809065000072335,
+    "analysis/claims_check.json::derived_metrics.A.bands.3.gap_pp": -0.8090650000723347,
     "analysis/claims_check.json::derived_metrics.A.bands.3.weight_pct": 12.954461758165763,
     "analysis/claims_check.json::derived_metrics.A.bands.4.gap_pp": 0.1666285801340646,
     "analysis/claims_check.json::derived_metrics.A.bands.4.weight_pct": 14.762047998020932,
     "analysis/claims_check.json::derived_metrics.A.bands.5.gap_pp": 5.391492246419795,
     "analysis/claims_check.json::derived_metrics.A.bands.5.weight_pct": 13.2698757179041,
-    "analysis/claims_check.json::derived_metrics.A.bands.6.gap_pp": 6.910107830918144,
+    "analysis/claims_check.json::derived_metrics.A.bands.6.gap_pp": 6.910107830918143,
     "analysis/claims_check.json::derived_metrics.A.bands.6.weight_pct": 15.11203942393379,
-    "analysis/claims_check.json::derived_metrics.A.bands.7.gap_pp": 9.866087940299806,
+    "analysis/claims_check.json::derived_metrics.A.bands.7.gap_pp": 9.866087940299805,
     "analysis/claims_check.json::derived_metrics.A.bands.7.weight_pct": 8.61400584162396,
-    "analysis/claims_check.json::derived_metrics.A.bands.8.gap_pp": 10.835750915750916,
+    "analysis/claims_check.json::derived_metrics.A.bands.8.gap_pp": 10.835750915750914,
     "analysis/claims_check.json::derived_metrics.A.bands.8.weight_pct": 15.988564135577402,
     "analysis/claims_check.json::derived_metrics.A.bands.9.gap_pp": 12.977719737753851,
     "analysis/claims_check.json::derived_metrics.A.bands.9.weight_pct": 10.548095006507873,
@@ -8265,7 +8625,7 @@
     "analysis/claims_check.json::derived_metrics.B.bands.10.weight_pct": 5.7894617768828756,
     "analysis/claims_check.json::derived_metrics.B.bands.11.gap_pp": 13.043478260869565,
     "analysis/claims_check.json::derived_metrics.B.bands.11.weight_pct": 0.36424515282459674,
-    "analysis/claims_check.json::derived_metrics.B.bands.2.gap_pp": 0.253210345451257,
+    "analysis/claims_check.json::derived_metrics.B.bands.2.gap_pp": 0.25321034545125704,
     "analysis/claims_check.json::derived_metrics.B.bands.2.weight_pct": 3.127191692495645,
     "analysis/claims_check.json::derived_metrics.B.bands.3.gap_pp": 1.5368476265407816,
     "analysis/claims_check.json::derived_metrics.B.bands.3.weight_pct": 10.783127078572884,
@@ -8273,13 +8633,13 @@
     "analysis/claims_check.json::derived_metrics.B.bands.4.weight_pct": 14.836768398905003,
     "analysis/claims_check.json::derived_metrics.B.bands.5.gap_pp": 6.323892149357829,
     "analysis/claims_check.json::derived_metrics.B.bands.5.weight_pct": 13.299472862604919,
-    "analysis/claims_check.json::derived_metrics.B.bands.6.gap_pp": 9.775214987331662,
+    "analysis/claims_check.json::derived_metrics.B.bands.6.gap_pp": 9.77521498733166,
     "analysis/claims_check.json::derived_metrics.B.bands.6.weight_pct": 15.105427479016312,
-    "analysis/claims_check.json::derived_metrics.B.bands.7.gap_pp": 12.46545598105014,
+    "analysis/claims_check.json::derived_metrics.B.bands.7.gap_pp": 12.465455981050138,
     "analysis/claims_check.json::derived_metrics.B.bands.7.weight_pct": 8.595959367435126,
-    "analysis/claims_check.json::derived_metrics.B.bands.8.gap_pp": 11.612772349967655,
+    "analysis/claims_check.json::derived_metrics.B.bands.8.gap_pp": 11.612772349967651,
     "analysis/claims_check.json::derived_metrics.B.bands.8.weight_pct": 17.193615529060427,
-    "analysis/claims_check.json::derived_metrics.B.bands.9.gap_pp": 14.897130013831259,
+    "analysis/claims_check.json::derived_metrics.B.bands.9.gap_pp": 14.897130013831257,
     "analysis/claims_check.json::derived_metrics.B.bands.9.weight_pct": 10.904730662202212,
     "analysis/claims_check.json::derived_metrics.B.denver.contribution_points": 6.177839113745541,
     "analysis/claims_check.json::derived_metrics.B.denver.gap_without_airport_points": 11.388217330449168,
@@ -9374,6 +9734,6 @@
     "analysis/review_checks/results.json::pilot_2015.weight": 49519.0
   },
   "schema_version": 1,
-  "verifier_sha256": "59c3afaf1369267cf5695a38a3dc40d5e6ff8cdfad584c531c0a0df977daa828",
-  "written_utc": "2026-10-08T06:53:59.953708+00:00"
+  "verifier_sha256": "002e5249cadb30b7460a3065763d7f9e5aef28dbc07b93bcd72355e67df9fd43",
+  "written_utc": "2026-10-08T11:52:41.528507+00:00"
 }

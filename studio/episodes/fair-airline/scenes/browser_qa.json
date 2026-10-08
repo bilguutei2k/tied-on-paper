@@ -1,11 +1,11 @@
 {
   "status": "PASS",
   "source_sha256": {
-    "episode.js": "6e4e33bb82d700895ded2483248dba1c59d5d788af5a4eb3dbe1930a7852a669",
+    "episode.js": "be605f2ef884b820209260f5c50fd727a7560531c83a51e519f1897e7460526a",
     "episode.css": "7931793f14e9c3ed7fbd920cbf284ea26eec7e130c543080c392b1baf62dbc39",
-    "data.js": "e4aae6163a8dbf52fe52a9e0d947a08c2f514338c437d4541c8cce421e63c8d7",
+    "data.js": "bc221dcd11525b63129d5ff3332c43a67ff97279b23f664a33f8f36ba39ba059",
     "CUES.json": "a6504aefe6e4ff12d8172e5eb091ee322da4e3a6a4ada867cab06b159072f156",
-    "browser_audit.mjs": "3be188bfef42cb6c4bec3091f2317628486bc048fa7c471f23f59ba40638a4a9",
+    "browser_audit.mjs": "2836983ed9ed8fa66264c174437234c993be38e0d37bfbe27f3b5eb1e827e5f2",
     "../STORY.md": "ca0d20acda2744f7a166421bf38d60c83846665b284e8e2bf2ef8e03c107aca7",
     "../../../render/system.js": "0e2020063c9400c69824d69594095f271c7b41d1bd1e8eca8062f582d994ec4d",
     "../../../render/system.css": "53658d7c1a4e404091f240da615c7626191c9bba348d5e117adaf55fa7f38c5b"
@@ -17,6 +17,7 @@
       "state": "question",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 12
     },
     {
@@ -75,6 +76,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 22
     },
     {
@@ -133,6 +135,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 22
     },
     {
@@ -140,6 +143,7 @@
       "state": "population",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 19
     },
     {
@@ -158,6 +162,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 16
     },
     {
@@ -186,6 +191,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 21
     },
     {
@@ -193,6 +199,7 @@
       "state": "failures",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 17
     },
     {
@@ -200,6 +207,7 @@
       "state": "unknown",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 17
     },
     {
@@ -308,21 +316,106 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 29
     },
     {
       "page": "s03-the-mixed-basket.html",
       "state": "networks",
       "issues": [],
-      "labels": [],
-      "box_count": 15
+      "labels": [
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.UA.estimate",
+          "claims": "FA-C006",
+          "text": "11.9",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.WN.estimate",
+          "claims": "FA-C006",
+          "text": "6.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "chart_points": [],
+      "box_count": 20
     },
     {
       "page": "s03-the-mixed-basket.html",
       "state": "common",
       "issues": [],
-      "labels": [],
-      "box_count": 15
+      "labels": [
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.UA.estimate",
+          "claims": "FA-C006",
+          "text": "11.9",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "primary_2023_2024.matched_cell_coverage_pct.WN.estimate",
+          "claims": "FA-C006",
+          "text": "6.2",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "chart_points": [],
+      "box_count": 20
     },
     {
       "page": "s04-same-trip-same-window.html",
@@ -340,7 +433,8 @@
           "sign": "false"
         }
       ],
-      "box_count": 20
+      "chart_points": [],
+      "box_count": 24
     },
     {
       "page": "s04-same-trip-same-window.html",
@@ -358,27 +452,53 @@
           "sign": "false"
         }
       ],
-      "box_count": 16
+      "chart_points": [],
+      "box_count": 24
     },
     {
       "page": "s04-same-trip-same-window.html",
       "state": "reverse",
       "issues": [],
-      "labels": [],
-      "box_count": 16
+      "labels": [
+        {
+          "key": "derived_metrics.design.departure_window_hours",
+          "claims": "FA-C005",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "chart_points": [],
+      "box_count": 24
     },
     {
       "page": "s04-same-trip-same-window.html",
       "state": "scheduled",
       "issues": [],
-      "labels": [],
-      "box_count": 15
+      "labels": [
+        {
+          "key": "derived_metrics.design.departure_window_hours",
+          "claims": "FA-C005",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "chart_points": [],
+      "box_count": 24
     },
     {
       "page": "s05-same-basket-same-line.html",
       "state": "weight",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 19
     },
     {
@@ -417,6 +537,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 19
     },
     {
@@ -445,6 +566,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 21
     },
     {
@@ -473,6 +595,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 21
     },
     {
@@ -480,6 +603,7 @@
       "state": "failed",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 17
     },
     {
@@ -487,6 +611,7 @@
       "state": "redesign",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 17
     },
     {
@@ -505,6 +630,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 16
     },
     {
@@ -512,6 +638,7 @@
       "state": "fresh",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 24
     },
     {
@@ -519,6 +646,7 @@
       "state": "history",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 19
     },
     {
@@ -577,6 +705,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 20
     },
     {
@@ -645,6 +774,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 20
     },
     {
@@ -743,6 +873,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 26
     },
     {
@@ -841,6 +972,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 27
     },
     {
@@ -939,6 +1071,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 28
     },
     {
@@ -1037,6 +1170,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 28
     },
     {
@@ -1155,6 +1289,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 31
     },
     {
@@ -1303,6 +1438,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 37
     },
     {
@@ -1451,6 +1587,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 38
     },
     {
@@ -1599,6 +1736,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 39
     },
     {
@@ -1697,6 +1835,7 @@
           "sign": "true"
         }
       ],
+      "chart_points": [],
       "box_count": 28
     },
     {
@@ -1765,6 +1904,7 @@
           "sign": "true"
         }
       ],
+      "chart_points": [],
       "box_count": 23
     },
     {
@@ -1863,6 +2003,7 @@
           "sign": "true"
         }
       ],
+      "chart_points": [],
       "box_count": 29
     },
     {
@@ -1921,6 +2062,7 @@
           "sign": "true"
         }
       ],
+      "chart_points": [],
       "box_count": 20
     },
     {
@@ -2049,6 +2191,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 35
     },
     {
@@ -2056,6 +2199,7 @@
       "state": "shared",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 21
     },
     {
@@ -2164,6 +2308,7 @@
           "sign": "true"
         }
       ],
+      "chart_points": [],
       "box_count": 31
     },
     {
@@ -2272,6 +2417,7 @@
           "sign": "true"
         }
       ],
+      "chart_points": [],
       "box_count": 30
     },
     {
@@ -2340,6 +2486,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 22
     },
     {
@@ -2398,6 +2545,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 21
     },
     {
@@ -2456,6 +2604,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 20
     },
     {
@@ -2514,6 +2663,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 21
     },
     {
@@ -2622,6 +2772,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 29
     },
     {
@@ -2680,6 +2831,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 20
     },
     {
@@ -2688,73 +2840,15 @@
       "issues": [],
       "labels": [
         {
-          "key": "scene.year_a_start",
-          "claims": "FA-C001",
-          "text": "2023",
-          "source": "analysis/results.json",
-          "scale": "1",
-          "digits": "0",
-          "abs": "false",
-          "sign": "false"
-        },
-        {
-          "key": "scene.year_a_end",
-          "claims": "FA-C001",
-          "text": "2024",
-          "source": "analysis/results.json",
-          "scale": "1",
-          "digits": "0",
-          "abs": "false",
-          "sign": "false"
-        },
-        {
-          "key": "scene.year_b",
-          "claims": "FA-C002",
-          "text": "2025",
-          "source": "analysis/results.json",
-          "scale": "1",
-          "digits": "0",
-          "abs": "false",
-          "sign": "false"
-        },
-        {
-          "key": "scene.before_10",
-          "claims": "FA-C060",
-          "text": "10",
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
           "source": "analysis/claims_check.json",
           "scale": "1",
           "digits": "0",
           "abs": "false",
           "sign": "false"
         },
-        {
-          "key": "derived_metrics.A.time.before_10.gap_pp",
-          "claims": "FA-C060",
-          "text": "−0.4",
-          "source": "analysis/claims_check.json",
-          "scale": "1",
-          "digits": "1",
-          "abs": "false",
-          "sign": "true"
-        },
-        {
-          "key": "derived_metrics.B.time.before_10.gap_pp",
-          "claims": "FA-C068",
-          "text": "+1.4",
-          "source": "analysis/claims_check.json",
-          "scale": "1",
-          "digits": "1",
-          "abs": "false",
-          "sign": "true"
-        }
-      ],
-      "box_count": 23
-    },
-    {
-      "page": "s12-the-boundary-of-the-answer.html",
-      "state": "late",
-      "issues": [],
-      "labels": [
         {
           "key": "scene.year_a_start",
           "claims": "FA-C001",
@@ -2844,15 +2938,448 @@
           "digits": "1",
           "abs": "false",
           "sign": "true"
+        },
+        {
+          "key": "derived_metrics.A.bands.11.weight_pct",
+          "claims": "FA-C060 FA-C085",
+          "text": "0.14",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.B.bands.11.weight_pct",
+          "claims": "FA-C068 FA-C095",
+          "text": "0.36",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
         }
       ],
-      "box_count": 29
+      "chart_points": [
+        {
+          "key": "derived_metrics.A.bands.2.gap_pp",
+          "weightKey": "derived_metrics.A.bands.2.weight_pct",
+          "gap": -1.5960003845784059,
+          "weight": 2.9239042738310426,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.3.gap_pp",
+          "weightKey": "derived_metrics.A.bands.3.weight_pct",
+          "gap": -0.8090650000723347,
+          "weight": 12.954461758165763,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.4.gap_pp",
+          "weightKey": "derived_metrics.A.bands.4.weight_pct",
+          "gap": 0.1666285801340646,
+          "weight": 14.762047998020932,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.5.gap_pp",
+          "weightKey": "derived_metrics.A.bands.5.weight_pct",
+          "gap": 5.391492246419795,
+          "weight": 13.2698757179041,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.6.gap_pp",
+          "weightKey": "derived_metrics.A.bands.6.weight_pct",
+          "gap": 6.910107830918143,
+          "weight": 15.11203942393379,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.7.gap_pp",
+          "weightKey": "derived_metrics.A.bands.7.weight_pct",
+          "gap": 9.866087940299805,
+          "weight": 8.61400584162396,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.8.gap_pp",
+          "weightKey": "derived_metrics.A.bands.8.weight_pct",
+          "gap": 10.835750915750914,
+          "weight": 15.988564135577402,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.9.gap_pp",
+          "weightKey": "derived_metrics.A.bands.9.weight_pct",
+          "gap": 12.977719737753851,
+          "weight": 10.548095006507873,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.10.gap_pp",
+          "weightKey": "derived_metrics.A.bands.10.weight_pct",
+          "gap": 11.761071569790431,
+          "weight": 5.687571509292343,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.11.gap_pp",
+          "weightKey": "derived_metrics.A.bands.11.weight_pct",
+          "gap": 13.709677419354838,
+          "weight": 0.1394343351427937,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.2.gap_pp",
+          "weightKey": "derived_metrics.B.bands.2.weight_pct",
+          "gap": 0.25321034545125704,
+          "weight": 3.127191692495645,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.3.gap_pp",
+          "weightKey": "derived_metrics.B.bands.3.weight_pct",
+          "gap": 1.5368476265407816,
+          "weight": 10.783127078572884,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.4.gap_pp",
+          "weightKey": "derived_metrics.B.bands.4.weight_pct",
+          "gap": 1.5007115990647557,
+          "weight": 14.836768398905003,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.5.gap_pp",
+          "weightKey": "derived_metrics.B.bands.5.weight_pct",
+          "gap": 6.323892149357829,
+          "weight": 13.299472862604919,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.6.gap_pp",
+          "weightKey": "derived_metrics.B.bands.6.weight_pct",
+          "gap": 9.77521498733166,
+          "weight": 15.105427479016312,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.7.gap_pp",
+          "weightKey": "derived_metrics.B.bands.7.weight_pct",
+          "gap": 12.465455981050138,
+          "weight": 8.595959367435126,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.8.gap_pp",
+          "weightKey": "derived_metrics.B.bands.8.weight_pct",
+          "gap": 11.612772349967651,
+          "weight": 17.193615529060427,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.9.gap_pp",
+          "weightKey": "derived_metrics.B.bands.9.weight_pct",
+          "gap": 14.897130013831257,
+          "weight": 10.904730662202212,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.10.gap_pp",
+          "weightKey": "derived_metrics.B.bands.10.weight_pct",
+          "gap": 12.929855412270419,
+          "weight": 5.7894617768828756,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.11.gap_pp",
+          "weightKey": "derived_metrics.B.bands.11.weight_pct",
+          "gap": 13.043478260869565,
+          "weight": 0.36424515282459674,
+          "passed": true
+        }
+      ],
+      "box_count": 52
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "late",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.before_10",
+          "claims": "FA-C060",
+          "text": "10",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.before_10.gap_pp",
+          "claims": "FA-C060",
+          "text": "−0.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.before_10.gap_pp",
+          "claims": "FA-C068",
+          "text": "+1.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.from_16",
+          "claims": "FA-C060",
+          "text": "16",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.from_16.gap_pp",
+          "claims": "FA-C060",
+          "text": "+11.7",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.from_16.gap_pp",
+          "claims": "FA-C068",
+          "text": "+12.9",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.A.bands.11.weight_pct",
+          "claims": "FA-C060 FA-C085",
+          "text": "0.14",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.B.bands.11.weight_pct",
+          "claims": "FA-C068 FA-C095",
+          "text": "0.36",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "chart_points": [
+        {
+          "key": "derived_metrics.A.bands.2.gap_pp",
+          "weightKey": "derived_metrics.A.bands.2.weight_pct",
+          "gap": -1.5960003845784059,
+          "weight": 2.9239042738310426,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.3.gap_pp",
+          "weightKey": "derived_metrics.A.bands.3.weight_pct",
+          "gap": -0.8090650000723347,
+          "weight": 12.954461758165763,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.4.gap_pp",
+          "weightKey": "derived_metrics.A.bands.4.weight_pct",
+          "gap": 0.1666285801340646,
+          "weight": 14.762047998020932,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.5.gap_pp",
+          "weightKey": "derived_metrics.A.bands.5.weight_pct",
+          "gap": 5.391492246419795,
+          "weight": 13.2698757179041,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.6.gap_pp",
+          "weightKey": "derived_metrics.A.bands.6.weight_pct",
+          "gap": 6.910107830918143,
+          "weight": 15.11203942393379,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.7.gap_pp",
+          "weightKey": "derived_metrics.A.bands.7.weight_pct",
+          "gap": 9.866087940299805,
+          "weight": 8.61400584162396,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.8.gap_pp",
+          "weightKey": "derived_metrics.A.bands.8.weight_pct",
+          "gap": 10.835750915750914,
+          "weight": 15.988564135577402,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.9.gap_pp",
+          "weightKey": "derived_metrics.A.bands.9.weight_pct",
+          "gap": 12.977719737753851,
+          "weight": 10.548095006507873,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.10.gap_pp",
+          "weightKey": "derived_metrics.A.bands.10.weight_pct",
+          "gap": 11.761071569790431,
+          "weight": 5.687571509292343,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.11.gap_pp",
+          "weightKey": "derived_metrics.A.bands.11.weight_pct",
+          "gap": 13.709677419354838,
+          "weight": 0.1394343351427937,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.2.gap_pp",
+          "weightKey": "derived_metrics.B.bands.2.weight_pct",
+          "gap": 0.25321034545125704,
+          "weight": 3.127191692495645,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.3.gap_pp",
+          "weightKey": "derived_metrics.B.bands.3.weight_pct",
+          "gap": 1.5368476265407816,
+          "weight": 10.783127078572884,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.4.gap_pp",
+          "weightKey": "derived_metrics.B.bands.4.weight_pct",
+          "gap": 1.5007115990647557,
+          "weight": 14.836768398905003,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.5.gap_pp",
+          "weightKey": "derived_metrics.B.bands.5.weight_pct",
+          "gap": 6.323892149357829,
+          "weight": 13.299472862604919,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.6.gap_pp",
+          "weightKey": "derived_metrics.B.bands.6.weight_pct",
+          "gap": 9.77521498733166,
+          "weight": 15.105427479016312,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.7.gap_pp",
+          "weightKey": "derived_metrics.B.bands.7.weight_pct",
+          "gap": 12.465455981050138,
+          "weight": 8.595959367435126,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.8.gap_pp",
+          "weightKey": "derived_metrics.B.bands.8.weight_pct",
+          "gap": 11.612772349967651,
+          "weight": 17.193615529060427,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.9.gap_pp",
+          "weightKey": "derived_metrics.B.bands.9.weight_pct",
+          "gap": 14.897130013831257,
+          "weight": 10.904730662202212,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.10.gap_pp",
+          "weightKey": "derived_metrics.B.bands.10.weight_pct",
+          "gap": 12.929855412270419,
+          "weight": 5.7894617768828756,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.11.gap_pp",
+          "weightKey": "derived_metrics.B.bands.11.weight_pct",
+          "gap": 13.043478260869565,
+          "weight": 0.36424515282459674,
+          "passed": true
+        }
+      ],
+      "box_count": 52
     },
     {
       "page": "s12-the-boundary-of-the-answer.html",
       "state": "conclusion",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 23
     },
     {
@@ -2860,6 +3387,7 @@
       "state": "evidence",
       "issues": [],
       "labels": [],
+      "chart_points": [],
       "box_count": 30
     },
     {
@@ -2928,6 +3456,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 26
     },
     {
@@ -2946,7 +3475,8 @@
           "sign": "false"
         }
       ],
-      "box_count": 22
+      "chart_points": [],
+      "box_count": 30
     },
     {
       "page": "short-a.html",
@@ -3084,6 +3614,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 40
     },
     {
@@ -3212,6 +3743,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 41
     },
     {
@@ -3340,6 +3872,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 42
     },
     {
@@ -3448,6 +3981,7 @@
           "sign": "true"
         }
       ],
+      "chart_points": [],
       "box_count": 38
     },
     {
@@ -3516,6 +4050,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 28
     },
     {
@@ -3624,7 +4159,8 @@
           "sign": "true"
         }
       ],
-      "box_count": 36
+      "chart_points": [],
+      "box_count": 37
     },
     {
       "page": "short-c.html",
@@ -3632,73 +4168,15 @@
       "issues": [],
       "labels": [
         {
-          "key": "scene.year_a_start",
-          "claims": "FA-C001",
-          "text": "2023",
-          "source": "analysis/results.json",
-          "scale": "1",
-          "digits": "0",
-          "abs": "false",
-          "sign": "false"
-        },
-        {
-          "key": "scene.year_a_end",
-          "claims": "FA-C001",
-          "text": "2024",
-          "source": "analysis/results.json",
-          "scale": "1",
-          "digits": "0",
-          "abs": "false",
-          "sign": "false"
-        },
-        {
-          "key": "scene.year_b",
-          "claims": "FA-C002",
-          "text": "2025",
-          "source": "analysis/results.json",
-          "scale": "1",
-          "digits": "0",
-          "abs": "false",
-          "sign": "false"
-        },
-        {
-          "key": "scene.before_10",
-          "claims": "FA-C060",
-          "text": "10",
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
           "source": "analysis/claims_check.json",
           "scale": "1",
           "digits": "0",
           "abs": "false",
           "sign": "false"
         },
-        {
-          "key": "derived_metrics.A.time.before_10.gap_pp",
-          "claims": "FA-C060",
-          "text": "−0.4",
-          "source": "analysis/claims_check.json",
-          "scale": "1",
-          "digits": "1",
-          "abs": "false",
-          "sign": "true"
-        },
-        {
-          "key": "derived_metrics.B.time.before_10.gap_pp",
-          "claims": "FA-C068",
-          "text": "+1.4",
-          "source": "analysis/claims_check.json",
-          "scale": "1",
-          "digits": "1",
-          "abs": "false",
-          "sign": "true"
-        }
-      ],
-      "box_count": 29
-    },
-    {
-      "page": "short-c.html",
-      "state": "late",
-      "issues": [],
-      "labels": [
         {
           "key": "scene.year_a_start",
           "claims": "FA-C001",
@@ -3788,9 +4266,441 @@
           "digits": "1",
           "abs": "false",
           "sign": "true"
+        },
+        {
+          "key": "derived_metrics.A.bands.11.weight_pct",
+          "claims": "FA-C060 FA-C085",
+          "text": "0.14",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.B.bands.11.weight_pct",
+          "claims": "FA-C068 FA-C095",
+          "text": "0.36",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
         }
       ],
-      "box_count": 35
+      "chart_points": [
+        {
+          "key": "derived_metrics.A.bands.2.gap_pp",
+          "weightKey": "derived_metrics.A.bands.2.weight_pct",
+          "gap": -1.5960003845784059,
+          "weight": 2.9239042738310426,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.3.gap_pp",
+          "weightKey": "derived_metrics.A.bands.3.weight_pct",
+          "gap": -0.8090650000723347,
+          "weight": 12.954461758165763,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.4.gap_pp",
+          "weightKey": "derived_metrics.A.bands.4.weight_pct",
+          "gap": 0.1666285801340646,
+          "weight": 14.762047998020932,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.5.gap_pp",
+          "weightKey": "derived_metrics.A.bands.5.weight_pct",
+          "gap": 5.391492246419795,
+          "weight": 13.2698757179041,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.6.gap_pp",
+          "weightKey": "derived_metrics.A.bands.6.weight_pct",
+          "gap": 6.910107830918143,
+          "weight": 15.11203942393379,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.7.gap_pp",
+          "weightKey": "derived_metrics.A.bands.7.weight_pct",
+          "gap": 9.866087940299805,
+          "weight": 8.61400584162396,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.8.gap_pp",
+          "weightKey": "derived_metrics.A.bands.8.weight_pct",
+          "gap": 10.835750915750914,
+          "weight": 15.988564135577402,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.9.gap_pp",
+          "weightKey": "derived_metrics.A.bands.9.weight_pct",
+          "gap": 12.977719737753851,
+          "weight": 10.548095006507873,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.10.gap_pp",
+          "weightKey": "derived_metrics.A.bands.10.weight_pct",
+          "gap": 11.761071569790431,
+          "weight": 5.687571509292343,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.11.gap_pp",
+          "weightKey": "derived_metrics.A.bands.11.weight_pct",
+          "gap": 13.709677419354838,
+          "weight": 0.1394343351427937,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.2.gap_pp",
+          "weightKey": "derived_metrics.B.bands.2.weight_pct",
+          "gap": 0.25321034545125704,
+          "weight": 3.127191692495645,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.3.gap_pp",
+          "weightKey": "derived_metrics.B.bands.3.weight_pct",
+          "gap": 1.5368476265407816,
+          "weight": 10.783127078572884,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.4.gap_pp",
+          "weightKey": "derived_metrics.B.bands.4.weight_pct",
+          "gap": 1.5007115990647557,
+          "weight": 14.836768398905003,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.5.gap_pp",
+          "weightKey": "derived_metrics.B.bands.5.weight_pct",
+          "gap": 6.323892149357829,
+          "weight": 13.299472862604919,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.6.gap_pp",
+          "weightKey": "derived_metrics.B.bands.6.weight_pct",
+          "gap": 9.77521498733166,
+          "weight": 15.105427479016312,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.7.gap_pp",
+          "weightKey": "derived_metrics.B.bands.7.weight_pct",
+          "gap": 12.465455981050138,
+          "weight": 8.595959367435126,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.8.gap_pp",
+          "weightKey": "derived_metrics.B.bands.8.weight_pct",
+          "gap": 11.612772349967651,
+          "weight": 17.193615529060427,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.9.gap_pp",
+          "weightKey": "derived_metrics.B.bands.9.weight_pct",
+          "gap": 14.897130013831257,
+          "weight": 10.904730662202212,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.10.gap_pp",
+          "weightKey": "derived_metrics.B.bands.10.weight_pct",
+          "gap": 12.929855412270419,
+          "weight": 5.7894617768828756,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.11.gap_pp",
+          "weightKey": "derived_metrics.B.bands.11.weight_pct",
+          "gap": 13.043478260869565,
+          "weight": 0.36424515282459674,
+          "passed": true
+        }
+      ],
+      "box_count": 59
+    },
+    {
+      "page": "short-c.html",
+      "state": "late",
+      "issues": [],
+      "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_start",
+          "claims": "FA-C001",
+          "text": "2023",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_a_end",
+          "claims": "FA-C001",
+          "text": "2024",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.year_b",
+          "claims": "FA-C002",
+          "text": "2025",
+          "source": "analysis/results.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "scene.before_10",
+          "claims": "FA-C060",
+          "text": "10",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.before_10.gap_pp",
+          "claims": "FA-C060",
+          "text": "−0.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.before_10.gap_pp",
+          "claims": "FA-C068",
+          "text": "+1.4",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "scene.from_16",
+          "claims": "FA-C060",
+          "text": "16",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.A.time.from_16.gap_pp",
+          "claims": "FA-C060",
+          "text": "+11.7",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.B.time.from_16.gap_pp",
+          "claims": "FA-C068",
+          "text": "+12.9",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "1",
+          "abs": "false",
+          "sign": "true"
+        },
+        {
+          "key": "derived_metrics.A.bands.11.weight_pct",
+          "claims": "FA-C060 FA-C085",
+          "text": "0.14",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.B.bands.11.weight_pct",
+          "claims": "FA-C068 FA-C095",
+          "text": "0.36",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        }
+      ],
+      "chart_points": [
+        {
+          "key": "derived_metrics.A.bands.2.gap_pp",
+          "weightKey": "derived_metrics.A.bands.2.weight_pct",
+          "gap": -1.5960003845784059,
+          "weight": 2.9239042738310426,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.3.gap_pp",
+          "weightKey": "derived_metrics.A.bands.3.weight_pct",
+          "gap": -0.8090650000723347,
+          "weight": 12.954461758165763,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.4.gap_pp",
+          "weightKey": "derived_metrics.A.bands.4.weight_pct",
+          "gap": 0.1666285801340646,
+          "weight": 14.762047998020932,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.5.gap_pp",
+          "weightKey": "derived_metrics.A.bands.5.weight_pct",
+          "gap": 5.391492246419795,
+          "weight": 13.2698757179041,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.6.gap_pp",
+          "weightKey": "derived_metrics.A.bands.6.weight_pct",
+          "gap": 6.910107830918143,
+          "weight": 15.11203942393379,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.7.gap_pp",
+          "weightKey": "derived_metrics.A.bands.7.weight_pct",
+          "gap": 9.866087940299805,
+          "weight": 8.61400584162396,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.8.gap_pp",
+          "weightKey": "derived_metrics.A.bands.8.weight_pct",
+          "gap": 10.835750915750914,
+          "weight": 15.988564135577402,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.9.gap_pp",
+          "weightKey": "derived_metrics.A.bands.9.weight_pct",
+          "gap": 12.977719737753851,
+          "weight": 10.548095006507873,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.10.gap_pp",
+          "weightKey": "derived_metrics.A.bands.10.weight_pct",
+          "gap": 11.761071569790431,
+          "weight": 5.687571509292343,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.11.gap_pp",
+          "weightKey": "derived_metrics.A.bands.11.weight_pct",
+          "gap": 13.709677419354838,
+          "weight": 0.1394343351427937,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.2.gap_pp",
+          "weightKey": "derived_metrics.B.bands.2.weight_pct",
+          "gap": 0.25321034545125704,
+          "weight": 3.127191692495645,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.3.gap_pp",
+          "weightKey": "derived_metrics.B.bands.3.weight_pct",
+          "gap": 1.5368476265407816,
+          "weight": 10.783127078572884,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.4.gap_pp",
+          "weightKey": "derived_metrics.B.bands.4.weight_pct",
+          "gap": 1.5007115990647557,
+          "weight": 14.836768398905003,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.5.gap_pp",
+          "weightKey": "derived_metrics.B.bands.5.weight_pct",
+          "gap": 6.323892149357829,
+          "weight": 13.299472862604919,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.6.gap_pp",
+          "weightKey": "derived_metrics.B.bands.6.weight_pct",
+          "gap": 9.77521498733166,
+          "weight": 15.105427479016312,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.7.gap_pp",
+          "weightKey": "derived_metrics.B.bands.7.weight_pct",
+          "gap": 12.465455981050138,
+          "weight": 8.595959367435126,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.8.gap_pp",
+          "weightKey": "derived_metrics.B.bands.8.weight_pct",
+          "gap": 11.612772349967651,
+          "weight": 17.193615529060427,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.9.gap_pp",
+          "weightKey": "derived_metrics.B.bands.9.weight_pct",
+          "gap": 14.897130013831257,
+          "weight": 10.904730662202212,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.10.gap_pp",
+          "weightKey": "derived_metrics.B.bands.10.weight_pct",
+          "gap": 12.929855412270419,
+          "weight": 5.7894617768828756,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.11.gap_pp",
+          "weightKey": "derived_metrics.B.bands.11.weight_pct",
+          "gap": 13.043478260869565,
+          "weight": 0.36424515282459674,
+          "passed": true
+        }
+      ],
+      "box_count": 59
     },
     {
       "page": "short-c.html",
@@ -3848,6 +4758,7 @@
           "sign": "false"
         }
       ],
+      "chart_points": [],
       "box_count": 27
     },
     {
@@ -3855,6 +4766,16 @@
       "state": "limit",
       "issues": [],
       "labels": [
+        {
+          "key": "derived_metrics.design.line_pp",
+          "claims": "FA-C004",
+          "text": "2",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "0",
+          "abs": "false",
+          "sign": "false"
+        },
         {
           "key": "scene.year_a_start",
           "claims": "FA-C001",
@@ -3944,9 +4865,171 @@
           "digits": "1",
           "abs": "false",
           "sign": "true"
+        },
+        {
+          "key": "derived_metrics.A.bands.11.weight_pct",
+          "claims": "FA-C060 FA-C085",
+          "text": "0.14",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
+        },
+        {
+          "key": "derived_metrics.B.bands.11.weight_pct",
+          "claims": "FA-C068 FA-C095",
+          "text": "0.36",
+          "source": "analysis/claims_check.json",
+          "scale": "1",
+          "digits": "2",
+          "abs": "false",
+          "sign": "false"
         }
       ],
-      "box_count": 35
+      "chart_points": [
+        {
+          "key": "derived_metrics.A.bands.2.gap_pp",
+          "weightKey": "derived_metrics.A.bands.2.weight_pct",
+          "gap": -1.5960003845784059,
+          "weight": 2.9239042738310426,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.3.gap_pp",
+          "weightKey": "derived_metrics.A.bands.3.weight_pct",
+          "gap": -0.8090650000723347,
+          "weight": 12.954461758165763,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.4.gap_pp",
+          "weightKey": "derived_metrics.A.bands.4.weight_pct",
+          "gap": 0.1666285801340646,
+          "weight": 14.762047998020932,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.5.gap_pp",
+          "weightKey": "derived_metrics.A.bands.5.weight_pct",
+          "gap": 5.391492246419795,
+          "weight": 13.2698757179041,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.6.gap_pp",
+          "weightKey": "derived_metrics.A.bands.6.weight_pct",
+          "gap": 6.910107830918143,
+          "weight": 15.11203942393379,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.7.gap_pp",
+          "weightKey": "derived_metrics.A.bands.7.weight_pct",
+          "gap": 9.866087940299805,
+          "weight": 8.61400584162396,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.8.gap_pp",
+          "weightKey": "derived_metrics.A.bands.8.weight_pct",
+          "gap": 10.835750915750914,
+          "weight": 15.988564135577402,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.9.gap_pp",
+          "weightKey": "derived_metrics.A.bands.9.weight_pct",
+          "gap": 12.977719737753851,
+          "weight": 10.548095006507873,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.10.gap_pp",
+          "weightKey": "derived_metrics.A.bands.10.weight_pct",
+          "gap": 11.761071569790431,
+          "weight": 5.687571509292343,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.A.bands.11.gap_pp",
+          "weightKey": "derived_metrics.A.bands.11.weight_pct",
+          "gap": 13.709677419354838,
+          "weight": 0.1394343351427937,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.2.gap_pp",
+          "weightKey": "derived_metrics.B.bands.2.weight_pct",
+          "gap": 0.25321034545125704,
+          "weight": 3.127191692495645,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.3.gap_pp",
+          "weightKey": "derived_metrics.B.bands.3.weight_pct",
+          "gap": 1.5368476265407816,
+          "weight": 10.783127078572884,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.4.gap_pp",
+          "weightKey": "derived_metrics.B.bands.4.weight_pct",
+          "gap": 1.5007115990647557,
+          "weight": 14.836768398905003,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.5.gap_pp",
+          "weightKey": "derived_metrics.B.bands.5.weight_pct",
+          "gap": 6.323892149357829,
+          "weight": 13.299472862604919,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.6.gap_pp",
+          "weightKey": "derived_metrics.B.bands.6.weight_pct",
+          "gap": 9.77521498733166,
+          "weight": 15.105427479016312,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.7.gap_pp",
+          "weightKey": "derived_metrics.B.bands.7.weight_pct",
+          "gap": 12.465455981050138,
+          "weight": 8.595959367435126,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.8.gap_pp",
+          "weightKey": "derived_metrics.B.bands.8.weight_pct",
+          "gap": 11.612772349967651,
+          "weight": 17.193615529060427,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.9.gap_pp",
+          "weightKey": "derived_metrics.B.bands.9.weight_pct",
+          "gap": 14.897130013831257,
+          "weight": 10.904730662202212,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.10.gap_pp",
+          "weightKey": "derived_metrics.B.bands.10.weight_pct",
+          "gap": 12.929855412270419,
+          "weight": 5.7894617768828756,
+          "passed": true
+        },
+        {
+          "key": "derived_metrics.B.bands.11.gap_pp",
+          "weightKey": "derived_metrics.B.bands.11.weight_pct",
+          "gap": 13.043478260869565,
+          "weight": 0.36424515282459674,
+          "passed": true
+        }
+      ],
+      "box_count": 59
     }
   ],
   "narrated_checks": [

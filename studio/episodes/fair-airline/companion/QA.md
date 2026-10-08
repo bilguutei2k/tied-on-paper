@@ -42,13 +42,13 @@ these current verified bytes together and checks **188** displayed bindings
 against passing claim/verifier entries. It never silently refreshes pins.
 
 - Registered results: `5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de`
-- Proposed claims: `1c8c4a7de39a470de6a92cb84feef26e84d9fbb3087d513e8707b8ee46a0f707`
-- Claim verifier: `a3c57e3ebc6f114cd16ab93d6115eba73b6b1d405a256f1fe66a489a01b3c44b`
+- Proposed claims: `64ae35817d333a3c90d6d8f60e43910ca72d3ca5dece581a5355561a6f24d74b`
+- Claim verifier: `00dc333e379f286f42ae4cea324d7037ef490e0cd1bbdedb2ea5ff8b615cca20`
 - Post-hoc results: `0a430fc236035ca94043a76cbb9e49e076f5947ed0bfd763b8cc2ab71736a959`
 
 Temporary-copy mutation checks altered each pinned file separately. All four
 builds refused before writing either output; sentinel outputs stayed unchanged.
-A repeated clean build produced byte-identical outputs. All **17** embedded
+A repeated clean build produced byte-identical outputs. All **20** embedded
 evidence downloads decode byte-for-byte to their source documents. Wrapper-free
 content matches the standalone head/body content after removing the wrapper.
 The selected-result disclosure includes claim IDs and paths for both points
@@ -108,3 +108,30 @@ lock and the working title remain with the owner. Missing post-hoc intervals
 are an evidence limit and are explicitly disclosed. This page makes no causal
 padding claim, airline-choice recommendation, universal advantage, future-flight
 prediction or claim that the incomplete supplemental SQL check passed.
+
+## 2026-10-08 visual polish
+
+Added the complete time-of-day chart in a separate exploratory section.
+Both periods use connected points across all ten observed two-hour local
+scheduled-departure bands. Solid zero and dashed +2 lines are references;
+no exploratory verdict is assigned. The 22:00–24:00 band fades and is labelled
+under 1% of comparison weight (A 0.14%, B 0.36%); no support exists before
+04:00. The −0.4/+1.4 before-10:00 and +11.7/+12.9 from-16:00 annotations
+remain visible. Period legends, own-timetable scope, no band intervals and
+no causal/morning-flight recommendation are explicit. An expandable table
+exposes all band values and weights; SVG title/description travel offline.
+
+Added FA-C076–095 per plotted observation. The independent raw-cell verifier
+passes 633/633 checks for 95 proposed claims; reviewed ledger/report pins
+above reflect that passing rerun. The chart and selector use the same verified
+keys, with 188 distinct page bindings. Repeated builds are byte-identical;
+all 20 embedded evidence links decode to current episode source bytes.
+
+Rebuilt index.html and portable page.html. Chromium passes 132/132 page
+states (phone/desktop, Paper/Night) and 33/33 portable-fragment states. Every
+state also checks all 20 chart coordinates, values, weights and fade opacity.
+No overflow, runtime error, console message or HTTP resource request occurs.
+Personally inspected phone/desktop chart captures and full-frame context;
+chart geometry, period attribution and exploratory label are legible.
+Screenshots: ../renders/companion/*-night-day-chart.png. No new open issue;
+editorial lock and the disclosed absence of band intervals remain unchanged.

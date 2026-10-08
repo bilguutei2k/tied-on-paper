@@ -19,8 +19,8 @@ EP = Path(__file__).resolve().parent.parent
 ROOT = EP.parents[2]
 PINS = {
     'analysis/results.json': '5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de',
-    'CLAIMS.json': '1c8c4a7de39a470de6a92cb84feef26e84d9fbb3087d513e8707b8ee46a0f707',
-    'analysis/claims_check.json': 'a3c57e3ebc6f114cd16ab93d6115eba73b6b1d405a256f1fe66a489a01b3c44b',
+    'CLAIMS.json': '64ae35817d333a3c90d6d8f60e43910ca72d3ca5dece581a5355561a6f24d74b',
+    'analysis/claims_check.json': '00dc333e379f286f42ae4cea324d7037ef490e0cd1bbdedb2ea5ff8b615cca20',
     'analysis/review_checks/results.json': '0a430fc236035ca94043a76cbb9e49e076f5947ed0bfd763b8cc2ab71736a959',
 }
 
@@ -151,6 +151,39 @@ def main():
             row=measurement(path,period_labels[p],'analysis/claims_check.json',point_key='gap_pp')
             row['weight_pct']=value(path+'.weight_pct','analysis/claims_check.json'); rows.append(row)
         lens('time_'+key,'Local departure · '+label, 'Restricts the frozen own-timetable comparison to '+label+' local scheduled departures. Observed bands only; no interval was computed. This average is not a morning-flight recommendation. Exploratory, post-hoc; cannot change the verdict.', 'Exploratory, post-hoc',rows)
+    # Chart observations use the same verified band keys as the selector.
+    def day_chart():
+        X=lambda band:90+(band-2)/9*730
+        Y=lambda gap:80+(16-gap)/18*300
+        out=['<svg id="day-chart" viewBox="0 0 900 470" role="img" aria-labelledby="day-chart-title day-chart-desc"><title id="day-chart-title">The gap grows through the day</title><desc id="day-chart-desc">United minus Southwest own-timetable timely-completion gap, in percentage points. Two-hour local scheduled departure bands. A is 2023–2024, B is 2025. Sparse bands under one percent of comparison weight are faded. No band intervals computed.</desc>']
+        for z in [0,2,8,16]:
+            out.append(f'<line x1="90" x2="820" y1="{Y(z)}" y2="{Y(z)}" stroke="var(--ink)" stroke-width="{2 if z==0 else 1}"'+(' stroke-dasharray="8 6"' if z==2 else '')+'/>'+f'<text x="58" y="{Y(z)+10}" text-anchor="end">{z:+g}</text>')
+        for period,color in [('A','var(--subject-text)'),('B','#3350D6')]:
+            for band in range(2,12):
+                path=f'derived_metrics.{period}.bands.{band}'
+                gap=value(path+'.gap_pp','analysis/claims_check.json');weight=value(path+'.weight_pct','analysis/claims_check.json');opacity=.38 if weight<1 else 1
+                if band>2:
+                    prev=value(f'derived_metrics.{period}.bands.{band-1}.gap_pp','analysis/claims_check.json')
+                    out.append(f'<line x1="{X(band-1)}" y1="{Y(prev)}" x2="{X(band)}" y2="{Y(gap)}" stroke="{color}" stroke-width="4" opacity="{opacity}"/>')
+                out.append(f'<circle data-period="{period}" data-band="{band}" data-gap="{gap}" data-weight="{weight}" cx="{X(band)}" cy="{Y(gap)}" r="7" stroke="{color}" stroke-width="3" fill="{color if period=="A" else "var(--bg)"}" opacity="{opacity}"><title>{period} · {band*2:02d}:00–{band*2+2:02d}:00: {gap:+.2f} points; {weight:.2f}% weight</title></circle>')
+        for band in [2,4,6,8,10]:out.append(f'<text x="{X(band)}" y="420" text-anchor="middle">{band*2:02d}</text>')
+        out.append('<text x="90" y="458">Two-hour bands · local scheduled departure</text></svg>')
+        out.append('<div class="day-notes"><p><span class="day-a">● A · 2023–2024</span> &nbsp; <span class="day-b">○ B · 2025</span><br>United minus Southwest · percentage points</p>')
+        for key,label in [('before_10','Before 10:00'),('from_16','From 16:00')]:
+            vals=[value(f'derived_metrics.{period}.time.{key}.gap_pp','analysis/claims_check.json') for period in ['A','B']]
+            out.append(f'<p><strong>{label}</strong><br>{vals[0]:+.1f} / {vals[1]:+.1f} points · A / B</p>')
+        weights=[value(f'derived_metrics.{period}.bands.11.weight_pct','analysis/claims_check.json') for period in ['A','B']]
+        out.append(f'</div><p class="meta">22:00–24:00 faded: under 1% of weight ({weights[0]:.2f}% / {weights[1]:.2f}% in A / B). No overlap before 04:00. Zero line solid; +2-point reference dashed. No band interval computed; the reference confers no verdict.</p>')
+        out.append('<details><summary>Band values and comparison weights</summary><table><thead><tr><th>Local band</th><th>A gap / weight</th><th>B gap / weight</th></tr></thead><tbody>')
+        for band in range(2,12):
+            cells=[]
+            for period in ['A','B']:
+                path=f'derived_metrics.{period}.bands.{band}';g=value(path+'.gap_pp','analysis/claims_check.json');w=value(path+'.weight_pct','analysis/claims_check.json')
+                cells.append(f'<td>{g:+.2f} pp / {w:.2f}%</td>')
+            out.append(f'<tr><th>{band*2:02d}–{band*2+2:02d}</th>'+''.join(cells)+'</tr>')
+        out.append('</tbody></table><p class="meta">FA-C076–095 · independently recomputed raw-cell sums. Exploratory, post-hoc, not registered. No causal explanation or morning-flight recommendation.</p></details>')
+        return ''.join(out)
+    day=day_chart()
     threshold,level=design('line_pp'),design('nominal_interval_pct')
     domain_values=[x for l in lenses for row in l['rows'] for x in [row['estimate']]+(row['interval'] or [])]+[0,threshold]
     domain=[math.floor(min(domain_values))-1,math.ceil(max(domain_values))+1]
@@ -198,7 +231,7 @@ def main():
         commits[name]=subprocess.run(['git','-C',str(ROOT),'rev-parse','--verify',rev+'^{commit}'],check=True,capture_output=True,text=True).stdout.strip()
     question=(EP/'analysis/amendment/AMENDMENT-1.md').read_text().splitlines()[0]
     data={'lenses':lenses,'threshold':threshold,'level':level,'domain':domain,'provenance':provenance,'pins':PINS}
-    replacements={'FONTS':fonts(),'QUESTION':esc(question),'SCOPE':esc(claims['FA-C001']['scope']), 'ANSWER':''.join('<p>'+esc(claims[id]['text'])+'</p>' for id in ['FA-C001','FA-C002','FA-C003']), 'OPTIONS':options,'INITIAL_CHANGE':esc(lenses[0]['change']),'INITIAL_MARKS':marks(primary),'INITIAL_READOUTS':readouts(primary),'LEVEL':str(level),'THRESHOLD':f'{threshold:g}','LATE':str(design('late_failure_minutes')),'WINDOW':str(design('departure_window_hours')),'BLOCK':str(design('block_days')),'DRAWS':f'{design("draws"):,}','NATIONAL':national,'DOT':dot,'DOT_SOURCES':sources,'COVER_UA':coverage[0],'COVER_WN':coverage[1],'DENVER':denver,'SCHEDULE':metric_pair('schedule.UA_minus_WN'),'ACTUAL':metric_pair('completed_cell_means.actual.UA_minus_WN'),'ACTUAL_COVER':metric_pair('completed_cell_means.weight_share',factor=100),'COMMON':metric_pair('common_mid.UA_minus_WN',factor=100),'DEPARTURE':metric_pair('dep_timely.UA_minus_WN',factor=100),'MATCHED':str(recheck['matched']),'COMPARED':str(recheck['comparisons']),'DATA':json.dumps(data,ensure_ascii=False).replace('<','\\u003c'),'RESULT_HASH':PINS['analysis/results.json'],'CLAIM_HASH':PINS['CLAIMS.json']}
+    replacements={'DAY_CHART':day,'FONTS':fonts(),'QUESTION':esc(question),'SCOPE':esc(claims['FA-C001']['scope']), 'ANSWER':''.join('<p>'+esc(claims[id]['text'])+'</p>' for id in ['FA-C001','FA-C002','FA-C003']), 'OPTIONS':options,'INITIAL_CHANGE':esc(lenses[0]['change']),'INITIAL_MARKS':marks(primary),'INITIAL_READOUTS':readouts(primary),'LEVEL':str(level),'THRESHOLD':f'{threshold:g}','LATE':str(design('late_failure_minutes')),'WINDOW':str(design('departure_window_hours')),'BLOCK':str(design('block_days')),'DRAWS':f'{design("draws"):,}','NATIONAL':national,'DOT':dot,'DOT_SOURCES':sources,'COVER_UA':coverage[0],'COVER_WN':coverage[1],'DENVER':denver,'SCHEDULE':metric_pair('schedule.UA_minus_WN'),'ACTUAL':metric_pair('completed_cell_means.actual.UA_minus_WN'),'ACTUAL_COVER':metric_pair('completed_cell_means.weight_share',factor=100),'COMMON':metric_pair('common_mid.UA_minus_WN',factor=100),'DEPARTURE':metric_pair('dep_timely.UA_minus_WN',factor=100),'MATCHED':str(recheck['matched']),'COMPARED':str(recheck['comparisons']),'DATA':json.dumps(data,ensure_ascii=False).replace('<','\\u003c'),'RESULT_HASH':PINS['analysis/results.json'],'CLAIM_HASH':PINS['CLAIMS.json']}
     replacements.update({k+'_COMMIT':v for k,v in commits.items()})
     template=(EP/'companion/template.html').read_text()
     for k,v in replacements.items():template=template.replace('__'+k+'__',v)

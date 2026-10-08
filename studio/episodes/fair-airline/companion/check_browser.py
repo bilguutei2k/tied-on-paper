@@ -26,6 +26,8 @@ SWEEP = r'''(async()=>{
 await document.fonts.ready;
 const d=JSON.parse(document.getElementById('episode-data').textContent),select=document.getElementById('lens'),checks=[];
 const f=n=>(n>=0?'+':'')+n.toFixed(2),scale=n=>48+(n-d.domain[0])/(d.domain[1]-d.domain[0])*604;
+const dayDots=[...document.querySelectorAll('#day-chart circle')];
+const dayChart=dayDots.length===20&&dayDots.every(e=>{const l=d.lenses.find(l=>l.id==='time_'+e.dataset.band),r=l.rows[e.dataset.period==='A'?0:1];return Number(e.dataset.gap)===r.estimate&&Number(e.dataset.weight)===r.weight_pct&&Math.abs(Number(e.getAttribute('cx'))-(90+(Number(e.dataset.band)-2)/9*730))<1e-9&&Math.abs(Number(e.getAttribute('cy'))-(80+(16-r.estimate)/18*300))<1e-9&&Number(e.getAttribute('opacity'))===(r.weight_pct<1?.38:1)})&&!!document.getElementById('day-chart-desc');
 for(const l of d.lenses){
  select.value=l.id;select.dispatchEvent(new Event('change',{bubbles:true}));document.querySelector('details').open=true;
  const rows=[...document.querySelectorAll('#readouts .result-row')],dots=[...document.querySelectorAll('#marks .dot')],intervals=[...document.querySelectorAll('#marks .interval')];
@@ -43,7 +45,7 @@ for(const l of d.lenses){
  checks.push({id:l.id,passed:ok,numbers,geometries,bounds,noFakeIntervals,optionFits,optionWidth,availableWidth,overflow});document.querySelector('details').open=false;
 }
 select.value='registered';select.dispatchEvent(new Event('change',{bubbles:true}));
-return {width:innerWidth,theme:document.documentElement.dataset.theme,height:document.documentElement.scrollHeight,gutter:document.querySelector('.shell').getBoundingClientRect().left,checks,networkResources:performance.getEntriesByType('resource').filter(x=>/^https?:/.test(x.name)).length,fontChecks:{headline:document.fonts.check('900 76px "Big Shoulders Display"'),mono:document.fonts.check('600 32px "IBM Plex Mono"'),serif:document.fonts.check('500 18px "Source Serif 4"')},passed:checks.every(c=>c.passed)};
+return {width:innerWidth,theme:document.documentElement.dataset.theme,height:document.documentElement.scrollHeight,gutter:document.querySelector('.shell').getBoundingClientRect().left,checks,networkResources:performance.getEntriesByType('resource').filter(x=>/^https?:/.test(x.name)).length,fontChecks:{headline:document.fonts.check('900 76px "Big Shoulders Display"'),mono:document.fonts.check('600 32px "IBM Plex Mono"'),serif:document.fonts.check('500 18px "Source Serif 4"')},dayChart,passed:dayChart&&checks.every(c=>c.passed)};
 })()'''
 
 def main():
@@ -65,6 +67,8 @@ def main():
         run('select','#lens','time_before_10')
         run('scrollintoview','#metric')
         run('screenshot',str(OUT/f'{width}-night-time.png'))
+        run('scrollintoview','#day-title')
+        run('screenshot',str(OUT/f'{width}-night-day-chart.png'))
         run('scrollintoview','#method-title')
         run('screenshot',str(OUT/f'{width}-night-method.png'))
     fragment=Path('/private/tmp/fair-airline-fragment.html')
