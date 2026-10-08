@@ -43,3 +43,19 @@ onsets, zero geometry flags, zero runtime errors, all band points passing.
 Narration audio, STORY wording, edit clocks and claim statuses are unchanged.
 No re-narration or Metal handoff is required. Editorial lock remains open;
 schematic ticks and missing exploratory intervals are disclosed evidence limits.
+
+## 2026-10-08 visual polish 2
+
+PASS. Time-chart A is solid ink/filled dots; B is dashed ink/open dots in
+S12, all three Short C chart states and the companion, including legends.
+The faded 22–24 band and zero/+2 references retain their treatment. Short A’s
+four coverage bars now sit on equal beige 100% tracks, retaining carrier colors.
+
+Inspected all 14 regenerated cue stills, native changed compositions, 104
+decoded samples on seven sheets, film chart frame 18300 and native final
+frames film 19088, A 1716, C 1723. Companion phone/desktop chart and page-end
+captures inspected. No clipping, legend clash or missing track remains.
+Scene/browser: 64 states/375 labels PASS; companion: 132 + 33 states PASS.
+Narrated checker passes all 24,303 frames; sampler regenerated 1,256 samples.
+All three rebuilt encoded audio streams are byte-identical to pre-edit audio.
+Evidence: ../renders/qa/polish2-inspection/ and polish2-audio-comparison.json.

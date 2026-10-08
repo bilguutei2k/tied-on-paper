@@ -44,12 +44,12 @@ const cards=(g,v,list,{y=v?555:365,height=v?175:365}={})=>{
  return t=>q.render(t);
 };
 // Bars always start at zero. Common axes per comparison. Numeric labels bind separately.
-const bars=(g,v,rows,{y=v?585:375,max=100,step=v?145:115,labelWidth=v?300:480,width=v?475:1050,digits=2,unit='%',scale=1,abs=false}={})=>{
+const bars=(g,v,rows,{y=v?585:375,max=100,step=v?145:115,labelWidth=v?300:480,width=v?475:1050,digits=2,unit='%',scale=1,abs=false,track=false}={})=>{
  const x=(v?72:96)+labelWidth;
  const rs=rows.map((r,i)=>{
   const yy=y+i*step,val=V(r.key)*(r.scale??scale),length=Math.abs(val)/max*width;
   const name=T(g,'label',v?72:96,yy,v?32:30,r.name,{width:(labelWidth-24)+'px',color:r.textColor??'currentColor'});
-  const rail=rule(g,x,yy+52,width,2,'var(--rule-light)');
+  const rail=rule(g,x,track?yy+3:yy+52,width,track?(v?36:42):2,'var(--rule-light)');
   const b=rule(g,x,yy+3,length,v?36:42,r.color??color(i%2));b.dataset.geometryKey=r.key;b.dataset.axisMax=max;
   const label=T(g,'number',x,yy+60,v?54:38,FA.num(r.key,{digits:r.digits??digits,scale:r.scale??scale,abs:r.abs??abs,sign:r.sign??false})+' '+(v?(unit.startsWith('MIN')?'MIN':unit.startsWith('PP')?'PP':unit.startsWith('%')?'%':unit):unit),{width:width+'px'});
   label.dataset.geometryKey=r.key;
@@ -248,11 +248,12 @@ FA.boundary=(g,v,phase)=>{
  cap(g,v,'Weight share, not passenger share or a nationwide guarantee.',v?1215:785,v?34:38);
  }else{
  if(v)T(g,'label',72,550,26,'SHARE OF OPERATOR SCHEDULES',{width:'848px'});
- plot=bars(g,v,[0,1].flatMap(i=>['UA','WN'].map((op,j)=>({name:(j?'Southwest':'United')+' · '+period(i),key:(i?B:A)+'.matched_cell_coverage_pct.'+op+'.estimate',color:color(j),textColor:textColor(j)}))),{y:v?605:355,step:v?123:112,max:100,digits:2,unit:'% OF OPERATOR SCHEDULES',labelWidth:v?330:560,width:v?430:950});
+ plot=bars(g,v,[0,1].flatMap(i=>['UA','WN'].map((op,j)=>({name:(j?'Southwest':'United')+' · '+period(i),key:(i?B:A)+'.matched_cell_coverage_pct.'+op+'.estimate',color:color(j),textColor:textColor(j)}))),{y:v?605:355,step:v?123:112,max:100,digits:2,unit:'% OF OPERATOR SCHEDULES',labelWidth:v?330:560,width:v?430:950,track:v&&short});
  cap(g,v,short?'Small overlap · Denver-heavy · own timetable.<br>Shared-allowance check: '+n('A.common_mid.UA_minus_WN',1,100)+' / '+n('B.common_mid.UA_minus_WN',1,100)+' PP.':'Most operating schedules lie outside the comparable basket.',v?1215:800,v?30:36);
  }
  scope(g,v,{ids:denver?'FA-C058 · FA-C066':short?'FA-C006 · FA-C025 · FA-C055 · FA-C063':'FA-C006 · FA-C025',explore:denver||short,note:v?'Own timetable · no best-airline ranking':'Operator only · small overlap · no population-wide airline ranking'});return combine(h,plot);
 };
+const dayKey=open=>'<svg width="72" height="24" viewBox="0 0 72 24" style="vertical-align:middle" aria-hidden="true"><line x1="0" x2="72" y1="12" y2="12" stroke="var(--ink)" stroke-width="3" '+(open?'stroke-dasharray="10 6"':'')+'/><circle cx="36" cy="12" r="6" fill="'+(open?'var(--paper)':'var(--ink)')+'" stroke="var(--ink)" stroke-width="3"/></svg>';
 FA.time=(g,v,phase)=>{
  const annotation=(band,p)=>{const key='derived_metrics.'+p+'.time.'+band+'.gap_pp';return '<span data-geometry-key="'+key+'">'+p+' '+n(key,1,1,true)+' PP</span>';};
  const h=header(g,v,'Local scheduled departure',[v?'The gap grows through the day':'The gap grows through the day'],{explore:true});
@@ -262,16 +263,16 @@ FA.time=(g,v,phase)=>{
  let out='<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" aria-label="Exploratory United minus Southwest own-timetable gap by two-hour local departure band">';
  [0,2,8,16].forEach(z=>{out+='<line x1="'+left+'" x2="'+(left+width)+'" y1="'+Y(z)+'" y2="'+Y(z)+'" stroke="var(--ink)" stroke-width="'+(z===0?3:1)+'" '+(z===2?'stroke-dasharray="8 6"':'')+'/>';T(g,'label',v?72:96,Y(z)-(z===2?25:7),v?26:28,z===2?'+'+n(P+'line_pp',0):String(z),{width:'80px'});});
  ['A','B'].forEach((p,i)=>{
-  const c=color(i);for(let b=2;b<=11;b++){
+  const c='var(--ink)';for(let b=2;b<=11;b++){
    const key='derived_metrics.'+p+'.bands.'+b+'.gap_pp',weight='derived_metrics.'+p+'.bands.'+b+'.weight_pct',fade=V(weight)<1?.38:1;
-   if(b>2)out+='<line x1="'+X(b-1)+'" y1="'+Y(V('derived_metrics.'+p+'.bands.'+(b-1)+'.gap_pp'))+'" x2="'+X(b)+'" y2="'+Y(V(key))+'" stroke="'+c+'" stroke-width="'+(v?5:5)+'" opacity="'+fade+'"/>';
+   if(b>2)out+='<line x1="'+X(b-1)+'" y1="'+Y(V('derived_metrics.'+p+'.bands.'+(b-1)+'.gap_pp'))+'" x2="'+X(b)+'" y2="'+Y(V(key))+'" stroke="'+c+'" stroke-width="5" '+(i?'stroke-dasharray="12 8" ':'')+'opacity="'+fade+'"/>';
    out+='<circle data-geometry-key="'+key+'" data-weight-key="'+weight+'" cx="'+X(b)+'" cy="'+Y(V(key))+'" r="'+(i?7:9)+'" fill="'+(i?'var(--paper)':c)+'" stroke="'+c+'" stroke-width="4" opacity="'+fade+'"/>';
   }
  });svg.innerHTML=out+'</svg>';
  T(g,'label',left,top-(v?40:62),v?26:28,v?'UNITED − SOUTHWEST · POINTS':'UNITED − SOUTHWEST · POINTS · 2-HOUR BANDS',{width:(v?735:1420)+'px'});
  [2,4,6,8,10].forEach(b=>T(g,'label',X(b)-18,top+height+18,v?26:28,String(b*2).padStart(2,'0'),{width:'65px'}));
  if(v)T(g,'label',left,top+height+65,26,'TWO-HOUR BANDS · LOCAL SCHEDULED DEPARTURE',{width:'735px'});
- T(g,'label',v?72:1030,v?550:328,v?28:28,'A '+yearA()+' <span style="color:var(--player-a-text)">●</span> &nbsp; B '+yearB()+' <span style="color:var(--player-b)">○</span>',{width:(v?848:790)+'px'});
+ T(g,'label',v?72:1030,v?550:328,v?28:28,'A '+yearA()+' '+dayKey(false)+' &nbsp; B '+yearB()+' '+dayKey(true),{width:(v?848:790)+'px'});
  T(g,'label',v?72:96,v?1160:735,v?32:30,'BEFORE '+n('scene.before_10',0)+':00 &nbsp; '+annotation('before_10','A')+' &nbsp; '+annotation('before_10','B'),{width:(v?848:790)+'px'});
  T(g,'label',v?72:1030,v?1210:735,v?32:30,'FROM '+n('scene.from_16',0)+':00 &nbsp; '+annotation('from_16','A')+' &nbsp; '+annotation('from_16','B'),{width:(v?848:790)+'px'});
  cap(g,v,'22–24 FADED: <1% WEIGHT · A '+n('derived_metrics.A.bands.11.weight_pct',2)+'% / B '+n('derived_metrics.B.bands.11.weight_pct',2)+'%<br>No overlap before 04:00 · no band intervals · no causal explanation',v?1270:790,v?26:28);

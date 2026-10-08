@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "source_sha256": {
-    "episode.js": "be605f2ef884b820209260f5c50fd727a7560531c83a51e519f1897e7460526a",
+    "episode.js": "93dae3f6fda15b4436cf831d3bf2bbda6a1565ddaaa2cc7ab9f78f306f1d1d9a",
     "episode.css": "7931793f14e9c3ed7fbd920cbf284ea26eec7e130c543080c392b1baf62dbc39",
     "data.js": "bc221dcd11525b63129d5ff3332c43a67ff97279b23f664a33f8f36ba39ba059",
     "CUES.json": "a6504aefe6e4ff12d8172e5eb091ee322da4e3a6a4ada867cab06b159072f156",
@@ -3102,7 +3102,7 @@
           "passed": true
         }
       ],
-      "box_count": 52
+      "box_count": 50
     },
     {
       "page": "s12-the-boundary-of-the-answer.html",
@@ -3372,7 +3372,7 @@
           "passed": true
         }
       ],
-      "box_count": 52
+      "box_count": 50
     },
     {
       "page": "s12-the-boundary-of-the-answer.html",
@@ -4430,7 +4430,7 @@
           "passed": true
         }
       ],
-      "box_count": 59
+      "box_count": 57
     },
     {
       "page": "short-c.html",
@@ -4700,7 +4700,7 @@
           "passed": true
         }
       ],
-      "box_count": 59
+      "box_count": 57
     },
     {
       "page": "short-c.html",
@@ -5029,7 +5029,7 @@
           "passed": true
         }
       ],
-      "box_count": 59
+      "box_count": 57
     }
   ],
   "narrated_checks": [

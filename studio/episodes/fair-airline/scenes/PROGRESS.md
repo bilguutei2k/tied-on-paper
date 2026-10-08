@@ -163,3 +163,8 @@
 - Re-rendered 25 affected-page stills; inspected all on sheets and changed compositions as native PNGs. Twenty-one image hashes changed. Audit now distinguishes actual element owners and verifies chart coordinates/weights/fading: 64 settled states plus 64 narrated onsets, zero geometry/runtime flags, 375 numeric labels and 100 plotted points pass. Companion rebuilt deterministically: 188 verified bindings, 20 current embedded downloads, 132 page + 33 fragment states pass. Final narrated assembly/check/sampler completed; helper commit pending.
 
 - Final gated-decoration correction verified in decoded frames: units and period labels follow their existing spoken-value gates. Final film + all shorts pass 24,303-frame checks, cached PCM/word/caption/state checks; sampler regenerated 1,256 frames. Reviewed 36 settled-shot captures and native gate samples. All 86 shot keys and four delivery/source hashes are current. NARRATED_BUILD.md updated; no Metal TODO or open visual/technical issue. Editorial lock remains pending.
+
+- Commit helper completed visual-polish checkpoint `0f0ee14`; all 17 committed episode source/QA files match the checked delivery bytes. Renders and flight data excluded. Receipt recorded after the commit per helper protocol.
+
+
+- 2026-10-08 visual polish 2: 14 cue stills rendered for S12/Short A/Short C; neutral period styling and four full-width share tracks inspected. Scene/browser 64 states/375 labels PASS; companion 132 + 33 states PASS; narrated checker and sampler rerun. Inspected 104 decoded samples plus native changed/final frames. Encoded narration hashes unchanged; no data/claims/timing changes, no Metal work. Helper checkpoint pending.

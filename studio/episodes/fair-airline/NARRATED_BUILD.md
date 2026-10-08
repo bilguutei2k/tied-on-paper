@@ -190,3 +190,22 @@ Companion rebuilt and passes 132 page + 33 portable-fragment browser states,
 including every chart coordinate/weight/fade check. QA notes and reviewed
 ledger/verifier pins are current. Editorial lock, the explicitly schematic
 ticks and absent exploratory band intervals remain the disclosed limits.
+
+## 2026-10-08 visual polish 2
+
+S12/Short C and the companion now use ink solid lines/filled dots for A and
+ink dashed lines/open dots for B, with matching legends. Sparse-band fading,
+zero/+2 references and all values are unchanged. Short A’s four coverage bars
+now have equal beige 100% tracks using S03’s track color; carrier colors remain.
+
+Re-rendered 14 affected-page cue stills and assembled film/Short A/Short C
+with cached narration. All three encoded audio-stream SHA256s exactly match
+the pre-edit outputs (renders/qa/polish2-audio-comparison.json). No TTS/Metal.
+Scene/browser audits pass 64 states/375 labels; companion passes 132 page +
+33 fragment states. check_narrated.py passes all four outputs, 24,303 frames,
+zero unexpected blanks or state/caption failures; durations/loudness unchanged.
+sample_narrated.py regenerated 1,256 samples. Personally inspected 104 relevant
+decoded samples on seven sheets, native film chart frame 18300 and final
+frames 19088/1716/1723 for film/A/C, plus companion chart/page-end captures.
+No visual defect found. Evidence: renders/qa/polish2-inspection/ and
+polish2-{render,check,sample}.log. Renders and data excluded from the commit.

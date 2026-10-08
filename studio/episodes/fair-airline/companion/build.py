@@ -158,17 +158,17 @@ def main():
         out=['<svg id="day-chart" viewBox="0 0 900 470" role="img" aria-labelledby="day-chart-title day-chart-desc"><title id="day-chart-title">The gap grows through the day</title><desc id="day-chart-desc">United minus Southwest own-timetable timely-completion gap, in percentage points. Two-hour local scheduled departure bands. A is 2023–2024, B is 2025. Sparse bands under one percent of comparison weight are faded. No band intervals computed.</desc>']
         for z in [0,2,8,16]:
             out.append(f'<line x1="90" x2="820" y1="{Y(z)}" y2="{Y(z)}" stroke="var(--ink)" stroke-width="{2 if z==0 else 1}"'+(' stroke-dasharray="8 6"' if z==2 else '')+'/>'+f'<text x="58" y="{Y(z)+10}" text-anchor="end">{z:+g}</text>')
-        for period,color in [('A','var(--subject-text)'),('B','#3350D6')]:
+        for period,color in [('A','var(--ink)'),('B','var(--ink)')]:
             for band in range(2,12):
                 path=f'derived_metrics.{period}.bands.{band}'
                 gap=value(path+'.gap_pp','analysis/claims_check.json');weight=value(path+'.weight_pct','analysis/claims_check.json');opacity=.38 if weight<1 else 1
                 if band>2:
                     prev=value(f'derived_metrics.{period}.bands.{band-1}.gap_pp','analysis/claims_check.json')
-                    out.append(f'<line x1="{X(band-1)}" y1="{Y(prev)}" x2="{X(band)}" y2="{Y(gap)}" stroke="{color}" stroke-width="4" opacity="{opacity}"/>')
+                    out.append(f'<line x1="{X(band-1)}" y1="{Y(prev)}" x2="{X(band)}" y2="{Y(gap)}" stroke="{color}" stroke-width="4" stroke-dasharray="{"12 8" if period=="B" else "none"}" opacity="{opacity}"/>')
                 out.append(f'<circle data-period="{period}" data-band="{band}" data-gap="{gap}" data-weight="{weight}" cx="{X(band)}" cy="{Y(gap)}" r="7" stroke="{color}" stroke-width="3" fill="{color if period=="A" else "var(--bg)"}" opacity="{opacity}"><title>{period} · {band*2:02d}:00–{band*2+2:02d}:00: {gap:+.2f} points; {weight:.2f}% weight</title></circle>')
         for band in [2,4,6,8,10]:out.append(f'<text x="{X(band)}" y="420" text-anchor="middle">{band*2:02d}</text>')
         out.append('<text x="90" y="458">Two-hour bands · local scheduled departure</text></svg>')
-        out.append('<div class="day-notes"><p><span class="day-a">● A · 2023–2024</span> &nbsp; <span class="day-b">○ B · 2025</span><br>United minus Southwest · percentage points</p>')
+        out.append('<div class="day-notes"><p><span class="day-a"><svg width="48" height="18" viewBox="0 0 48 18" aria-hidden="true"><line x1="0" x2="48" y1="9" y2="9" stroke="var(--ink)" stroke-width="3"/><circle cx="24" cy="9" r="5" fill="var(--ink)"/></svg> A · 2023–2024</span> &nbsp; <span class="day-b"><svg width="48" height="18" viewBox="0 0 48 18" aria-hidden="true"><line x1="0" x2="48" y1="9" y2="9" stroke="var(--ink)" stroke-width="3" stroke-dasharray="8 5"/><circle cx="24" cy="9" r="5" fill="var(--bg)" stroke="var(--ink)" stroke-width="2"/></svg> B · 2025</span><br>United minus Southwest · percentage points</p>')
         for key,label in [('before_10','Before 10:00'),('from_16','From 16:00')]:
             vals=[value(f'derived_metrics.{period}.time.{key}.gap_pp','analysis/claims_check.json') for period in ['A','B']]
             out.append(f'<p><strong>{label}</strong><br>{vals[0]:+.1f} / {vals[1]:+.1f} points · A / B</p>')

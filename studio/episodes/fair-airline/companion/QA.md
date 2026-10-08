@@ -135,3 +135,11 @@ Personally inspected phone/desktop chart captures and full-frame context;
 chart geometry, period attribution and exploratory label are legible.
 Screenshots: ../renders/companion/*-night-day-chart.png. No new open issue;
 editorial lock and the disclosed absence of band intervals remain unchanged.
+
+## 2026-10-08 visual polish 2
+
+Time-chart periods and legend markers now use solid ink/filled dots (A) and
+dashed ink/open dots (B) in both themes. Values, coordinates, sparse-band
+fading and zero/+2 references unchanged. Rebuilt index.html/page.html;
+Chromium passes 132 page + 33 fragment states. Phone/desktop chart and
+page-end screenshots inspected; no visual defect. Narration/data unchanged.
