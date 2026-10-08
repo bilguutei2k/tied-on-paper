@@ -47,6 +47,14 @@ Paper/Night, Big Shoulders, Plex Mono labels, Source Serif captions, Ink
 rules, local grain, no radius/shadows/logos. Portraits stack within x=72–920,
 y=220–1500; landscapes within 96px edges. Source/scope stays visible.
 
+Narrated assembly uses the house `__narratedAssembly` flag only to keep
+headings settled across word-cued state switches and place verdict chips on
+their state cue. Chart animation retains the original clock. Short A uses
+the neutral “A separate test” heading; its envelope labels and replication
+chip have independent spoken-word gates. Short C separates its period columns.
+The browser audit also checks heading/source/badge visibility at all 64
+narrated state onsets; the existing still-clock audit remains intact.
+
 Run from repository root:
 
 ```sh

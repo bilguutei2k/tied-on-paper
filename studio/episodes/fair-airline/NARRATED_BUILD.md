@@ -1,68 +1,151 @@
 # Tied on Paper — narrated pre-lock draft
 
-2026-10-08 · Sol · build in progress. STORY and claims remain proposed and
-unlocked. No analytical results or claim statuses changed. Renders are excluded
-from commits; the owner helper owns Git writes.
+2026-10-08 · Sol · rendered and checked. STORY and all claims remain proposed
+and unlocked. No analytical results changed. Renders are excluded from commits;
+the owner helper owns Git writes.
 
-Read the existing analysis progress first, then scramble-luck's narrated build,
-EDIT head, DIRECTION's narrated-assembly rules, narrate.py, assemble.py, render
-README and this episode's STORY, scenes README, CUES and VISUAL_QA.
+## Narration and reproducible build
 
-## Pipeline
+Claude completed the Metal-dependent Kokoro af_heart synthesis at speed 1.0;
+see ideation/logs/fa-render.log. This resume used those real WAVs and word times.
+No new synthesis or Metal access was needed. Episode spoken forms expand
+numbers, years and airport/operator codes; written captions preserve STORY.
+The unchanged house assembler renders animated HTML at 30 fps, landscape film
+and portrait shorts, through the episode's offline_chrome wrapper.
 
-Use the unchanged house narrator and assembler. Episode-only spoken forms read
-percentages, decimals, full-year intervals and airport/operator codes naturally;
-claim tags are removed, while written cue tokens and captions stay unchanged.
-Short 1/2/3 headings are aliased to the house Short A/B/C keys at parsing time.
-Voice: local Kokoro af_heart, speed 1.0. Outputs target renders/draft, with
-separate strict SRT captions, 30 fps landscape film and portrait shorts.
-Audio target: −14 LUFS integrated, ≤−1 dBTP; retain −1.5 dBTP normalization
-headroom and calibrate the encoded AAC as scramble-luck did.
+With the existing narration cache, from the workspace root:
 
-## Progress
+```sh
+.venv/bin/python studio/episodes/fair-airline/build_narrated_edit.py
+.venv/bin/python studio/episodes/fair-airline/prepare_narrated.py
+.venv/bin/python studio/episodes/fair-airline/render_narrated.py
+.venv/bin/python studio/episodes/fair-airline/check_narrated.py
+python3 studio/episodes/fair-airline/sample_narrated.py
+```
 
-- Prepared SPOKEN_FORMS.json and episode-scoped narration adapter; no shared
-  tool or STORY edit. Next: synthesize, construct word-cued edit and validate
-  motion, timing, captions, transitions and measured audio; inspect frames.
+The sampler uses system Python's Pillow; the project venv lacks Pillow. Its
+FFmpeg selection coalesces consecutive frames and balances the expression tree
+rather than exceeding FFmpeg's expression-depth limit. It clears its own old
+numbered samples/sheets before extraction so shorter cue lists are safe to rerun.
+Individual affected outputs can be passed to render_narrated.py. Cached shots
+are reused. All four were rerendered after shared episode layout changes; only
+film and short-a were rerendered after the final opening-layout pacing fix.
 
-## Sandbox result and completed checks
+## Assertion diagnosis and edit fixes
 
-- Local af_heart synthesis attempted through unchanged narrate.py: blocked on
-  MLX import, `[metal::load_device] No Metal device available`. No narration
-  manifest/WAV was fabricated; no alternate voice or static-card film substituted.
-- SPOKEN_FORMS.json: 15 sections / 58 lines. Natural full-year ranges, decimals,
-  percentages, UA/United, WN/Southwest, DEN/Denver and LAX/Los Angeles checked;
-  tags removed. Written text/caption/cue tokens preserve STORY exactly.
-- EDIT: 46 film whole-line shots and four per short, 64 named-state word cues.
-  Every source line occurs exactly once; gate words and ordered anchors resolve.
-  Structural timing checks used synthetic word spans only in memory, never as
-  narration or recorded-duration evidence. Builder recompiles with actual Kokoro
-  timestamps and scramble-luck's word-range/PCM pacing after external synthesis.
-- Value gates cover national rates, primary gaps and endpoints, replication,
-  durations, shared allowances, departures and early/late contrasts; the short
-  replication chip waits for “replicated”. Animation retains the designed speed
-  and settled hold; scene changes use 450 ms wipes, within-scene fragments cuts.
-- Unchanged scene suite passes all 64 animated states, data/source hashes,
-  reproducible computed bindings, exact STORY substrings, seek purity and 344
-  browser numeric labels. Chromium starts through offline_chrome. A fresh
-  short-c late-state smoke capture matches the audited still byte for byte.
-- Personally inspected native A envelope, B replication, short A result, short B
-  allowance and fresh short C early/late layout. Labels, ranges, replication chip,
-  sources, exploratory status and safe edges are legible. These are scene samples,
-  not claimed decoded-film QA. Smoke/captures/check logs remain in renders/.
+The reported film state was genuinely one frame late, not a different
+jump_from convention. The second “fifteen” in shot 7 landed at local
+5.166666667 seconds, exactly frame 155. Rounding its anchor to 5.167 left the
+rendered clock at 6.95 on that frame and switched to 7 on the next. The builder
+now adds a −0.000666667-second offset after PCM bridges determine the effective
+lead, producing the representable 5.166 anchor. The renderer and checker retain
+the same convention and the state checker arithmetic is unchanged.
 
-## Pending external commands and measurements
+State-zero cues are starting layouts, not jumps from a settled clock. Redundant
+word cues on these starts also caused spurious “late state” reports on later
+fragments and held several opening bodies empty for five to eight seconds.
+Starting layouts now animate from the lead-in and later fragments retain their
+settled hold. Independent spoken-value gates remain in place. Forty-nine
+nonzero word transitions remain: 40 film and three per short.
 
-RENDER_TODO.md gives exact sequential commands for synthesis, actual-timing
-EDIT/strict SRT preparation, unchanged assembler, identical scramble-luck
-loudness/caption/PCM/state/whole-frame checks and decoded sample extraction.
-Episode wrappers leave shared tools, scene sources, STORY and claims unchanged.
-The checker and split helper reuse the scramble-luck implementations explicitly.
+The film closing hold gains one frame, from 0.900 to 0.933333333 seconds. Its
+total ends on a three-frame/100-ms boundary, avoiding the extra terminal frame
+created by the house panel source's millisecond duration formatting. No shared
+assembler change was needed.
 
-No MP4 or recorded SRT exists yet; measured durations/LUFS/dBTP, actual cue and
-value-gate alignment, wipe/cut frames and final pacing remain pending. Expanded
-speech-only estimates at 150 wpm: 1,354 words / 541.6 s film; 110 / 44.0 s short A;
-123 / 49.2 s each short B/C. Layout holds are additional. Actual-timing samples
-must be inspected on resume and any early/late/long-hold issues corrected.
+## Checker convention: intentional panel wipes
 
-Submitting episode-only handoff checkpoint; renders/raw/derived excluded.
+The imported scramble-luck checker was written for an all-cut edit and treats
+any low-variance frame as blank. This film follows DIRECTION's 450-ms panel
+wipes, including deliberate full covers. check_narrated.py is now an episode
+fork with the original caption, PCM, audio, frame-count and state checks intact.
+Only its blank-frame test recognizes independently verified planned covers:
+inside a scheduled wipe, at least 97% predicted cubic-eased coverage, and every
+interior pixel within three grayscale levels of the expected house panel.
+Wrong time, wrong panel, black, insufficient coverage and corrupted interior
+fixtures all reject; the valid planned panel passes. The decoded film contains
+13 intentional cover frames and zero unexpected blanks. Shorts have no wipes.
+The shared checker and all shared tools are unchanged. Reference checker SHA256:
+`d1a5d9390dbb5450dfc75a966b0b333704f8aa85c29752d40da1c7ba8bf768a5`.
+Fixture evidence: renders/qa/resume/wipe-guard-fixtures.json.
+
+## Visual corrections and verification
+
+Episode headers stay settled under the house __narratedAssembly flag while
+chart clocks retain their motion. Verdict chips enter at their state cue; the
+short replication gate still waits for “replicated”. Short A's neutral
+“A separate test” heading avoids announcing replication before the spoken
+result. Its endpoint/confidence labels are gated together until “envelopes”,
+preventing dangling TO/PP text. Short C's period columns have more clearance.
+Sources remain visible through state changes; full panel wipes intentionally
+cover the whole layout for their brief transition.
+
+The browser audit checks all 64 named-state onsets for settled visible headings,
+visible sources and immediate ungated verdicts. Scene checks pass all 64 states,
+344 numeric labels, current source/data hashes, computed bindings and seek
+purity, with zero geometry or runtime issues. Claim statuses are unchanged.
+
+## Final delivery measurements
+
+Measured from the delivered MP4s, not speech-rate estimates. Film is
+1920×1080; shorts are 1080×1920; all use H.264/AAC at 30 fps.
+
+| Output | Duration (s) | Frames | Shots | SRT cues | LUFS | dBTP |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| film | 636.300 | 19,089 | 68 | 161 | −14.0 | −1.1 |
+| short-a | 57.233 | 1,717 | 6 | 16 | −13.9 | −1.1 |
+| short-b | 59.100 | 1,773 | 6 | 15 | −14.0 | −1.2 |
+| short-c | 57.467 | 1,724 | 6 | 16 | −13.9 | −1.1 |
+
+Final check_narrated.py PASS for all four outputs: 24,303 decoded frames,
+zero unexpected blanks, zero early/late state failures, exact cached PCM,
+zero source clipping, no omitted/reordered/duplicated narration words, and
+zero caption text/order/endpoint failures. Captions use at most two rows and
+42 characters per row (41 for A/C). Word counts: 1,240 / 100 / 108 / 110.
+Forty-nine state transitions and 44 effective value-gate records reconcile
+with the current edit/preflight. Evidence: renders/qa/assembled/checks.json,
+resume/check-final.log and the four ebur128 logs.
+
+Maximum post-word holds are 2.050 / 1.008 / 1.008 / 1.017 seconds; longest
+word gaps are 2.725 / 1.675 / 1.700 / 1.692 seconds. Film shot durations span
+6.000–13.667 seconds; short minimums are 6.267 / 8.333 / 8.200 seconds.
+The final frame and closing evidence layout are present; no extra terminal
+cover frame, cramped cut or excessive silent hold remains.
+
+## Personal decoded-frame inspection completed
+
+After the usage-limit resume, Sol inspected every final contact sheet:
+film sheet-01 through sheet-63 and sheet-01 through sheet-06 for each short.
+These represent 995 film samples and 87 per short (1,256 total), with sample
+frame numbers/times in renders/qa/decoded/manifest.json. Native 1920×1080
+and 1080×1920 PNGs were also opened directly, including these gate pairs:
+
+- Film A lower/upper endpoints: frames 9816→9817 and 9867→9868
+  (4.60 first visible at 327.233 s; 7.94/bar at 328.933 s).
+- Film B lower/upper endpoints: frames 11216→11217 and 11266→11267
+  (5.31 at 373.900 s; 11.00/bar at 375.567 s).
+- Film 2025 reveal/seal: frames 11076 and 11153; replication badge
+  frames 11528→11529 (absent at 384.267 s, present at 384.300 s).
+- Short A: frames 955→956, 1115→1116 and 1180→1181 for the B value,
+  envelope labels/bars and replication badge; its A reveal is also sampled.
+- Short B: frames 289→290, 414→415, 518→519 for schedule and actual
+  values; 1025→1026 and completed frame 1160 for the shared allowance.
+- Short C: frames 703→704, 822→823, 963→964 and 1009→1010 for
+  all four early/late values, including the −0.4 sign and period spacing.
+- Wipes: all before/cover/after sheet groups; native film frames 1462,
+  1463 and 1470 confirm the planned contrasting panel and clean uncover.
+
+No early numerical reveal, disappearing heading/source outside planned
+panel coverage, clipped result or unresolved transition defect was found.
+State changes replay chart entrances while headings/sources remain settled;
+values become eligible at their word gate and still obey chart entry motion.
+Native endpoint and settled-short gates above show hidden values on the
+preceding frame and visible values on the first permitted frame.
+
+Current plan starts/durations, anchors and gates were compared to the final
+checked timing-preflight; all match exactly. All four MP4 SHA256s match their
+delivery JSON, STORY/data hashes match, and browser_qa.json source hashes
+remain current. Finished synthesis, assembly, checker and sampler steps were
+not repeated after this resume. No Metal work remains; RENDER_TODO removed.
+No delivery blocker remains. STORY/claims still require owner publication
+lock; optional listening for voice prosody was not performed or claimed.

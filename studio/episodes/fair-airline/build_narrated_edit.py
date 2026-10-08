@@ -5,13 +5,14 @@ invented timing. Rerun after synthesis for the timed scramble-luck shot pacing.
 """
 import importlib.util
 import json
+import math
 import re
 import sys
 from pathlib import Path
 
 EP = Path(__file__).resolve().parent
 sys.path.insert(0, str(EP.parents[1] / 'tools'))
-from assemble import sequence_plans, slice_line
+from assemble import cue_time, sequence_plans, slice_line
 
 # Use the same punctuation-sensitive, cached-PCM fragment pacing as the pilot.
 spec = importlib.util.spec_from_file_location('scramble_edit', EP.parent / 'scramble-luck/build_narrated_edit.py')
@@ -76,7 +77,7 @@ VALUE_GATES={
          ('11.00', '[data-value-key="'+B+'.adjusted_gap_ua_minus_wn_pp.interval[1]"], [data-geometry-key="'+B+'.adjusted_gap_ua_minus_wn_pp.interval"]')],
  'short-a': [('6.3','[data-value-key="'+A+'.adjusted_gap_ua_minus_wn_pp.estimate"], [data-geometry-key="'+A+'.adjusted_gap_ua_minus_wn_pp.estimate"]'),
              ('8.2','[data-value-key="'+B+'.adjusted_gap_ua_minus_wn_pp.estimate"], [data-geometry-key="'+B+'.adjusted_gap_ua_minus_wn_pp.estimate"]'),
-             ('envelopes','[data-value-key*="adjusted_gap"][data-value-key*="interval"], [data-geometry-key*="adjusted_gap"][data-geometry-key*="interval"]'),
+             ('envelopes','[data-value-key*="adjusted_gap"][data-value-key*="interval"], [data-geometry-key*="adjusted_gap"][data-geometry-key*="interval"], [data-interval-label]'),
              ('replicated','.claim.chip')],
 }
 
@@ -131,7 +132,7 @@ def main():
         about='Claims proposed; exact written-word cues. '+('Actual Kokoro timing.' if actual else 'Voice blocked in sandbox; rerun builder after synthesis for timed PCM fragments.'),
         timing='Named states start on their spoken word; original animation plays then holds. Wipes cover scene changes; cuts within scenes.',
         gap=.45,lead=.4,tail=.9,wipe=.45,bridge_word_ranges=True,strict_captions=True,
-        audio_true_peak=-1.5,calibrate_loudness=True,settled_visuals=False,deliverables={})
+        audio_true_peak=-1.5,calibrate_loudness=True,settled_visuals=True,deliverables={})
     for name in ['film','short-a','short-b','short-c']:
         pages = [p for p in cues if not p.startswith('short')] if name=='film' else [name+'.html']
         shots=[]
@@ -157,6 +158,14 @@ def main():
                     for e in ev:
                         if e['index']!=i or not a<=e['word_index']<b:
                             continue
+                        # State zero is the starting layout: play it from the
+                        # lead-in, rather than holding an empty body until a
+                        # keyword late in the introduction. Values retain
+                        # independent spoken-word gates. Later jumps depart
+                        # from its settled hold, not its empty first frame.
+                        if e['state']['at']==0:
+                            initial=hold(active)
+                            continue
                         state=e['state'];w=line['words'][e['word_index']]['w']
                         nth=sum(pilot.clean(x['w'])==pilot.clean(w) for x in line['words'][a:e['word_index']+1])
                         t=max(initial,state['at'])
@@ -175,6 +184,26 @@ def main():
         edit['deliverables'][name]=dict(format='landscape' if name=='film' else 'vertical',title=title,shots=shots)
         if actual:
             plans=sequence_plans(shots,narration,edit)
+            for plan in plans:
+                for cue in plan['shot']['cues']:
+                    if 'word' not in cue:
+                        continue
+                    at=cue_time(cue,plan['lines'],plan['starts'])
+                    frame=math.ceil(at*30-1e-6)
+                    # Apply after PCM bridges set the effective lead. Anchor
+                    # rounding must not push a word-frame jump one frame late.
+                    if round(at,3)>frame/30+1e-9:
+                        cue['offset']=round(math.floor(frame/30*1000)/1000-at,9)
+            plans=sequence_plans(shots,narration,edit)
+            if any(s['in']=='wipe' for s in shots):
+                # The house compositor formats panel-source duration in ms.
+                # End on a 3-frame/100-ms boundary so rounding cannot create
+                # an extra terminal panel frame. Pad only the closing hold.
+                frames=round(sum(p['duration'] for p in plans)*30)
+                pad=(-frames)%3
+                if pad:
+                    shots[-1]['tail']=round(shots[-1].get('tail',edit['tail'])+pad/30,9)
+                    plans=sequence_plans(shots,narration,edit)
             print(name,len(plans),'shots',round(sum(p['duration'] for p in plans),3),'seconds')
         else:
             print(name,len(shots),'whole-line shots; recorded timing pending')

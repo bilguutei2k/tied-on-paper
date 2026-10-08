@@ -1,7 +1,7 @@
 {
   "status": "pre-lock draft",
   "voice": "af_heart",
-  "about": "Claims proposed; exact written-word cues. Voice blocked in sandbox; rerun builder after synthesis for timed PCM fragments.",
+  "about": "Claims proposed; exact written-word cues. Actual Kokoro timing.",
   "timing": "Named states start on their spoken word; original animation plays then holds. Wipes cover scene changes; cuts within scenes.",
   "gap": 0.45,
   "lead": 0.4,
@@ -11,7 +11,7 @@
   "strict_captions": true,
   "audio_true_peak": -1.5,
   "calibrate_loudness": true,
-  "settled_visuals": false,
+  "settled_visuals": true,
   "deliverables": {
     "film": {
       "format": "landscape",
@@ -31,15 +31,15 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "look",
-              "nth": 1
             }
           ],
           "about": "S01 line 0, words 0–27",
+          "word_ranges": [
+            [
+              0,
+              27
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -50,7 +50,8 @@
               "selector": "[data-value-key*=\"2024\"][data-value-key*=\"WN\"][data-value-key*=\"rate_pct\"]",
               "hidden": true
             }
-          ]
+          ],
+          "tail": 0.9
         },
         {
           "scene": "s01-tied-on-paper",
@@ -73,17 +74,16 @@
               "word": "78.60%",
               "nth": 1,
               "jump_from": 6.95
-            },
-            {
-              "t": 14,
-              "line": 0,
-              "word": "2025,",
-              "nth": 1,
-              "jump_from": 13.95
             }
           ],
-          "about": "S01 line 1, words 0–33",
-          "end_t": 20.95,
+          "about": "S01 line 1, words 0–19",
+          "word_ranges": [
+            [
+              0,
+              19
+            ]
+          ],
+          "end_t": 13.95,
           "reveals": [
             {
               "selector": "[data-value-key*=\"2024\"][data-value-key*=\"UA\"][data-value-key*=\"rate_pct\"]",
@@ -93,11 +93,74 @@
             },
             {
               "selector": "[data-value-key*=\"2024\"][data-value-key*=\"WN\"][data-value-key*=\"rate_pct\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s01-tied-on-paper",
+          "bg": "night",
+          "in": "cut",
+          "lines": [
+            "S01",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 13.95,
+              "line": 0
+            },
+            {
+              "t": 14,
+              "line": 0,
+              "word": "2025,",
+              "nth": 1,
+              "jump_from": 13.95
+            }
+          ],
+          "about": "S01 line 1, words 19–33",
+          "word_ranges": [
+            [
+              19,
+              33
+            ]
+          ],
+          "end_t": 20.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key*=\"2024\"][data-value-key*=\"WN\"][data-value-key*=\"rate_pct\"]",
               "line": 0,
               "word": "78.57%.",
               "nth": 1
             }
           ]
+        },
+        {
+          "scene": "s01-tied-on-paper",
+          "bg": "night",
+          "in": "cut",
+          "lines": [
+            "S01",
+            [
+              2
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
+            }
+          ],
+          "about": "S01 line 2, words 0–19",
+          "word_ranges": [
+            [
+              0,
+              19
+            ]
+          ],
+          "end_t": 20.95
         },
         {
           "scene": "s01-tied-on-paper",
@@ -122,7 +185,13 @@
               "jump_from": 20.95
             }
           ],
-          "about": "S01 line 2, words 0–33",
+          "about": "S01 line 2, words 19–33",
+          "word_ranges": [
+            [
+              19,
+              33
+            ]
+          ],
           "end_t": 27.95
         },
         {
@@ -139,22 +208,48 @@
             {
               "t": 0,
               "line": 0
-            },
+            }
+          ],
+          "about": "S02 line 0, words 0–17",
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "end_t": 6.95
+        },
+        {
+          "scene": "s02-fifteen-minutes",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S02",
+            [
+              0
+            ]
+          ],
+          "cues": [
             {
-              "t": 0,
-              "line": 0,
-              "word": "succeeds",
-              "nth": 1
+              "t": 6.95,
+              "line": 0
             },
             {
               "t": 7,
               "line": 0,
               "word": "fifteen",
               "nth": 2,
-              "jump_from": 6.95
+              "jump_from": 6.95,
+              "offset": -0.000666667
             }
           ],
-          "about": "S02 line 0, words 0–34",
+          "about": "S02 line 0, words 17–34",
+          "word_ranges": [
+            [
+              17,
+              34
+            ]
+          ],
           "end_t": 13.95
         },
         {
@@ -178,6 +273,31 @@
               "word": "cancellation",
               "nth": 1,
               "jump_from": 13.95
+            }
+          ],
+          "about": "S02 line 1, words 0–17",
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "end_t": 20.95
+        },
+        {
+          "scene": "s02-fifteen-minutes",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S02",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
             },
             {
               "t": 21,
@@ -187,7 +307,13 @@
               "jump_from": 20.95
             }
           ],
-          "about": "S02 line 1, words 0–38",
+          "about": "S02 line 1, words 17–38",
+          "word_ranges": [
+            [
+              17,
+              38
+            ]
+          ],
           "end_t": 27.95
         },
         {
@@ -207,7 +333,14 @@
             }
           ],
           "about": "S02 line 2, words 0–25",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              25
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 0.9
         },
         {
           "scene": "s03-the-mixed-basket",
@@ -223,15 +356,15 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "78.34%",
-              "nth": 1
             }
           ],
-          "about": "S03 line 0, words 0–26",
+          "about": "S03 line 0, words 0–14",
+          "word_ranges": [
+            [
+              0,
+              14
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -246,6 +379,41 @@
               "word": "77.91%.",
               "nth": 1
             },
+            {
+              "selector": "[data-value-key=\"replication_2025.unmatched_all_flights_on_time_pct.UA.estimate\"], [data-geometry-key=\"replication_2025.unmatched_all_flights_on_time_pct.UA.estimate\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"replication_2025.unmatched_all_flights_on_time_pct.WN.estimate\"], [data-geometry-key=\"replication_2025.unmatched_all_flights_on_time_pct.WN.estimate\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s03-the-mixed-basket",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S03",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            }
+          ],
+          "about": "S03 line 0, words 14–26",
+          "word_ranges": [
+            [
+              14,
+              26
+            ]
+          ],
+          "end_t": 6.95,
+          "reveals": [
             {
               "selector": "[data-value-key=\"replication_2025.unmatched_all_flights_on_time_pct.UA.estimate\"], [data-geometry-key=\"replication_2025.unmatched_all_flights_on_time_pct.UA.estimate\"]",
               "line": 0,
@@ -284,7 +452,14 @@
             }
           ],
           "about": "S03 line 1, words 0–29",
-          "end_t": 13.95
+          "word_ranges": [
+            [
+              0,
+              29
+            ]
+          ],
+          "end_t": 13.95,
+          "tail": 0.9
         },
         {
           "scene": "s03-the-mixed-basket",
@@ -303,7 +478,14 @@
             }
           ],
           "about": "S03 line 2, words 0–22",
-          "end_t": 13.95
+          "word_ranges": [
+            [
+              0,
+              22
+            ]
+          ],
+          "end_t": 13.95,
+          "tail": 0.9
         },
         {
           "scene": "s03-the-mixed-basket",
@@ -329,7 +511,14 @@
             }
           ],
           "about": "S03 line 3, words 0–17",
-          "end_t": 20.95
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "end_t": 20.95,
+          "tail": 0.9
         },
         {
           "scene": "s04-same-trip-same-window",
@@ -345,16 +534,17 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "cell:",
-              "nth": 1
             }
           ],
           "about": "S04 line 0, words 0–30",
-          "end_t": 6.95
+          "word_ranges": [
+            [
+              0,
+              30
+            ]
+          ],
+          "end_t": 6.95,
+          "tail": 0.9
         },
         {
           "scene": "s04-same-trip-same-window",
@@ -379,7 +569,38 @@
               "jump_from": 6.95
             }
           ],
-          "about": "S04 line 1, words 0–36",
+          "about": "S04 line 1, words 0–17",
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "end_t": 13.95
+        },
+        {
+          "scene": "s04-same-trip-same-window",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S04",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 13.95,
+              "line": 0
+            }
+          ],
+          "about": "S04 line 1, words 17–36",
+          "word_ranges": [
+            [
+              17,
+              36
+            ]
+          ],
           "end_t": 13.95
         },
         {
@@ -403,6 +624,31 @@
               "word": "different",
               "nth": 1,
               "jump_from": 13.95
+            }
+          ],
+          "about": "S04 line 2, words 0–17",
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "end_t": 20.95
+        },
+        {
+          "scene": "s04-same-trip-same-window",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S04",
+            [
+              2
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
             },
             {
               "t": 21,
@@ -412,7 +658,13 @@
               "jump_from": 20.95
             }
           ],
-          "about": "S04 line 2, words 0–34",
+          "about": "S04 line 2, words 17–34",
+          "word_ranges": [
+            [
+              17,
+              34
+            ]
+          ],
           "end_t": 27.95
         },
         {
@@ -432,7 +684,14 @@
             }
           ],
           "about": "S04 line 3, words 0–11",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              11
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 0.9
         },
         {
           "scene": "s05-same-basket-same-line",
@@ -448,15 +707,40 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "weight,",
-              "nth": 1
             }
           ],
-          "about": "S05 line 0, words 0–38",
+          "about": "S05 line 0, words 0–18",
+          "word_ranges": [
+            [
+              0,
+              18
+            ]
+          ],
+          "end_t": 6.95
+        },
+        {
+          "scene": "s05-same-basket-same-line",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S05",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            }
+          ],
+          "about": "S05 line 0, words 18–38",
+          "word_ranges": [
+            [
+              18,
+              38
+            ]
+          ],
           "end_t": 6.95
         },
         {
@@ -483,7 +767,14 @@
             }
           ],
           "about": "S05 line 1, words 0–17",
-          "end_t": 13.95
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "end_t": 13.95,
+          "tail": 0.9
         },
         {
           "scene": "s05-same-basket-same-line",
@@ -509,7 +800,14 @@
             }
           ],
           "about": "S05 line 2, words 0–23",
-          "end_t": 20.95
+          "word_ranges": [
+            [
+              0,
+              23
+            ]
+          ],
+          "end_t": 20.95,
+          "tail": 0.9
         },
         {
           "scene": "s05-same-basket-same-line",
@@ -535,7 +833,14 @@
             }
           ],
           "about": "S05 line 3, words 0–28",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              28
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 0.9
         },
         {
           "scene": "s06-two-failed-checks",
@@ -551,12 +856,31 @@
             {
               "t": 0,
               "line": 0
-            },
+            }
+          ],
+          "about": "S06 line 0, words 0–17",
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "end_t": 6.95
+        },
+        {
+          "scene": "s06-two-failed-checks",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S06",
+            [
+              0
+            ]
+          ],
+          "cues": [
             {
-              "t": 0,
-              "line": 0,
-              "word": "failed.",
-              "nth": 1
+              "t": 6.95,
+              "line": 0
             },
             {
               "t": 7,
@@ -566,7 +890,13 @@
               "jump_from": 6.95
             }
           ],
-          "about": "S06 line 0, words 0–35",
+          "about": "S06 line 0, words 17–35",
+          "word_ranges": [
+            [
+              17,
+              35
+            ]
+          ],
           "end_t": 13.95
         },
         {
@@ -593,7 +923,14 @@
             }
           ],
           "about": "S06 line 1, words 0–23",
-          "end_t": 20.95
+          "word_ranges": [
+            [
+              0,
+              23
+            ]
+          ],
+          "end_t": 20.95,
+          "tail": 0.9
         },
         {
           "scene": "s06-two-failed-checks",
@@ -619,7 +956,14 @@
             }
           ],
           "about": "S06 line 2, words 0–27",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              27
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 0.9
         },
         {
           "scene": "s06-two-failed-checks",
@@ -645,7 +989,14 @@
             }
           ],
           "about": "S06 line 3, words 0–21",
-          "end_t": 34.95
+          "word_ranges": [
+            [
+              0,
+              21
+            ]
+          ],
+          "end_t": 34.95,
+          "tail": 0.9
         },
         {
           "scene": "s07-the-first-result",
@@ -661,15 +1012,62 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "79.75%;",
-              "nth": 1
             }
           ],
-          "about": "S07 line 0, words 0–14",
+          "about": "S07 line 0, words 0–9",
+          "word_ranges": [
+            [
+              0,
+              9
+            ]
+          ],
+          "end_t": 6.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.weighted_matched_secondary_rates_pct.UA.on_time.estimate\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.weighted_matched_secondary_rates_pct.WN.on_time.estimate\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate\"], [data-geometry-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]\"], [data-geometry-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s07-the-first-result",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S07",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            }
+          ],
+          "about": "S07 line 0, words 9–14",
+          "word_ranges": [
+            [
+              9,
+              14
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -728,7 +1126,13 @@
               "jump_from": 13.95
             }
           ],
-          "about": "S07 line 1, words 0–26",
+          "about": "S07 line 1, words 0–14",
+          "word_ranges": [
+            [
+              0,
+              14
+            ]
+          ],
           "end_t": 20.95,
           "reveals": [
             {
@@ -737,6 +1141,41 @@
               "word": "6.3",
               "nth": 1
             },
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[1]\"], [data-geometry-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s07-the-first-result",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S07",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
+            }
+          ],
+          "about": "S07 line 1, words 14–26",
+          "word_ranges": [
+            [
+              14,
+              26
+            ]
+          ],
+          "end_t": 20.95,
+          "reveals": [
             {
               "selector": "[data-value-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.interval[0]\"]",
               "line": 0,
@@ -775,7 +1214,14 @@
             }
           ],
           "about": "S07 line 2, words 0–9",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              9
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 1.3999999999999995
         },
         {
           "scene": "s07-the-first-result",
@@ -800,7 +1246,38 @@
               "jump_from": 27.95
             }
           ],
-          "about": "S07 line 3, words 0–31",
+          "about": "S07 line 3, words 0–14",
+          "word_ranges": [
+            [
+              0,
+              14
+            ]
+          ],
+          "end_t": 34.95
+        },
+        {
+          "scene": "s07-the-first-result",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S07",
+            [
+              3
+            ]
+          ],
+          "cues": [
+            {
+              "t": 34.95,
+              "line": 0
+            }
+          ],
+          "about": "S07 line 3, words 14–31",
+          "word_ranges": [
+            [
+              14,
+              31
+            ]
+          ],
           "end_t": 34.95
         },
         {
@@ -817,15 +1294,15 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "sealed",
-              "nth": 1
             }
           ],
           "about": "S08 line 0, words 0–22",
+          "word_ranges": [
+            [
+              0,
+              22
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -840,7 +1317,8 @@
               "selector": "[data-value-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.interval[1]\"], [data-geometry-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.interval\"]",
               "hidden": true
             }
-          ]
+          ],
+          "tail": 0.9
         },
         {
           "scene": "s08-the-replication",
@@ -872,7 +1350,13 @@
               "jump_from": 13.95
             }
           ],
-          "about": "S08 line 1, words 0–25",
+          "about": "S08 line 1, words 0–12",
+          "word_ranges": [
+            [
+              0,
+              12
+            ]
+          ],
           "end_t": 20.95,
           "reveals": [
             {
@@ -881,6 +1365,41 @@
               "word": "8.2",
               "nth": 1
             },
+            {
+              "selector": "[data-value-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.interval[0]\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.interval[1]\"], [data-geometry-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.interval\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s08-the-replication",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S08",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
+            }
+          ],
+          "about": "S08 line 1, words 12–25",
+          "word_ranges": [
+            [
+              12,
+              25
+            ]
+          ],
+          "end_t": 20.95,
+          "reveals": [
             {
               "selector": "[data-value-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.interval[0]\"]",
               "line": 0,
@@ -919,7 +1438,14 @@
             }
           ],
           "about": "S08 line 2, words 0–6",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              6
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 1.9500000000000002
         },
         {
           "scene": "s08-the-replication",
@@ -944,7 +1470,38 @@
               "jump_from": 27.95
             }
           ],
-          "about": "S08 line 3, words 0–45",
+          "about": "S08 line 3, words 0–25",
+          "word_ranges": [
+            [
+              0,
+              25
+            ]
+          ],
+          "end_t": 34.95
+        },
+        {
+          "scene": "s08-the-replication",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S08",
+            [
+              3
+            ]
+          ],
+          "cues": [
+            {
+              "t": 34.95,
+              "line": 0
+            }
+          ],
+          "about": "S08 line 3, words 25–45",
+          "word_ranges": [
+            [
+              25,
+              45
+            ]
+          ],
           "end_t": 34.95
         },
         {
@@ -961,15 +1518,15 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "one-hour",
-              "nth": 1
             }
           ],
           "about": "S09 line 0, words 0–26",
+          "word_ranges": [
+            [
+              0,
+              26
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -980,7 +1537,8 @@
               "selector": "[data-value-key=\"replication_2025.sensitivities.reciprocal_nearest_30min.gap_ua_minus_wn_pp.estimate\"], [data-geometry-key=\"replication_2025.sensitivities.reciprocal_nearest_30min.gap_ua_minus_wn_pp.estimate\"]",
               "hidden": true
             }
-          ]
+          ],
+          "tail": 0.9
         },
         {
           "scene": "s09-the-nearby-tests",
@@ -1006,6 +1564,12 @@
             }
           ],
           "about": "S09 line 1, words 0–14",
+          "word_ranges": [
+            [
+              0,
+              14
+            ]
+          ],
           "end_t": 13.95,
           "reveals": [
             {
@@ -1020,7 +1584,8 @@
               "word": "9.1",
               "nth": 1
             }
-          ]
+          ],
+          "tail": 0.9
         },
         {
           "scene": "s09-the-nearby-tests",
@@ -1046,7 +1611,14 @@
             }
           ],
           "about": "S09 line 2, words 0–21",
-          "end_t": 20.95
+          "word_ranges": [
+            [
+              0,
+              21
+            ]
+          ],
+          "end_t": 20.95,
+          "tail": 0.9
         },
         {
           "scene": "s09-the-nearby-tests",
@@ -1065,7 +1637,14 @@
             }
           ],
           "about": "S09 line 3, words 0–31",
-          "end_t": 20.95
+          "word_ranges": [
+            [
+              0,
+              31
+            ]
+          ],
+          "end_t": 20.95,
+          "tail": 0.9
         },
         {
           "scene": "s10-whose-deadline",
@@ -1081,23 +1660,16 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "4.5",
-              "nth": 1
-            },
-            {
-              "t": 7,
-              "line": 0,
-              "word": "4.8",
-              "nth": 1,
-              "jump_from": 6.95
             }
           ],
-          "about": "S10 line 0, words 0–52",
-          "end_t": 13.95,
+          "about": "S10 line 0, words 0–20",
+          "word_ranges": [
+            [
+              0,
+              20
+            ]
+          ],
+          "end_t": 6.95,
           "reveals": [
             {
               "selector": "[data-value-key=\"A.schedule.UA_minus_WN\"], [data-geometry-key=\"A.schedule.UA_minus_WN\"]",
@@ -1113,6 +1685,56 @@
             },
             {
               "selector": "[data-value-key=\"A.completed_cell_means.actual.UA_minus_WN\"], [data-geometry-key=\"A.completed_cell_means.actual.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.completed_cell_means.actual.UA_minus_WN\"], [data-geometry-key=\"B.completed_cell_means.actual.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"A.common_mid.UA_minus_WN\"], [data-geometry-key=\"A.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.common_mid.UA_minus_WN\"], [data-geometry-key=\"B.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s10-whose-deadline",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S10",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            },
+            {
+              "t": 7,
+              "line": 0,
+              "word": "4.8",
+              "nth": 1,
+              "jump_from": 6.95
+            }
+          ],
+          "about": "S10 line 0, words 20–36",
+          "word_ranges": [
+            [
+              20,
+              36
+            ]
+          ],
+          "end_t": 13.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"A.completed_cell_means.actual.UA_minus_WN\"], [data-geometry-key=\"A.completed_cell_means.actual.UA_minus_WN\"]",
               "line": 0,
               "word": "4.8",
               "nth": 1
@@ -1123,6 +1745,41 @@
               "word": "6.2",
               "nth": 1
             },
+            {
+              "selector": "[data-value-key=\"A.common_mid.UA_minus_WN\"], [data-geometry-key=\"A.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.common_mid.UA_minus_WN\"], [data-geometry-key=\"B.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s10-whose-deadline",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S10",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 13.95,
+              "line": 0
+            }
+          ],
+          "about": "S10 line 0, words 36–52",
+          "word_ranges": [
+            [
+              36,
+              52
+            ]
+          ],
+          "end_t": 13.95,
+          "reveals": [
             {
               "selector": "[data-value-key=\"A.common_mid.UA_minus_WN\"], [data-geometry-key=\"A.common_mid.UA_minus_WN\"]",
               "hidden": true
@@ -1156,7 +1813,48 @@
               "jump_from": 13.95
             }
           ],
-          "about": "S10 line 1, words 0–33",
+          "about": "S10 line 1, words 0–20",
+          "word_ranges": [
+            [
+              0,
+              20
+            ]
+          ],
+          "end_t": 20.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"A.common_mid.UA_minus_WN\"], [data-geometry-key=\"A.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.common_mid.UA_minus_WN\"], [data-geometry-key=\"B.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "s10-whose-deadline",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S10",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
+            }
+          ],
+          "about": "S10 line 1, words 20–33",
+          "word_ranges": [
+            [
+              20,
+              33
+            ]
+          ],
           "end_t": 20.95,
           "reveals": [
             {
@@ -1190,17 +1888,16 @@
               "word": "2.6",
               "nth": 1,
               "jump_from": 20.95
-            },
-            {
-              "t": 28,
-              "line": 0,
-              "word": "verdict.",
-              "nth": 1,
-              "jump_from": 27.95
             }
           ],
-          "about": "S10 line 2, words 0–30",
-          "end_t": 34.95,
+          "about": "S10 line 2, words 0–13",
+          "word_ranges": [
+            [
+              0,
+              13
+            ]
+          ],
+          "end_t": 27.95,
           "reveals": [
             {
               "selector": "[data-value-key=\"A.common_mid.UA_minus_WN\"], [data-geometry-key=\"A.common_mid.UA_minus_WN\"]",
@@ -1215,6 +1912,38 @@
               "nth": 1
             }
           ]
+        },
+        {
+          "scene": "s10-whose-deadline",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S10",
+            [
+              2
+            ]
+          ],
+          "cues": [
+            {
+              "t": 27.95,
+              "line": 0
+            },
+            {
+              "t": 28,
+              "line": 0,
+              "word": "verdict.",
+              "nth": 1,
+              "jump_from": 27.95
+            }
+          ],
+          "about": "S10 line 2, words 13–30",
+          "word_ranges": [
+            [
+              13,
+              30
+            ]
+          ],
+          "end_t": 34.95
         },
         {
           "scene": "s11-leaving-late",
@@ -1233,6 +1962,12 @@
             }
           ],
           "about": "S11 line 0, words 0–19",
+          "word_ranges": [
+            [
+              0,
+              19
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -1242,6 +1977,54 @@
             {
               "selector": "[data-value-key=\"B.dep_late.UA_minus_WN\"], [data-geometry-key=\"B.dep_late.UA_minus_WN\"]",
               "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"A.dep_timely.UA_minus_WN\"], [data-geometry-key=\"A.dep_timely.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.dep_timely.UA_minus_WN\"], [data-geometry-key=\"B.dep_timely.UA_minus_WN\"]",
+              "hidden": true
+            }
+          ],
+          "tail": 0.9
+        },
+        {
+          "scene": "s11-leaving-late",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S11",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            }
+          ],
+          "about": "S11 line 1, words 0–18",
+          "word_ranges": [
+            [
+              0,
+              18
+            ]
+          ],
+          "end_t": 6.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"A.dep_late.UA_minus_WN\"], [data-geometry-key=\"A.dep_late.UA_minus_WN\"]",
+              "line": 0,
+              "word": "10.1",
+              "nth": 1
+            },
+            {
+              "selector": "[data-value-key=\"B.dep_late.UA_minus_WN\"], [data-geometry-key=\"B.dep_late.UA_minus_WN\"]",
+              "line": 0,
+              "word": "13.1",
+              "nth": 1
             },
             {
               "selector": "[data-value-key=\"A.dep_timely.UA_minus_WN\"], [data-geometry-key=\"A.dep_timely.UA_minus_WN\"]",
@@ -1269,12 +2052,6 @@
               "line": 0
             },
             {
-              "t": 6.95,
-              "line": 0,
-              "word": "10.1",
-              "nth": 1
-            },
-            {
               "t": 7,
               "line": 0,
               "word": "denominator",
@@ -1282,21 +2059,15 @@
               "jump_from": 6.95
             }
           ],
-          "about": "S11 line 1, words 0–38",
+          "about": "S11 line 1, words 18–38",
+          "word_ranges": [
+            [
+              18,
+              38
+            ]
+          ],
           "end_t": 13.95,
           "reveals": [
-            {
-              "selector": "[data-value-key=\"A.dep_late.UA_minus_WN\"], [data-geometry-key=\"A.dep_late.UA_minus_WN\"]",
-              "line": 0,
-              "word": "10.1",
-              "nth": 1
-            },
-            {
-              "selector": "[data-value-key=\"B.dep_late.UA_minus_WN\"], [data-geometry-key=\"B.dep_late.UA_minus_WN\"]",
-              "line": 0,
-              "word": "13.1",
-              "nth": 1
-            },
             {
               "selector": "[data-value-key=\"A.dep_timely.UA_minus_WN\"], [data-geometry-key=\"A.dep_timely.UA_minus_WN\"]",
               "hidden": true
@@ -1331,6 +2102,12 @@
             }
           ],
           "about": "S11 line 2, words 0–16",
+          "word_ranges": [
+            [
+              0,
+              16
+            ]
+          ],
           "end_t": 20.95,
           "reveals": [
             {
@@ -1345,7 +2122,33 @@
               "word": "13.3",
               "nth": 1
             }
-          ]
+          ],
+          "tail": 0.9
+        },
+        {
+          "scene": "s11-leaving-late",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S11",
+            [
+              3
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
+            }
+          ],
+          "about": "S11 line 3, words 0–13",
+          "word_ranges": [
+            [
+              0,
+              13
+            ]
+          ],
+          "end_t": 20.95
         },
         {
           "scene": "s11-leaving-late",
@@ -1370,7 +2173,13 @@
               "jump_from": 20.95
             }
           ],
-          "about": "S11 line 3, words 0–33",
+          "about": "S11 line 3, words 13–33",
+          "word_ranges": [
+            [
+              13,
+              33
+            ]
+          ],
           "end_t": 27.95
         },
         {
@@ -1387,15 +2196,15 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "overlap:",
-              "nth": 1
             }
           ],
           "about": "S12 line 0, words 0–23",
+          "word_ranges": [
+            [
+              0,
+              23
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -1414,7 +2223,8 @@
               "selector": "[data-value-key=\"derived_metrics.B.time.from_16.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.from_16.gap_pp\"]",
               "hidden": true
             }
-          ]
+          ],
+          "tail": 0.9
         },
         {
           "scene": "s12-the-boundary-of-the-answer",
@@ -1440,11 +2250,70 @@
             }
           ],
           "about": "S12 line 1, words 0–14",
+          "word_ranges": [
+            [
+              0,
+              14
+            ]
+          ],
           "end_t": 13.95,
           "reveals": [
             {
               "selector": "[data-value-key=\"derived_metrics.A.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.before_10.gap_pp\"]",
               "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.B.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.before_10.gap_pp\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.A.time.from_16.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.from_16.gap_pp\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.B.time.from_16.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.from_16.gap_pp\"]",
+              "hidden": true
+            }
+          ],
+          "tail": 0.9
+        },
+        {
+          "scene": "s12-the-boundary-of-the-answer",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S12",
+            [
+              2
+            ]
+          ],
+          "cues": [
+            {
+              "t": 13.95,
+              "line": 0
+            },
+            {
+              "t": 14,
+              "line": 0,
+              "word": "0.4",
+              "nth": 1,
+              "jump_from": 13.95
+            }
+          ],
+          "about": "S12 line 2, words 0–24",
+          "word_ranges": [
+            [
+              0,
+              24
+            ]
+          ],
+          "end_t": 20.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"derived_metrics.A.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.before_10.gap_pp\"]",
+              "line": 0,
+              "word": "0.4",
+              "nth": 1
             },
             {
               "selector": "[data-value-key=\"derived_metrics.B.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.before_10.gap_pp\"]",
@@ -1472,15 +2341,8 @@
           ],
           "cues": [
             {
-              "t": 13.95,
+              "t": 20.95,
               "line": 0
-            },
-            {
-              "t": 14,
-              "line": 0,
-              "word": "0.4",
-              "nth": 1,
-              "jump_from": 13.95
             },
             {
               "t": 21,
@@ -1490,15 +2352,15 @@
               "jump_from": 20.95
             }
           ],
-          "about": "S12 line 2, words 0–44",
+          "about": "S12 line 2, words 24–44",
+          "word_ranges": [
+            [
+              24,
+              44
+            ]
+          ],
           "end_t": 27.95,
           "reveals": [
-            {
-              "selector": "[data-value-key=\"derived_metrics.A.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.before_10.gap_pp\"]",
-              "line": 0,
-              "word": "0.4",
-              "nth": 1
-            },
             {
               "selector": "[data-value-key=\"derived_metrics.B.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.before_10.gap_pp\"]",
               "line": 0,
@@ -1542,7 +2404,38 @@
               "jump_from": 27.95
             }
           ],
-          "about": "S12 line 3, words 0–38",
+          "about": "S12 line 3, words 0–20",
+          "word_ranges": [
+            [
+              0,
+              20
+            ]
+          ],
+          "end_t": 34.95
+        },
+        {
+          "scene": "s12-the-boundary-of-the-answer",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "S12",
+            [
+              3
+            ]
+          ],
+          "cues": [
+            {
+              "t": 34.95,
+              "line": 0
+            }
+          ],
+          "about": "S12 line 3, words 20–38",
+          "word_ranges": [
+            [
+              20,
+              38
+            ]
+          ],
           "end_t": 34.95
         },
         {
@@ -1569,7 +2462,14 @@
             }
           ],
           "about": "S12 line 4, words 0–23",
-          "end_t": 41.95
+          "word_ranges": [
+            [
+              0,
+              23
+            ]
+          ],
+          "end_t": 41.95,
+          "tail": 0.933333333
         }
       ]
     },
@@ -1591,15 +2491,15 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "tied",
-              "nth": 1
             }
           ],
           "about": "Short A line 0, words 0–17",
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
           "lead": 0.15,
           "end_t": 6.95,
           "reveals": [
@@ -1612,14 +2512,15 @@
               "hidden": true
             },
             {
-              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"]",
+              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"], [data-interval-label]",
               "hidden": true
             },
             {
               "selector": ".claim.chip",
               "hidden": true
             }
-          ]
+          ],
+          "tail": 0.9
         },
         {
           "scene": "short-a",
@@ -1644,7 +2545,13 @@
               "jump_from": 6.95
             }
           ],
-          "about": "Short A line 1, words 0–23",
+          "about": "Short A line 1, words 0–12",
+          "word_ranges": [
+            [
+              0,
+              12
+            ]
+          ],
           "end_t": 13.95,
           "reveals": [
             {
@@ -1656,7 +2563,50 @@
               "hidden": true
             },
             {
-              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"]",
+              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"], [data-interval-label]",
+              "hidden": true
+            },
+            {
+              "selector": ".claim.chip",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "short-a",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "Short A",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 13.95,
+              "line": 0
+            }
+          ],
+          "about": "Short A line 1, words 12–23",
+          "word_ranges": [
+            [
+              12,
+              23
+            ]
+          ],
+          "end_t": 13.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate\"], [data-geometry-key=\"primary_2023_2024.adjusted_gap_ua_minus_wn_pp.estimate\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.estimate\"], [data-geometry-key=\"replication_2025.adjusted_gap_ua_minus_wn_pp.estimate\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"], [data-interval-label]",
               "hidden": true
             },
             {
@@ -1688,7 +2638,13 @@
               "jump_from": 13.95
             }
           ],
-          "about": "Short A line 2, words 0–32",
+          "about": "Short A line 2, words 0–17",
+          "word_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
           "end_t": 20.95,
           "reveals": [
             {
@@ -1704,7 +2660,42 @@
               "nth": 1
             },
             {
-              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"]",
+              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"], [data-interval-label]",
+              "hidden": true
+            },
+            {
+              "selector": ".claim.chip",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "short-a",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "Short A",
+            [
+              2
+            ]
+          ],
+          "cues": [
+            {
+              "t": 20.95,
+              "line": 0
+            }
+          ],
+          "about": "Short A line 2, words 17–32",
+          "word_ranges": [
+            [
+              17,
+              32
+            ]
+          ],
+          "end_t": 20.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key*=\"adjusted_gap\"][data-value-key*=\"interval\"], [data-geometry-key*=\"adjusted_gap\"][data-geometry-key*=\"interval\"], [data-interval-label]",
               "line": 0,
               "word": "envelopes",
               "nth": 1
@@ -1741,7 +2732,14 @@
             }
           ],
           "about": "Short A line 3, words 0–28",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              28
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 0.9
         }
       ]
     },
@@ -1763,16 +2761,67 @@
             {
               "t": 0,
               "line": 0
-            },
-            {
-              "t": 0,
-              "line": 0,
-              "word": "4.5",
-              "nth": 1
             }
           ],
-          "about": "Short B line 0, words 0–49",
+          "about": "Short B line 0, words 0–18",
+          "word_ranges": [
+            [
+              0,
+              18
+            ]
+          ],
           "lead": 0.15,
+          "end_t": 6.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"A.schedule.UA_minus_WN\"], [data-geometry-key=\"A.schedule.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.schedule.UA_minus_WN\"], [data-geometry-key=\"B.schedule.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"A.completed_cell_means.actual.UA_minus_WN\"], [data-geometry-key=\"A.completed_cell_means.actual.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.completed_cell_means.actual.UA_minus_WN\"], [data-geometry-key=\"B.completed_cell_means.actual.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"A.common_mid.UA_minus_WN\"], [data-geometry-key=\"A.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.common_mid.UA_minus_WN\"], [data-geometry-key=\"B.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "short-b",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "Short B",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            }
+          ],
+          "about": "Short B line 0, words 18–33",
+          "word_ranges": [
+            [
+              18,
+              33
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -1793,6 +2842,45 @@
               "word": "4.8",
               "nth": 1
             },
+            {
+              "selector": "[data-value-key=\"B.completed_cell_means.actual.UA_minus_WN\"], [data-geometry-key=\"B.completed_cell_means.actual.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"A.common_mid.UA_minus_WN\"], [data-geometry-key=\"A.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"B.common_mid.UA_minus_WN\"], [data-geometry-key=\"B.common_mid.UA_minus_WN\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "short-b",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "Short B",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            }
+          ],
+          "about": "Short B line 0, words 33–49",
+          "word_ranges": [
+            [
+              33,
+              49
+            ]
+          ],
+          "end_t": 6.95,
+          "reveals": [
             {
               "selector": "[data-value-key=\"B.completed_cell_means.actual.UA_minus_WN\"], [data-geometry-key=\"B.completed_cell_means.actual.UA_minus_WN\"]",
               "line": 0,
@@ -1833,6 +2921,12 @@
             }
           ],
           "about": "Short B line 1, words 0–21",
+          "word_ranges": [
+            [
+              0,
+              21
+            ]
+          ],
           "end_t": 13.95,
           "reveals": [
             {
@@ -1847,7 +2941,8 @@
               "word": "4.3",
               "nth": 1
             }
-          ]
+          ],
+          "tail": 0.9
         },
         {
           "scene": "short-b",
@@ -1873,7 +2968,14 @@
             }
           ],
           "about": "Short B line 2, words 0–14",
-          "end_t": 20.95
+          "word_ranges": [
+            [
+              0,
+              14
+            ]
+          ],
+          "end_t": 20.95,
+          "tail": 0.9
         },
         {
           "scene": "short-b",
@@ -1899,7 +3001,14 @@
             }
           ],
           "about": "Short B line 3, words 0–24",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              24
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 0.9
         }
       ]
     },
@@ -1923,8 +3032,57 @@
               "line": 0
             }
           ],
-          "about": "Short C line 0, words 0–36",
+          "about": "Short C line 0, words 0–19",
+          "word_ranges": [
+            [
+              0,
+              19
+            ]
+          ],
           "lead": 0.15,
+          "end_t": 6.95,
+          "reveals": [
+            {
+              "selector": "[data-value-key=\"derived_metrics.A.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.before_10.gap_pp\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.B.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.before_10.gap_pp\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.A.time.from_16.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.from_16.gap_pp\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.B.time.from_16.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.from_16.gap_pp\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "short-c",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "Short C",
+            [
+              0
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
+            }
+          ],
+          "about": "Short C line 0, words 19–36",
+          "word_ranges": [
+            [
+              19,
+              36
+            ]
+          ],
           "end_t": 6.95,
           "reveals": [
             {
@@ -1959,12 +3117,51 @@
             {
               "t": 6.95,
               "line": 0
-            },
+            }
+          ],
+          "about": "Short C line 1, words 0–15",
+          "word_ranges": [
+            [
+              0,
+              15
+            ]
+          ],
+          "end_t": 6.95,
+          "reveals": [
             {
-              "t": 6.95,
+              "selector": "[data-value-key=\"derived_metrics.A.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.before_10.gap_pp\"]",
               "line": 0,
               "word": "0.4",
               "nth": 1
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.B.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.before_10.gap_pp\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.A.time.from_16.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.from_16.gap_pp\"]",
+              "hidden": true
+            },
+            {
+              "selector": "[data-value-key=\"derived_metrics.B.time.from_16.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.from_16.gap_pp\"]",
+              "hidden": true
+            }
+          ]
+        },
+        {
+          "scene": "short-c",
+          "bg": "paper",
+          "in": "cut",
+          "lines": [
+            "Short C",
+            [
+              1
+            ]
+          ],
+          "cues": [
+            {
+              "t": 6.95,
+              "line": 0
             },
             {
               "t": 7,
@@ -1974,15 +3171,15 @@
               "jump_from": 6.95
             }
           ],
-          "about": "Short C line 1, words 0–30",
+          "about": "Short C line 1, words 15–30",
+          "word_ranges": [
+            [
+              15,
+              30
+            ]
+          ],
           "end_t": 13.95,
           "reveals": [
-            {
-              "selector": "[data-value-key=\"derived_metrics.A.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.A.time.before_10.gap_pp\"]",
-              "line": 0,
-              "word": "0.4",
-              "nth": 1
-            },
             {
               "selector": "[data-value-key=\"derived_metrics.B.time.before_10.gap_pp\"], [data-geometry-key=\"derived_metrics.B.time.before_10.gap_pp\"]",
               "line": 0,
@@ -2027,7 +3224,14 @@
             }
           ],
           "about": "Short C line 2, words 0–21",
-          "end_t": 20.95
+          "word_ranges": [
+            [
+              0,
+              21
+            ]
+          ],
+          "end_t": 20.95,
+          "tail": 0.9
         },
         {
           "scene": "short-c",
@@ -2053,7 +3257,14 @@
             }
           ],
           "about": "Short C line 3, words 0–23",
-          "end_t": 27.95
+          "word_ranges": [
+            [
+              0,
+              23
+            ]
+          ],
+          "end_t": 27.95,
+          "tail": 0.9
         }
       ]
     }

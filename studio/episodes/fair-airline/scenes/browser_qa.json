@@ -1,10 +1,11 @@
 {
   "status": "PASS",
   "source_sha256": {
-    "episode.js": "7e7c57f9b58201d280ff0f4386db89ff1552098d0d625df7ff5f2c5a56378c02",
+    "episode.js": "6e4e33bb82d700895ded2483248dba1c59d5d788af5a4eb3dbe1930a7852a669",
     "episode.css": "7931793f14e9c3ed7fbd920cbf284ea26eec7e130c543080c392b1baf62dbc39",
     "data.js": "e4aae6163a8dbf52fe52a9e0d947a08c2f514338c437d4541c8cce421e63c8d7",
     "CUES.json": "a6504aefe6e4ff12d8172e5eb091ee322da4e3a6a4ada867cab06b159072f156",
+    "browser_audit.mjs": "3be188bfef42cb6c4bec3091f2317628486bc048fa7c471f23f59ba40638a4a9",
     "../STORY.md": "ca0d20acda2744f7a166421bf38d60c83846665b284e8e2bf2ef8e03c107aca7",
     "../../../render/system.js": "0e2020063c9400c69824d69594095f271c7b41d1bd1e8eca8062f582d994ec4d",
     "../../../render/system.css": "53658d7c1a4e404091f240da615c7626191c9bba348d5e117adaf55fa7f38c5b"
@@ -3946,6 +3947,328 @@
         }
       ],
       "box_count": 35
+    }
+  ],
+  "narrated_checks": [
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "question",
+      "issues": []
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "annual-a",
+      "issues": []
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "annual-b",
+      "issues": []
+    },
+    {
+      "page": "s01-tied-on-paper.html",
+      "state": "population",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "success",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "boundary",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "failures",
+      "issues": []
+    },
+    {
+      "page": "s02-fifteen-minutes.html",
+      "state": "unknown",
+      "issues": []
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "national",
+      "issues": []
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "networks",
+      "issues": []
+    },
+    {
+      "page": "s03-the-mixed-basket.html",
+      "state": "common",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "cell",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "example",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "reverse",
+      "issues": []
+    },
+    {
+      "page": "s04-same-trip-same-window.html",
+      "state": "scheduled",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "weight",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "periods",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "line",
+      "issues": []
+    },
+    {
+      "page": "s05-same-basket-same-line.html",
+      "state": "frozen",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "failed",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "redesign",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "blocks",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "fresh",
+      "issues": []
+    },
+    {
+      "page": "s06-two-failed-checks.html",
+      "state": "history",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "rates",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "gap",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "envelope",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "verdict",
+      "issues": []
+    },
+    {
+      "page": "s07-the-first-result.html",
+      "state": "scope",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "seal",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "b-gap",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "b-envelope",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "replicated",
+      "issues": []
+    },
+    {
+      "page": "s08-the-replication.html",
+      "state": "limit",
+      "issues": []
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "windows",
+      "issues": []
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "nearest",
+      "issues": []
+    },
+    {
+      "page": "s09-the-nearby-tests.html",
+      "state": "limit",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "schedule",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "actual",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "shared",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "shrink",
+      "issues": []
+    },
+    {
+      "page": "s10-whose-deadline.html",
+      "state": "limit",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "late",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "denominator",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "timely",
+      "issues": []
+    },
+    {
+      "page": "s11-leaving-late.html",
+      "state": "limit",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "overlap",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "denver",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "early",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "late",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "conclusion",
+      "issues": []
+    },
+    {
+      "page": "s12-the-boundary-of-the-answer.html",
+      "state": "evidence",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "tie",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "match",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "result",
+      "issues": []
+    },
+    {
+      "page": "short-a.html",
+      "state": "caveat",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "duration",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "allowance",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "departure",
+      "issues": []
+    },
+    {
+      "page": "short-b.html",
+      "state": "limit",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "early",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "late",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "denver",
+      "issues": []
+    },
+    {
+      "page": "short-c.html",
+      "state": "limit",
+      "issues": []
     }
   ],
   "issue_count": 0

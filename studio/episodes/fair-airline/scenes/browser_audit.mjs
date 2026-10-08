@@ -38,7 +38,7 @@ class CDP {
 
 const profile=mkdtempSync(resolve(tmpdir(),'fa-audit-'));
 const chrome=spawn(process.env.CHROME,['--headless','--remote-debugging-port=0','--hide-scrollbars','--force-device-scale-factor=1','--font-render-hinting=none','--user-data-dir='+profile,'about:blank'],{stdio:['ignore','ignore','pipe']});
-let cdp;const errors=[],checks=[];
+let cdp;const errors=[],checks=[],narrated_checks=[];
 try{
  const endpoint=await new Promise((ok,fail)=>{let out='';chrome.stderr.on('data',d=>{out+=d;const m=out.match(/DevTools listening on (ws:\/\/\S+)/);if(m)ok(m[1]);});chrome.on('exit',()=>fail(Error(out.slice(-400))));});
  cdp=new CDP(endpoint);await cdp.open();const {targetId}=await cdp.send('Target.createTarget',{url:'about:blank'});const {sessionId}=await cdp.send('Target.attachToTarget',{targetId,flatten:true});
@@ -73,10 +73,24 @@ try{
     return JSON.stringify({page:${JSON.stringify(page)},state:${JSON.stringify(state.id)},issues,labels,box_count:boxes.length});
    })()`,returnByValue:true},sessionId);
    if(evaluate.exceptionDetails)throw Error(evaluate.exceptionDetails.text);checks.push(JSON.parse(evaluate.result.value));
+   const narrated=await cdp.send('Runtime.evaluate',{expression:`(()=>{
+    window.__narratedAssembly=true;__ft.seek(${state.at});
+    const active=document.querySelector('.fa-state[data-state="${state.id}"]');
+    const spans=[...active.querySelectorAll('.claim .line span')];
+    const visible=e=>{for(let p=e;p&&p!==document.body;p=p.parentElement){const s=getComputedStyle(p);if(s.display==='none'||s.visibility==='hidden'||Number(s.opacity)===0)return false;}return true;};
+    const issues=[];
+    if(!spans.length||spans.some(e=>!visible(e)||Math.abs(new DOMMatrixReadOnly(getComputedStyle(e).transform).m42)>.01))issues.push('heading hidden at state onset');
+    const source=active.querySelector('.source');if(!source||!visible(source))issues.push('source hidden at state onset');
+    const chip=active.querySelector('.chip');if(chip&&!visible(chip))issues.push('badge delayed after state cue');
+    window.__narratedAssembly=false;__ft.seek(${state.still});
+    return JSON.stringify({page:${JSON.stringify(page)},state:${JSON.stringify(state.id)},issues});
+   })()`,returnByValue:true},sessionId);
+   if(narrated.exceptionDetails)throw Error(narrated.exceptionDetails.text);narrated_checks.push(JSON.parse(narrated.result.value));
   }
  }
- const source_sha256=Object.fromEntries(['episode.js','episode.css','data.js','CUES.json','../STORY.md','../../../render/system.js','../../../render/system.css'].map(file=>[file,createHash('sha256').update(readFileSync(resolve(dir,file))).digest('hex')]));
- const report={status:errors.length||checks.some(c=>c.issues.length)?'FAIL':'PASS',source_sha256,errors,checks,issue_count:checks.reduce((n,c)=>n+c.issues.length,0)};
+ const source_sha256=Object.fromEntries(['episode.js','episode.css','data.js','CUES.json','browser_audit.mjs','../STORY.md','../../../render/system.js','../../../render/system.css'].map(file=>[file,createHash('sha256').update(readFileSync(resolve(dir,file))).digest('hex')]));
+ const issue_count=checks.reduce((n,c)=>n+c.issues.length,0)+narrated_checks.reduce((n,c)=>n+c.issues.length,0);
+ const report={status:errors.length||issue_count?'FAIL':'PASS',source_sha256,errors,checks,narrated_checks,issue_count};
  writeFileSync(resolve(dir,'browser_qa.json'),JSON.stringify(report,null,2)+'\n');
  console.log('Chromium audit:',checks.length,'states,',report.issue_count,'geometry flags,',errors.length,'runtime errors.');
  for(const c of checks.filter(c=>c.issues.length))console.log(c.page,c.state,JSON.stringify(c.issues.map(x=>({kind:x.kind,text:x.text,a:x.a,b:x.b}))).slice(0,650));

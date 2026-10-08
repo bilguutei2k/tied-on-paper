@@ -25,7 +25,9 @@ const header=(g,v,kicker,title,{explore=false,night=false}={})=>{
  const k=FT.kicker(g,kicker+' · PROPOSED',{x:v?72:96,y:v?220:96,size:v?30:28,color:night?'var(--paper)':'var(--player-a-text)'});
  const h=FT.claim(g,title,{x:v?72:96,y:v?277:151,size:v?88:100,color:night?'var(--paper)':'var(--ink)'});h.style.width=(v?848:1728)+'px';
  const e=explore?T(g,'label',v?72:96,v?477:294,v?28:28,ex,{width:(v?848:1728)+'px'}):null;
- return t=>{FT.rise(k,t,0);h.at(t,.2);if(e)FT.cut(e,t,0);};
+ // Narrated states switch on words; repeated entry animation must not erase
+ // their heading. Keep chart motion on its original local state clock.
+ return t=>{const ht=window.__narratedAssembly?Math.max(t,1.2):t;FT.rise(k,ht,0);h.at(ht,.2);if(e)FT.cut(e,ht,0);};
 };
 const scope=(g,v,{ids='FA-C001 · FA-C002',explore=false,note='Own arrival timetable · comparable operating services',source='Results · method · numerical verification'}={})=>{
  const link=(path,label)=>'<a href="../'+path+'">'+label+'</a>';
@@ -77,11 +79,12 @@ const ranges=(g,v,indices,{y=v?630:390,showInterval=true,line=true,sealed=false}
   dot.style.zIndex=2;
   const ends=T(g,'label',left,yy+(v?113:66),v?30:30,n(p+'.interval[0]',2,1,true)+' to '+n(p+'.interval[1]',2,1,true)+' PP',{width:width+'px'});
   const level=T(g,'label',left,yy+(v?156:105),v?27:26,confidence+'% NOMINAL MISSINGNESS ENVELOPE',{width:width+'px'});
+  ends.dataset.intervalLabel=p;level.dataset.intervalLabel=p;
   anim.push(t=>{FT.cut(title,t,.7);if(sealTag)FT.cut(sealTag,t,.7);FT.cut(zero,t,.7);if(reference)FT.cut(reference,t,.7);FT.cut(observed,t,1);FT.rise(dot,t,1,15,.4);bar.style.transform='scaleX('+FT.p(t,1.2,.7)+')';bar.style.visibility=intervalVisible?'visible':'hidden';[ends,level].forEach(e=>FT.cut(e,t,intervalVisible?2:Infinity));});
  });
  return t=>{[axis,zeroLabel,ref,refLabel].filter(Boolean).forEach(e=>FT.cut(e,t,.7));anim.forEach(r=>r(t));};
 };
-const chip=(g,v,html,y=v?1100:770)=>{const e=T(g,'claim chip',v?72:96,y,v?52:62,html,{padding:'10px 18px',width:'auto'});return t=>FT.cut(e,t,2.6);};
+const chip=(g,v,html,y=v?1100:770)=>{const e=T(g,'claim chip',v?72:96,y,v?52:62,html,{padding:'10px 18px',width:'auto'});return t=>FT.cut(e,t,window.__narratedAssembly?0:2.6);};
 const combine=(...rs)=>t=>rs.forEach(r=>r?.(t));
 FA.register=def=>FT.scene({duration:def.duration,background:def.background,formats:{[def.vertical?'vertical':'landscape']:f=>{
  const v=def.vertical;if(v)f.classList.add('fa-portrait');
@@ -164,7 +167,7 @@ FA.primary=(g,v,phase)=>{
 };
 FA.replicate=(g,v,phase)=>{
  const short=phase==='short',indices=phase==='seal'?[0]:[0,1];
- const h=header(g,v,'Separate replication period',[short?'The result replicated':phase==='limit'?'A comparable-service result':phase==='verdict'?'A separate test repeats':'A separate period']);
+ const h=header(g,v,'Separate replication period',[short?'A separate test':phase==='limit'?'A comparable-service result':phase==='verdict'?'A separate test repeats':'A separate period']);
  const plot=ranges(g,v,indices,{y:v?650:405,showInterval:phase!=='gap',sealed:!v});
  const badge=phase==='verdict'||short?chip(g,v,'REPLICATED',v?1118:770):null;
  if(phase==='seal')cap(g,v,'B remains unopened. It cannot rewrite A.',740,40);
@@ -228,7 +231,7 @@ FA.boundary=(g,v,phase)=>{
 FA.time=(g,v,phase)=>{
  const limit=phase==='limit',late=phase==='late'||limit;
  const h=header(g,v,'Local scheduled departure',[limit?'Ask what the average hides':'The gap changes through the day'],{explore:true});
- const y=v?565:355,xs=v?[72,455,700]:[96,800,1300];
+ const y=v?565:355,xs=v?[72,455,720]:[96,800,1300];
  ['TIME BAND','A · '+yearA(),'B · '+yearB()].forEach((s,i)=>T(g,'label',xs[i],y,v?30:30,s));
  const names=['before_10',...(late?['from_16']:[])];
  names.forEach((name,j)=>{const yy=y+100+j*(v?190:180);rule(g,v?72:96,yy-23,v?848:1728);T(g,'label',v?72:96,yy,v?34:38,(j?'FROM ':'BEFORE ')+n('scene.'+name,0)+':00',{width:(v?340:680)+'px'});['A','B'].forEach((p,i)=>T(g,'number',xs[i+1],yy,v?42:60,n('derived_metrics.'+p+'.time.'+name+'.gap_pp',1,1,true)));T(g,'label',v?72:96,yy+72,v?28:28,'UNITED − SOUTHWEST · POINTS',{width:(v?848:1728)+'px'});});

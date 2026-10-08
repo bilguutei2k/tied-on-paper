@@ -11,6 +11,10 @@ if __name__=='__main__':
     manifest={}
     for name,spec in timing.items():
         root=EP/'renders/qa/decoded'/name;root.mkdir(parents=True,exist_ok=True)
+        # A revised cue list can have fewer samples than the previous run.
+        for pattern in ('[0-9][0-9][0-9][0-9].png','sheet-*.jpg'):
+            for old in root.glob(pattern):
+                old.unlink()
         frames={0,round(spec['duration']*30)-1}
         for p in spec['anchors']:
             times=[p['start'],p['start']+p['duration']-1/30]
@@ -21,9 +25,20 @@ if __name__=='__main__':
                 n=math.ceil(t*30-1e-6)
                 frames.update(n+d for d in [-1,0,1] if 0<=n+d<round(spec['duration']*30))
         frames=sorted(frames)
-        select='+'.join('eq(n\\,%d)'%n for n in frames)
+        # Coalesce adjacent frame numbers and balance the expression: the
+        # film's >1000 samples exceed FFmpeg's linear expression depth limit.
+        ranges=[]
+        for n in frames:
+            if ranges and n==ranges[-1][1]+1:
+                ranges[-1][1]=n
+            else:
+                ranges.append([n,n])
+        terms=['between(n,%d,%d)'%(a,b) for a,b in ranges]
+        while len(terms)>1:
+            terms=['('+ '+'.join(terms[i:i+2])+')' for i in range(0,len(terms),2)]
+        select=terms[0]
         subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(EP/'renders/draft'/(name+'.mp4')),
-            '-vf','select='+select,'-fps_mode','vfr',str(root/'%04d.png')],check=True)
+            '-vf',"select='"+select+"'",'-fps_mode','vfr',str(root/'%04d.png')],check=True)
         files=sorted(root.glob('[0-9][0-9][0-9][0-9].png'))
         assert len(files)==len(frames)
         for base in range(0,len(files),16):
