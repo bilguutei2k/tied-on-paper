@@ -6,6 +6,7 @@ No claim stated value, raw record, or external page is copied into scene data.
 """
 import hashlib
 import json
+import os
 from pathlib import Path
 
 EP = Path(__file__).resolve().parent.parent
@@ -62,7 +63,10 @@ def payload():
         values[name] = int(label.split('_')[-1])
         ids[name] = [claim]
         inputs[name] = {'file': inputs[key]['file'], 'key': key, 'transform': 'local scheduled hour parsed from grouped result key'}
-    return dict(locked=False, status='PRE-LOCK DRAFT · CLAIMS PROPOSED · NUMERICALLY VERIFIED',
+    locked = bool(claims) and all(c['status'] == 'verified' for c in claims)
+    preview = os.environ.get('FA_LOCKED_PREVIEW') == '1'
+    return dict(locked=locked or preview, preview=preview, title=json.loads((EP/'TITLE.json').read_text())['title'],
+                status='locked preview' if preview else 'locked' if locked else 'PRE-LOCK DRAFT · CLAIMS PROPOSED · NUMERICALLY VERIFIED',
                 results_sha256=hashes['analysis/results.json'], claims_sha256=hashlib.sha256(ledger_raw).hexdigest(),
                 source_sha256=hashes, values=values, claim_ids=ids, inputs=inputs,
                 claims={c['id']: {'status': c['status'], 'exploratory': c.get('exploratory', False)} for c in claims})
@@ -70,4 +74,4 @@ def payload():
 if __name__ == '__main__':
     data = payload()
     (EP / 'scenes/data.js').write_text('// Generated from computed result artifacts; never ledger stated values.\nwindow.SCENE_DATA = ' + json.dumps(data, ensure_ascii=False, sort_keys=True, indent=1) + ';\n')
-    print('Wrote', len(data['values']), 'claim-keyed computed values; claims remain proposed')
+    print('Wrote', len(data['values']), 'claim-keyed computed values;', data['status'])

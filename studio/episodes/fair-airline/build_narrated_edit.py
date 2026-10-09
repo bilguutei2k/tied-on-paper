@@ -180,7 +180,7 @@ def main():
                         spoken=slice_line(line,[a,b])
                         shot['tail']=max(.9,6-(shot.get('lead',.4)+spoken['duration']))
                     shots.append(shot)
-        title='Tied on Paper' if name in ['film','short-a'] else 'Whose deadline?' if name=='short-b' else 'The gap changes through the day'
+        title=json.loads((EP/'TITLE.json').read_text())['title'] if name in ['film','short-a'] else 'Whose deadline?' if name=='short-b' else 'The gap changes through the day'
         edit['deliverables'][name]=dict(format='landscape' if name=='film' else 'vertical',title=title,shots=shots)
         if actual:
             plans=sequence_plans(shots,narration,edit)

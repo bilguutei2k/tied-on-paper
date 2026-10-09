@@ -1,0 +1,16 @@
+{
+  "kind": "static index-path check only; filter script NOT RUN",
+  "tracked_retained_count": 285,
+  "tracked_dropped_count": 5976,
+  "ideation_allowlist": [
+    "ideation/rounds/r2/verify-S6.json",
+    "ideation/rounds/r7/airline-redteam.md",
+    "ideation/rounds/r7/fair-airline-METHOD.v2.md"
+  ],
+  "citation_locations": {
+    "ideation/rounds/r7/fair-airline-METHOD.v2.md": "METHOD.md:1",
+    "ideation/rounds/r7/airline-redteam.md": "METHOD.md:87 (relative to r7)",
+    "ideation/rounds/r2/verify-S6.json": "METHOD.md:90 (relative to r7)"
+  },
+  "assertions": "PASS: no other episodes, raw/derived flight data, saved pages, prompts or logs retained"
+}

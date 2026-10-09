@@ -1,0 +1,21 @@
+{
+  "threshold_bytes": 5000000,
+  "tracked_files": [
+    [
+      "studio/episodes/playoff-jimmy/data/raw/heat-2023-24.pdf",
+      16977441
+    ],
+    [
+      "studio/episodes/playoff-jimmy/data/raw/nuggets-2025-26.pdf",
+      16769865
+    ],
+    [
+      "studio/episodes/scramble-luck/recheck/raw_rows.pkl",
+      6250151
+    ],
+    [
+      "studio/episodes/wilt-fifty/analysis/qa.json",
+      8467901
+    ]
+  ]
+}

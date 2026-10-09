@@ -77,3 +77,12 @@ python3 -B studio/episodes/fair-airline/scenes/render_stills.py --audit-only
 
 PNG inspection and browser status are recorded in VISUAL_QA.md. Renders are
 excluded from commits. No voice synthesis is needed for this pre-lock stage.
+
+
+Lock-ready support (2026-10-09): CLAIMS.json determines locked state; the
+FA_LOCKED_PREVIEW=1 environment flag affects only generated display data.
+Every kicker/status/source draft label and document title follows that state;
+exploratory/schematic/no-interval labels persist. Normal source data remains
+proposed. 64 candidate still hashes are pinned in
+../analysis/final-candidate-manifest.json; run candidate_stills.py --compare
+only after the real owner lock. See ../HANDOFF.md for promotion and rebuild steps.

@@ -359,7 +359,7 @@ def main():
         ledger=json.loads((EP/'CLAIMS.json').read_text());assert ledger['schema_version']==1
         seen=set()
         for claim in ledger['claims']:
-            assert claim['id'] not in seen;seen.add(claim['id']);assert claim['status']=='proposed'
+            assert claim['id'] not in seen;seen.add(claim['id']);assert claim['status'] in {'proposed', 'verified'}
             assert not claim['exploratory'] or any('not registered' in s.lower() or 'pilot' in s.lower() for s in claim['limitations'])
             for val in claim['values']:
                 name=claim['result_file']+'::'+val['key'];actual=M.get(name);digits=val['digits'];stated=val['stated']

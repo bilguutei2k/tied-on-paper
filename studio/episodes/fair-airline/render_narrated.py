@@ -12,4 +12,4 @@ spec.loader.exec_module(stills)
 if __name__ == '__main__':
     with stills.offline_chrome() as env:
         subprocess.run([sys.executable, str(ROOT/'studio/tools/assemble.py'),str(EP),
-                        '--jobs','4','--out-dir',str(EP/'renders/draft'),*sys.argv[1:]],env=env,check=True)
+                        '--jobs','4','--out-dir',__import__('os').environ.get('FA_RENDER_DIR',str(EP/'renders/draft')),*sys.argv[1:]],env=env,check=True)

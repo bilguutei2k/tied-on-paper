@@ -209,3 +209,62 @@ decoded samples on seven sheets, native film chart frame 18300 and final
 frames 19088/1716/1723 for film/A/C, plus companion chart/page-end captures.
 No visual defect found. Evidence: renders/qa/polish2-inspection/ and
 polish2-{render,check,sample}.log. Renders and data excluded from the commit.
+
+
+## Lock-ready final candidate — 2026-10-09
+
+Owner approval remains PENDING. TITLE.json supplies the working title to the
+edit, scenes, companion and upload metadata. FA_LOCKED_PREVIEW=1 suppresses draft
+labels for candidates only; CLAIMS.json remains byte-identical and all proposed.
+Normal scene data/index.html have been restored to draft display.
+
+Candidate MP4/SRT/assembly manifests are in renders/final-candidate/. Measured
+film/A/B/C durations remain 636.300 / 57.233 / 59.100 / 57.467 seconds. Full
+check_narrated PASS: 24,303 decoded frames, zero unexpected blanks, all captions,
+PCM/words and word-state checks pass, including 13 verified intentional wipe
+covers. Loudness/true peaks remain −14.0/−1.1, −13.9/−1.1, −14.0/−1.2,
+−13.9/−1.1 (LUFS/dBTP). All four AAC streams are byte-identical to the reviewed
+draft; no TTS or audio change. Cue/gate plans and transition conventions remain
+unchanged. Evidence: renders/qa/final-candidate/checks.json,
+audio-stream-comparison.json, timing-preflight.json and per-output ebur128 logs.
+
+Candidate scene checks: 64 states, 375 labels, provenance/seek purity and browser
+geometry PASS. All 64 stills have zero OCR draft/proposed matches. Endpoint,
+portrait caveat and closing evidence native stills were visually inspected;
+SCHEMATIC, exploratory/post-hoc/not-registered and no-band-interval labels remain.
+The lowercase closing “draft evidence” note now follows lock state too.
+All 1,256 decoded sample kicker/status/source bands pass OCR with zero draft/
+proposed matches; full source-state snapshots also exclude every marker.
+Representative A endpoint/replication/transition contact sheets and native final
+film/A/B/C frames were inspected with no clipping, marker or blank-cover defect.
+Evidence: decoded-marker-ocr.json, still-marker-ocr.json and decoded/manifest.json
+in renders/qa/final-candidate/. The sampler resolves relative override paths
+before building its provenance manifest.
+
+After actual owner approval, use analysis/lock_claims.py (tested in a temporary
+copy, then deleted), then analysis/candidate_stills.py --compare. The latter
+rebuilds real locked stills and refuses any mismatch against the 64 SHA-256s in
+analysis/final-candidate-manifest.json. On PASS simply move final-candidate to
+final; keep original preview assembly manifests as provenance. A changed title
+requires new candidates/QA. Exact commands and release steps are in HANDOFF.md.
+
+Candidate build (cached narration, no approval written):
+
+```sh
+FA_LOCKED_PREVIEW=1 python3 studio/episodes/fair-airline/scenes/build_data.py
+FA_LOCKED_PREVIEW=1 python3 studio/episodes/fair-airline/scenes/render_stills.py
+FA_LOCKED_PREVIEW=1 python3 studio/episodes/fair-airline/scenes/render_stills.py --audit-only
+FA_LOCKED_PREVIEW=1 node studio/episodes/fair-airline/scenes/check_scenes.mjs
+FA_LOCKED_PREVIEW=1 FA_RENDER_DIR=studio/episodes/fair-airline/renders/final-candidate \
+  .venv/bin/python studio/episodes/fair-airline/render_narrated.py
+.venv/bin/python studio/episodes/fair-airline/check_narrated.py \
+  --render-dir studio/episodes/fair-airline/renders/final-candidate \
+  --qa-dir studio/episodes/fair-airline/renders/qa/final-candidate
+FA_RENDER_DIR=studio/episodes/fair-airline/renders/final-candidate \
+  FA_SAMPLE_DIR=studio/episodes/fair-airline/renders/qa/final-candidate/decoded \
+  python3 studio/episodes/fair-airline/sample_narrated.py
+python3 studio/episodes/fair-airline/analysis/candidate_stills.py --record
+# Return ordinary sources to the honest pre-lock display after candidate work:
+python3 studio/episodes/fair-airline/scenes/build_data.py
+python3 studio/episodes/fair-airline/companion/build.py
+```

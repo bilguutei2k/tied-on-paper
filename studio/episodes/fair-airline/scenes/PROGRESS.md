@@ -168,3 +168,93 @@
 
 
 - 2026-10-08 visual polish 2: 14 cue stills rendered for S12/Short A/Short C; neutral period styling and four full-width share tracks inspected. Scene/browser 64 states/375 labels PASS; companion 132 + 33 states PASS; narrated checker and sampler rerun. Inspected 104 decoded samples plus native changed/final frames. Encoded narration hashes unchanged; no data/claims/timing changes, no Metal work. Helper checkpoint pending.
+
+- Render pass completed for `s01-tied-on-paper.html`: 4 cue PNGs.
+
+- Render pass completed for `s02-fifteen-minutes.html`: 4 cue PNGs.
+
+- Render pass completed for `s03-the-mixed-basket.html`: 3 cue PNGs.
+
+- Render pass completed for `s04-same-trip-same-window.html`: 4 cue PNGs.
+
+- Render pass completed for `s05-same-basket-same-line.html`: 4 cue PNGs.
+
+- Render pass completed for `s06-two-failed-checks.html`: 5 cue PNGs.
+
+- Render pass completed for `s07-the-first-result.html`: 5 cue PNGs.
+
+- Render pass completed for `s08-the-replication.html`: 5 cue PNGs.
+
+- Render pass completed for `s09-the-nearby-tests.html`: 3 cue PNGs.
+
+- Render pass completed for `s10-whose-deadline.html`: 5 cue PNGs.
+
+- Render pass completed for `s11-leaving-late.html`: 4 cue PNGs.
+
+- Render pass completed for `s12-the-boundary-of-the-answer.html`: 6 cue PNGs.
+
+- Render pass completed for `short-a.html`: 4 cue PNGs.
+
+- Render pass completed for `short-b.html`: 4 cue PNGs.
+
+- Render pass completed for `short-c.html`: 4 cue PNGs.
+
+- Render pass completed for `s01-tied-on-paper.html`: 4 cue PNGs.
+
+- Render pass completed for `s02-fifteen-minutes.html`: 4 cue PNGs.
+
+- Render pass completed for `s03-the-mixed-basket.html`: 3 cue PNGs.
+
+- Render pass completed for `s04-same-trip-same-window.html`: 4 cue PNGs.
+
+- Render pass completed for `s05-same-basket-same-line.html`: 4 cue PNGs.
+
+- Render pass completed for `s06-two-failed-checks.html`: 5 cue PNGs.
+
+- Render pass completed for `s07-the-first-result.html`: 5 cue PNGs.
+
+- Render pass completed for `s08-the-replication.html`: 5 cue PNGs.
+
+- Render pass completed for `s09-the-nearby-tests.html`: 3 cue PNGs.
+
+- Render pass completed for `s10-whose-deadline.html`: 5 cue PNGs.
+
+- Render pass completed for `s11-leaving-late.html`: 4 cue PNGs.
+
+- Render pass completed for `s12-the-boundary-of-the-answer.html`: 6 cue PNGs.
+
+- Render pass completed for `short-a.html`: 4 cue PNGs.
+
+- Render pass completed for `short-b.html`: 4 cue PNGs.
+
+- Render pass completed for `short-c.html`: 4 cue PNGs.
+
+- Render pass completed for `s01-tied-on-paper.html`: 4 cue PNGs.
+
+- Render pass completed for `s02-fifteen-minutes.html`: 4 cue PNGs.
+
+- Render pass completed for `s03-the-mixed-basket.html`: 3 cue PNGs.
+
+- Render pass completed for `s04-same-trip-same-window.html`: 4 cue PNGs.
+
+- Render pass completed for `s05-same-basket-same-line.html`: 4 cue PNGs.
+
+- Render pass completed for `s06-two-failed-checks.html`: 5 cue PNGs.
+
+- Render pass completed for `s07-the-first-result.html`: 5 cue PNGs.
+
+- Render pass completed for `s08-the-replication.html`: 5 cue PNGs.
+
+- Render pass completed for `s09-the-nearby-tests.html`: 3 cue PNGs.
+
+- Render pass completed for `s10-whose-deadline.html`: 5 cue PNGs.
+
+- Render pass completed for `s11-leaving-late.html`: 4 cue PNGs.
+
+- Render pass completed for `s12-the-boundary-of-the-answer.html`: 6 cue PNGs.
+
+- Render pass completed for `short-a.html`: 4 cue PNGs.
+
+- Render pass completed for `short-b.html`: 4 cue PNGs.
+
+- Render pass completed for `short-c.html`: 4 cue PNGs.

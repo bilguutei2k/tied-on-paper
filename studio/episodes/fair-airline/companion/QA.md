@@ -43,7 +43,7 @@ against passing claim/verifier entries. It never silently refreshes pins.
 
 - Registered results: `5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de`
 - Proposed claims: `64ae35817d333a3c90d6d8f60e43910ca72d3ca5dece581a5355561a6f24d74b`
-- Claim verifier: `00dc333e379f286f42ae4cea324d7037ef490e0cd1bbdedb2ea5ff8b615cca20`
+- Claim verifier: `ad2fbd82deda24dd00863f2b6f3fcde3f804926ad4b84b2369f6603959a6838f`
 - Post-hoc results: `0a430fc236035ca94043a76cbb9e49e076f5947ed0bfd763b8cc2ab71736a959`
 
 Temporary-copy mutation checks altered each pinned file separately. All four
@@ -143,3 +143,40 @@ dashed ink/open dots (B) in both themes. Values, coordinates, sparse-band
 fading and zero/+2 references unchanged. Rebuilt index.html/page.html;
 Chromium passes 132 page + 33 fragment states. Phone/desktop chart and
 page-end screenshots inspected; no visual defect. Narration/data unchanged.
+
+
+## Lock-ready preview — 2026-10-09
+
+Owner claims/title/publication approval remains PENDING. TITLE.json is the
+canonical title; no approval was written. Default index.html retains draft
+markers. FA_LOCKED_PREVIEW=1 build.py writes index.locked-preview.html and
+renders/companion/locked-preview/page.html, leaving index.html alone. The preview
+has no visible draft/proposed label; explicit exploratory/schematic/point-only
+limits stay visible. Preview evidence downloads honestly contain the unchanged
+proposed ledger; the real lock rebuild embeds verified claims instead.
+
+Final locked-preview Chromium sweep PASS: 132/132 page states at 390×844 and
+1440×1000 in Paper/Night, plus 33/33 fragment states. Numeric/coordinate,
+interval-presence, geometry, overflow, fonts/network and runtime checks pass.
+Screenshots/audit are in renders/companion/locked-preview/. Native headline,
+controls and themes were inspected. Normal companion build also passes.
+
+Ledger binding now permits only status/approval metadata changes against the
+reviewed proposed-ledger hash. Report binding ignores only timestamp/ledger/
+verifier hashes while freezing all analytical report semantics, and requires
+current ledger and verifier-source hashes. Results and post-hoc pins remain
+unchanged; all 188 displayed bindings still independently agree. The updated
+verifier accepts proposed/verified without changing either state; 633/633 checks
+across 95 claims pass. Original full commit IDs are read from source-commits.json
+so public-history filtering does not break companion generation. Fonts are now
+local to this episode; font licences remain embedded and in studio/render/fonts.
+
+Run the existing browser launch command, then:
+
+```sh
+FA_LOCKED_PREVIEW=1 python3 studio/episodes/fair-airline/companion/build.py
+FA_LOCKED_PREVIEW=1 python3 studio/episodes/fair-airline/companion/check_browser.py
+```
+
+After owner lock, omit the preview flag and repeat the normal build/sweep.
+See HANDOFF.md for the exact lock, source commit and gh-pages commands.

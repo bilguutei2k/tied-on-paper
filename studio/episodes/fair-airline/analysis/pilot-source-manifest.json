@@ -1,0 +1,110 @@
+[
+  {
+    "month": 1,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_1.zip",
+    "zip": "2015-01.zip",
+    "bytes": 23061477,
+    "sha256": "8868b27abf89df0440c74701f915240617be3c64302e8de4a3f577dd4708ae76",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_1.csv",
+    "csv_sha256": "3eca3e92c760ff8152895d206728d672706ee3b76452ebf0a74f82111ed8e3fb"
+  },
+  {
+    "month": 2,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_2.zip",
+    "zip": "2015-02.zip",
+    "bytes": 21229556,
+    "sha256": "2a68ad83560b5ba5560cd4ea3eb53ab776bf3b43f3f5b259b6e8adb88837bfd1",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_2.csv",
+    "csv_sha256": "25ec51fafde98723c6b10c773aab370340ed2c26ca82a0916622c561a2e89c72"
+  },
+  {
+    "month": 3,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_3.zip",
+    "zip": "2015-03.zip",
+    "bytes": 24808787,
+    "sha256": "7cd3568901d5eb57ee5ed444924979e52ece01f1df99f186bfa97a782d5b5a01",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_3.csv",
+    "csv_sha256": "bd3e46a4afc22ffb87e13b2982ea5468b30bb4249af8bbc3402d99c17df624dc"
+  },
+  {
+    "month": 4,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_4.zip",
+    "zip": "2015-04.zip",
+    "bytes": 23625575,
+    "sha256": "ed518452e9c630d587a7774ea74ca88e5127d758c9bc969ad22a11171146f698",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_4.csv",
+    "csv_sha256": "e481c2d75e5420bbd3f2dd19f38c140b8ef7f875984b82354746d4eb55f9c3f1"
+  },
+  {
+    "month": 5,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_5.zip",
+    "zip": "2015-05.zip",
+    "bytes": 24332076,
+    "sha256": "b0679c955296b26cb787f4648636842a1ccfbdaa2473fcb3bbed296aac986198",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_5.csv",
+    "csv_sha256": "472ac4f1c52fbde8539afac03dcfc6fed212f3df09053307df7098994461f87c"
+  },
+  {
+    "month": 6,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_6.zip",
+    "zip": "2015-06.zip",
+    "bytes": 25759795,
+    "sha256": "792c315d7737a1186388ede08bb6f2a0c2d2e9a6efc2d2dd0c1a26fb511a82c0",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_6.csv",
+    "csv_sha256": "4b0cf93b8344a0742d835b3589f836edb12678a83e7ff6c5da6507c5af99e194"
+  },
+  {
+    "month": 7,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_7.zip",
+    "zip": "2015-07.zip",
+    "bytes": 26205185,
+    "sha256": "b675ccf0b763c6e181d1797da61b35b313657e4e6c16a0b9f91c4056e78f546d",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_7.csv",
+    "csv_sha256": "84ca9d441a946c390f19a9834560a7d2f703385be264679097fc356461784287"
+  },
+  {
+    "month": 8,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_8.zip",
+    "zip": "2015-08.zip",
+    "bytes": 25727968,
+    "sha256": "75d5d8c9bf30b0dcc9b3c681ed79216e127c4033a6c889f2e68b549153f481c0",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_8.csv",
+    "csv_sha256": "c9540659677bcef8f1505c46ba08bfd1b1e9a1ec9daf3c9b121833091f279164"
+  },
+  {
+    "month": 9,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_9.zip",
+    "zip": "2015-09.zip",
+    "bytes": 22575111,
+    "sha256": "a2f1d7c2203e7c94429326cdae64607fbd11b144cf1376f55a42ac70fc0690de",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_9.csv",
+    "csv_sha256": "e1aaa05ecefa43850730e285a73d72ded0f784b78fb2e9b36ce655456e8d51b6"
+  },
+  {
+    "month": 10,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_10.zip",
+    "zip": "2015-10.zip",
+    "bytes": 23879320,
+    "sha256": "4f689e7b9e6410bcfd5ab91235e57523087e53ef4952d7261d1f164f244f08f7",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_10.csv",
+    "csv_sha256": "3643ffd1de27977541381cfbf6d332fc027bab7b30f1cafc9844a7872f3ef515"
+  },
+  {
+    "month": 11,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_11.zip",
+    "zip": "2015-11.zip",
+    "bytes": 23598907,
+    "sha256": "a0be321e409219daccf4e15e5caf993181b1ce47fd68e1e3e65998a8159f9ff7",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_11.csv",
+    "csv_sha256": "69ff59e175d641d6aba966f76031bf50327b4329e41a4cf34523d6dc38d63b41"
+  },
+  {
+    "month": 12,
+    "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2015_12.zip",
+    "zip": "2015-12.zip",
+    "bytes": 24458072,
+    "sha256": "463af4e59bcdbc166a841280f3c26859b36af141c9c4c0d482ff15bda874b368",
+    "member": "On_Time_Reporting_Carrier_On_Time_Performance_(1987_present)_2015_12.csv",
+    "csv_sha256": "36a2025737254cccbb4083cd37bd141d553e043462287dfbd0c579d040d0125e"
+  }
+]

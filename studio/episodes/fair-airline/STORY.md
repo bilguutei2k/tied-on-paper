@@ -1,9 +1,8 @@
 # Tied on Paper
 
-Status: script draft v1, by Sol 6.1, 2026-10-08; not locked. Working title;
-owner decides. Suggested titles: **Tied on Paper**, **Same Route, Different
-Result**, **What 78% Hides**. Claims remain proposed; numerical checks pass,
-editorial approval is pending.
+Status: script draft v1, by Sol 6.1, 2026-10-08; not locked.
+Working title is configured in TITLE.json. Owner title/claims approval and
+publishing approval are PENDING; numerical checks pass.
 
 ## Argument: “The average depends on the flights”
 

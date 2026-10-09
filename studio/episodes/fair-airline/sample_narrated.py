@@ -1,5 +1,6 @@
 """Extract actual decoded cue/cut/wipe frames and inspection contact sheets."""
 import json
+import os
 import math
 import subprocess
 from pathlib import Path
@@ -10,7 +11,7 @@ if __name__=='__main__':
     timing=json.loads((EP/'renders/qa/timing-preflight.json').read_text())
     manifest={}
     for name,spec in timing.items():
-        root=EP/'renders/qa/decoded'/name;root.mkdir(parents=True,exist_ok=True)
+        root=Path(os.environ.get('FA_SAMPLE_DIR',str(EP/'renders/qa/decoded'))).resolve()/name;root.mkdir(parents=True,exist_ok=True)
         # A revised cue list can have fewer samples than the previous run.
         for pattern in ('[0-9][0-9][0-9][0-9].png','sheet-*.jpg'):
             for old in root.glob(pattern):
@@ -37,7 +38,7 @@ if __name__=='__main__':
         while len(terms)>1:
             terms=['('+ '+'.join(terms[i:i+2])+')' for i in range(0,len(terms),2)]
         select=terms[0]
-        subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(EP/'renders/draft'/(name+'.mp4')),
+        subprocess.run(['ffmpeg','-y','-loglevel','error','-i',str(Path(os.environ.get('FA_RENDER_DIR',str(EP/'renders/draft')))/(name+'.mp4')),
             '-vf',"select='"+select+"'",'-fps_mode','vfr',str(root/'%04d.png')],check=True)
         files=sorted(root.glob('[0-9][0-9][0-9][0-9].png'))
         assert len(files)==len(frames)
@@ -50,4 +51,4 @@ if __name__=='__main__':
             sheet.save(root/('sheet-%02d.jpg'%(base//16+1)))
         manifest[name]=[dict(frame=n,time=n/30,path=str(p.relative_to(EP))) for n,p in zip(frames,files)]
         print(name,len(files),'decoded samples; sheets:',root)
-    (EP/'renders/qa/decoded/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+    (Path(os.environ.get('FA_SAMPLE_DIR',str(EP/'renders/qa/decoded'))).resolve()/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')

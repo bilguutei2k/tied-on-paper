@@ -4643,13 +4643,15 @@ window.SCENE_DATA = {
   }
  },
  "locked": false,
+ "preview": false,
  "results_sha256": "5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de",
  "source_sha256": {
-  "analysis/claims_check.json": "00dc333e379f286f42ae4cea324d7037ef490e0cd1bbdedb2ea5ff8b615cca20",
+  "analysis/claims_check.json": "ad2fbd82deda24dd00863f2b6f3fcde3f804926ad4b84b2369f6603959a6838f",
   "analysis/results.json": "5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de",
   "analysis/review_checks/results.json": "0a430fc236035ca94043a76cbb9e49e076f5947ed0bfd763b8cc2ab71736a959"
  },
  "status": "PRE-LOCK DRAFT · CLAIMS PROPOSED · NUMERICALLY VERIFIED",
+ "title": "Tied on Paper",
  "values": {
   "A.common_UA.UA_minus_WN": 0.023828934311247774,
   "A.common_WN.UA_minus_WN": 0.02672444570635013,

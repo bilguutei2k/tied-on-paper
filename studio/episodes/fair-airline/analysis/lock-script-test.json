@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "test_location": "disposable episode copy outside repository",
+  "temporary_copy_deleted": true,
+  "checks": [
+    "independent 633/633 values",
+    "story lint with verified claims",
+    "alternate title in EPISODE/STORY/document headings",
+    "alternate companion title/h1",
+    "alternate upload titles",
+    "repo ledger all proposed",
+    "failed-run rollback observed",
+    "cached narration text/citations validated; only metadata rebound"
+  ],
+  "owner_approval_recorded_in_repository": false,
+  "lock_script_sha256": "65d6eb03c1dad08af426fa2f9fcc2b8cb41599496c7fd2314ae3faae341e7e2c"
+}

@@ -11,6 +11,7 @@ import hashlib
 import html
 import json
 import math
+import os
 import re
 import subprocess
 from pathlib import Path
@@ -47,24 +48,46 @@ def fonts():
         for weight in weights:
             raw = (source / f'{family}-normal-{weight}-latin.woff2').read_bytes()
             css.append(f"@font-face{{font-family:'IBM Plex Mono';font-weight:{weight};src:url(data:font/woff2;base64,{base64.b64encode(raw).decode()}) format('woff2');font-display:swap}}")
-    sibling = EP.parent / 'scramble-luck/companion/fonts'
+    sibling = EP / 'companion/fonts'
     for file, family, weight in [('BigShouldersDisplay-800.ttf', 'Big Shoulders Display', 800), ('BigShouldersDisplay-900.ttf', 'Big Shoulders Display', 900), ('SourceSerif4-500.ttf', 'Source Serif 4', 500)]:
         css.append(f"@font-face{{font-family:'{family}';font-weight:{weight};src:url(data:font/ttf;base64,{base64.b64encode((sibling/file).read_bytes()).decode()}) format('truetype');font-display:swap}}")
     for family in ['BigShouldersDisplay', 'IBMPlexMono', 'SourceSerif4']:
         css.append('/* ' + (source/f'OFL-{family}.txt').read_text().replace('*/', '* /') + ' */')
     return '\n'.join(css)
 
+REPORT_SEMANTIC_SHA = '728c1e945c7e84697636271ee89b7c668b7c0aea51cf466fd60ca8ab5f8247ed'
+
+def reviewed_ledger(raw):
+    obj=json.loads(raw)
+    obj.pop('approved', None)
+    for claim in obj['claims']:
+        claim['status']='proposed'
+        claim.pop('approved', None)
+    return (json.dumps(obj, indent=2, ensure_ascii=True)+'\n').encode()
+
 def main():
     files = {}
+    actual_pins = {}
     for name, pin in PINS.items():
         raw = (EP/name).read_bytes()
-        if sha(raw) != pin:
+        actual_pins[name] = sha(raw)
+        bound = sha(reviewed_ledger(raw)) if name == 'CLAIMS.json' else sha(raw)
+        if name == 'analysis/claims_check.json':
+            normalized = json.loads(raw)
+            for key in ['written_utc','ledger_sha256','verifier_sha256']: normalized.pop(key)
+            bound = pin if sha(json.dumps(normalized,sort_keys=True,separators=(',',':')).encode()) == REPORT_SEMANTIC_SHA else bound
+        if bound != pin:
             raise SystemExit(f'REFUSED: {name} differs from the verified companion binding; re-verify and review before changing pins.')
         files[name] = json.loads(raw)
     report = files['analysis/claims_check.json']
     ledger = files['CLAIMS.json']
-    if not report['all_pass'] or report['ledger_sha256'] != PINS['CLAIMS.json'] or report['discrepancies']:
+    if not report['all_pass'] or report['ledger_sha256'] != actual_pins['CLAIMS.json'] or report['discrepancies']:
         raise SystemExit('REFUSED: claims verification is not current and passing.')
+    if report['verifier_sha256'] != sha((EP/'analysis/verify_claims.py').read_bytes()):
+        raise SystemExit('REFUSED: verifier source is stale.')
+    locked = bool(ledger['claims']) and all(c['status']=='verified' for c in ledger['claims'])
+    preview = os.environ.get('FA_LOCKED_PREVIEW') == '1'
+    display_locked = locked or preview
     claims = {c['id']: c for c in ledger['claims']}
     flat = {f: flatten(d) for f, d in files.items()}
     checks = {(c['claim'], c['result_file'], c['key']): c for c in report['checks']}
@@ -226,12 +249,11 @@ def main():
     denver=' / '.join(f'{value("derived_metrics."+p+".denver.weight_share","analysis/claims_check.json")*100:.2f}%' for p,_ in periods)
     recheck=json.loads((EP/'recheck/compare.json').read_text())['summary']
     if recheck['mismatched'] or recheck['matched']!=recheck['comparisons']:raise SystemExit('REFUSED: blind recheck has unresolved discrepancies')
-    commits={}
-    for name,rev in {'METHOD':'3672298','GATE':'153fd1b','AMENDMENT':'e5c9a33','FAIL':'6bc20d7','DESIGN':'8a33153','PASS':'02c9fb6','APPROVAL':'41a6974','PRODUCTION':'af6b613','A':'c829f51','B':'12320b0','RECHECK':'39a0e19','REVIEW':'6ce74cb','FIXES':'725423a','REPAIR':'4f759d3'}.items():
-        commits[name]=subprocess.run(['git','-C',str(ROOT),'rev-parse','--verify',rev+'^{commit}'],check=True,capture_output=True,text=True).stdout.strip()
+    commits=json.loads((EP/'analysis/source-commits.json').read_text())
     question=(EP/'analysis/amendment/AMENDMENT-1.md').read_text().splitlines()[0]
-    data={'lenses':lenses,'threshold':threshold,'level':level,'domain':domain,'provenance':provenance,'pins':PINS}
+    data={'lenses':lenses,'threshold':threshold,'level':level,'domain':domain,'provenance':provenance,'pins':actual_pins}
     replacements={'DAY_CHART':day,'FONTS':fonts(),'QUESTION':esc(question),'SCOPE':esc(claims['FA-C001']['scope']), 'ANSWER':''.join('<p>'+esc(claims[id]['text'])+'</p>' for id in ['FA-C001','FA-C002','FA-C003']), 'OPTIONS':options,'INITIAL_CHANGE':esc(lenses[0]['change']),'INITIAL_MARKS':marks(primary),'INITIAL_READOUTS':readouts(primary),'LEVEL':str(level),'THRESHOLD':f'{threshold:g}','LATE':str(design('late_failure_minutes')),'WINDOW':str(design('departure_window_hours')),'BLOCK':str(design('block_days')),'DRAWS':f'{design("draws"):,}','NATIONAL':national,'DOT':dot,'DOT_SOURCES':sources,'COVER_UA':coverage[0],'COVER_WN':coverage[1],'DENVER':denver,'SCHEDULE':metric_pair('schedule.UA_minus_WN'),'ACTUAL':metric_pair('completed_cell_means.actual.UA_minus_WN'),'ACTUAL_COVER':metric_pair('completed_cell_means.weight_share',factor=100),'COMMON':metric_pair('common_mid.UA_minus_WN',factor=100),'DEPARTURE':metric_pair('dep_timely.UA_minus_WN',factor=100),'MATCHED':str(recheck['matched']),'COMPARED':str(recheck['comparisons']),'DATA':json.dumps(data,ensure_ascii=False).replace('<','\\u003c'),'RESULT_HASH':PINS['analysis/results.json'],'CLAIM_HASH':PINS['CLAIMS.json']}
+    replacements.update(TITLE=esc(json.loads((EP/'TITLE.json').read_text())['title']), STATUS_ROW='' if display_locked else '<p class="label build-status">pre-lock draft: claims proposed</p>', CLAIMS_LABEL='verified claims' if display_locked else 'proposed claims', LOCK_NOTE=('Channel owner approved the script and claims on '+ledger['approved']['date']+'.' if locked else 'Numerical evidence verified; scope and limitations below apply.' if preview else 'Claims remain proposed pending editorial lock.'), FOOTER_STATUS='' if display_locked else ' · pre-lock draft: claims proposed', CLAIM_HASH=actual_pins['CLAIMS.json'])
     replacements.update({k+'_COMMIT':v for k,v in commits.items()})
     template=(EP/'companion/template.html').read_text()
     for k,v in replacements.items():template=template.replace('__'+k+'__',v)
@@ -244,8 +266,8 @@ def main():
     if re.search(r'__[A-Z_]+__',template):raise SystemExit('REFUSED: unresolved template token')
     head,body=template.split('<!--BODY-->')
     page='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'+head+'</head>\n<body>\n'+body+'</body>\n</html>\n'
-    target=EP/'renders/companion';target.mkdir(parents=True,exist_ok=True)
-    (EP/'companion/index.html').write_text(page)
+    target=EP/('renders/companion/locked-preview' if preview else 'renders/companion');target.mkdir(parents=True,exist_ok=True)
+    (EP/('companion/index.locked-preview.html' if preview else 'companion/index.html')).write_text(page)
     (target/'page.html').write_text(head+body)
     print(f'Built {len(lenses)} lenses; {len(provenance)} verified bindings; results {PINS["analysis/results.json"][:12]}.')
 

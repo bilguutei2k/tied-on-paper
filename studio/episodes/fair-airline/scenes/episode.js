@@ -2,6 +2,7 @@
 (function(FT){
 'use strict';
 const FA=window.FA={},V=FT.value,D=window.SCENE_DATA;
+document.title=D.title+(D.locked?'':' · proposed pre-lock draft');
 const A='primary_2023_2024',B='replication_2025';
 const P='derived_metrics.design.';
 const color=i=>'var(--player-'+(i?'b':'a')+')';
@@ -22,7 +23,7 @@ const gap=i=>(i?B:A)+'.adjusted_gap_ua_minus_wn_pp';
 const ex='EXPLORATORY · POST-HOC · NOT REGISTERED';
 const cap=(g,v,html,y=v?1215:785,size=v?36:38)=>T(g,'caption',v?72:96,y,size,html,{width:(v?848:1728)+'px'});
 const header=(g,v,kicker,title,{explore=false,night=false}={})=>{
- const k=FT.kicker(g,kicker+' · PROPOSED',{x:v?72:96,y:v?180:96,size:v?30:28,color:night?'var(--paper)':'var(--player-a-text)'});
+ const k=FT.kicker(g,kicker+(D.locked?'':' · PROPOSED'),{x:v?72:96,y:v?180:96,size:v?30:28,color:night?'var(--paper)':'var(--player-a-text)'});
  const h=FT.claim(g,title,{x:v?72:96,y:v?240:151,size:v?108:100,color:night?'var(--paper)':'var(--ink)'});h.style.width=(v?848:1728)+'px';
  const e=explore?T(g,'label',v?72:96,v?492:294,v?28:28,ex,{width:(v?848:1728)+'px',zIndex:3}):null;
  // Narrated states switch on words; repeated entry animation must not erase
@@ -33,8 +34,8 @@ const scope=(g,v,{ids='FA-C001 · FA-C002',explore=false,note='Own arrival timet
  const link=(path,label)=>'<a href="../'+path+'">'+label+'</a>';
  const rows=v?[
  ['SCOPE','United / Southwest operated'],['','Domestic nonstop overlap · Express excluded'],['',note],
- ['SOURCE',link('analysis/FINDINGS.md','Findings')+' · '+link('CLAIMS.json','Claims')],['',ids],['STATUS','PRE-LOCK DRAFT · PROPOSED']
- ]:[['SOURCE',source+' · '+ids],['SCOPE','United / Southwest operated · domestic nonstop overlap · Express excluded'],['METHOD',note+' · PRE-LOCK DRAFT · CLAIMS PROPOSED']];
+ ['SOURCE',link('analysis/FINDINGS.md','Findings')+' · '+link('CLAIMS.json','Claims')],['',ids],...(D.locked?[]:[['STATUS','PRE-LOCK DRAFT · PROPOSED']])
+ ]:[['SOURCE',source+' · '+ids],['SCOPE','United / Southwest operated · domestic nonstop overlap · Express excluded'],['METHOD',note+(D.locked?'':' · PRE-LOCK DRAFT · CLAIMS PROPOSED')]];
  const e=FT.source(g,rows,{x:v?72:96,y:v?1390:864,width:v?848:1728,size:v?26:24});
  e.dataset.exploratory=String(explore);return e;
 };
@@ -94,7 +95,7 @@ FA.register=def=>FT.scene({duration:def.duration,background:def.background,forma
  return t=>{let index=0;states.forEach((s,i)=>{if(t>=s.at)index=i;});states.forEach((s,i)=>{s.g.style.display=i===index?'block':'none';s.render(Math.max(0,t-s.at));});window.__faState=states[index].id;f.className='frame '+(states[index].component==='conclusion'?'night':def.background)+(v?' fa-portrait':'');const grain=f.querySelector('.grain');if(v&&grain)grain.style.setProperty('--grain-shift',(Math.floor(t*30/2)%149)+'px');};
 }}});
 FA.hook=(g,v,phase)=>{
- const h=header(g,v,'The apparent tie',phase==='question'?['Tied on paper?']:['Which flights?'],{night:true});
+ const h=header(g,v,'The apparent tie',phase==='question'?[D.title+'?']:['Which flights?'],{night:true});
  const c=cards(g,v,phase==='question'?[{name:'National punctuality',unit:'An appealing shortcut',stamp:'EQUALLY PUNCTUAL?'}]:[{name:'United operated',unit:'Mainline operating services',color:'var(--paper)'},{name:'Southwest operated',unit:'Comparable domestic nonstop services',color:'var(--paper)'},{name:'United Express',unit:'Excluded · other codeshare operators too',color:'var(--paper)'}]);
  scope(g,v,{ids:'FA-C001',note:'Operator-only comparison · no ticket recommendation'});return combine(h,c);
 };
@@ -283,6 +284,6 @@ FA.conclusion=(g,v,phase)=>{
  const h=header(g,v,'What the result permits',[phase==='evidence'?'Follow the evidence':'Own timetable. Comparable flights.'],{night:true});
  const c=cards(g,v,phase==='evidence'?[{name:'Registered method',unit:'<a href="../METHOD.md">METHOD</a> · <a href="../analysis/amendment/AMENDMENT-1.md">Amendment 1</a> · <a href="../analysis/amendment2/AMENDMENT-2.md">Amendment 2</a>'},{name:'Results and checks',unit:'<a href="../analysis/FINDINGS.md">FINDINGS</a> · <a href="../CLAIMS.json">CLAIMS</a> · <a href="../analysis/claims_check.json">Numerical verification</a>'},{name:'Context and review',unit:'<a href="../analysis/CONTEXT.md">CONTEXT</a> · <a href="../analysis/review.md">Review</a>'}]:[{name:'United kept its timetable',unit:'More often on comparable operating services'},{name:'Small, Denver-heavy overlap',unit:'Express excluded · temporal heterogeneity'},{name:'No ticket recommendation',unit:'No faster-travel, rebooking or causal claim'}]);
  cap(g,v,'Ask which flights went into the average — and whose deadline.',790,40);
- scope(g,v,{ids:'FA-C001 · FA-C002 · FA-C003',note:'Replicated own-timetable difference · draft evidence and review links'});return combine(h,c);
+ scope(g,v,{ids:'FA-C001 · FA-C002 · FA-C003',note:'Replicated own-timetable difference · '+(D.locked?'':'draft ')+'evidence and review links'});return combine(h,c);
 };
 })(window.FT);

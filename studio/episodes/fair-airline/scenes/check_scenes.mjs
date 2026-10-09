@@ -24,7 +24,8 @@ const hash=p=>createHash('sha256').update(readFileSync(p)).digest('hex');
 const claimList=JSON.parse(readFileSync(resolve(dir,'../CLAIMS.json'))).claims;
 const dataContext=vm.createContext({window:{}});vm.runInContext(readFileSync(resolve(dir,'data.js'),'utf8'),dataContext);
 const data=dataContext.window.SCENE_DATA;
-assert.equal(data.locked,false);assert(claimList.every(c=>c.status==='proposed'));
+assert.equal(data.locked,process.env.FA_LOCKED_PREVIEW==='1'||claimList.every(c=>c.status==='verified'));
+assert(claimList.every(c=>['proposed','verified'].includes(c.status)));
 assert.equal(data.claims_sha256,hash(resolve(dir,'../CLAIMS.json')));
 for(const [file,sha] of Object.entries(data.source_sha256))assert.equal(sha,hash(resolve(dir,'..',file)));
 for(const [key,ids] of Object.entries(data.claim_ids)){
@@ -45,7 +46,7 @@ for(const [page,info] of Object.entries(cues.scenes)){
   clock.seek(s.still);const first=JSON.stringify(snapshot(document.body));assert.equal(context.window.__faState,s.id);
   clock.seek(info.duration);clock.seek(0);clock.seek(s.still);assert.equal(first,JSON.stringify(snapshot(document.body)),page+' '+s.id+' is not seek-pure');
   const active=document.body.querySelectorAll('.fa-state').find(e=>e.dataset.state===s.id);assert(active.querySelector('.source'),'Persistent scope required');
-  assert(first.includes('PROPOSED'),'Pre-lock status absent');
+  assert.equal(/proposed|pre.?lock|draft/i.test(first),!data.locked,'Draft marker disagrees with lock state');
   if(['duration','allowance','departure','time'].includes(s.component)||s.phase==='denver')assert(JSON.stringify(snapshot(active)).includes('EXPLORATORY · POST-HOC · NOT REGISTERED'));
   clock.seek(s.at+.1);const early=JSON.stringify(snapshot(active));clock.seek(s.still);if(early!==JSON.stringify(snapshot(active)))animated++;
   total++;

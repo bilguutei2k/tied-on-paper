@@ -8,7 +8,8 @@ import subprocess
 from pathlib import Path
 
 EP = Path(__file__).resolve().parent.parent
-OUT = EP/'renders/companion'
+PREVIEW = os.environ.get('FA_LOCKED_PREVIEW') == '1'
+OUT = EP/('renders/companion/locked-preview' if PREVIEW else 'renders/companion')
 ENV = dict(os.environ, NPM_CONFIG_CACHE='/private/tmp/scramble-companion-npm',
            AGENT_BROWSER_SOCKET_DIR='/private/tmp/fair-airline-companion-browser')
 CLI = ['npx', '--yes', 'agent-browser', '--namespace', 'fair-airline-companion']
@@ -49,7 +50,7 @@ return {width:innerWidth,theme:document.documentElement.dataset.theme,height:doc
 })()'''
 
 def main():
-    run('open', (EP/'companion/index.html').as_uri())
+    run('open', (EP/('companion/index.locked-preview.html' if PREVIEW else 'companion/index.html')).as_uri())
     reports=[]
     for width,height in [(390,844),(1440,1000)]:
         run('set','viewport',str(width),str(height))
