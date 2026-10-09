@@ -1848,386 +1848,386 @@ window.SCENE_DATA = {
  "claims": {
   "FA-C001": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C002": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C003": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C004": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C005": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C006": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C007": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C008": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C009": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C010": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C011": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C012": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C013": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C014": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C015": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C016": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C017": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C018": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C019": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C020": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C021": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C022": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C023": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C024": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C025": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C026": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C027": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C028": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C029": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C030": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C031": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C032": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C033": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C034": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C035": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C036": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C037": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C038": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C039": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C040": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C041": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C042": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C043": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C044": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C045": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C046": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C047": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C048": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C049": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C050": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C051": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C052": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C053": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C054": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C055": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C056": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C057": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C058": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C059": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C060": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C061": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C062": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C063": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C064": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C065": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C066": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C067": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C068": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C069": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C070": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C071": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C072": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C073": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C074": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C075": {
    "exploratory": false,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C076": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C077": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C078": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C079": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C080": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C081": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C082": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C083": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C084": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C085": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C086": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C087": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C088": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C089": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C090": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C091": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C092": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C093": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C094": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   },
   "FA-C095": {
    "exploratory": true,
-   "status": "proposed"
+   "status": "verified"
   }
  },
- "claims_sha256": "64ae35817d333a3c90d6d8f60e43910ca72d3ca5dece581a5355561a6f24d74b",
+ "claims_sha256": "9cc2ea3406b914eb82ce26e078985871d75bfccdeef260437f278813caca595e",
  "inputs": {
   "A.common_UA.UA_minus_WN": {
    "file": "analysis/review_checks/results.json",
@@ -4642,15 +4642,15 @@ window.SCENE_DATA = {
    "transform": "period year parsed from registered key"
   }
  },
- "locked": false,
+ "locked": true,
  "preview": false,
  "results_sha256": "5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de",
  "source_sha256": {
-  "analysis/claims_check.json": "ad2fbd82deda24dd00863f2b6f3fcde3f804926ad4b84b2369f6603959a6838f",
+  "analysis/claims_check.json": "c05f082205e0121ecaaa60569d10534c35658ed2485023eace5f4af8e54f75f0",
   "analysis/results.json": "5ad0c9319304bb645c966aca253d00035913105b900f58b6fd8be694e66597de",
   "analysis/review_checks/results.json": "0a430fc236035ca94043a76cbb9e49e076f5947ed0bfd763b8cc2ab71736a959"
  },
- "status": "PRE-LOCK DRAFT · CLAIMS PROPOSED · NUMERICALLY VERIFIED",
+ "status": "locked",
  "title": "Tied on Paper",
  "values": {
   "A.common_UA.UA_minus_WN": 0.023828934311247774,

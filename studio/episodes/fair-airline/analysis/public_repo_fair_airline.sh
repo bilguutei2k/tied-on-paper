@@ -25,7 +25,7 @@ FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --prune-empty --tag-name-filte
  list=$(mktemp)
  git ls-files | { grep -vE "$KEEP" || true; } > "$list"
  # Keep original authored scene/companion HTML; drop all other saved pages.
- git ls-files | { grep -E "$DROP" || true; } | { grep -vE "^studio/episodes/fair-airline/(scenes/[^/]+\.html|companion/(template|index)\.html)$" || true; } >> "$list"
+ git ls-files | { grep -E "$DROP" || true; } | { grep -vE "^studio/episodes/fair-airline/(scenes/[^/]+\.html|companion/(template|index)\.html)$|^studio/tools/storyboard\.html$" || true; } >> "$list"
  if [ -s "$list" ]; then git rm -q --cached --ignore-unmatch --pathspec-from-file="$list"; fi
  rm -f "$list"
 ' -- --all > /dev/null

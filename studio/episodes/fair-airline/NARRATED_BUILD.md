@@ -1,4 +1,4 @@
-# Tied on Paper — narrated pre-lock draft
+# Tied on Paper — narrated build
 
 2026-10-08 · Sol · rendered and checked. STORY and all claims remain proposed
 and unlocked. No analytical results changed. Renders are excluded from commits;

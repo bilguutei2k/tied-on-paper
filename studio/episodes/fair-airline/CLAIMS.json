@@ -3,9 +3,9 @@
   "claims": [
     {
       "id": "FA-C001",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "In 2023\u20132024, United-operated comparable flights completed less than 15 minutes late against their own schedules 6.27 percentage points more often than Southwest-operated flights: nominal 99% missingness envelope [4.60, 7.94] points. Verdict: UA advantage above two points.",
+      "text": "In 2023–2024, United-operated comparable flights completed less than 15 minutes late against their own schedules 6.27 percentage points more often than Southwest-operated flights: nominal 99% missingness envelope [4.60, 7.94] points. Verdict: UA advantage above two points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -37,11 +37,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C002",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "In 2025, United-operated comparable flights completed less than 15 minutes late against their own schedules 8.20 percentage points more often than Southwest-operated flights: nominal 99% missingness envelope [5.31, 11.00] points. Verdict: UA advantage above two points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -75,11 +81,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C003",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The registered decisive label repeats in both periods: replicated. A was sealed before B was opened.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -103,11 +115,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C004",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The line is 2 percentage points, one additional timely completion per 50 scheduled flights. The single-pair rule and scope were chosen after the 2015 pilot and failed synthetic gate, before confirmation outcomes.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -136,11 +154,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C005",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Exactly 15 minutes late is a failure. The primary match uses two-hour departure windows; nominal 99% intervals use 1,999 draws of 28-day whole-network blocks within source year.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -179,13 +203,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C006",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "2023\u20132024 comparable scope: 177,840 UA and 177,883 WN scheduled flights in 167,457 shared cells across 106 source-year weeks. Coverage is 11.91% of UA and 6.22% of WN schedules.",
+      "text": "2023–2024 comparable scope: 177,840 UA and 177,883 WN scheduled flights in 167,457 shared cells across 106 source-year weeks. Coverage is 11.91% of UA and 6.22% of WN schedules.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -223,18 +253,24 @@
       "limitations": [
         "Non-causal operator-only comparison; no airline-choice effect, brand-wide quality ranking, passenger-weighted reliability or future-network guarantee.",
         "Each period uses its own overlap basket. Cancellations and diversions fail; exactly 15 minutes late fails.",
-        "The comparable subset covers about 11\u201312% of UA and 6% of WN flights, and cannot represent either entire network. Weeks describe support; the amended resampler operates on calendar-day blocks."
+        "The comparable subset covers about 11–12% of UA and 6% of WN flights, and cannot represent either entire network. Weeks describe support; the amended resampler operates on calendar-day blocks."
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C007",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "2023\u20132024 unadjusted all-flights timely-completion rates: UA 78.34% of 1,492,663 scheduled flights and WN 77.91% of 2,857,884; UA minus WN 0.43 points.",
-      "scope": "All reported scheduled domestic UA- and WN-operated nonstop flights in 2023\u20132024; includes flights both inside and outside comparable support. United Express and other operators excluded.",
+      "text": "2023–2024 unadjusted all-flights timely-completion rates: UA 78.34% of 1,492,663 scheduled flights and WN 77.91% of 2,857,884; UA minus WN 0.43 points.",
+      "scope": "All reported scheduled domestic UA- and WN-operated nonstop flights in 2023–2024; includes flights both inside and outside comparable support. United Express and other operators excluded.",
       "result_file": "analysis/results.json",
       "values": [
         {
@@ -270,13 +306,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C008",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "2023\u20132024 UA unadjusted all-scheduled descriptive rates: on time 78.34%, cancellation 1.52%, diversion 0.27%, cancellation or diversion 1.80%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
+      "text": "2023–2024 UA unadjusted all-scheduled descriptive rates: on time 78.34%, cancellation 1.52%, diversion 0.27%, cancellation or diversion 1.80%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -323,13 +365,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C009",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "2023\u20132024 UA on comparable flights under common weights: on time 79.75%, cancellation 1.20%, diversion 0.21%, cancellation or diversion 1.41%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
+      "text": "2023–2024 UA on comparable flights under common weights: on time 79.75%, cancellation 1.20%, diversion 0.21%, cancellation or diversion 1.41%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -376,13 +424,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C010",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "2023\u20132024 WN unadjusted all-scheduled descriptive rates: on time 77.91%, cancellation 0.91%, diversion 0.21%, cancellation or diversion 1.12%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
+      "text": "2023–2024 WN unadjusted all-scheduled descriptive rates: on time 77.91%, cancellation 0.91%, diversion 0.21%, cancellation or diversion 1.12%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -429,13 +483,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C011",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "2023\u20132024 WN on comparable flights under common weights: on time 73.48%, cancellation 0.98%, diversion 0.25%, cancellation or diversion 1.23%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
+      "text": "2023–2024 WN on comparable flights under common weights: on time 73.48%, cancellation 0.98%, diversion 0.25%, cancellation or diversion 1.23%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -482,13 +542,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C012",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Equal cell weights: UA minus WN 6.26 points, nominal 99% descriptive range [4.57, 7.95]; 177,840 UA / 177,883 WN flights, 167,457 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Equal cell weights: UA minus WN 6.26 points, nominal 99% descriptive range [4.57, 7.95]; 177,840 UA / 177,883 WN flights, 167,457 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -535,13 +601,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C013",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Equal-year average of 2023 and 2024: UA minus WN 6.30 points, nominal 99% descriptive range [4.63, 7.96]; 177,840 UA / 177,883 WN flights, 167,457 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Equal-year average of 2023 and 2024: UA minus WN 6.30 points, nominal 99% descriptive range [4.63, 7.96]; 177,840 UA / 177,883 WN flights, 167,457 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -588,13 +660,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C014",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Harmonic weights: UA minus WN 6.26 points, nominal 99% descriptive range [4.59, 7.94]; 177,840 UA / 177,883 WN flights, 167,457 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Harmonic weights: UA minus WN 6.26 points, nominal 99% descriptive range [4.59, 7.94]; 177,840 UA / 177,883 WN flights, 167,457 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -641,13 +719,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C015",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Omit Atlanta (10397): UA minus WN 6.33 points, nominal 99% descriptive range [4.66, 8.00]; 175,533 UA / 175,576 WN flights, 165,150 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Omit Atlanta (10397): UA minus WN 6.33 points, nominal 99% descriptive range [4.66, 8.00]; 175,533 UA / 175,576 WN flights, 165,150 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -694,13 +778,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C016",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Omit Denver (11292): UA minus WN 9.26 points, nominal 99% descriptive range [6.81, 11.64]; 37,415 UA / 36,181 WN flights, 35,355 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Omit Denver (11292): UA minus WN 9.26 points, nominal 99% descriptive range [6.81, 11.64]; 37,415 UA / 36,181 WN flights, 35,355 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -747,13 +837,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C017",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Omit Las Vegas (12889): UA minus WN 5.82 points, nominal 99% descriptive range [4.10, 7.55]; 157,646 UA / 155,411 WN flights, 148,778 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Omit Las Vegas (12889): UA minus WN 5.82 points, nominal 99% descriptive range [4.10, 7.55]; 157,646 UA / 155,411 WN flights, 148,778 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -800,13 +896,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C018",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Omit Los Angeles (12892): UA minus WN 5.97 points, nominal 99% descriptive range [4.33, 7.60]; 155,962 UA / 156,763 WN flights, 147,301 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Omit Los Angeles (12892): UA minus WN 5.97 points, nominal 99% descriptive range [4.33, 7.60]; 155,962 UA / 156,763 WN flights, 147,301 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -853,13 +955,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C019",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Omit Chicago O\u2019Hare (13930): UA minus WN 6.32 points, nominal 99% descriptive range [4.62, 8.03]; 160,028 UA / 162,096 WN flights, 151,717 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Omit Chicago O’Hare (13930): UA minus WN 6.32 points, nominal 99% descriptive range [4.62, 8.03]; 160,028 UA / 162,096 WN flights, 151,717 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -906,13 +1014,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C020",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Reciprocal nearest departures within 30 minutes: UA minus WN 6.68 points, nominal 99% descriptive range [4.86, 8.50]; 101,198 UA / 101,198 WN flights, 101,198 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Reciprocal nearest departures within 30 minutes: UA minus WN 6.68 points, nominal 99% descriptive range [4.86, 8.50]; 101,198 UA / 101,198 WN flights, 101,198 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -959,13 +1073,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C021",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, One-hour windows: UA minus WN 6.61 points, nominal 99% descriptive range [4.89, 8.34]; 97,768 UA / 97,671 WN flights, 97,658 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, One-hour windows: UA minus WN 6.61 points, nominal 99% descriptive range [4.89, 8.34]; 97,768 UA / 97,671 WN flights, 97,658 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -1012,13 +1132,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C022",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, Four-hour windows: UA minus WN 6.06 points, nominal 99% descriptive range [4.41, 7.71]; 286,978 UA / 278,052 WN flights, 223,091 cells and 106 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, Four-hour windows: UA minus WN 6.06 points, nominal 99% descriptive range [4.41, 7.71]; 286,978 UA / 278,052 WN flights, 223,091 cells and 106 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -1065,13 +1191,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C023",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, 2023 separately: UA minus WN 7.51 points, nominal 99% descriptive range [4.56, 10.41]; 86,958 UA / 87,124 WN flights, 81,855 cells and 53 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, 2023 separately: UA minus WN 7.51 points, nominal 99% descriptive range [4.56, 10.41]; 86,958 UA / 87,124 WN flights, 81,855 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -1118,13 +1250,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C024",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2023\u20132024, 2024 separately: UA minus WN 5.09 points, nominal 99% descriptive range [2.76, 7.64]; 90,882 UA / 90,759 WN flights, 85,602 cells and 53 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2023–2024, 2024 separately: UA minus WN 5.09 points, nominal 99% descriptive range [2.76, 7.64]; 90,882 UA / 90,759 WN flights, 85,602 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -1171,11 +1309,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C025",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "2025 comparable scope: 88,717 UA and 88,087 WN scheduled flights in 83,744 shared cells across 53 source-year weeks. Coverage is 11.16% of UA and 6.33% of WN schedules.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1215,15 +1359,21 @@
       "limitations": [
         "Non-causal operator-only comparison; no airline-choice effect, brand-wide quality ranking, passenger-weighted reliability or future-network guarantee.",
         "Each period uses its own overlap basket. Cancellations and diversions fail; exactly 15 minutes late fails.",
-        "The comparable subset covers about 11\u201312% of UA and 6% of WN flights, and cannot represent either entire network. Weeks describe support; the amended resampler operates on calendar-day blocks."
+        "The comparable subset covers about 11–12% of UA and 6% of WN flights, and cannot represent either entire network. Weeks describe support; the amended resampler operates on calendar-day blocks."
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C026",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "2025 unadjusted all-flights timely-completion rates: UA 77.65% of 795,271 scheduled flights and WN 77.76% of 1,391,885; UA minus WN -0.10 points.",
       "scope": "All reported scheduled domestic UA- and WN-operated nonstop flights in 2025; includes flights both inside and outside comparable support. United Express and other operators excluded.",
@@ -1262,11 +1412,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C027",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "2025 UA unadjusted all-scheduled descriptive rates: on time 77.65%, cancellation 0.82%, diversion 0.30%, cancellation or diversion 1.12%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1315,11 +1471,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C028",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "2025 UA on comparable flights under common weights: on time 78.13%, cancellation 0.45%, diversion 0.32%, cancellation or diversion 0.76%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1368,11 +1530,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C029",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "2025 WN unadjusted all-scheduled descriptive rates: on time 77.76%, cancellation 0.85%, diversion 0.23%, cancellation or diversion 1.08%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1421,11 +1589,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C030",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "2025 WN on comparable flights under common weights: on time 69.93%, cancellation 0.64%, diversion 0.32%, cancellation or diversion 0.96%, indeterminate 0.00%, missing cancellation flag 0.00%, missing diversion flag 0.00%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1474,11 +1648,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C031",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Equal cell weights: UA minus WN 8.19 points, nominal 99% descriptive range [5.38, 10.89]; 88,717 UA / 88,087 WN flights, 83,744 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1527,11 +1707,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C032",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Harmonic weights: UA minus WN 8.20 points, nominal 99% descriptive range [5.33, 10.96]; 88,717 UA / 88,087 WN flights, 83,744 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1580,11 +1766,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C033",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Omit Atlanta (10397): UA minus WN 8.20 points, nominal 99% descriptive range [5.29, 11.01]; 87,862 UA / 87,225 WN flights, 82,889 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1633,11 +1825,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C034",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Omit Denver (11292): UA minus WN 11.39 points, nominal 99% descriptive range [8.38, 14.94]; 16,285 UA / 15,151 WN flights, 14,827 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1686,11 +1884,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C035",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Omit Las Vegas (12889): UA minus WN 7.95 points, nominal 99% descriptive range [4.99, 10.67]; 79,835 UA / 78,879 WN flights, 75,557 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1739,11 +1943,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C036",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Omit Los Angeles (12892): UA minus WN 8.02 points, nominal 99% descriptive range [5.14, 10.76]; 78,268 UA / 78,625 WN flights, 74,611 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1792,13 +2002,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C037",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
-      "text": "Registered descriptive sensitivity, 2025, Omit Chicago O\u2019Hare (13930): UA minus WN 8.31 points, nominal 99% descriptive range [5.47, 11.15]; 83,466 UA / 83,236 WN flights, 78,893 cells and 53 source-year weeks.",
+      "text": "Registered descriptive sensitivity, 2025, Omit Chicago O’Hare (13930): UA minus WN 8.31 points, nominal 99% descriptive range [5.47, 11.15]; 83,466 UA / 83,236 WN flights, 78,893 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/results.json",
       "values": [
@@ -1845,11 +2061,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C038",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Reciprocal nearest departures within 30 minutes: UA minus WN 9.09 points, nominal 99% descriptive range [6.25, 11.90]; 52,968 UA / 52,968 WN flights, 52,968 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1898,11 +2120,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C039",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, One-hour windows: UA minus WN 8.83 points, nominal 99% descriptive range [6.01, 11.45]; 51,116 UA / 51,014 WN flights, 51,012 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -1951,11 +2179,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C040",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, Four-hour windows: UA minus WN 7.88 points, nominal 99% descriptive range [5.03, 10.72]; 140,408 UA / 132,894 WN flights, 108,538 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -2004,11 +2238,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C041",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Registered descriptive sensitivity, 2025, 2025 separately: UA minus WN 8.20 points, nominal 99% descriptive range [5.31, 11.00]; 88,717 UA / 88,087 WN flights, 83,744 cells and 53 source-year weeks.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -2057,11 +2297,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C042",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2023 DOT operating table puts UA at rank 8, 78.07% on time, from 732,212 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1D; 2023 reported domestic scheduled operations.",
@@ -2091,11 +2337,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C043",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2023 DOT operating table puts WN at rank 9, 77.25% on time, from 1,438,465 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1D; 2023 reported domestic scheduled operations.",
@@ -2125,11 +2377,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C044",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2023 DOT marketing-network table puts UA at rank 4, 78.47% on time, from 1,297,988 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1C; 2023 reported domestic scheduled operations.",
@@ -2159,11 +2417,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C045",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2023 DOT marketing-network table puts WN at rank 5, 77.25% on time, from 1,438,465 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1C; 2023 reported domestic scheduled operations.",
@@ -2193,11 +2457,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C046",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2024 DOT operating table puts UA at rank 6, 78.60% on time, from 760,451 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1D; 2024 reported domestic scheduled operations.",
@@ -2227,11 +2497,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C047",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2024 DOT operating table puts WN at rank 7, 78.57% on time, from 1,419,419 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1D; 2024 reported domestic scheduled operations.",
@@ -2261,11 +2537,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C048",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2024 DOT marketing-network table puts UA at rank 3, 79.14% on time, from 1,364,270 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1C; 2024 reported domestic scheduled operations.",
@@ -2295,11 +2577,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C049",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2024 DOT marketing-network table puts WN at rank 4, 78.57% on time, from 1,419,419 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1C; 2024 reported domestic scheduled operations.",
@@ -2329,11 +2617,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C050",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2025 DOT operating table puts UA at rank 5, 77.65% on time, from 795,271 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1D; 2025 reported domestic scheduled operations.",
@@ -2363,11 +2657,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C051",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2025 DOT operating table puts WN at rank 4, 77.76% on time, from 1,391,885 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1D; 2025 reported domestic scheduled operations.",
@@ -2397,11 +2697,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C052",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2025 DOT marketing-network table puts UA at rank 6, 76.87% on time, from 1,467,730 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1C; 2025 reported domestic scheduled operations.",
@@ -2431,11 +2737,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C053",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "The official 2025 DOT marketing-network table puts WN at rank 3, 77.76% on time, from 1,391,885 scheduled operations.",
       "scope": "Official annual DOT ATCR Table 1C; 2025 reported domestic scheduled operations.",
@@ -2465,13 +2777,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C054",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024 scheduled block means UA/WN 149.31/144.79 minutes: UA longer by 4.52. Actual block means on aligned completed cells are 143.44/138.65, UA longer by 4.79 minutes. slack: UA/WN 5.80/6.07 minutes; UA minus WN -0.27. dep delay: UA/WN 10.03/14.38 minutes; UA minus WN -4.35. sched completed: UA/WN 149.24/144.72 minutes; UA minus WN 4.52. The aligned subset has 163,577 cells, 97.73% of original weight. Overall completed matched rows: 175,329 UA / 175,695 WN.",
+      "text": "Post-hoc 2023–2024 scheduled block means UA/WN 149.31/144.79 minutes: UA longer by 4.52. Actual block means on aligned completed cells are 143.44/138.65, UA longer by 4.79 minutes. slack: UA/WN 5.80/6.07 minutes; UA minus WN -0.27. dep delay: UA/WN 10.03/14.38 minutes; UA minus WN -4.35. sched completed: UA/WN 149.24/144.72 minutes; UA minus WN 4.52. The aligned subset has 163,577 cells, 97.73% of original weight. Overall completed matched rows: 175,329 UA / 175,695 WN.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/review_checks/results.json",
       "values": [
@@ -2579,13 +2897,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C055",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024 shared midpoint deadline gives UA minus WN 2.59 points, nominal 99% descriptive range [1.08, 4.09]. Own-minus-shared change: 3.68 points. Using UA or WN cell-mean allowances for both gives 2.38 / 2.67 points; elapsed-identity alternative 2.59 points.",
+      "text": "Post-hoc 2023–2024 shared midpoint deadline gives UA minus WN 2.59 points, nominal 99% descriptive range [1.08, 4.09]. Own-minus-shared change: 3.68 points. Using UA or WN cell-mean allowances for both gives 2.38 / 2.67 points; elapsed-identity alternative 2.59 points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/review_checks/results.json",
       "values": [
@@ -2629,17 +2953,23 @@
         "Non-causal operator-only comparison; no airline-choice effect, brand-wide quality ranking, passenger-weighted reliability or future-network guarantee.",
         "Each period uses its own overlap basket. Cancellations and diversions fail; exactly 15 minutes late fails.",
         "Post-hoc descriptive check; it was not registered and cannot replace either confirmatory verdict. Added intervals are nominal 99%, not independently gate-certified or simultaneous across checks.",
-        "Deadline is the equal-carrier cell-mean scheduled block allowance plus 15 minutes, measured from each flight\u2019s own scheduled departure; not one wall-clock arrival deadline. Cancellations/diversions fail. Changes are deadline sensitivities, not a percent caused by padding or a newly registered materiality verdict."
+        "Deadline is the equal-carrier cell-mean scheduled block allowance plus 15 minutes, measured from each flight’s own scheduled departure; not one wall-clock arrival deadline. Cancellations/diversions fail. Changes are deadline sensitivities, not a percent caused by padding or a newly registered materiality verdict."
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C056",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024 15+ late departures: UA 17.90%, WN 28.03%; WN excess 10.13 points, descriptive range [8.56, 11.71]. Cancellation-inclusive timely departure: UA 80.90%, WN 70.99%; UA advantage 9.91 points [8.25, 11.57]. Conditional late-departure rates among known noncancelled departures: UA/WN 18.12/28.31%.",
+      "text": "Post-hoc 2023–2024 15+ late departures: UA 17.90%, WN 28.03%; WN excess 10.13 points, descriptive range [8.56, 11.71]. Cancellation-inclusive timely departure: UA 80.90%, WN 70.99%; UA advantage 9.91 points [8.25, 11.57]. Conditional late-departure rates among known noncancelled departures: UA/WN 18.12/28.31%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/review_checks/results.json",
       "values": [
@@ -2712,13 +3042,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C057",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024 mutually exclusive failure contributions to the UA own-timetable advantage: cancellation -0.220, diversion excluding cancellation 0.032, completed 15+ late arrival 6.459, unknown -0.000 points.",
+      "text": "Post-hoc 2023–2024 mutually exclusive failure contributions to the UA own-timetable advantage: cancellation -0.220, diversion excluding cancellation 0.032, completed 15+ late arrival 6.459, unknown -0.000 points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/review_checks/results.json",
       "values": [
@@ -2751,13 +3087,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C058",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024: Denver touches 79.31% of comparison weight and contributes 4.356 points to the total. Omitting Denver leaves 9.262 points.",
+      "text": "Post-hoc 2023–2024: Denver touches 79.31% of comparison weight and contributes 4.356 points to the total. Omitting Denver leaves 9.262 points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -2785,13 +3127,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C059",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024 basket: 221 directional routes and 80 airports. Removing 1 routes ranked by gap contribution: removes 2.82% weight and 0.227 points of contribution; remaining gap 6.221 points. Removing 5 routes ranked by gap contribution: removes 8.46% weight and 1.029 points of contribution; remaining gap 5.727 points. Removing 10 routes ranked by gap contribution: removes 17.68% weight and 1.906 points of contribution; remaining gap 5.303 points. Removing 20 routes ranked by gap contribution: removes 32.20% weight and 3.223 points of contribution; remaining gap 4.497 points. Removing 1 routes ranked by schedule weight: removes 2.98% weight and 0.117 points of contribution; remaining gap 6.344 points. Removing 5 routes ranked by schedule weight: removes 13.62% weight and 0.771 points of contribution; remaining gap 6.368 points. Removing 10 routes ranked by schedule weight: removes 23.46% weight and 1.272 points of contribution; remaining gap 6.533 points. Removing 20 routes ranked by schedule weight: removes 37.15% weight and 2.580 points of contribution; remaining gap 5.875 points. ",
+      "text": "Post-hoc 2023–2024 basket: 221 directional routes and 80 airports. Removing 1 routes ranked by gap contribution: removes 2.82% weight and 0.227 points of contribution; remaining gap 6.221 points. Removing 5 routes ranked by gap contribution: removes 8.46% weight and 1.029 points of contribution; remaining gap 5.727 points. Removing 10 routes ranked by gap contribution: removes 17.68% weight and 1.906 points of contribution; remaining gap 5.303 points. Removing 20 routes ranked by gap contribution: removes 32.20% weight and 3.223 points of contribution; remaining gap 4.497 points. Removing 1 routes ranked by schedule weight: removes 2.98% weight and 0.117 points of contribution; remaining gap 6.344 points. Removing 5 routes ranked by schedule weight: removes 13.62% weight and 0.771 points of contribution; remaining gap 6.368 points. Removing 10 routes ranked by schedule weight: removes 23.46% weight and 1.272 points of contribution; remaining gap 6.533 points. Removing 20 routes ranked by schedule weight: removes 37.15% weight and 2.580 points of contribution; remaining gap 5.875 points. ",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/review_checks/results.json",
       "values": [
@@ -2974,13 +3322,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C060",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024 local scheduled departure heterogeneity: before 10:00 gap -0.41 points on 30.64% weight. 16:00 onward gap 11.71 points on 32.36% weight. 04\u201306:00 gap -1.60 points, 2.92% weight; 06\u201308:00 gap -0.81 points, 12.95% weight; 08\u201310:00 gap 0.17 points, 14.76% weight; 10\u201312:00 gap 5.39 points, 13.27% weight; 12\u201314:00 gap 6.91 points, 15.11% weight; 14\u201316:00 gap 9.87 points, 8.61% weight; 16\u201318:00 gap 10.84 points, 15.99% weight; 18\u201320:00 gap 12.98 points, 10.55% weight; 20\u201322:00 gap 11.76 points, 5.69% weight; 22\u201324:00 gap 13.71 points, 0.14% weight; ",
+      "text": "Post-hoc 2023–2024 local scheduled departure heterogeneity: before 10:00 gap -0.41 points on 30.64% weight. 16:00 onward gap 11.71 points on 32.36% weight. 04–06:00 gap -1.60 points, 2.92% weight; 06–08:00 gap -0.81 points, 12.95% weight; 08–10:00 gap 0.17 points, 14.76% weight; 10–12:00 gap 5.39 points, 13.27% weight; 12–14:00 gap 6.91 points, 15.11% weight; 14–16:00 gap 9.87 points, 8.61% weight; 16–18:00 gap 10.84 points, 15.99% weight; 18–20:00 gap 12.98 points, 10.55% weight; 20–22:00 gap 11.76 points, 5.69% weight; 22–24:00 gap 13.71 points, 0.14% weight; ",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -3113,13 +3467,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C061",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2023\u20132024 calendar-month aggregate gaps: 01: 4.60 points, 7.64% weight; 02: 3.68 points, 7.08% weight; 03: 8.87 points, 8.16% weight; 04: 7.19 points, 7.88% weight; 05: 7.37 points, 8.66% weight; 06: 5.17 points, 8.26% weight; 07: 4.09 points, 8.72% weight; 08: 6.97 points, 8.86% weight; 09: 7.39 points, 8.71% weight; 10: 8.43 points, 8.94% weight; 11: 4.33 points, 8.48% weight; 12: 6.56 points, 8.61% weight; range 3.68 (month 2) to 8.87 (month 3) points.",
+      "text": "Post-hoc 2023–2024 calendar-month aggregate gaps: 01: 4.60 points, 7.64% weight; 02: 3.68 points, 7.08% weight; 03: 8.87 points, 8.16% weight; 04: 7.19 points, 7.88% weight; 05: 7.37 points, 8.66% weight; 06: 5.17 points, 8.26% weight; 07: 4.09 points, 8.72% weight; 08: 6.97 points, 8.86% weight; 09: 7.39 points, 8.71% weight; 10: 8.43 points, 8.94% weight; 11: 4.33 points, 8.48% weight; 12: 6.56 points, 8.61% weight; range 3.68 (month 2) to 8.87 (month 3) points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -3272,11 +3632,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C062",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc 2025 scheduled block means UA/WN 151.33/146.88 minutes: UA longer by 4.45. Actual block means on aligned completed cells are 147.35/141.12, UA longer by 6.23 minutes. slack: UA/WN 3.88/5.66 minutes; UA minus WN -1.78. dep delay: UA/WN 10.12/18.01 minutes; UA minus WN -7.89. sched completed: UA/WN 151.24/146.78 minutes; UA minus WN 4.45. The aligned subset has 82,502 cells, 98.55% of original weight. Overall completed matched rows: 88,037 UA / 87,235 WN.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -3386,11 +3752,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C063",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc 2025 shared midpoint deadline gives UA minus WN 4.33 points, nominal 99% descriptive range [1.97, 6.82]. Own-minus-shared change: 3.87 points. Using UA or WN cell-mean allowances for both gives 4.44 / 4.32 points; elapsed-identity alternative 4.33 points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -3436,15 +3808,21 @@
         "Non-causal operator-only comparison; no airline-choice effect, brand-wide quality ranking, passenger-weighted reliability or future-network guarantee.",
         "Each period uses its own overlap basket. Cancellations and diversions fail; exactly 15 minutes late fails.",
         "Post-hoc descriptive check; it was not registered and cannot replace either confirmatory verdict. Added intervals are nominal 99%, not independently gate-certified or simultaneous across checks.",
-        "Deadline is the equal-carrier cell-mean scheduled block allowance plus 15 minutes, measured from each flight\u2019s own scheduled departure; not one wall-clock arrival deadline. Cancellations/diversions fail. Changes are deadline sensitivities, not a percent caused by padding or a newly registered materiality verdict."
+        "Deadline is the equal-carrier cell-mean scheduled block allowance plus 15 minutes, measured from each flight’s own scheduled departure; not one wall-clock arrival deadline. Cancellations/diversions fail. Changes are deadline sensitivities, not a percent caused by padding or a newly registered materiality verdict."
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C064",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc 2025 15+ late departures: UA 18.42%, WN 31.51%; WN excess 13.09 points, descriptive range [9.64, 16.31]. Cancellation-inclusive timely departure: UA 81.13%, WN 67.85%; UA advantage 13.28 points [9.95, 16.50]. Conditional late-departure rates among known noncancelled departures: UA/WN 18.50/31.71%.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -3519,11 +3897,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C065",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc 2025 mutually exclusive failure contributions to the UA own-timetable advantage: cancellation 0.189, diversion excluding cancellation 0.003, completed 15+ late arrival 8.011, unknown -0.000 points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -3558,11 +3942,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C066",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc 2025: Denver touches 82.22% of comparison weight and contributes 6.178 points to the total. Omitting Denver leaves 11.388 points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -3592,11 +3982,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C067",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc 2025 basket: 215 directional routes and 80 airports. Removing 1 routes ranked by gap contribution: removes 1.81% weight and 0.342 points of contribution; remaining gap 8.006 points. Removing 5 routes ranked by gap contribution: removes 11.82% weight and 1.401 points of contribution; remaining gap 7.713 points. Removing 10 routes ranked by gap contribution: removes 20.51% weight and 2.425 points of contribution; remaining gap 7.268 points. Removing 20 routes ranked by gap contribution: removes 35.30% weight and 4.098 points of contribution; remaining gap 6.345 points. Removing 1 routes ranked by schedule weight: removes 3.04% weight and 0.254 points of contribution; remaining gap 8.198 points. Removing 5 routes ranked by schedule weight: removes 13.26% weight and 1.170 points of contribution; remaining gap 8.108 points. Removing 10 routes ranked by schedule weight: removes 22.78% weight and 2.130 points of contribution; remaining gap 7.864 points. Removing 20 routes ranked by schedule weight: removes 37.31% weight and 3.742 points of contribution; remaining gap 7.116 points. ",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -3781,13 +4177,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C068",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "Post-hoc 2025 local scheduled departure heterogeneity: before 10:00 gap 1.38 points on 28.75% weight. 16:00 onward gap 12.90 points on 34.25% weight. 04\u201306:00 gap 0.25 points, 3.13% weight; 06\u201308:00 gap 1.54 points, 10.78% weight; 08\u201310:00 gap 1.50 points, 14.84% weight; 10\u201312:00 gap 6.32 points, 13.30% weight; 12\u201314:00 gap 9.78 points, 15.11% weight; 14\u201316:00 gap 12.47 points, 8.60% weight; 16\u201318:00 gap 11.61 points, 17.19% weight; 18\u201320:00 gap 14.90 points, 10.90% weight; 20\u201322:00 gap 12.93 points, 5.79% weight; 22\u201324:00 gap 13.04 points, 0.36% weight; ",
+      "text": "Post-hoc 2025 local scheduled departure heterogeneity: before 10:00 gap 1.38 points on 28.75% weight. 16:00 onward gap 12.90 points on 34.25% weight. 04–06:00 gap 0.25 points, 3.13% weight; 06–08:00 gap 1.54 points, 10.78% weight; 08–10:00 gap 1.50 points, 14.84% weight; 10–12:00 gap 6.32 points, 13.30% weight; 12–14:00 gap 9.78 points, 15.11% weight; 14–16:00 gap 12.47 points, 8.60% weight; 16–18:00 gap 11.61 points, 17.19% weight; 18–20:00 gap 14.90 points, 10.90% weight; 20–22:00 gap 12.93 points, 5.79% weight; 22–24:00 gap 13.04 points, 0.36% weight; ",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -3920,11 +4322,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C069",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc 2025 calendar-month aggregate gaps: 01: 0.60 points, 7.89% weight; 02: 4.73 points, 7.02% weight; 03: 5.13 points, 8.18% weight; 04: 7.52 points, 8.18% weight; 05: 8.33 points, 8.98% weight; 06: 10.16 points, 8.85% weight; 07: 7.65 points, 9.00% weight; 08: 7.55 points, 8.81% weight; 09: 10.67 points, 8.72% weight; 10: 14.77 points, 8.84% weight; 11: 9.35 points, 7.71% weight; 12: 10.62 points, 7.82% weight; range 0.60 (month 1) to 14.77 (month 10) points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -4079,11 +4487,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C070",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "The exposed 2015 exploratory pilot has a UA own-timetable gap of 2.9531 points, 45,509 cells, 50,221 UA / 48,817 WN scheduled flights.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -4118,11 +4532,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C071",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
       "text": "Post-hoc checks on the 2015 pilot: scheduled UA minus WN 4.511 minutes; timely-departure gap 3.648 points; shared midpoint gap -0.567 points. Cancellation/diversion/late-arrival/unknown contributions: 1.012/0.046/1.896/-0.000 points.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
@@ -4172,11 +4592,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C072",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Amendment 2 validation-bank three-point same-label replicated power: 491/2,000 = 24.55% with separate one-sided 95% exact-binomial lower/upper bounds 22.97% / 26.19%.",
       "scope": "Registered synthetic processes on the frozen schedule, independent validation bank 1; descriptive local three-point power is not a required acceptance alternative.",
@@ -4215,11 +4641,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C073",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Amendment 2 validation-bank minimum joint coverage: 1,959/2,000 = 97.95% with separate one-sided 95% exact-binomial lower/upper bounds 97.35% / 98.44%.",
       "scope": "Registered synthetic processes on the frozen schedule, independent validation bank 1; descriptive local three-point power is not a required acceptance alternative.",
@@ -4258,11 +4690,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C074",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Amendment 2 validation-bank minimum required zero/four-point power: 1,847/2,000 = 92.35% with separate one-sided 95% exact-binomial lower/upper bounds 91.30% / 93.31%.",
       "scope": "Registered synthetic processes on the frozen schedule, independent validation bank 1; descriptive local three-point power is not a required acceptance alternative.",
@@ -4301,11 +4739,17 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C075",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": false,
       "text": "Amendment 2 validation-bank worst directional false-verdict rate: 15/2,000 = 0.75% with separate one-sided 95% exact-binomial lower/upper bounds 0.46% / 1.15%.",
       "scope": "Registered synthetic processes on the frozen schedule, independent validation bank 1; descriptive local three-point power is not a required acceptance alternative.",
@@ -4344,13 +4788,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C076",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 04:00 to 06:00 have a United-minus-Southwest own-timetable timely-completion gap of -1.60 percentage points, with 2.92% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 04:00 to 06:00 have a United-minus-Southwest own-timetable timely-completion gap of -1.60 percentage points, with 2.92% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4372,13 +4822,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C077",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 06:00 to 08:00 have a United-minus-Southwest own-timetable timely-completion gap of -0.81 percentage points, with 12.95% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 06:00 to 08:00 have a United-minus-Southwest own-timetable timely-completion gap of -0.81 percentage points, with 12.95% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4400,13 +4856,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C078",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 08:00 to 10:00 have a United-minus-Southwest own-timetable timely-completion gap of +0.17 percentage points, with 14.76% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 08:00 to 10:00 have a United-minus-Southwest own-timetable timely-completion gap of +0.17 percentage points, with 14.76% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4428,13 +4890,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C079",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 10:00 to 12:00 have a United-minus-Southwest own-timetable timely-completion gap of +5.39 percentage points, with 13.27% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 10:00 to 12:00 have a United-minus-Southwest own-timetable timely-completion gap of +5.39 percentage points, with 13.27% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4456,13 +4924,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C080",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 12:00 to 14:00 have a United-minus-Southwest own-timetable timely-completion gap of +6.91 percentage points, with 15.11% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 12:00 to 14:00 have a United-minus-Southwest own-timetable timely-completion gap of +6.91 percentage points, with 15.11% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4484,13 +4958,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C081",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 14:00 to 16:00 have a United-minus-Southwest own-timetable timely-completion gap of +9.87 percentage points, with 8.61% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 14:00 to 16:00 have a United-minus-Southwest own-timetable timely-completion gap of +9.87 percentage points, with 8.61% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4512,13 +4992,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C082",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 16:00 to 18:00 have a United-minus-Southwest own-timetable timely-completion gap of +10.84 percentage points, with 15.99% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 16:00 to 18:00 have a United-minus-Southwest own-timetable timely-completion gap of +10.84 percentage points, with 15.99% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4540,13 +5026,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C083",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 18:00 to 20:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.98 percentage points, with 10.55% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 18:00 to 20:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.98 percentage points, with 10.55% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4568,13 +5060,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C084",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 20:00 to 22:00 have a United-minus-Southwest own-timetable timely-completion gap of +11.76 percentage points, with 5.69% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 20:00 to 22:00 have a United-minus-Southwest own-timetable timely-completion gap of +11.76 percentage points, with 5.69% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4596,13 +5094,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C085",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2023\u20132024, local scheduled departures from 22:00 to 24:00 have a United-minus-Southwest own-timetable timely-completion gap of +13.71 percentage points, with 0.14% of that period\u2019s comparison weight.",
+      "text": "In 2023–2024, local scheduled departures from 22:00 to 24:00 have a United-minus-Southwest own-timetable timely-completion gap of +13.71 percentage points, with 0.14% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4624,13 +5128,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C086",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 04:00 to 06:00 have a United-minus-Southwest own-timetable timely-completion gap of +0.25 percentage points, with 3.13% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 04:00 to 06:00 have a United-minus-Southwest own-timetable timely-completion gap of +0.25 percentage points, with 3.13% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4652,13 +5162,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C087",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 06:00 to 08:00 have a United-minus-Southwest own-timetable timely-completion gap of +1.54 percentage points, with 10.78% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 06:00 to 08:00 have a United-minus-Southwest own-timetable timely-completion gap of +1.54 percentage points, with 10.78% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4680,13 +5196,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C088",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 08:00 to 10:00 have a United-minus-Southwest own-timetable timely-completion gap of +1.50 percentage points, with 14.84% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 08:00 to 10:00 have a United-minus-Southwest own-timetable timely-completion gap of +1.50 percentage points, with 14.84% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4708,13 +5230,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C089",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 10:00 to 12:00 have a United-minus-Southwest own-timetable timely-completion gap of +6.32 percentage points, with 13.30% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 10:00 to 12:00 have a United-minus-Southwest own-timetable timely-completion gap of +6.32 percentage points, with 13.30% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4736,13 +5264,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C090",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 12:00 to 14:00 have a United-minus-Southwest own-timetable timely-completion gap of +9.78 percentage points, with 15.11% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 12:00 to 14:00 have a United-minus-Southwest own-timetable timely-completion gap of +9.78 percentage points, with 15.11% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4764,13 +5298,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C091",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 14:00 to 16:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.47 percentage points, with 8.60% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 14:00 to 16:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.47 percentage points, with 8.60% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4792,13 +5332,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C092",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 16:00 to 18:00 have a United-minus-Southwest own-timetable timely-completion gap of +11.61 percentage points, with 17.19% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 16:00 to 18:00 have a United-minus-Southwest own-timetable timely-completion gap of +11.61 percentage points, with 17.19% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4820,13 +5366,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C093",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 18:00 to 20:00 have a United-minus-Southwest own-timetable timely-completion gap of +14.90 percentage points, with 10.90% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 18:00 to 20:00 have a United-minus-Southwest own-timetable timely-completion gap of +14.90 percentage points, with 10.90% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4848,13 +5400,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C094",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 20:00 to 22:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.93 percentage points, with 5.79% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 20:00 to 22:00 have a United-minus-Southwest own-timetable timely-completion gap of +12.93 percentage points, with 5.79% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4876,13 +5434,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     },
     {
       "id": "FA-C095",
-      "status": "proposed",
+      "status": "verified",
       "exploratory": true,
-      "text": "In 2025, local scheduled departures from 22:00 to 24:00 have a United-minus-Southwest own-timetable timely-completion gap of +13.04 percentage points, with 0.36% of that period\u2019s comparison weight.",
+      "text": "In 2025, local scheduled departures from 22:00 to 24:00 have a United-minus-Southwest own-timetable timely-completion gap of +13.04 percentage points, with 0.36% of that period’s comparison weight.",
       "scope": "Reported domestic nonstop flights operated by UA/19977 and WN/19393; United Express and other codeshare operators excluded. Comparable flights share a directional airport route, normalized local scheduled departure date and departure window; common scheduled-count weights. Each operator is scored against its own timetable unless a different deadline is explicitly named.",
       "result_file": "analysis/claims_check.json",
       "values": [
@@ -4904,7 +5468,19 @@
       ],
       "verification_evidence": [
         "analysis/claims_check.json"
-      ]
+      ],
+      "approved": {
+        "by": "user",
+        "date": "2026-10-09",
+        "gate": "publication",
+        "note": "Channel owner approved the script and all claims for publication."
+      }
     }
-  ]
+  ],
+  "approved": {
+    "by": "user",
+    "date": "2026-10-09",
+    "gate": "publication",
+    "note": "Channel owner approved the script and all claims for publication."
+  }
 }

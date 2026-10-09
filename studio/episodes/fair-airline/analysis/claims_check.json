@@ -6125,7 +6125,7 @@
       "sha256": "8b882d81c1723d0dace887c1aa727bd5812ea972c51cf98ee56d7818940b3bdc"
     }
   ],
-  "ledger_sha256": "64ae35817d333a3c90d6d8f60e43910ca72d3ca5dece581a5355561a6f24d74b",
+  "ledger_sha256": "9cc2ea3406b914eb82ce26e078985871d75bfccdeef260437f278813caca595e",
   "method": "Independent derived-cell estimates and studentized intervals; fresh raw post-hoc scoring; operating DOT ranks/rates rebuilt from raw records and marketing ranks re-ranked from complete official numeric source-table extracts in CONTEXT.md (published rates are source facts; Python access returned 403). No results.json or review output is read. Saved starts are inputs, not a fresh bootstrap. Proposed statuses remain unchanged.",
   "raw_archives": [
     {
@@ -9735,5 +9735,5 @@
   },
   "schema_version": 1,
   "verifier_sha256": "6e2292b7e86130116e04f42793c64309bab30612bf717eddde882f0f56e3219c",
-  "written_utc": "2026-10-09T18:58:44.731112+00:00"
+  "written_utc": "2026-10-09T21:41:16.535994+00:00"
 }

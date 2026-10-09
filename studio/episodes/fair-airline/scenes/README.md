@@ -1,4 +1,4 @@
-# Tied on Paper — pre-lock animated draft
+# Tied on Paper — animated scenes
 
 Twelve STORY landscape scenes (1920×1080) and three independently composed
 portrait shorts (1080×1920). Claims remain proposed and numerically verified;

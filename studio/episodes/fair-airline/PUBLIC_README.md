@@ -1,11 +1,11 @@
 # Tied on Paper: do near-equal airline averages survive a common basket?
 
-The data, code and checks behind the film. The current owner claim/title lock
-and publication approval are **PENDING**; this file prepares the public release.
-The release title is read from `TITLE.json`.
+The data, code and checks behind the film. Claims and title were locked by the
+channel owner on 2026-10-09 (recorded in CLAIMS.json); the release title is read
+from `TITLE.json`.
 
-**Companion page:** [COMPANION_URL — fill after owner-approved publication]
-**Film:** [VIDEO_URL — fill after upload]
+**Companion page:** https://bilguutei2k.github.io/tied-on-paper/
+**Film:** link added after upload
 
 ## The question and answer
 

@@ -1,8 +1,7 @@
 # Tied on Paper
 
-Status: script draft v1, by Sol 6.1, 2026-10-08; not locked.
-Working title is configured in TITLE.json. Owner title/claims approval and
-publishing approval are PENDING; numerical checks pass.
+Status: script and claims locked by user on 2026-10-09.
+Title follows TITLE.json. Publishing remains a separate owner action.
 
 ## Argument: “The average depends on the flights”
 

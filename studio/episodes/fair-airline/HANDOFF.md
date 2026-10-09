@@ -1,4 +1,4 @@
-# Tied on Paper — lock-ready handoff; owner approval PENDING
+# Tied on Paper — claims locked; publishing approval PENDING
 
 The owner reviewed cfa8238 and asked to continue. **No owner claims/title or
 publishing approval is recorded by this build.** TITLE.json is the sole title

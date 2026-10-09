@@ -3,10 +3,10 @@
   "source_sha256": {
     "episode.js": "9476f768f3b2bbf5ca90eb75d96838f3e84c412e001febb1b6d71d1c890ee2c5",
     "episode.css": "7931793f14e9c3ed7fbd920cbf284ea26eec7e130c543080c392b1baf62dbc39",
-    "data.js": "0cddb6121ec0902508cfc6013f1c456d11014f1bc55ca201b7c29686926a6ed2",
+    "data.js": "0764e1beb82de82e917cf097d7d35ca03a39565c2630fc47fc5c3e42ebb0f20f",
     "CUES.json": "a6504aefe6e4ff12d8172e5eb091ee322da4e3a6a4ada867cab06b159072f156",
     "browser_audit.mjs": "2836983ed9ed8fa66264c174437234c993be38e0d37bfbe27f3b5eb1e827e5f2",
-    "../STORY.md": "4dc2f1baa5379d996b6a5911732f7a8102cc39b047f0c42012b4c5fdba605e52",
+    "../STORY.md": "8ce6c57d8bec5ba1bcbc333649099b1c83ffe6accef1caa053fc317698a98251",
     "../../../render/system.js": "0e2020063c9400c69824d69594095f271c7b41d1bd1e8eca8062f582d994ec4d",
     "../../../render/system.css": "53658d7c1a4e404091f240da615c7626191c9bba348d5e117adaf55fa7f38c5b"
   },
@@ -3457,7 +3457,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 26
+      "box_count": 24
     },
     {
       "page": "short-a.html",
@@ -3476,7 +3476,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 30
+      "box_count": 28
     },
     {
       "page": "short-a.html",
@@ -3615,7 +3615,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 40
+      "box_count": 38
     },
     {
       "page": "short-a.html",
@@ -3744,7 +3744,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 41
+      "box_count": 39
     },
     {
       "page": "short-b.html",
@@ -3873,7 +3873,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 42
+      "box_count": 40
     },
     {
       "page": "short-b.html",
@@ -3982,7 +3982,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 38
+      "box_count": 36
     },
     {
       "page": "short-b.html",
@@ -4051,7 +4051,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 28
+      "box_count": 26
     },
     {
       "page": "short-b.html",
@@ -4160,7 +4160,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 37
+      "box_count": 35
     },
     {
       "page": "short-c.html",
@@ -4430,7 +4430,7 @@
           "passed": true
         }
       ],
-      "box_count": 57
+      "box_count": 55
     },
     {
       "page": "short-c.html",
@@ -4700,7 +4700,7 @@
           "passed": true
         }
       ],
-      "box_count": 57
+      "box_count": 55
     },
     {
       "page": "short-c.html",
@@ -4759,7 +4759,7 @@
         }
       ],
       "chart_points": [],
-      "box_count": 27
+      "box_count": 25
     },
     {
       "page": "short-c.html",
@@ -5029,7 +5029,7 @@
           "passed": true
         }
       ],
-      "box_count": 57
+      "box_count": 55
     }
   ],
   "narrated_checks": [
